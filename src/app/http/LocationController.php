@@ -28,7 +28,7 @@ class LocationController
      * @param Response $response
      * @return Response
      */
-    public function geocode(Request $request, Response $response)
+    public function geocodeGoogle(Request $request, Response $response)
     {
         $googleClient = (new GoogleGeocoder())->setHttpAgent(new GuzzleHttpAgent());
 
@@ -36,8 +36,8 @@ class LocationController
             ->setLocale('fa-IR')
             ->geocode($request->getQueryParam('q'), 1);
 
-        $data = ['latitude'=>$result[0]['latitude'], 'longitude'=>$result[0]['longitude'] ];
 
+        $data = ['latitude'=>$result[0]['latitude'], 'longitude'=>$result[0]['longitude'] ];
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
@@ -48,13 +48,34 @@ class LocationController
 
     }
 
-
     /**
      * @param Request $request
      * @param Response $response
      * @return Response
      */
-    public function reverse(Request $request, Response $response)
+    public function geocodeElastic(Request $request, Response $response)
+    {
+        $elasticResponse = ElasticSearch::locationSearch(
+            $request->getQueryParam('q'),
+            1,
+            0,
+            'digipeyk'
+        );
+
+        $response = (new HalApiPresenter('resource'))
+            ->setStatusCode(200)
+            ->setData($elasticResponse['data'])
+            ->makeResponse($request, $response);
+
+
+        return $response;
+    }
+    /**
+     * @param Request $request
+     * @param Response $response
+     * @return Response
+     */
+    public function reverseGoogle(Request $request, Response $response)
     {
         $googleClient = new GoogleGeocoder();
 
@@ -62,12 +83,21 @@ class LocationController
 
         $result = $googleClient
             ->setLocale('fa-IR')
-            ->reverse($_GET['lat'], $_GET['lon'], 3);
+            ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 3);
+
+        $newResult = [
+            'location'=>[
+                'lat' => $result[0]['latitude'],
+                'lon' => $result[0]['longitude'],
+            ],
+
+            'name' => $result[0]['toString']
+        ];
 
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
-            ->setData($result[2]['toString'])
+            ->setData($newResult)
             ->makeResponse($request, $response);
 
         return $response;
@@ -85,13 +115,16 @@ class LocationController
 
         $result = $estimate_client
             ->setHttpAgent(new GuzzleHttpAgent())
-            ->estimate($_GET['origin'], $_GET['destination'], 'optimistic');
+            ->estimate($request->getQueryParam('origin'), $request->getQueryParam('destination'), 'optimistic');
 
 
-        $price = 5000 + (float)$result['distance'] * 600;
+        $variable = (float)$result['distance'] * 600;
+        $price = 5000 + $variable;
 
 
-        $result['price'] = $price;
+        $result['price'] = $this->priceFormula($price);
+        $result['price_with_return'] = $this->priceFormula($price + $variable);
+
 
 
         $response = (new HalApiPresenter('resource'))
@@ -100,6 +133,20 @@ class LocationController
             ->makeResponse($request, $response);
 
         return $response;
+    }
+
+
+
+    private function priceFormula($price)
+    {
+        if( ($rest = $price % 500 ) > 250){
+            $result = $price - $rest + 500;
+        }
+        else{
+            $result = $price - $rest;
+        }
+
+        return $result;
     }
 
 
@@ -144,7 +191,7 @@ class LocationController
      * @param Response $response
      * @return Response
      */
-    function reverseGeocode(Request $request, Response $response)
+    function reverseElastic(Request $request, Response $response)
     {
         //http://codrspace.com/dpakrk/elasticsearch-using-php-curl-/
         $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
@@ -165,16 +212,23 @@ class LocationController
         $data = $elasticResponse['hits']['hits'];
 
 
+        $res = !empty($data[0]['_source']) ? $data[0]['_source'] : [];
+
+        if(empty($res)){
+            return $this->reverseGoogle($request, $response);
+        }
+
+
         $data = [
-            'data' => $data,
+            'data' => $res,
             'total' => $total,
             'count' => $perPage,
             'name'  => 'locations'
         ];
 
-        $response = (new HalApiPresenter('collection'))
+        $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
-            ->setData($data)
+            ->setData($data['data'])
             ->makeResponse($request, $response);
 
         return $response;

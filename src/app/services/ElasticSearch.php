@@ -157,12 +157,12 @@ class ElasticSearch
      */
     public static function locationSearch($query, $size, $from, $index, $fields = [])
     {
-        $fields = $fields == [] ? ['id', 'name', 'slug', 'latitude', 'longitude'] : $fields;
+        $fields = $fields == [] ? ['id', 'name', 'slug', 'location'] : $fields;
 
 
         $params = [
             'index' => $index,
-            'type' => 'location',
+            'type' => 'place',
             'body' => [
                 '_source' => $fields,
                 'query' => [
