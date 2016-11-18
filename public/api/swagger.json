@@ -1,0 +1,365 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "OrderService",
+        "contact": {
+            "name": "Majid Abdolhosseini",
+            "url": "http://www.mhndev.com"
+        },
+        "version": "1.0"
+    },
+    "host": "192.168.21.46:7000",
+    "basePath": "",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/order/{id}": {
+            "get": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "show an order",
+                "description": "Returns specified Order",
+                "operationId": "api.order.show",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "order id to show",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "order show."
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    },
+                    "404": {
+                        "description": "Not found."
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "update an order",
+                "description": "update an Order and return it as response",
+                "operationId": "api.order.create",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "order",
+                        "required": true,
+                        "schema": {
+                            "$ref": "Order"
+                        }
+                    },
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "order id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "order created.",
+                        "schema": {
+                            "$ref": "Order"
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    },
+                    "404": {
+                        "description": "Not found."
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "delete an order",
+                "description": "delete an order",
+                "operationId": "api.order.delete",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "order id",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "No Content."
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    }
+                }
+            },
+            "patch": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "change order status",
+                "description": "change status of and order",
+                "operationId": "api.order.change-status",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "order id",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "change instruction set",
+                        "required": true,
+                        "schema": {
+                            "$ref": ""
+                        },
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "No Content."
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    },
+                    "404": {
+                        "description": "Not found."
+                    }
+                }
+            }
+        },
+        "/order/me": {
+            "get": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "show my orders",
+                "description": "Returns list of my Orders",
+                "operationId": "api.order.me",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "orders list."
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    },
+                    "404": {
+                        "description": "Not found."
+                    }
+                }
+            }
+        },
+        "/order": {
+            "get": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "list orders",
+                "description": "Returns list of all Orders",
+                "operationId": "api.order.all",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "orders list."
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    },
+                    "404": {
+                        "description": "Not found."
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "create an order",
+                "description": "Create an Order and return it as response",
+                "operationId": "api.order.create",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "order",
+                        "required": true,
+                        "schema": {
+                            "$ref": "Order"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "order created.",
+                        "schema": {
+                            "$ref": "Order"
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    },
+                    "404": {
+                        "description": "Not found."
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Error": {
+            "required": [
+                "code",
+                "message"
+            ],
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                }
+            }
+        },
+        "Extra": {
+            "required": [],
+            "properties": {
+                "from": {
+                    "title": "from",
+                    "type": "Point"
+                },
+                "to": {
+                    "title": "to",
+                    "type": "Point"
+                }
+            }
+        },
+        "Point": {
+            "required": [],
+            "properties": {
+                "lat": {
+                    "title": "lat",
+                    "type": "float",
+                    "example": "37.3243546"
+                },
+                "lon": {
+                    "title": "lon",
+                    "type": "float",
+                    "example": "51.2345634"
+                }
+            }
+        },
+        "OrderItem": {
+            "required": [
+                "price",
+                "itemType",
+                "itemIdentifier",
+                "extra"
+            ],
+            "properties": {
+                "identifier": {
+                    "title": "identifier",
+                    "description": "UUID",
+                    "type": "string",
+                    "example": "24rf2rf3"
+                },
+                "itemType": {
+                    "title": "itemType",
+                    "type": "string",
+                    "example": "peik"
+                },
+                "itemIdentifier": {
+                    "title": "itemIdentifier",
+                    "type": "string",
+                    "example": "2"
+                },
+                "extra": {
+                    "title": "extra",
+                    "type": "Extra",
+                    "example": "{}"
+                }
+            }
+        },
+        "Order": {
+            "required": [
+                "status"
+            ],
+            "properties": {
+                "identifier": {
+                    "title": "identifier",
+                    "description": "UUID",
+                    "type": "string",
+                    "example": "42t34gt34t"
+                },
+                "status": {
+                    "title": "status",
+                    "type": "string",
+                    "example": "0"
+                },
+                "data": {
+                    "title": "date",
+                    "type": "string",
+                    "example": "23456723"
+                },
+                "items": {
+                    "title": "items",
+                    "type": "array",
+                    "items": {
+                        "$ref": "OrderItem"
+                    }
+                }
+            }
+        }
+    }
+}
