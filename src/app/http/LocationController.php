@@ -122,10 +122,8 @@ class LocationController
         $price = 5000 + $variable;
 
 
-        $result['price'] = $this->priceFormula($price);
-        $result['price_with_return'] = $this->priceFormula($price + $variable);
-
-
+        $result['price_forward'] = $this->priceFormula($price);
+        $result['price_backward'] = $this->priceFormula($variable);
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)

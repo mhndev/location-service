@@ -18,6 +18,15 @@ $container['logger'] = function ($c) {
     return $logger;
 };
 
+$c['errorHandler'] = function ($c) {
+    return function ($request, $response, $exception) use ($c) {
+
+        $globalExceptionHandler = new \mhndev\locationService\exception\handler();
+        return $globalExceptionHandler->render($exception, $response,$c );
+
+    };
+};
+
 
 $container[\mhndev\locationService\http\LocationController::class] = function ($c) {
     return new \mhndev\locationService\http\LocationController();

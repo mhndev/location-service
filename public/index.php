@@ -27,16 +27,6 @@ header('Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 $settings = require __DIR__ . '/../src/settings.php';
 $app = new \Slim\App($settings);
 
-$c = $app->getContainer();
-$c['errorHandler'] = function ($c) {
-    return function ($request, $response, $exception) use ($c) {
-
-        $globalExceptionHandler = new \mhndev\locationService\exception\handler();
-        return $globalExceptionHandler->render($exception, $response,$c );
-
-    };
-};
-
 // Set up dependencies
 require __DIR__ . '/../src/dependencies.php';
 
