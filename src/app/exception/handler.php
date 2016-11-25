@@ -10,12 +10,13 @@ class handler
 
     /**
      * @param \Exception $e
+     * @param $request
      * @param $response
      * @param $container
      * @return mixed
      * @throws \Exception
      */
-    public function render(\Exception $e , $response ,$container)
+    public function render(\Exception $e , $request, $response ,$container)
     {
 
         $container->logger->addError($e);

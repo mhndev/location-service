@@ -1,4 +1,11 @@
 <?php
+
+$app->options('/{routes:.+}', function ($request, $response, $args) {
+    return $response;
+});
+
+
+
 // Routes
 /*
 $app->get('/[{name}]', function ($request, $response, $args) {

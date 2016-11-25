@@ -22,7 +22,7 @@ $c['errorHandler'] = function ($c) {
     return function ($request, $response, $exception) use ($c) {
 
         $globalExceptionHandler = new \mhndev\locationService\exception\handler();
-        return $globalExceptionHandler->render($exception, $response,$c );
+        return $globalExceptionHandler->render($exception, $request, $response,$c );
 
     };
 };
