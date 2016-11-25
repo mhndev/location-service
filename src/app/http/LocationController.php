@@ -5,6 +5,7 @@ namespace mhndev\locationService\http;
 use mhndev\location\GoogleEstimate;
 use mhndev\location\GoogleGeocoder;
 use mhndev\location\GuzzleHttpAgent;
+use mhndev\locationService\services\ConvertFinglishToFarsi;
 use mhndev\locationService\services\ElasticSearch;
 use mhndev\restHal\HalApiPresenter;
 use Slim\Http\Request;
@@ -16,6 +17,9 @@ use Slim\Http\Response;
  */
 class LocationController
 {
+
+
+    //todo refactor code for address components to work well with all providers
 
     public function __construct()
     {
@@ -86,14 +90,15 @@ class LocationController
         $json = file_get_contents(env('mapquest_reverse_endpoint').'?key='.env('mapquest_key').'&location='.$request->getQueryParam('lat').','.$request->getQueryParam('lon').'&includeRoadMetadata=true&includeNearestIntersection=true');
         $jsonArr = json_decode($json, true);
 
+        $lat = $jsonArr['results'][0]['locations'][0]['latLng']['lat'];
+        $lon = $jsonArr['results'][0]['locations'][0]['latLng']['lng'];
 
-//
-//
-//        $data = ['latitude'=>$lat, 'longitude'=>$lon ];
+        $name = $jsonArr['results'][0]['locations'][0]['street'];
+
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
-            ->setData($jsonArr)
+            ->setData(['name' => $name, 'location' => ['lat' => $lat, 'lon' => $lon]])
             ->makeResponse($request, $response);
 
         return $response;
@@ -131,20 +136,41 @@ class LocationController
     {
         $googleClient = new GoogleGeocoder();
 
+
         $googleClient->setHttpAgent(new GuzzleHttpAgent());
 
         $result = $googleClient
             ->setLocale('fa-IR')
             ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 3);
 
-        $newResult = [
-            'location'=>[
-                'lat' => $result[0]['latitude'],
-                'lon' => $result[0]['longitude'],
-            ],
 
-            'name' => $result[0]['toString']
-        ];
+        if(mb_detect_encoding($result[0]['toString']) == 'ASCII' ){
+
+            $converter = new ConvertFinglishToFarsi();
+
+            $newResult = [
+                'location'=>[
+                    'lat' => $result[0]['latitude'],
+                    'lon' => $result[0]['longitude'],
+                ],
+
+                'slug' => $result[0]['toString'],
+                'name' => $converter->Convert($result[0]['toString'])
+            ];
+
+        }else{
+            $newResult = [
+                'location'=>[
+                    'lat' => $result[0]['latitude'],
+                    'lon' => $result[0]['longitude'],
+                ],
+
+                'name' => $result[0]['toString'],
+            ];
+        }
+
+
+
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
