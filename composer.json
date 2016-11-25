@@ -23,7 +23,11 @@
         "slim/php-view": "^2.0",
         "monolog/monolog": "^1.17",
         "mhndev/location": "dev-develop",
-        "mhndev/rest-hal": "dev-develop"
+        "mhndev/rest-hal": "dev-develop",
+        "poirot/oauth2" :"dev-devel",
+        "mhndev/php-std": "dev-develop",
+        "vlucas/phpdotenv": "^2.4",
+        "tuupola/cors-middleware": "^0.5.2"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.8 < 6.0",
@@ -38,6 +42,7 @@
 	"scripts": {
         "start": "php -S 0.0.0.0:8080 -t public public/index.php",
         "test": "phpunit"
-	}
+	},
 
+    "minimum-stability" : "dev"
 }

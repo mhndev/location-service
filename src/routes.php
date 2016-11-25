@@ -10,11 +10,13 @@ $app->get('/[{name}]', function ($request, $response, $args) {
 });*/
 
 $app->get('/geocode','mhndev\locationService\http\LocationController:geocode');
-//$app->get('/geocode-google','mhndev\locationService\http\LocationController:geocodeGoogle');
+$app->get('/geocode-google','mhndev\locationService\http\LocationController:geocodeGoogle');
+$app->get('/geocode-quest','mhndev\locationService\http\LocationController:geocodeMapQuest');
 
 
 
-//$app->get('/reverse-google','mhndev\locationService\http\LocationController:reverseGoogle');
+$app->get('/reverse-mapquest','mhndev\locationService\http\LocationController:reverseMapQuest');
+$app->get('/reverse-google','mhndev\locationService\http\LocationController:reverseGoogle');
 $app->get('/reverse','mhndev\locationService\http\LocationController:reverse');
 
 

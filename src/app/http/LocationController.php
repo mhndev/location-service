@@ -48,6 +48,58 @@ class LocationController
 
     }
 
+
+    /**
+     * @param Request $request
+     * @param Response $response
+     * @param $args
+     * @return Response
+     */
+    public function geocodeMapQuest(Request $request, Response $response, $args)
+    {
+        $json = file_get_contents(env('mapquest_geocode_endpoint').'?key='.env('mapquest_key').'&location='.$request->getQueryParam('q'));
+        $jsonArr = json_decode($json);
+
+
+        $lat = $jsonArr->results[0]->locations[0]->latLng->lat;
+        $lon = $jsonArr->results[0]->locations[0]->latLng->lng;
+
+        $data = ['latitude'=>$lat, 'longitude'=>$lon ];
+
+        $response = (new HalApiPresenter('resource'))
+            ->setStatusCode(200)
+            ->setData($data)
+            ->makeResponse($request, $response);
+
+        return $response;
+    }
+
+
+    /**
+     * @param Request $request
+     * @param Response $response
+     * @param $args
+     * @return Response
+     */
+    public function reverseMapQuest(Request $request, Response $response, $args)
+    {
+        $json = file_get_contents(env('mapquest_reverse_endpoint').'?key='.env('mapquest_key').'&location='.$request->getQueryParam('lat').','.$request->getQueryParam('lon').'&includeRoadMetadata=true&includeNearestIntersection=true');
+        $jsonArr = json_decode($json, true);
+
+
+//
+//
+//        $data = ['latitude'=>$lat, 'longitude'=>$lon ];
+
+        $response = (new HalApiPresenter('resource'))
+            ->setStatusCode(200)
+            ->setData($jsonArr)
+            ->makeResponse($request, $response);
+
+        return $response;
+    }
+
+
     /**
      * @param Request $request
      * @param Response $response
@@ -93,7 +145,6 @@ class LocationController
 
             'name' => $result[0]['toString']
         ];
-
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
