@@ -472,12 +472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mhndev/rest-hal.git",
-                "reference": "d871b0083855aef1120ddde6d5d9158d0792f2ab"
+                "reference": "190b1a36f6505bcfaec4361969cdef2e90f8a09a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mhndev/rest-hal/zipball/d871b0083855aef1120ddde6d5d9158d0792f2ab",
-                "reference": "d871b0083855aef1120ddde6d5d9158d0792f2ab",
+                "url": "https://api.github.com/repos/mhndev/rest-hal/zipball/190b1a36f6505bcfaec4361969cdef2e90f8a09a",
+                "reference": "190b1a36f6505bcfaec4361969cdef2e90f8a09a",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +512,7 @@
                 "hal",
                 "rest"
             ],
-            "time": "2016-11-24 15:19:10"
+            "time": "2016-11-25 14:58:11"
         },
         {
             "name": "monolog/monolog",
