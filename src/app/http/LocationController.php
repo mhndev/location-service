@@ -141,7 +141,7 @@ class LocationController
 
         $result = $googleClient
             ->setLocale('fa-IR')
-            ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 3);
+            ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 2);
 
 
         if(mb_detect_encoding($result[0]['toString']) == 'ASCII' ){
