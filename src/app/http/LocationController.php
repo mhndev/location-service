@@ -210,6 +210,9 @@ class LocationController
      */
     public function suggest(Request $request, Response $response)
     {
+
+        //todo cancel suggest for query param less than 3 characters
+
         $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
         $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
 

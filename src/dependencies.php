@@ -27,6 +27,22 @@ $c['errorHandler'] = function ($c) {
     };
 };
 
+$container['authorizationMiddleware'] = function($c){
+    return new \mhndev\locationService\middlewares\MiddlewareAuthorization($c);
+};
+
+$container['corsMiddleware'] = function($c){
+    return new \Tuupola\Middleware\Cors([
+        "origin" => ["*"],
+        "methods" => ["GET", "POST", "PUT", "PATCH", "DELETE"],
+        "headers.allow" => ["Authorization", "If-Match", "If-Unmodified-Since"],
+        "headers.expose" => ["Etag"],
+        "credentials" => true,
+        "cache" => 86400
+    ]);
+};
+
+
 
 $container[\mhndev\locationService\http\LocationController::class] = function ($c) {
     return new \mhndev\locationService\http\LocationController();
