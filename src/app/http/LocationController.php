@@ -53,7 +53,7 @@ class LocationController
      * @param Response $response
      * @return Response
      */
-    public function geocodeElastic(Request $request, Response $response)
+    public function geocode(Request $request, Response $response)
     {
         $elasticResponse = ElasticSearch::locationSearch(
             $request->getQueryParam('q'),
@@ -115,15 +115,7 @@ class LocationController
 
         $result = $estimate_client
             ->setHttpAgent(new GuzzleHttpAgent())
-            ->estimate($request->getQueryParam('origin'), $request->getQueryParam('destination'), 'optimistic');
-
-
-        $variable = (float)$result['distance'] * 600;
-        $price = 5000 + $variable;
-
-
-        $result['price_forward'] = $this->priceFormula($price);
-        $result['price_backward'] = $this->priceFormula($variable);
+            ->estimate($request->getQueryParam('from'), $request->getQueryParam('to'), 'optimistic');
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
@@ -131,20 +123,6 @@ class LocationController
             ->makeResponse($request, $response);
 
         return $response;
-    }
-
-
-
-    private function priceFormula($price)
-    {
-        if( ($rest = $price % 500 ) > 250){
-            $result = $price - $rest + 500;
-        }
-        else{
-            $result = $price - $rest;
-        }
-
-        return $result;
     }
 
 
@@ -189,7 +167,7 @@ class LocationController
      * @param Response $response
      * @return Response
      */
-    function reverseElastic(Request $request, Response $response)
+    function reverse(Request $request, Response $response)
     {
         //http://codrspace.com/dpakrk/elasticsearch-using-php-curl-/
         $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
