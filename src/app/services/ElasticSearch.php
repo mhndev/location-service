@@ -157,7 +157,14 @@ class ElasticSearch
      */
     public static function locationSearch($query, $size, $from, $index, $fields = [])
     {
-        $fields = $fields == [] ? ['id', 'name', 'slug', 'location'] : $fields;
+        $fields = $fields == [] ? ['id', 'name', 'slug', 'location', 'search'] : $fields;
+
+        $encoding = mb_detect_encoding($query);
+
+
+        if($encoding == 'ASCII'){
+            $query = strtolower($query);
+        }
 
 
         $params = [
@@ -165,11 +172,57 @@ class ElasticSearch
             'type' => 'place',
             'body' => [
                 '_source' => $fields,
+
+                'sort' => ['_score' => ['order' => 'desc']],
+
+
+//                'query' => [
+//                    'wildcard' => [
+//                        'search' => '*'.$query.'*'
+//                    ]
+//                ],
+
                 'query' => [
-                    'wildcard' => [
-                        'search' => '*'.$query.'*'
+                    'match_phrase_prefix' => [
+                        'search'=>[
+                            'query' => $query,
+                            'max_expansions' => 5
+                        ]
                     ]
                 ],
+
+
+//                'query' => [
+//                    'regexp' => [
+//                        'search'=>$query.'.*',
+//                    ]
+//                ],
+
+
+
+//                'query' => [
+//                    'match' => [
+//                        'search' => [
+//                            'query' => '*'.$query.'*',
+//                            'minimum_should_match'=> '50%',
+////                            'operator' => 'and'
+//                        ]
+//                    ]
+//                ],
+
+//                'query'=>[
+//                    'bool' => [
+//                        'must' => [
+//                            'wildcard' => [
+//                                '_all' =>[
+//                                    'value' => '*'.$query.'*'
+//                                ]
+//                            ]
+//                        ]
+//                    ]
+//                ],
+
+
 
                 'from' => $from,
                 'size' => $size
