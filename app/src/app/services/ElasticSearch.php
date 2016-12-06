@@ -11,6 +11,7 @@ use Elasticsearch\ClientBuilder;
  */
 class ElasticSearch implements iLocationRepository
 {
+
     /**
      * @var
      */
@@ -24,19 +25,26 @@ class ElasticSearch implements iLocationRepository
 
 
     /**
+     * @var string
+     */
+    protected $index;
+
+    /**
      * ElasticSearch constructor.
      * @param Client $client
+     * @param $index
      */
-    public function __construct(Client $client = null)
+    public function __construct(Client $client = null, $index)
     {
         if($client == null){
             $client = ClientBuilder::create();
         }
 
+        $this->index = $index;
         $this->elasticClient = $client;
     }
 
-    public  function setClient($client)
+    public function setClient($client)
     {
         $this->elasticClient = $client;
     }
@@ -50,15 +58,14 @@ class ElasticSearch implements iLocationRepository
      * @param $size
      * @param $from
      * @param array $fields
-     * @param $index
      * @return array
      */
-    public function geoSearch($index, $lat, $long, $distance = 100 , $size = 10, $from = 0, $fields = [])
+    public function geoSearch($lat, $long, $distance = 100 , $size = 10, $from = 0, $fields = [])
     {
         $fields = $fields == [] ? ['id', 'name', 'slug', 'location'] : $fields;
 
         $params = [
-            'index' => $index,
+            'index' => $this->index,
             'type' => 'place',
             'body' => [
                 'size' => (int)$size,
@@ -109,11 +116,10 @@ class ElasticSearch implements iLocationRepository
      * @param $query
      * @param $size
      * @param $from
-     * @param $index
      * @param array $fields
      * @return array
      */
-    public function locationSearch($index, $query, $size = 10, $from = 0, $fields = [])
+    public function locationSearch($query, $size = 10, $from = 0, $fields = [])
     {
         $fields = $fields == [] ? ['id', 'name', 'slug', 'location', 'search'] : $fields;
 
@@ -126,7 +132,7 @@ class ElasticSearch implements iLocationRepository
 
 
         $params = [
-            'index' => $index,
+            'index' => $this->index,
             'type' => 'place',
             'body' => [
                 '_source' => $fields,
@@ -196,40 +202,36 @@ class ElasticSearch implements iLocationRepository
 
 
     /**
-     * @param $indexName
-     * @param $type
      * @param $data
      */
-    public function store($indexName, $type, $data)
+    public function store($data)
     {
-        $this->elasticClient->delete(['index'=>$indexName,'type'=>$type,'id'=>$data['id']]);
+        $this->elasticClient->delete(['index'=>$this->index,'type'=>$this->type,'id'=>$data['id']]);
 
         // $es->indices()->delete($deleteParams);
 
 
-        $this->elasticClient->index(['index' => $indexName, 'type' => $type, 'body' => $data]);
+        $this->elasticClient->index(['index' => $this->index, 'type' => $this->type, 'body' => $data]);
 
     }
 
     /**
-     * @param $indexName
-     * @param $type
      * @param $id
      * @param $data
      */
-    public function update($indexName, $type, $id, $data)
+    public function update($id, $data)
     {
         try {
-            $searchParams['index'] = $indexName;
-            $searchParams['type'] = $type;
+            $searchParams['index'] = $this->index;
+            $searchParams['type'] = $this->type;
             $searchParams['body']['query']['match']['id'] = $id;
             $result = $this->elasticClient->search($searchParams);
 
             $elasticId = $result['hits']['hits'][0]['_id'];
 
             $params = [
-                'index' => $indexName,
-                'type' => $type,
+                'index' => $this->index,
+                'type' => $this->type,
                 'id' => $elasticId,
                 'body' => [
                     'doc' => $data
@@ -250,21 +252,19 @@ class ElasticSearch implements iLocationRepository
 
 
     /**
-     * @param $indexName
-     * @param $type
      * @param $id
      */
-    public function delete($indexName, $type, $id)
+    public function delete($id)
     {
-        $searchParams['index'] = $indexName;
-        $searchParams['type'] = $type;
+        $searchParams['index'] = $this->index;
+        $searchParams['type'] = $this->type;
         $searchParams['body']['query']['match']['id'] = $id;
         $result = $this->search($searchParams);
         $elasticId = $result['hits']['hits'][0]['_id'];
 
         $params = [
-            'index' => $indexName,
-            'type' => $type,
+            'index' => $this->index,
+            'type' => $this->type,
             'id' => $elasticId
         ];
 
@@ -316,14 +316,10 @@ class ElasticSearch implements iLocationRepository
     }
 
 
-
-    /**
-     * @param $indexName
-     */
-    public function deleteIndex($indexName)
+    public function deleteIndex()
     {
         $deleteParams = [
-            'index' => $indexName
+            'index' => $this->index
         ];
         $this->elasticClient->indices()->delete($deleteParams);
 

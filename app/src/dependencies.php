@@ -27,8 +27,24 @@ $container['errorHandler'] = function ($c) {
 };
 
 
-$container['db'] = function($c){
-    $hosts = [ 'host' => env('DB_HOST'), 'port' => env('DB_PORT')];
+$container['db_mysql'] = function($c){
+    return function ($c){
+        $dsn = "mysql:host=".env('MYSQL_DB_HOST').";dbname=".env('MYSQL_DB_NAME').";charset=".env('MYSQL_DB_CHARSET');
+
+        $opt = [
+            PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+            PDO::ATTR_EMULATE_PREPARES   => false,
+        ];
+
+        $pdo = new PDO($dsn, env('MYSQL_DB_USER'), env('MYSQL_DB_PASS'), $opt);
+    };
+};
+
+
+
+$container['db_elastic'] = function($c){
+    $hosts = [ 'host' => env('ELASTIC_DB_HOST'), 'port' => env('ELASTIC_DB_PORT')];
     return $client = Elasticsearch\ClientBuilder::create()
         ->setHosts($hosts)
         ->build();
@@ -36,7 +52,7 @@ $container['db'] = function($c){
 
 
 $container['locationRepository'] = function($c){
-    return new \mhndev\locationService\services\ElasticSearch($c['db']);
+    return new \mhndev\locationService\services\ElasticSearch($c['db_elastic'], 'locations');
 };
 
 
