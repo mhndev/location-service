@@ -21,15 +21,8 @@ RUN rm /var/lib/apt/lists/* -vrf && \
 RUN apt-get install -yq --force-yes --fix-missing \
         alien \
         git \
-        php7.0-dev \
-	php7.0-mbstring \
-        pkg-config libssl-dev libsslcommon2-dev \
-        && git clone https://github.com/mongodb/mongo-php-driver.git \
-        && cd mongo-php-driver \
-        && git checkout tags/1.1.9 -b build \
-        && git submodule sync && git submodule update --init \
-        && phpize && ./configure && make all -j 5 && make install \
-        && echo "extension=mongodb.so" >> /etc/php/7.0/apache2/php.ini
+	    php7.0-mbstring \
+        pkg-config libssl-dev libsslcommon2-dev
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php && php -r "unlink('composer-setup.php');" \

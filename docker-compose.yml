@@ -1,11 +1,7 @@
 version: '2'
 
 volumes:
-  vol-mongodb:
-    #### - /data/db
-  vol-mongodb-log:
-    #### - /var/log/mongodb/
-  vol-web-server-data:
+  vol-logs-web-server:
     #### - /data/logs
 
 services:
@@ -17,36 +13,10 @@ services:
     build:
       context: ./.docker-compose/web-server
       dockerfile: Dockerfile
-    image: digipeyk_web-server
+    image: location_web-server
     ports:
-     - "8080:80"
+     - "8888:80"
     volumes:
      - ./app/:/var/www/
      - ./.docker-compose/web-server/app/.env:/docker/app/.env
-     - vol-web-server-data:/data/logs/
-
-  ## --------------------------------------------
-  ## | Data Base Master Mongo Server
-  ## --------------------------------------------
-  db-master-mongo:
-    image: payam/mongodb:3.0
-    expose:
-     - "27017"
-    volumes:
-     - vol-mongodb:/data/db/
-     - vol-mongodb-log:/var/log/mongodb/
-
-  ###################
-  ## Administration
-  ## ################
-
-  ## --------------------------------------------
-  ## | Mongo Db Administration
-  ## --------------------------------------------
-  admin-rockmongo:
-    build:
-      context: ./.docker-compose/admin-rockmongo
-      dockerfile: Dockerfile
-    image: digipeyk_rockmongo
-    ports:
-     - "80"
+     - vol-logs-web-server:/data/logs/
