@@ -24,7 +24,7 @@ class handler
 
         if ($e instanceof AccessDeniedException) {
             return ((new HalApiPresenter('error'))
-                ->setStatusCode(500)
+                ->setStatusCode(403)
                 ->setData(['message' => 'no access', 'code' => 12])
                 ->makeResponse($request, $response));
         } else {
