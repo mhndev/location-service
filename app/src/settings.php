@@ -15,5 +15,19 @@ return [
             'path' => __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
+
+
+        'db' => [
+            'driver' => [
+                // Master Connection Client
+                'master' => [
+                    'host' => 'mongodb://localhost:27017',
+                    'options_uri' => [
+                    ],
+                    'options' => [
+                    ],
+                ],
+            ],
+        ]
     ],
 ];

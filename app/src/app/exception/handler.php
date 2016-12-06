@@ -1,5 +1,7 @@
 <?php
-namespace mhndev\locationService\exception;
+namespace mhndev\locationService\exceptions;
+
+use mhndev\restHal\HalApiPresenter;
 
 /**
  * Class handler
@@ -19,24 +21,18 @@ class handler
     public function render(\Exception $e , $request, $response ,$container)
     {
 
-        $container->logger->addError($e);
-        throw  $e ;
 
-
-        if ($e instanceof  \Exception) {
-            return ((new JsonApiPresenter())
+        if ($e instanceof AccessDeniedException) {
+            return ((new HalApiPresenter('error'))
                 ->setStatusCode(500)
-                ->setStatus(ResponseStatuses::ERROR)
-                ->setMessage('exception')
-                ->setApiErrorCode(12)
-                ->toJsonResponse($response));
-        }
-
-
-        else{
+                ->setData(['message' => 'no access', 'code' => 12])
+                ->makeResponse($request, $response));
+        } else {
             $container->logger->addError($e);
-            throw  $e ;
+            throw  $e;
 
         }
+
+
     }
 }
