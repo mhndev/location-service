@@ -3,6 +3,8 @@ version: '2'
 volumes:
   vol-logs-web-server:
     #### - /data/logs
+  vol-logs-elastic_search:
+    #### - /usr/share/elasticsearch/data
 
 services:
 
@@ -20,3 +22,13 @@ services:
      - ./app/:/var/www/
      - ./.docker-compose/web-server/app/.env:/docker/app/.env
      - vol-logs-web-server:/data/logs/
+
+  ## --------------------------------------------
+  ## | Elastic Search
+  ## --------------------------------------------
+  elastic_search:
+    image: elasticsearch:2.2.4
+    expose:
+     - "9200"
+    volumes:
+     - vol-logs-elastic_search:/usr/share/elasticsearch/data

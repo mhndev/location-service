@@ -14,5 +14,9 @@ if [ ! -f /docker/initialized ]; then
    touch /docker/initialized
 fi
 
+if [ $arg = "feed"  ]; then
+    php ./index_elastic.php
+fi
+
 ## continue with default Parent CMD
 ( exec "/run.sh" )
