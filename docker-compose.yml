@@ -27,7 +27,7 @@ services:
   ## | Elastic Search
   ## --------------------------------------------
   elastic_search:
-    image: elasticsearch:2.2.4
+    image: elasticsearch:2.4.2
     expose:
      - "9200"
     volumes:
