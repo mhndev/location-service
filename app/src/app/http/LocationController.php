@@ -210,7 +210,6 @@ class LocationController
      */
     public function suggest(Request $request, Response $response)
     {
-
         //todo cancel suggest for query param less than 3 characters
 
         $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
@@ -219,10 +218,10 @@ class LocationController
         $from = $perPage * ($page - 1);
 
         $elasticResponse = ElasticSearch::locationSearch(
+            'digipeyk',
             $request->getQueryParam('q'),
             $perPage,
-            $from,
-            'digipeyk'
+            $from
         );
 
         $data = [
@@ -256,12 +255,12 @@ class LocationController
         $from = $perPage * ($page - 1);
 
         $elasticResponse = ElasticSearch::geoSearch(
+            'digipeyk',
             $request->getQueryParam('lat'),
             $request->getQueryParam('lon'),
             100,
             3,
-            $from,
-            'digipeyk'
+            $from
         );
 
         $total = $elasticResponse['hits']['total'];

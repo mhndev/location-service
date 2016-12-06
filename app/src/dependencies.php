@@ -1,6 +1,8 @@
 <?php
 // DIC configuration
 
+use Elasticsearch\ClientBuilder;
+
 $container = $app->getContainer();
 
 // view renderer
@@ -26,6 +28,18 @@ $c['errorHandler'] = function ($c) {
 
     };
 };
+
+
+$c['db'] = function($c){
+    $hosts = [ 'host' => env('DB_HOST'), 'port' => env('DB_PORT')];
+
+    $client = ClientBuilder::create()
+    ->setHosts($hosts)
+    ->build();
+
+    \mhndev\locationService\services\ElasticSearch::setClient($client);
+};
+
 
 $container['authorizationMiddleware'] = function($c){
     return new \mhndev\locationService\middlewares\MiddlewareAuthorization($c);
