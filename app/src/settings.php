@@ -12,22 +12,9 @@ return [
         // Monolog settings
         'logger' => [
             'name' => 'slim-app',
-            'path' => __DIR__ . '/../logs/app.log',
-            'level' => \Monolog\Logger::DEBUG,
+            'path' => env('LOGS_PATH'),
+            /** @see \Monolog\Logger */
+            'level' => env('LOGS_LEVEL'),
         ],
-
-
-        'db' => [
-            'driver' => [
-                // Master Connection Client
-                'master' => [
-                    'host' => 'mongodb://localhost:27017',
-                    'options_uri' => [
-                    ],
-                    'options' => [
-                    ],
-                ],
-            ],
-        ]
     ],
 ];
