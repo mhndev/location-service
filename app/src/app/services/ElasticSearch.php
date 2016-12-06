@@ -328,4 +328,5 @@ class ElasticSearch implements iLocationRepository
         $this->elasticClient->indices()->delete($deleteParams);
 
     }
+
 }
