@@ -1,8 +1,6 @@
 <?php
 // DIC configuration
 
-use Elasticsearch\ClientBuilder;
-
 $container = $app->getContainer();
 
 // view renderer
@@ -20,24 +18,25 @@ $container['logger'] = function ($c) {
     return $logger;
 };
 
-$c['errorHandler'] = function ($c) {
+$container['errorHandler'] = function ($c) {
     return function ($request, $response, $exception) use ($c) {
-
-        $globalExceptionHandler = new \mhndev\locationService\exception\handler();
+        $globalExceptionHandler = new \mhndev\locationService\exceptions\handler();
         return $globalExceptionHandler->render($exception, $request, $response,$c );
 
     };
 };
 
 
-$c['db'] = function($c){
+$container['db'] = function($c){
     $hosts = [ 'host' => env('DB_HOST'), 'port' => env('DB_PORT')];
+    return $client = Elasticsearch\ClientBuilder::create()
+        ->setHosts($hosts)
+        ->build();
+};
 
-    $client = ClientBuilder::create()
-    ->setHosts($hosts)
-    ->build();
 
-    \mhndev\locationService\services\ElasticSearch::setClient($client);
+$container['locationRepository'] = function($c){
+    return new \mhndev\locationService\services\ElasticSearch($c['db']);
 };
 
 
@@ -57,7 +56,6 @@ $container['corsMiddleware'] = function($c){
 };
 
 
-
 $container[\mhndev\locationService\http\LocationController::class] = function ($c) {
-    return new \mhndev\locationService\http\LocationController();
+    return new \mhndev\locationService\http\LocationController($c['locationRepository']);
 };

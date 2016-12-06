@@ -2,29 +2,43 @@
 namespace mhndev\locationService\services;
 
 use Elasticsearch\Client;
+use Elasticsearch\ClientBuilder;
 
 
 /**
  * Class ElasticSearch
  * @package mhndev\locationService
  */
-class ElasticSearch
+class ElasticSearch implements iLocationRepository
 {
     /**
      * @var
      */
-    protected static $resultFields;
+    protected  $resultFields;
 
 
     /**
      * @var Client
      */
-    protected static $elasticClient;
+    protected  $elasticClient;
 
 
-    public static function setClient($client)
+    /**
+     * ElasticSearch constructor.
+     * @param Client $client
+     */
+    public function __construct(Client $client = null)
     {
-        self::$elasticClient = $client;
+        if($client == null){
+            $client = ClientBuilder::create();
+        }
+
+        $this->elasticClient = $client;
+    }
+
+    public  function setClient($client)
+    {
+        $this->elasticClient = $client;
     }
 
 
@@ -39,7 +53,7 @@ class ElasticSearch
      * @param $index
      * @return array
      */
-    public static function geoSearch($index, $lat, $long, $distance = 100 , $size = 10, $from = 0, $fields = [])
+    public function geoSearch($index, $lat, $long, $distance = 100 , $size = 10, $from = 0, $fields = [])
     {
         $fields = $fields == [] ? ['id', 'name', 'slug', 'location'] : $fields;
 
@@ -83,7 +97,7 @@ class ElasticSearch
         ];
 
 
-        return self::$elasticClient->search($params);
+        return $this->elasticClient->search($params);
 
         //return self::jsonTransformGeoSearch($es->search($params)['hits']['hits']);
 
@@ -99,7 +113,7 @@ class ElasticSearch
      * @param array $fields
      * @return array
      */
-    public static function locationSearch($index, $query, $size = 10, $from = 0, $fields = [])
+    public function locationSearch($index, $query, $size = 10, $from = 0, $fields = [])
     {
         $fields = $fields == [] ? ['id', 'name', 'slug', 'location', 'search'] : $fields;
 
@@ -173,9 +187,9 @@ class ElasticSearch
             ]
         ];
 
-        $searchResult = self::$elasticClient->search($params);
+        $searchResult = $this->elasticClient->search($params);
 
-        $result = self::jsonTransformSearchLocation($searchResult['hits']['hits']);
+        $result = $this->jsonTransformSearchLocation($searchResult['hits']['hits']);
 
         return ['data' => $result, 'total' => $searchResult['hits']['total']];
     }
@@ -186,14 +200,14 @@ class ElasticSearch
      * @param $type
      * @param $data
      */
-    public static function index($indexName, $type, $data)
+    public function store($indexName, $type, $data)
     {
-        self::$elasticClient->delete(['index'=>$indexName,'type'=>$type,'id'=>$data['id']]);
+        $this->elasticClient->delete(['index'=>$indexName,'type'=>$type,'id'=>$data['id']]);
 
         // $es->indices()->delete($deleteParams);
 
 
-        self::$elasticClient->index(['index' => $indexName, 'type' => $type, 'body' => $data]);
+        $this->elasticClient->index(['index' => $indexName, 'type' => $type, 'body' => $data]);
 
     }
 
@@ -203,13 +217,13 @@ class ElasticSearch
      * @param $id
      * @param $data
      */
-    public static function update($indexName, $type, $id, $data)
+    public function update($indexName, $type, $id, $data)
     {
         try {
             $searchParams['index'] = $indexName;
             $searchParams['type'] = $type;
             $searchParams['body']['query']['match']['id'] = $id;
-            $result = self::$elasticClient->search($searchParams);
+            $result = $this->elasticClient->search($searchParams);
 
             $elasticId = $result['hits']['hits'][0]['_id'];
 
@@ -221,7 +235,8 @@ class ElasticSearch
                     'doc' => $data
                 ]
             ];
-            self::$elasticClient->update($params);
+
+            $this->elasticClient->update($params);
 
 
         } catch (\Exception $e) {
@@ -239,12 +254,12 @@ class ElasticSearch
      * @param $type
      * @param $id
      */
-    public static function delete($indexName, $type, $id)
+    public function delete($indexName, $type, $id)
     {
         $searchParams['index'] = $indexName;
         $searchParams['type'] = $type;
         $searchParams['body']['query']['match']['id'] = $id;
-        $result = self::$elasticClient->search($searchParams);
+        $result = $this->search($searchParams);
         $elasticId = $result['hits']['hits'][0]['_id'];
 
         $params = [
@@ -254,15 +269,15 @@ class ElasticSearch
         ];
 
 
-        self::$elasticClient->delete($params);
+        $this->elasticClient->delete($params);
     }
 
     /**
      * @param array $fields
      */
-    public static function setResultFiles($fields)
+    public function setResultFiles($fields)
     {
-        $fields === null ? self::$resultFields = null : self::$resultFields = explode(',', $fields);
+        $fields === null ? $this->resultFields = null : $this->resultFields = explode(',', $fields);
     }
 
 
@@ -270,7 +285,7 @@ class ElasticSearch
      * @param array $data
      * @return array
      */
-    protected static function jsonTransformGeoSearch(array $data)
+    protected function jsonTransformGeoSearch(array $data)
     {
         $jsonResponse = [];
         $counter = 0;
@@ -287,7 +302,7 @@ class ElasticSearch
      * @param array $data
      * @return array
      */
-    protected static function jsonTransformSearchLocation(array $data)
+    protected function jsonTransformSearchLocation(array $data)
     {
         $jsonResponse = [];
         $counter = 0;
@@ -305,12 +320,12 @@ class ElasticSearch
     /**
      * @param $indexName
      */
-    public static function deleteIndex($indexName)
+    public function deleteIndex($indexName)
     {
         $deleteParams = [
             'index' => $indexName
         ];
-        self::$elasticClient->indices()->delete($deleteParams);
+        $this->elasticClient->indices()->delete($deleteParams);
 
     }
 }

@@ -7,6 +7,7 @@ use mhndev\location\GoogleGeocoder;
 use mhndev\location\GuzzleHttpAgent;
 use mhndev\locationService\services\ConvertFinglishToFarsi;
 use mhndev\locationService\services\ElasticSearch;
+use mhndev\locationService\services\iLocationRepository;
 use mhndev\restHal\HalApiPresenter;
 use Slim\Http\Request;
 use Slim\Http\Response;
@@ -19,11 +20,20 @@ class LocationController
 {
 
 
+    /**
+     * @var
+     */
+    protected $repository;
+
     //todo refactor code for address components to work well with all providers
 
-    public function __construct()
+    /**
+     * LocationController constructor.
+     * @param iLocationRepository $repository
+     */
+    public function __construct(iLocationRepository $repository)
     {
-
+        $this->repository = $repository;
     }
 
 
@@ -112,7 +122,7 @@ class LocationController
      */
     public function geocode(Request $request, Response $response)
     {
-        $elasticResponse = ElasticSearch::locationSearch(
+        $elasticResponse = $this->repository->locationSearch(
             $request->getQueryParam('q'),
             1,
             0,
@@ -217,7 +227,7 @@ class LocationController
 
         $from = $perPage * ($page - 1);
 
-        $elasticResponse = ElasticSearch::locationSearch(
+        $elasticResponse = $this->repository->locationSearch(
             'digipeyk',
             $request->getQueryParam('q'),
             $perPage,
@@ -254,7 +264,7 @@ class LocationController
 
         $from = $perPage * ($page - 1);
 
-        $elasticResponse = ElasticSearch::geoSearch(
+        $elasticResponse = $this->repository->geoSearch(
             'digipeyk',
             $request->getQueryParam('lat'),
             $request->getQueryParam('lon'),
