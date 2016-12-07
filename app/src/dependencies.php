@@ -52,7 +52,7 @@ $container['db_elastic'] = function($c){
 
 
 $container['locationRepository'] = function($c){
-    return new \mhndev\locationService\services\ElasticSearch($c['db_elastic'], 'locations');
+    return new \mhndev\locationService\services\ElasticSearch($c['db_elastic'], 'digipeyk', 'places');
 };
 
 
