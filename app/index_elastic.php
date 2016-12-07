@@ -11,16 +11,11 @@ use Elasticsearch\ClientBuilder;
 $client = ClientBuilder::create()->build();
 //$deleteParams = ['index' => 'digipeyk'];
 
-$repository = new \mhndev\locationService\services\ElasticSearch($client);
+$repository = new \mhndev\locationService\services\ElasticSearch($client, 'digipeyk', 'places');
 
 try{
 
-    $command = 'curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/location';
-
-    var_dump($command);
-    die();
-
-    exec($command);
+    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/location');
     exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/place');
 
     exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk');

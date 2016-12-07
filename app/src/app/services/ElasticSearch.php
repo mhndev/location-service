@@ -29,18 +29,27 @@ class ElasticSearch implements iLocationRepository
      */
     protected $index;
 
+
+    /**
+     * @var string
+     */
+    protected $type;
+
+
     /**
      * ElasticSearch constructor.
      * @param Client $client
-     * @param $index
+     * @param string $index
+     * @param string $type
      */
-    public function __construct(Client $client = null, $index)
+    public function __construct(Client $client = null, $index, $type)
     {
         if($client == null){
             $client = ClientBuilder::create();
         }
 
         $this->index = $index;
+        $this->type = $type;
         $this->elasticClient = $client;
     }
 
@@ -133,7 +142,7 @@ class ElasticSearch implements iLocationRepository
 
         $params = [
             'index' => $this->index,
-            'type' => 'place',
+            'type' => $this->type,
             'body' => [
                 '_source' => $fields,
 
