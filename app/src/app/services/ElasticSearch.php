@@ -42,7 +42,7 @@ class ElasticSearch implements iLocationRepository
      * @param string $index
      * @param string $type
      */
-    public function __construct(Client $client = null, $index, $type)
+    public function __construct(Client $client = null, $index = 'digipeyk', $type = 'places')
     {
         if($client == null){
             $client = ClientBuilder::create();
@@ -52,12 +52,6 @@ class ElasticSearch implements iLocationRepository
         $this->type = $type;
         $this->elasticClient = $client;
     }
-
-    public function setClient($client)
-    {
-        $this->elasticClient = $client;
-    }
-
 
 
     /**
@@ -133,6 +127,7 @@ class ElasticSearch implements iLocationRepository
         $fields = $fields == [] ? ['id', 'name', 'slug', 'location', 'search'] : $fields;
 
         $encoding = mb_detect_encoding($query);
+
 
 
         if($encoding == 'ASCII'){

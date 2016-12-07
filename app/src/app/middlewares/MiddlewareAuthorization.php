@@ -2,7 +2,7 @@
 
 namespace mhndev\locationService\middlewares;
 
-use mhndev\orderService\exceptions\AccessDeniedException;
+use mhndev\locationService\exceptions\AccessDeniedException;
 use Poirot\OAuth2\Resource\Validation\AuthorizeByRemoteServer;
 use Poirot\OAuth2\Server\Exception\exOAuthServer;
 

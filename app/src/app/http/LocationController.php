@@ -228,11 +228,12 @@ class LocationController
         $from = $perPage * ($page - 1);
 
         $elasticResponse = $this->repository->locationSearch(
-            'digipeyk',
             $request->getQueryParam('q'),
             $perPage,
             $from
         );
+
+
 
         $data = [
             'data' => $elasticResponse['data'],

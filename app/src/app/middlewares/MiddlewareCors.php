@@ -1,8 +1,6 @@
 <?php
 namespace mhndev\locationService\middlewares;
 
-
-
 /**
  * Class MiddlewareAuthorization
  * @package mhndev\orderService\auth
