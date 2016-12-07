@@ -36,6 +36,7 @@ COPY ["./*.sh", "/docker/"]
 COPY ["./app/", "/docker/app/"]
 
 RUN chmod a+x /docker/*.sh
+    && ln -s /docker/feed.sh /usr/local/bin/feed
 
 ## Cleanup
 RUN apt-get purge -y \

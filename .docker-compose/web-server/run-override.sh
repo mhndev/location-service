@@ -2,20 +2,8 @@
 
 ## Work Dir is /var/www
 #cd /var/www/
-arg=$1
-if [ $arg = "init"  ]; then
-    rm /docker/initialized
-fi
-
 if [ ! -f /docker/initialized ]; then
-   composer install --ignore-platform-reqs --no-dev
-   cp /docker/app/.env ./
-
-   touch /docker/initialized
-fi
-
-if [ $arg = "feed"  ]; then
-    php ./index_elastic.php
+   init
 fi
 
 ## continue with default Parent CMD
