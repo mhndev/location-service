@@ -6,13 +6,17 @@ $dotenv->load();
 
 use Elasticsearch\ClientBuilder;
 
-$client = ClientBuilder::create()->build();
 //$deleteParams = ['index' => 'digipeyk'];
 
 $index = 'digipeyk';
 $type = 'places';
+$hosts = [ 'host' => env('ELASTIC_DB_HOST'), 'port' => env('ELASTIC_DB_PORT')];
+$client = Elasticsearch\ClientBuilder::create()
+    ->setHosts($hosts)
+    ->build();
 
 $repository = new \mhndev\locationService\services\ElasticSearch($client, $index, $type);
+
 
 try{
     exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/'.$index.'/'.$type);
