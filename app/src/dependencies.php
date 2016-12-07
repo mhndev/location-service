@@ -18,6 +18,7 @@ $container['logger'] = function ($c) {
     return $logger;
 };
 
+
 $container['errorHandler'] = function ($c) {
     return function ($request, $response, $exception) use ($c) {
         $globalExceptionHandler = new \mhndev\locationService\exceptions\handler();

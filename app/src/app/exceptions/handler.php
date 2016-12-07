@@ -28,9 +28,17 @@ class handler
                 ->setData(['message' => 'no access', 'code' => 12])
                 ->makeResponse($request, $response));
         } else {
-            $container->logger->addError($e);
-            throw  $e;
 
+            $error = json_encode([
+                'code' => $e->getCode(),
+                'message' => $e->getMessage(),
+                'file'=>$e->getFile(),
+            ]);
+
+            /** @var \Monolog\Logger $logger */
+            $logger = $container->logger;
+
+            $logger->addError($error);
         }
 
 
