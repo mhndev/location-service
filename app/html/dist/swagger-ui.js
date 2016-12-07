@@ -1177,7 +1177,7 @@ window.Docs = {
         bind: function bind(that) { // .length is 1
             // 1. Let Target be the this value.
             var target = this;
-            // 2. If IsCallable(Target) is false, throw a TypeError exception.
+            // 2. If IsCallable(Target) is false, throw a TypeError exceptions.
             if (!isCallable(target)) {
                 throw new TypeError('Function.prototype.bind called on incompatible ' + target);
             }
@@ -1205,7 +1205,7 @@ window.Docs = {
                     // 1. Let target be the value of F's [[TargetFunction]]
                     //   internal property.
                     // 2. If target has no [[Construct]] internal method, a
-                    //   TypeError exception is thrown.
+                    //   TypeError exceptions is thrown.
                     // 3. Let boundArgs be the value of F's [[BoundArgs]] internal
                     //   property.
                     // 4. Let args be a new list containing the same values as the
@@ -1272,7 +1272,7 @@ window.Docs = {
             // XXX Build a dynamic function with desired amount of arguments is the only
             // way to set the length property of a function.
             // In environments where Content Security Policies enabled (Chrome extensions,
-            // for ex.) all use of eval or Function costructor throws an exception.
+            // for ex.) all use of eval or Function costructor throws an exceptions.
             // However in all of these environments Function.prototype.bind exists
             // and so this code will never be executed.
             bound = $Function('binder', 'return function (' + array_join.call(boundArgs, ',') + '){ return binder.apply(this, arguments); }')(binder);
@@ -2275,7 +2275,7 @@ window.Docs = {
     // represented by this Date object. The format of the String is the Date Time
     // string format defined in 15.9.1.15. All fields are present in the String.
     // The time zone is always UTC, denoted by the suffix Z. If the time value of
-    // this object is not a finite Number a RangeError exception is thrown.
+    // this object is not a finite Number a RangeError exceptions is thrown.
     var negativeDate = -62198755200000;
     var negativeYearString = '-000001';
     var hasNegativeDateBug = Date.prototype.toISOString && new Date(negativeDate).toISOString().indexOf(negativeYearString) === -1;
@@ -2350,7 +2350,7 @@ window.Docs = {
             // 4. Let toISO be the result of calling the [[Get]] internal method of
             // O with argument "toISOString".
             var toISO = O.toISOString;
-            // 5. If IsCallable(toISO) is false, throw a TypeError exception.
+            // 5. If IsCallable(toISO) is false, throw a TypeError exceptions.
             if (!isCallable(toISO)) {
                 throw new TypeError('toISOString property is not callable');
             }
@@ -10029,7 +10029,7 @@ module.exports.safeLoad            = loader.safeLoad;
 module.exports.safeLoadAll         = loader.safeLoadAll;
 module.exports.dump                = dumper.dump;
 module.exports.safeDump            = dumper.safeDump;
-module.exports.YAMLException       = require('./js-yaml/exception');
+module.exports.YAMLException       = require('./js-yaml/exceptions');
 
 // Deprecated schema names from JS-YAML 2.0.x
 module.exports.MINIMAL_SCHEMA = require('./js-yaml/schema/failsafe');
@@ -10109,7 +10109,7 @@ module.exports.extend         = extend;
 /*eslint-disable no-use-before-define*/
 
 var common              = require('./common');
-var YAMLException       = require('./exception');
+var YAMLException       = require('./exceptions');
 var DEFAULT_FULL_SCHEMA = require('./schema/default_full');
 var DEFAULT_SAFE_SCHEMA = require('./schema/default_safe');
 
@@ -10958,7 +10958,7 @@ module.exports = YAMLException;
 /*eslint-disable max-len,no-use-before-define*/
 
 var common              = require('./common');
-var YAMLException       = require('./exception');
+var YAMLException       = require('./exceptions');
 var Mark                = require('./mark');
 var DEFAULT_SAFE_SCHEMA = require('./schema/default_safe');
 var DEFAULT_FULL_SCHEMA = require('./schema/default_full');
@@ -12624,7 +12624,7 @@ module.exports = Mark;
 /*eslint-disable max-len*/
 
 var common        = require('./common');
-var YAMLException = require('./exception');
+var YAMLException = require('./exceptions');
 var Type          = require('./type');
 
 
@@ -12850,7 +12850,7 @@ module.exports = new Schema({
 },{"../schema":26,"../type/bool":34,"../type/float":35,"../type/int":36,"../type/null":42,"./failsafe":30}],32:[function(require,module,exports){
 'use strict';
 
-var YAMLException = require('./exception');
+var YAMLException = require('./exceptions');
 
 var TYPE_CONSTRUCTOR_OPTIONS = [
   'kind',
@@ -16763,7 +16763,7 @@ var nativeMin = Math.min;
  * This is possible because methods like `_.bind`, `_.curry`, and `_.partial`
  * may be applied regardless of execution order. Methods like `_.ary` and `_.rearg`
  * augment function arguments, making the order in which they are executed important,
- * preventing the merging of metadata. However, we make an exception for a safe
+ * preventing the merging of metadata. However, we make an exceptions for a safe
  * common case where curried functions have `_.ary` and or `_.rearg` applied.
  *
  * @private
@@ -18172,7 +18172,7 @@ var nextTick =(function () {
                 // In node, uncaught exceptions are considered fatal errors.
                 // Re-throw them synchronously to interrupt flushing!
 
-                // Ensure continuation if the uncaught exception is suppressed
+                // Ensure continuation if the uncaught exceptions is suppressed
                 // listening "uncaughtException" events (as domains does).
                 // Continue in next event to avoid tick recursion.
                 if (domain) {
@@ -18700,7 +18700,7 @@ defer.prototype.makeNodeResolver = function () {
  * @param resolver {Function} a function that returns nothing and accepts
  * the resolve, reject, and notify functions for a deferred.
  * @returns a promise that may be resolved with the given resolve and reject
- * functions, or rejected by a thrown exception in resolver
+ * functions, or rejected by a thrown exceptions in resolver
  */
 Q.Promise = promise; // ES6
 Q.promise = promise;
@@ -18830,7 +18830,7 @@ function Promise(descriptor, fallback, inspect) {
 
     promise.inspect = inspect;
 
-    // XXX deprecated `valueOf` and `exception` support
+    // XXX deprecated `valueOf` and `exceptions` support
     if (inspect) {
         var inspected = inspect();
         if (inspected.state === "rejected") {
@@ -18961,7 +18961,7 @@ Promise.prototype.tap = function (callback) {
  *
  * @param value      promise or immediate reference to observe
  * @param fulfilled  function to be called with the fulfilled value
- * @param rejected   function to be called with the rejection exception
+ * @param rejected   function to be called with the rejection exceptions
  * @param progressed function to be called on any progress notifications
  * @return promise for the return value from the invoked callback
  */
@@ -19245,9 +19245,9 @@ function master(object) {
  * fulfillment callback.
  * @param fulfilled callback that receives variadic arguments from the
  * promised array
- * @param rejected callback that receives the exception if the promise
+ * @param rejected callback that receives the exceptions if the promise
  * is rejected.
- * @returns a promise for the return value or thrown exception of
+ * @returns a promise for the return value or thrown exceptions of
  * either callback.
  */
 Q.spread = spread;
@@ -19291,7 +19291,7 @@ Q.async = async;
 function async(makeGenerator) {
     return function () {
         // when verb is "send", arg is a value
-        // when verb is "throw", arg is an exception
+        // when verb is "throw", arg is an exceptions
         function continuer(verb, arg) {
             var result;
 
@@ -19351,7 +19351,7 @@ function spawn(makeGenerator) {
 
 // FIXME: Remove this interface once ES6 generators are in SpiderMonkey.
 /**
- * Throws a ReturnValue exception to stop an asynchronous generator.
+ * Throws a ReturnValue exceptions to stop an asynchronous generator.
  *
  * This interface is a stop-gap measure to support generator return
  * values in older Firefox/SpiderMonkey.  In browsers that support ES6
@@ -19359,7 +19359,7 @@ function spawn(makeGenerator) {
  * functions.
  *
  * @param value the return value for the surrounding generator
- * @throws ReturnValue exception with the value.
+ * @throws ReturnValue exceptions with the value.
  * @example
  * // ES6 style
  * Q.async(function* () {

@@ -5,7 +5,7 @@ use mhndev\restHal\HalApiPresenter;
 
 /**
  * Class handler
- * @package mhndev\locationService\exception
+ * @package mhndev\locationService\exceptions
  */
 class handler
 {
