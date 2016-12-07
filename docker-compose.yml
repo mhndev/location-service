@@ -3,7 +3,7 @@ version: '2'
 volumes:
   vol-logs-web-server:
     #### - /data/logs
-  vol-logs-elastic_search:
+  vol-logs-elasticsearch:
     #### - /usr/share/elasticsearch/data
 
 services:
@@ -27,9 +27,10 @@ services:
   ## --------------------------------------------
   ## | Elastic Search
   ## --------------------------------------------
-  elastic_search:
+  elasticsearch:
     image: elasticsearch:2.4.2
     expose:
      - "9200"
     volumes:
-     - vol-logs-elastic_search:/usr/share/elasticsearch/data
+     - vol-logs-elasticsearch:/usr/share/elasticsearch/data
+     - ./.docker-compose/elasticsearch/config/:/usr/share/elasticsearch/config/

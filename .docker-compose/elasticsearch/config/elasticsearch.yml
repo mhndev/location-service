@@ -1,0 +1,4 @@
+network.host: 0.0.0.0
+
+cluster.name: LocationService
+node.name: "node1"
