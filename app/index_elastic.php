@@ -1,6 +1,11 @@
 <?php
 include 'vendor/autoload.php';
 
+
+$dotenv = new Dotenv\Dotenv(dirname(__DIR__));
+$dotenv->load();
+
+
 use Elasticsearch\ClientBuilder;
 
 $client = ClientBuilder::create()->build();
@@ -10,10 +15,10 @@ $repository = new \mhndev\locationService\services\ElasticSearch($client);
 
 try{
 
-    exec('curl -XDELETE localhost:9200/digipeyk/location');
-    exec('curl -XDELETE localhost:9200/digipeyk/place');
+    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/location');
+    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/place');
 
-    exec('curl -XDELETE localhost:9200/digipeyk');
+    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk');
 
 
     //$repository->deleteIndex('digipeyk');
@@ -22,7 +27,7 @@ try{
 }
 
 exec('
-    curl -XPUT localhost:9200/digipeyk -d \'{
+    curl -XPUT '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk -d \'{
         "settings" : {
             "number_of_shards" : 1
         },
@@ -36,8 +41,8 @@ exec('
     }\'
 ');
 
-$intersections = json_decode(file_get_contents('../data/locations/tehran_intersection.json'), true);
-$squares = json_decode(file_get_contents('../data/locations/tehran_squares.json'), true);
+$intersections = json_decode(file_get_contents(__DIR__.'/../data/locations/tehran_intersection.json'), true);
+$squares = json_decode(file_get_contents(__DIR__.'/../data/locations/tehran_squares.json'), true);
 
 
 $locations = array_merge($intersections, $squares);
