@@ -15,7 +15,12 @@ $repository = new \mhndev\locationService\services\ElasticSearch($client);
 
 try{
 
-    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/location');
+    $command = 'curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/location';
+
+    var_dump($command);
+    die();
+
+    exec($command);
     exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk/place');
 
     exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk');
