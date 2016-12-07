@@ -35,7 +35,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 COPY ["./*.sh", "/docker/"]
 COPY ["./app/", "/docker/app/"]
 
-RUN chmod a+x /docker/*.sh
+RUN chmod a+x /docker/*.sh \
     && ln -s /docker/feed.sh /usr/local/bin/feed
 
 ## Cleanup
