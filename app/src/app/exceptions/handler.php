@@ -36,6 +36,13 @@ class handler
             $logger = $container->logger;
 
             $logger->addError($error);
+
+
+            return ((new HalApiPresenter('error'))
+                ->setStatusCode(500)
+                ->setData(['message' => $e->getMessage(), 'code' => $e->getCode()])
+                ->makeResponse($request, $response));
+
         }
 
 
