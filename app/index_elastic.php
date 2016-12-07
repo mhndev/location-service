@@ -41,8 +41,8 @@ exec('
     }\'
 ');
 
-$intersections = json_decode(file_get_contents(__DIR__.'/../data/locations/tehran_intersection.json'), true);
-$squares = json_decode(file_get_contents(__DIR__.'/../data/locations/tehran_squares.json'), true);
+$intersections = json_decode(file_get_contents('/docker/data/locations/tehran_intersection.json'), true);
+$squares = json_decode(file_get_contents('/docker/data/locations/tehran_squares.json'), true);
 
 
 $locations = array_merge($intersections, $squares);
