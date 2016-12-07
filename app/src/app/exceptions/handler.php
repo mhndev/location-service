@@ -2,6 +2,7 @@
 namespace mhndev\locationService\exceptions;
 
 use mhndev\restHal\HalApiPresenter;
+use Slim\Collection;
 
 /**
  * Class handler
@@ -37,10 +38,21 @@ class handler
 
             $logger->addError($error);
 
+            /** @var Collection $settings */
+            $settings = $container->settings;
+
+            if($settings->get('mode') == 'debug'){
+                $error = ['message' => $e->getMessage(), 'code' => $e->getCode()];
+            }
+            else{
+                $error = ['message'=>'error'];
+                ///dev/stderr
+                ///dev/stdout
+            }
 
             return ((new HalApiPresenter('error'))
                 ->setStatusCode(500)
-                ->setData(['message' => $e->getMessage(), 'code' => $e->getCode()])
+                ->setData($error)
                 ->makeResponse($request, $response));
 
         }
