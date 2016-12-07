@@ -13,6 +13,11 @@ if (PHP_SAPI == 'cli-server') {
     }
 }
 
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Methods: OPTIONS, GET, POST ,PUT, DELETE, PATCH");
+header('Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With');
+
+
 require __DIR__ . '/../vendor/autoload.php';
 
 $dotenv = new Dotenv\Dotenv(dirname(__DIR__));
