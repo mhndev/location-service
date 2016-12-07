@@ -1,0 +1,1 @@
+!! this folder is mandatory for elasticsearch boot
