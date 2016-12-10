@@ -35,7 +35,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 COPY ["./*.sh", "/docker/bin/"]
 COPY ["./app/", "/docker/app/"]
 
-RUN chmod a+x /docker/*.sh \
+RUN chmod a+x /docker/bin/*.sh \
     && ln -s /docker/bin/feed.sh /usr/local/bin/feed \
     && ln -s /docker/bin/update.sh /usr/local/bin/update \
     && ln -s /docker/bin/bootup.sh /usr/local/bin/bootup
@@ -47,4 +47,4 @@ RUN apt-get purge -y \
 
 WORKDIR /var/www/
 
-CMD ["/docker/run-override.sh"]
+CMD ["/docker/bin/run-override.sh"]
