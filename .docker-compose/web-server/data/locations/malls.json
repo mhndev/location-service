@@ -1,0 +1,758 @@
+[
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "مادر",
+                "slug": "Mother"
+            }
+        ],
+        "location": {
+            "lat": "35.758374",
+            "lon": "51.441582"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "قلهک",
+                "slug": "GHOLHAK"
+            }
+        ],
+        "location": {
+            "lat": "35.770464",
+            "lon": "51.439474"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "میرداماد",
+                "slug": "Damad"
+            }
+        ],
+        "location": {
+            "lat": "35.759759",
+            "lon": "51.444929"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "ایران",
+                "slug": "Iran"
+            }
+        ],
+        "location": {
+            "lat": "35.708063",
+            "lon": "51.406133"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "کساء",
+                "slug": "Kisa"
+            }
+        ],
+        "location": {
+            "lat": "35.691525",
+            "lon": "51.478025"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "الهیه",
+                "slug": "Elahiyeh"
+            }
+        ],
+        "location": {
+            "lat": "35.782464",
+            "lon": "51.423027"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "قائم",
+                "slug": "Upright"
+            }
+        ],
+        "location": {
+            "lat": "35.805590",
+            "lon": "51.430600"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "رضا",
+                "slug": "Reza"
+            }
+        ],
+        "location": {
+            "lat": "35.676128",
+            "lon": "51.417946"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "سئول",
+                "slug": "Seoul"
+            }
+        ],
+        "location": {
+            "lat": "35.766233",
+            "lon": "51.394496"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "سپید",
+                "slug": "White"
+            }
+        ],
+        "location": {
+            "lat": "35.726197",
+            "lon": "51.526331"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "میلاد نور",
+                "slug": "BC light"
+            }
+        ],
+        "location": {
+            "lat": "35.753507",
+            "lon": "51.362530"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "تندیس",
+                "slug": "Statue"
+            }
+        ],
+        "location": {
+            "lat": "35.808641",
+            "lon": "51.429173"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "ونک",
+                "slug": "Vanak"
+            }
+        ],
+        "location": {
+            "lat": "35.760048",
+            "lon": "51.405196"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "توچال",
+                "slug": "Resort"
+            }
+        ],
+        "location": {
+            "lat": "35.806261",
+            "lon": "51.401216"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پایتخت",
+                "slug": "Capital"
+            }
+        ],
+        "location": {
+            "lat": "35.762855",
+            "lon": "51.411028"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "اندیشه",
+                "slug": "Thought"
+            }
+        ],
+        "location": {
+            "lat": "35.738714",
+            "lon": "51.444549"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پاساژگلستان",
+                "slug": "Pasazhglstan"
+            }
+        ],
+        "location": {
+            "lat": "35.775014",
+            "lon": "51.357629"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "تیراژه",
+                "slug": "Tiraje"
+            }
+        ],
+        "location": {
+            "lat": "35.747966",
+            "lon": "51.331370"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پلاسکو",
+                "slug": "Plasco"
+            }
+        ],
+        "location": {
+            "lat": "35.694535",
+            "lon": "51.420750"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "علاءالدین",
+                "slug": "Aladdin"
+            }
+        ],
+        "location": {
+            "lat": "35.699649",
+            "lon": "51.404023"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "فروسی",
+                "slug": "Sheds"
+            }
+        ],
+        "location": {
+            "lat": "35.687707",
+            "lon": "51.420179"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پالادیوم",
+                "slug": "Palladium"
+            }
+        ],
+        "location": {
+            "lat": "35.81130",
+            "lon": "51.5345528"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "نصر",
+                "slug": "Nasr"
+            }
+        ],
+        "location": {
+            "lat": "35.730278",
+            "lon": "51.378675"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "بوستان",
+                "slug": "Garden"
+            }
+        ],
+        "location": {
+            "lat": "35.760666",
+            "lon": "51.334621"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "آسمان",
+                "slug": "the sky"
+            }
+        ],
+        "location": {
+            "lat": "35.757962",
+            "lon": "51.408619"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "نارون",
+                "slug": "Witch"
+            }
+        ],
+        "location": {
+            "lat": "35.811624",
+            "lon": "51.463885"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "کوروش",
+                "slug": "Cyrus"
+            }
+        ],
+        "location": {
+            "lat": "35.737927",
+            "lon": "51.312570"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "مادر",
+                "slug": "Mother"
+            }
+        ],
+        "location": {
+            "lat": "35.758374",
+            "lon": "51.441582"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "قلهک",
+                "slug": "GHOLHAK"
+            }
+        ],
+        "location": {
+            "lat": "35.770464",
+            "lon": "51.439474"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "میرداماد",
+                "slug": "Damad"
+            }
+        ],
+        "location": {
+            "lat": "35.759759",
+            "lon": "51.444929"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "ایران",
+                "slug": "Iran"
+            }
+        ],
+        "location": {
+            "lat": "35.708063",
+            "lon": "51.406133"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "کساء",
+                "slug": "Kisa"
+            }
+        ],
+        "location": {
+            "lat": "35.691525",
+            "lon": "51.478025"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "الهیه",
+                "slug": "Elahiyeh"
+            }
+        ],
+        "location": {
+            "lat": "35.782464",
+            "lon": "51.423027"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "قائم",
+                "slug": "Upright"
+            }
+        ],
+        "location": {
+            "lat": "35.805590",
+            "lon": "51.430600"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "رضا",
+                "slug": "Reza"
+            }
+        ],
+        "location": {
+            "lat": "35.676128",
+            "lon": "51.417946"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "سئول",
+                "slug": "Seoul"
+            }
+        ],
+        "location": {
+            "lat": "35.766233",
+            "lon": "51.394496"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "سپید",
+                "slug": "White"
+            }
+        ],
+        "location": {
+            "lat": "35.726197",
+            "lon": "51.526331"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "میلاد نور",
+                "slug": "BC light"
+            }
+        ],
+        "location": {
+            "lat": "35.753507",
+            "lon": "51.362530"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "تندیس",
+                "slug": "Statue"
+            }
+        ],
+        "location": {
+            "lat": "35.808641",
+            "lon": "51.429173"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "ونک",
+                "slug": "Vanak"
+            }
+        ],
+        "location": {
+            "lat": "35.760048",
+            "lon": "51.405196"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "توچال",
+                "slug": "Resort"
+            }
+        ],
+        "location": {
+            "lat": "35.806261",
+            "lon": "51.401216"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پایتخت",
+                "slug": "Capital"
+            }
+        ],
+        "location": {
+            "lat": "35.762855",
+            "lon": "51.411028"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "اندیشه",
+                "slug": "Thought"
+            }
+        ],
+        "location": {
+            "lat": "35.738714",
+            "lon": "51.444549"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پاساژگلستان",
+                "slug": "Pasazhglstan"
+            }
+        ],
+        "location": {
+            "lat": "35.775014",
+            "lon": "51.357629"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "تیراژه",
+                "slug": "Tiraje"
+            }
+        ],
+        "location": {
+            "lat": "35.747966",
+            "lon": "51.331370"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پلاسکو",
+                "slug": "Plasco"
+            }
+        ],
+        "location": {
+            "lat": "35.694535",
+            "lon": "51.420750"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "علاءالدین",
+                "slug": "Aladdin"
+            }
+        ],
+        "location": {
+            "lat": "35.699649",
+            "lon": "51.404023"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "فروسی",
+                "slug": "Sheds"
+            }
+        ],
+        "location": {
+            "lat": "35.687707",
+            "lon": "51.420179"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "پالادیوم",
+                "slug": "Palladium"
+            }
+        ],
+        "location": {
+            "lat": "35.81130",
+            "lon": "51.5345528"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "نصر",
+                "slug": "Nasr"
+            }
+        ],
+        "location": {
+            "lat": "35.730278",
+            "lon": "51.378675"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "بوستان",
+                "slug": "Garden"
+            }
+        ],
+        "location": {
+            "lat": "35.760666",
+            "lon": "51.334621"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "آسمان",
+                "slug": "the sky"
+            }
+        ],
+        "location": {
+            "lat": "35.757962",
+            "lon": "51.408619"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "نارون",
+                "slug": "Witch"
+            }
+        ],
+        "location": {
+            "lat": "35.811624",
+            "lon": "51.463885"
+        },
+        "search": "Array"
+    },
+    {
+        "type": "mall",
+        "names": [
+            {
+                "name": "کوروش",
+                "slug": "Cyrus"
+            }
+        ],
+        "location": {
+            "lat": "35.737927",
+            "lon": "51.312570"
+        },
+        "search": "Array"
+    }
+]

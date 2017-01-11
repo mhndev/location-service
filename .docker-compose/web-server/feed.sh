@@ -5,4 +5,3 @@ if [ ! -f /docker/initialized ]; then
 fi
 
 php /var/www/index_elastic.php
-
