@@ -42,7 +42,7 @@ exec('
     }\'
 ');
 
-$dir = '/docker/data/locations/';
+$dir = '/docker/feed/locations/';
 $locations = [];
 
 foreach (glob($dir."*.json") as $filename){

@@ -21,7 +21,7 @@ services:
     volumes:
      - ./app/:/var/www/
      - ./.docker-compose/web-server/app/.env:/docker/app/.env
-     - ./.docker-compose/web-server/data/:/docker/data/
+     - ./.docker-compose/web-server/feed/:/docker/feed/
      - vol-logs-web-server:/data/logs/
 
   ## --------------------------------------------
