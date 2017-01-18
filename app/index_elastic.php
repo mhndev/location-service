@@ -38,8 +38,10 @@ try {
         "mappings" : {
             "' . $type . '" : {
                 "properties" : {
-                    "location" : { "type" : "geo_point"}
+                    "location" : { "type" : "geo_point"},
+                    "names": {"type" : "array"}
                 }
+                    
             }
         }
     }\'
