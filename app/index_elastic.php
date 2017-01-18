@@ -53,6 +53,7 @@ foreach (glob($dir."*.json") as $filename){
 }
 
 
+$i = 1;
 
 foreach($locations as $location){
 
