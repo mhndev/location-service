@@ -38,6 +38,9 @@ foreach (glob($dir."*.json") as $filename){
             $record['id'] = $i;
         }
 
+        $record['location']['lat'] = (float)$record['location']['lat'];
+        $record['location']['lon'] = (float)$record['location']['lon'];
+
 
         $i++;
 
