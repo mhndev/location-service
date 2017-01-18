@@ -70,11 +70,11 @@ foreach($locations as $location){
 
     if(!empty($location['names']))
         unset($location['names']);
-    
+
     $params['index'] = $index;
     $params['id']    = $location['id'];
     $params['type']  = $type;
-    $params['body']  = $location;
+    $params['body']  = array_merge($location, ['preview' => $location['preview'] ] );
 
 
     try{
