@@ -68,7 +68,7 @@ foreach($locations as $location){
 
     echo $i."\n";
 
-    $locations['names'] = implode(',', $locations['names']);
+    $location['names'] = implode(',', $location['names']);
 
     $params['index'] = $index;
     $params['id']    = $location['id'];
