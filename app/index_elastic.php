@@ -72,7 +72,7 @@ foreach($locations as $location){
         unset($location['names']);
 
     $params['index'] = $index;
-    $params['id']    = $location['id'];
+    $params['id']    = $i;
     $params['type']  = $type;
     $params['body']  = array_merge($location, ['preview' => $location['preview'] ] );
 
@@ -83,8 +83,8 @@ foreach($locations as $location){
 
 
         var_dump($params);
-        
-        die($e->getMessage());
+
+        die($e->getMessage(). "\n");
     }
 
     $i++;
