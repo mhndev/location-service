@@ -220,27 +220,36 @@ class LocationController
      */
     public function suggest(Request $request, Response $response)
     {
-        //todo cancel suggest for query param less than 3 characters
+        //todo cancel suggest for query param less than 2 characters
 
-        $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
-        $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
+        $q = $request->getQueryParam('q');
 
-        $from = $perPage * ($page - 1);
-
-        $elasticResponse = $this->repository->locationSearch(
-            $request->getQueryParam('q'),
-            $perPage,
-            $from
-        );
-
+        if( strlen($q) < 3) {
+            $data = [];
+        }
+        
+        else{
+            $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
+            $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
 
 
-        $data = [
-            'data' => $elasticResponse['data'],
-            'total' => $elasticResponse['total'],
-            'count' => $perPage,
-            'name'  => 'locations'
-        ];
+
+
+            $from = $perPage * ($page - 1);
+
+            $elasticResponse = $this->repository->locationSearch($q, $perPage, $from);
+
+
+
+            $data = [
+                'data' => $elasticResponse['data'],
+                'total' => $elasticResponse['total'],
+                'count' => $perPage,
+                'name'  => 'locations'
+            ];
+        }
+
+
 
 
         $response = (new HalApiPresenter('collection'))
