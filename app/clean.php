@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$dir = '/home/majid/Projects/location-service/.docker-compose/web-server/data/locations/';
+$dir = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/locations/';
 $locations = [];
 
 foreach (glob($dir."*.json") as $filename){
