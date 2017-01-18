@@ -30,6 +30,10 @@ foreach (glob($dir."*.json") as $filename){
 
         }
 
+        if(empty($record['id'])){
+            $record['id'] = $i;
+        }
+
 
         $i++;
 
