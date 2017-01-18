@@ -69,13 +69,13 @@ foreach($locations as $location){
 
     echo $i."\n";
 
-    unset($location['latitude']);
-    unset($location['longitude']);
-
+    var_dump($location);
+    die();
+    
     $params['index'] = $index;
-    $params['id'] = $location['id'];
-    $params['type'] = $type;
-    $params['body'] = $location;
+    $params['id']    = $location['id'];
+    $params['type']  = $type;
+    $params['body']  = $location;
 
 
     try{
