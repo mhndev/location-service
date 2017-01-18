@@ -39,13 +39,14 @@ try {
             "' . $type . '" : {
                 "properties" : {
                     "location" : { "type" : "geo_point"},
-                    "names": {"type" : "array"}
+                    "names": {"type" : "nested"}
                 }
                     
             }
         }
     }\'
 ');
+    
 
 }catch (\Exception $e){
     die($e->getMessage());
