@@ -9,9 +9,6 @@ include 'vendor/autoload.php';
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
-use Elasticsearch\ClientBuilder;
-
-//$deleteParams = ['index' => 'digipeyk'];
 
 $index = 'digipeyk';
 $type = 'places';
@@ -69,9 +66,6 @@ foreach($locations as $location){
 
     echo $i."\n";
 
-    var_dump($location);
-    die();
-    
     $params['index'] = $index;
     $params['id']    = $location['id'];
     $params['type']  = $type;
