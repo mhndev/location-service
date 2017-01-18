@@ -14,13 +14,22 @@ foreach (glob($dir."*.json") as $filename){
 
     $i = 1;
 
-    foreach ($data as $record){
+    foreach ($data as $record) {
 
-        if(!empty($record['id'])){
-            unset($record['id']);
+        if (empty($record['first'])) {
+            if(!empty($record['names'][0]['name'])){
+
+                $record['preview'] = $record['names'][0]['name'];
+            }
+            else{
+                $record['preview'] = $record['names'][2];
+
+            }
+        }elseif (empty($record['preview']) && !empty($record['first'])){
+            $record['preview'] = $record['first']['names'][0]['name'] . ' - ' .$record['second']['names'][0]['name'];
+
         }
 
-        $record['id'] = $i;
 
         $i++;
 
