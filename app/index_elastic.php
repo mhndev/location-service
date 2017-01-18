@@ -77,15 +77,15 @@ foreach($locations as $location){
     $params['body']  = $location;
 
 
-    try{
+//    try{
         $response = $client->index($params);
-    }catch (\Exception $e){
+//    }catch (\Exception $e){
 
 
-        var_dump($params);
-
-        die($e->getMessage(). "\n");
-    }
+//        var_dump($params);
+//
+//        die($e->getMessage(). "\n");
+//    }
 
     $i++;
 }
