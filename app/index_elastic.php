@@ -1,4 +1,5 @@
 <?php
+
 include 'vendor/autoload.php';
 
 $dotenv = new Dotenv\Dotenv(__DIR__);
@@ -41,17 +42,21 @@ exec('
     }\'
 ');
 
-$intersections = json_decode(file_get_contents('/docker/data/feed-locations/tehran_intersection.json'), true);
-$squares = json_decode(file_get_contents('/docker/data/feed-locations/tehran_squares.json'), true);
+$dir = '/docker/data/locations/';
+$locations = [];
 
-$locations = array_merge($intersections, $squares);
-$i = 1;
+foreach (glob($dir."*.json") as $filename){
+
+    $data = json_decode(file_get_contents($filename), true);
+
+    $locations = array_merge($data, $locations);
+}
+
+
 
 foreach($locations as $location){
 
     echo $i."\n";
-
-    $location['location'] = ['lat' => $location['latitude'], 'lon' => $location['longitude'] ];
 
     unset($location['latitude']);
     unset($location['longitude']);
