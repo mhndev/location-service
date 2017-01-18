@@ -25,19 +25,21 @@ $repository = new \mhndev\locationService\services\ElasticSearch($client, $index
 
 try{
     exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/'.$index.'/'.$type);
-    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/digipeyk');
+    exec('curl -XDELETE '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/'. $index);
     //$repository->deleteIndex('digipeyk');
 }catch (Elasticsearch\Common\Exceptions\Missing404Exception $exception){
     // do nothing
 }
 
-exec('
-    curl -XPUT '.env('ELASTIC_DB_HOST').':'.env('ELASTIC_DB_PORT').'/'.$index.' -d \'{
+try {
+
+    exec('
+    curl -XPUT ' . env('ELASTIC_DB_HOST') . ':' . env('ELASTIC_DB_PORT') . '/' . $index . ' -d \'{
         "settings" : {
             "number_of_shards" : 1
         },
         "mappings" : {
-            "'.$type.'" : {
+            "' . $type . '" : {
                 "properties" : {
                     "location" : { "type" : "geo_point"}
                 }
@@ -45,6 +47,10 @@ exec('
         }
     }\'
 ');
+
+}catch (\Exception $e){
+    die($e->getMessage());
+}
 
 $dir = '/docker/feed/locations/';
 $locations = [];
@@ -72,7 +78,11 @@ foreach($locations as $location){
     $params['body'] = $location;
 
 
-    $response = $client->index($params);
+    try{
+        $response = $client->index($params);
+    }catch (\Exception $e){
+        die($e->getMessage());
+    }
 
     $i++;
 }
