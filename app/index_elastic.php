@@ -81,7 +81,9 @@ foreach($locations as $location){
         $response = $client->index($params);
     }catch (\Exception $e){
 
-        echo json_encode($params);
+
+        var_dump($params);
+        
         die($e->getMessage());
     }
 
