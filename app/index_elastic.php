@@ -74,7 +74,7 @@ foreach($locations as $location){
     $params['index'] = $index;
     $params['id']    = $i;
     $params['type']  = $type;
-    $params['body']  = array_merge($location, ['preview' => $location['preview'] ] );
+    $params['body']  = $location;
 
 
     try{
