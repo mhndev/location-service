@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "area": "منطقه 1",
         "type": "center",
         "location": {
@@ -13,7 +12,8 @@
                 "slug": "Azgl"
             }
         ],
-        "search": "ازگل,Azgl"
+        "search": "ازگل,Azgl",
+        "id": 1
     },
     {
         "area": "منطقه 2",
