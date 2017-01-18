@@ -38,15 +38,14 @@ try {
         "mappings" : {
             "' . $type . '" : {
                 "properties" : {
-                    "location" : { "type" : "geo_point"},
-                    "names": {"type" : "nested"}
+                    "location" : { "type" : "geo_point"}
                 }
                     
             }
         }
     }\'
 ');
-    
+
 
 }catch (\Exception $e){
     die($e->getMessage());
@@ -68,6 +67,8 @@ $i = 1;
 foreach($locations as $location){
 
     echo $i."\n";
+
+    $locations['names'] = implode(',', $locations['names']);
 
     $params['index'] = $index;
     $params['id']    = $location['id'];
