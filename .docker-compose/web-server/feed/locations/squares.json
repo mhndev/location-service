@@ -8,12 +8,12 @@
             }
         ],
         "location": {
-            "lat": "35.636086",
-            "lon": "51.406107"
+            "lat": 35.636086,
+            "lon": 51.406107
         },
-        "search": "Array",
-        "id": 1,
-        "preview": "میدان تیر"
+        "search": "میدان تیر,Shooting range",
+        "preview": "میدان تیر",
+        "id": 1
     },
     {
         "type": "square",
@@ -24,12 +24,12 @@
             }
         ],
         "location": {
-            "lat": "35.701556",
-            "lon": "51.419030"
+            "lat": 35.701556,
+            "lon": 51.41903
         },
-        "search": "Array",
-        "id": 2,
-        "preview": "میدان فردوسی"
+        "search": "میدان فردوسی,Ferdowsi Square",
+        "preview": "میدان فردوسی",
+        "id": 2
     },
     {
         "type": "square",
@@ -40,12 +40,12 @@
             }
         ],
         "location": {
-            "lat": "35.700935",
-            "lon": "51.391038"
+            "lat": 35.700935,
+            "lon": 51.391038
         },
-        "search": "Array",
-        "id": 3,
-        "preview": "میدان انقلاب"
+        "search": "میدان انقلاب,Enghelab Square",
+        "preview": "میدان انقلاب",
+        "id": 3
     },
     {
         "type": "square",
@@ -56,12 +56,12 @@
             }
         ],
         "location": {
-            "lat": "35.722077",
-            "lon": "51.335301"
+            "lat": 35.722077,
+            "lon": 51.335301
         },
-        "search": "Array",
-        "id": 4,
-        "preview": "میدان فلکه دوم صادقیه"
+        "search": "میدان فلکه دوم صادقیه,Second Square Square Square",
+        "preview": "میدان فلکه دوم صادقیه",
+        "id": 4
     },
     {
         "type": "square",
@@ -72,12 +72,12 @@
             }
         ],
         "location": {
-            "lat": "35.689882",
-            "lon": "51.483950"
+            "lat": 35.689882,
+            "lon": 51.48395
         },
-        "search": "Array",
-        "id": 5,
-        "preview": "میدان پرستار"
+        "search": "میدان پرستار,The nurse",
+        "preview": "میدان پرستار",
+        "id": 5
     },
     {
         "type": "square",
@@ -88,12 +88,12 @@
             }
         ],
         "location": {
-            "lat": "35.767272",
-            "lon": "51.476494"
+            "lat": 35.767272,
+            "lon": 51.476494
         },
-        "search": "Array",
-        "id": 6,
-        "preview": "میدان هروی"
+        "search": "میدان هروی,Heravi field",
+        "preview": "میدان هروی",
+        "id": 6
     },
     {
         "type": "square",
@@ -104,12 +104,12 @@
             }
         ],
         "location": {
-            "lat": "35.757474",
-            "lon": "51.409887"
+            "lat": 35.757474,
+            "lon": 51.409887
         },
-        "search": "Array",
-        "id": 7,
-        "preview": "میدان ونک"
+        "search": "میدان ونک,Vanak Square",
+        "preview": "میدان ونک",
+        "id": 7
     },
     {
         "type": "square",
@@ -120,12 +120,12 @@
             }
         ],
         "location": {
-            "lat": "35.675201",
-            "lon": "51.394688"
+            "lat": 35.675201,
+            "lon": 51.394688
         },
-        "search": "Array",
-        "id": 8,
-        "preview": "میدان قزوین"
+        "search": "میدان قزوین,Qazvin Square",
+        "preview": "میدان قزوین",
+        "id": 8
     },
     {
         "type": "square",
@@ -136,12 +136,12 @@
             }
         ],
         "location": {
-            "lat": "35.719931",
-            "lon": "51.405559"
+            "lat": 35.719931,
+            "lon": 51.405559
         },
-        "search": "Array",
-        "id": 9,
-        "preview": "میدان فاطمی (جهاد)"
+        "search": "میدان فاطمی (جهاد),Fatemi Square (jihad)",
+        "preview": "میدان فاطمی (جهاد)",
+        "id": 9
     },
     {
         "type": "square",
@@ -152,12 +152,12 @@
             }
         ],
         "location": {
-            "lat": "35.806944",
-            "lon": "51.428916"
+            "lat": 35.806944,
+            "lon": 51.428916
         },
-        "search": "Array",
-        "id": 10,
-        "preview": "میدان تجریش"
+        "search": "میدان تجریش,Tajrish Square",
+        "preview": "میدان تجریش",
+        "id": 10
     },
     {
         "type": "square",
@@ -168,12 +168,12 @@
             }
         ],
         "location": {
-            "lat": "35.751079",
-            "lon": "51.537968"
+            "lat": 35.751079,
+            "lon": 51.537968
         },
-        "search": "Array",
-        "id": 11,
-        "preview": "میدان چهارم تهرانپارس"
+        "search": "میدان چهارم تهرانپارس,The fourth field Tehranpars",
+        "preview": "میدان چهارم تهرانپارس",
+        "id": 11
     },
     {
         "type": "square",
@@ -184,12 +184,12 @@
             }
         ],
         "location": {
-            "lat": "35.717145",
-            "lon": "51.426742"
+            "lat": 35.717145,
+            "lon": 51.426742
         },
-        "search": "Array",
-        "id": 12,
-        "preview": "میدان هفت تیر"
+        "search": "میدان هفت تیر,Hafte-Tir Square",
+        "preview": "میدان هفت تیر",
+        "id": 12
     },
     {
         "type": "square",
@@ -200,12 +200,12 @@
             }
         ],
         "location": {
-            "lat": "35.762923",
-            "lon": "51.290062"
+            "lat": 35.762923,
+            "lon": 51.290062
         },
-        "search": "Array",
-        "id": 13,
-        "preview": "میدان اول شهران"
+        "search": "میدان اول شهران,The first field Shahran",
+        "preview": "میدان اول شهران",
+        "id": 13
     },
     {
         "type": "square",
@@ -216,12 +216,12 @@
             }
         ],
         "location": {
-            "lat": "35.689578",
-            "lon": "51.447472"
+            "lat": 35.689578,
+            "lon": 51.447472
         },
-        "search": "Array",
-        "id": 14,
-        "preview": "میدان شهدا"
+        "search": "میدان شهدا,Martyrs' Square",
+        "preview": "میدان شهدا",
+        "id": 14
     },
     {
         "type": "square",
@@ -232,12 +232,12 @@
             }
         ],
         "location": {
-            "lat": "35.721836",
-            "lon": "51.340943"
+            "lat": 35.721836,
+            "lon": 51.340943
         },
-        "search": "Array",
-        "id": 15,
-        "preview": "میدان فلکه یکم صادقیه"
+        "search": "میدان فلکه یکم صادقیه,First Circle Square Square",
+        "preview": "میدان فلکه یکم صادقیه",
+        "id": 15
     },
     {
         "type": "square",
@@ -248,12 +248,12 @@
             }
         ],
         "location": {
-            "lat": "35.696698",
-            "lon": "51.378530"
+            "lat": 35.696698,
+            "lon": 51.37853
         },
-        "search": "Array",
-        "id": 16,
-        "preview": "میدان جمهوری اسلامی"
+        "search": "میدان جمهوری اسلامی,Islamic Republic Square",
+        "preview": "میدان جمهوری اسلامی",
+        "id": 16
     },
     {
         "type": "square",
@@ -264,12 +264,12 @@
             }
         ],
         "location": {
-            "lat": "35.673686",
-            "lon": "51.473256"
+            "lat": 35.673686,
+            "lon": 51.473256
         },
-        "search": "Array",
-        "id": 17,
-        "preview": "میدان امام حسن مجتبی"
+        "search": "میدان امام حسن مجتبی,Imam Hassan",
+        "preview": "میدان امام حسن مجتبی",
+        "id": 17
     },
     {
         "type": "square",
@@ -280,12 +280,12 @@
             }
         ],
         "location": {
-            "lat": "35.659777",
-            "lon": "51.430853"
+            "lat": 35.659777,
+            "lon": 51.430853
         },
-        "search": "Array",
-        "id": 18,
-        "preview": "میدان شوش"
+        "search": "میدان شوش,Susa field",
+        "preview": "میدان شوش",
+        "id": 18
     },
     {
         "type": "square",
@@ -296,12 +296,12 @@
             }
         ],
         "location": {
-            "lat": "35.804787",
-            "lon": "51.434122"
+            "lat": 35.804787,
+            "lon": 51.434122
         },
-        "search": "Array",
-        "id": 19,
-        "preview": "میدان قدس"
+        "search": "میدان قدس,Quds Square",
+        "preview": "میدان قدس",
+        "id": 19
     },
     {
         "type": "square",
@@ -312,12 +312,12 @@
             }
         ],
         "location": {
-            "lat": "35.758478",
-            "lon": "51.442685"
+            "lat": 35.758478,
+            "lon": 51.442685
         },
-        "search": "Array",
-        "id": 20,
-        "preview": "میدان مادر"
+        "search": "میدان مادر,The mother",
+        "preview": "میدان مادر",
+        "id": 20
     },
     {
         "type": "square",
@@ -328,12 +328,12 @@
             }
         ],
         "location": {
-            "lat": "35.778722",
-            "lon": "51.362424"
+            "lat": 35.778722,
+            "lon": 51.362424
         },
-        "search": "Array",
-        "id": 21,
-        "preview": "میدان سرو"
+        "search": "میدان سرو,Cedar Square",
+        "preview": "میدان سرو",
+        "id": 21
     },
     {
         "type": "square",
@@ -344,12 +344,12 @@
             }
         ],
         "location": {
-            "lat": "35.820337",
-            "lon": "51.425901"
+            "lat": 35.820337,
+            "lon": 51.425901
         },
-        "search": "Array",
-        "id": 22,
-        "preview": "میدان دربند"
+        "search": "میدان دربند,Darband Square",
+        "preview": "میدان دربند",
+        "id": 22
     },
     {
         "type": "square",
@@ -360,12 +360,12 @@
             }
         ],
         "location": {
-            "lat": "35.755340",
-            "lon": "51.328751"
+            "lat": 35.75534,
+            "lon": 51.328751
         },
-        "search": "Array",
-        "id": 23,
-        "preview": "میدان عدل"
+        "search": "میدان عدل,Square bales",
+        "preview": "میدان عدل",
+        "id": 23
     },
     {
         "type": "square",
@@ -376,12 +376,12 @@
             }
         ],
         "location": {
-            "lat": "35.721771",
-            "lon": "51.399937"
+            "lat": 35.721771,
+            "lon": 51.399937
         },
-        "search": "Array",
-        "id": 24,
-        "preview": "میدان گلها"
+        "search": "میدان گلها,Field of Flowers",
+        "preview": "میدان گلها",
+        "id": 24
     },
     {
         "type": "square",
@@ -392,12 +392,12 @@
             }
         ],
         "location": {
-            "lat": "35.665341",
-            "lon": "51.445503"
+            "lat": 35.665341,
+            "lon": 51.445503
         },
-        "search": "Array",
-        "id": 25,
-        "preview": "میدان خراسان"
+        "search": "میدان خراسان,Khorasan Square",
+        "preview": "میدان خراسان",
+        "id": 25
     },
     {
         "type": "square",
@@ -408,12 +408,12 @@
             }
         ],
         "location": {
-            "lat": "35.744211",
-            "lon": "51.327141"
+            "lat": 35.744211,
+            "lon": 51.327141
         },
-        "search": "Array",
-        "id": 26,
-        "preview": "میدان باغ فیض"
+        "search": "میدان باغ فیض,Garden of Grace",
+        "preview": "میدان باغ فیض",
+        "id": 26
     },
     {
         "type": "square",
@@ -424,12 +424,12 @@
             }
         ],
         "location": {
-            "lat": "35.751564",
-            "lon": "51.444202"
+            "lat": 35.751564,
+            "lon": 51.444202
         },
-        "search": "Array",
-        "id": 27,
-        "preview": "میدان کتابی"
+        "search": "میدان کتابی,The book",
+        "preview": "میدان کتابی",
+        "id": 27
     },
     {
         "type": "square",
@@ -440,12 +440,12 @@
             }
         ],
         "location": {
-            "lat": "35.812838",
-            "lon": "51.451210"
+            "lat": 35.812838,
+            "lon": 51.45121
         },
-        "search": "Array",
-        "id": 28,
-        "preview": "میدان یاسر"
+        "search": "میدان یاسر,Yasser field",
+        "preview": "میدان یاسر",
+        "id": 28
     },
     {
         "type": "square",
@@ -456,12 +456,12 @@
             }
         ],
         "location": {
-            "lat": "35.701865",
-            "lon": "51.448261"
+            "lat": 35.701865,
+            "lon": 51.448261
         },
-        "search": "Array",
-        "id": 29,
-        "preview": "میدان امام حسین"
+        "search": "میدان امام حسین,Imam Hossein Square",
+        "preview": "میدان امام حسین",
+        "id": 29
     },
     {
         "type": "square",
@@ -472,12 +472,12 @@
             }
         ],
         "location": {
-            "lat": "35.801658",
-            "lon": "51.486766"
+            "lat": 35.801658,
+            "lon": 51.486766
         },
-        "search": "Array",
-        "id": 30,
-        "preview": "میدان اقدسیه"
+        "search": "میدان اقدسیه,Aghdasieh field",
+        "preview": "میدان اقدسیه",
+        "id": 30
     },
     {
         "type": "square",
@@ -488,12 +488,12 @@
             }
         ],
         "location": {
-            "lat": "35.797574",
-            "lon": "51.412028"
+            "lat": 35.797574,
+            "lon": 51.412028
         },
-        "search": "Array",
-        "id": 31,
-        "preview": "میدان الف"
+        "search": "میدان الف,A field",
+        "preview": "میدان الف",
+        "id": 31
     },
     {
         "type": "square",
@@ -504,12 +504,12 @@
             }
         ],
         "location": {
-            "lat": "35.810927",
-            "lon": "51.469977"
+            "lat": 35.810927,
+            "lon": 51.469977
         },
-        "search": "Array",
-        "id": 32,
-        "preview": "میدان باهنر"
+        "search": "میدان باهنر,Bahonar Square",
+        "preview": "میدان باهنر",
+        "id": 32
     },
     {
         "type": "square",
@@ -520,12 +520,12 @@
             }
         ],
         "location": {
-            "lat": "35.590779",
-            "lon": "51.437504"
+            "lat": 35.590779,
+            "lon": 51.437504
         },
-        "search": "Array",
-        "id": 33,
-        "preview": "میدان شهرری"
+        "search": "میدان شهرری,Rey Square",
+        "preview": "میدان شهرری",
+        "id": 33
     },
     {
         "type": "square",
@@ -536,12 +536,12 @@
             }
         ],
         "location": {
-            "lat": "35.741910",
-            "lon": "51.542332"
+            "lat": 35.74191,
+            "lon": 51.542332
         },
-        "search": "Array",
-        "id": 34,
-        "preview": "میدان شاهد (پروین)"
+        "search": "میدان شاهد (پروین),Control field (Parvin)",
+        "preview": "میدان شاهد (پروین)",
+        "id": 34
     },
     {
         "type": "square",
@@ -552,12 +552,12 @@
             }
         ],
         "location": {
-            "lat": "35.666983",
-            "lon": "51.396033"
+            "lat": 35.666983,
+            "lon": 51.396033
         },
-        "search": "Array",
-        "id": 35,
-        "preview": "میدان رازی (گمرک)"
+        "search": "میدان رازی (گمرک),Razi field (customs)",
+        "preview": "میدان رازی (گمرک)",
+        "id": 35
     },
     {
         "type": "square",
@@ -568,12 +568,12 @@
             }
         ],
         "location": {
-            "lat": "35.726780",
-            "lon": "51.525296"
+            "lat": 35.72678,
+            "lon": 51.525296
         },
-        "search": "Array",
-        "id": 36,
-        "preview": "میدان فلکه یکم تهرانپارس"
+        "search": "میدان فلکه یکم تهرانپارس,The first gate Tehranpars",
+        "preview": "میدان فلکه یکم تهرانپارس",
+        "id": 36
     },
     {
         "type": "square",
@@ -584,12 +584,12 @@
             }
         ],
         "location": {
-            "lat": "35.718002",
-            "lon": "51.431767"
+            "lat": 35.718002,
+            "lon": 51.431767
         },
-        "search": "Array",
-        "id": 37,
-        "preview": "میدان بهار شیراز"
+        "search": "میدان بهار شیراز,Spring field Shiraz",
+        "preview": "میدان بهار شیراز",
+        "id": 37
     },
     {
         "type": "square",
@@ -600,12 +600,12 @@
             }
         ],
         "location": {
-            "lat": "35.705675",
-            "lon": "51.377632"
+            "lat": 35.705675,
+            "lon": 51.377632
         },
-        "search": "Array",
-        "id": 38,
-        "preview": "میدان توحید"
+        "search": "میدان توحید,Tohid square",
+        "preview": "میدان توحید",
+        "id": 38
     },
     {
         "type": "square",
@@ -616,12 +616,12 @@
             }
         ],
         "location": {
-            "lat": "35.681012",
-            "lon": "51.401623"
+            "lat": 35.681012,
+            "lon": 51.401623
         },
-        "search": "Array",
-        "id": 39,
-        "preview": "میدان منیریه"
+        "search": "میدان منیریه,Monirieh Square",
+        "preview": "میدان منیریه",
+        "id": 39
     },
     {
         "type": "square",
@@ -632,12 +632,12 @@
             }
         ],
         "location": {
-            "lat": "35.684150",
-            "lon": "51.483183"
+            "lat": 35.68415,
+            "lon": 51.483183
         },
-        "search": "Array",
-        "id": 40,
-        "preview": "میدان سیزده آبان"
+        "search": "میدان سیزده آبان,Thirteen of November",
+        "preview": "میدان سیزده آبان",
+        "id": 40
     },
     {
         "type": "square",
@@ -648,12 +648,12 @@
             }
         ],
         "location": {
-            "lat": "35.698805",
-            "lon": "51.347424"
+            "lat": 35.698805,
+            "lon": 51.347424
         },
-        "search": "Array",
-        "id": 41,
-        "preview": "میدان استاد معین"
+        "search": "میدان استاد معین,Moeen's Square",
+        "preview": "میدان استاد معین",
+        "id": 41
     },
     {
         "type": "square",
@@ -664,12 +664,12 @@
             }
         ],
         "location": {
-            "lat": "35.772276",
-            "lon": "51.456690"
+            "lat": 35.772276,
+            "lon": 51.45669
         },
-        "search": "Array",
-        "id": 42,
-        "preview": "میدان احتشامیه"
+        "search": "میدان احتشامیه,Ahtshamyh field",
+        "preview": "میدان احتشامیه",
+        "id": 42
     },
     {
         "type": "square",
@@ -680,12 +680,12 @@
             }
         ],
         "location": {
-            "lat": "35.667673",
-            "lon": "51.415845"
+            "lat": 35.667673,
+            "lon": 51.415845
         },
-        "search": "Array",
-        "id": 43,
-        "preview": "میدان اعدام"
+        "search": "میدان اعدام,Of execution.",
+        "preview": "میدان اعدام",
+        "id": 43
     },
     {
         "type": "square",
@@ -696,12 +696,12 @@
             }
         ],
         "location": {
-            "lat": "35.786861",
-            "lon": "51.466545"
+            "lat": 35.786861,
+            "lon": 51.466545
         },
-        "search": "Array",
-        "id": 44,
-        "preview": "میدان اختیاریه"
+        "search": "میدان اختیاریه,Field is optional",
+        "preview": "میدان اختیاریه",
+        "id": 44
     },
     {
         "type": "square",
@@ -712,12 +712,12 @@
             }
         ],
         "location": {
-            "lat": "35.757465",
-            "lon": "51.410003"
+            "lat": 35.757465,
+            "lon": 51.410003
         },
-        "search": "Array",
-        "id": 45,
-        "preview": "میدان ونک"
+        "search": "میدان ونک,Vanak Square",
+        "preview": "میدان ونک",
+        "id": 45
     },
     {
         "type": "square",
@@ -728,12 +728,12 @@
             }
         ],
         "location": {
-            "lat": "35.718777",
-            "lon": "51.474318"
+            "lat": 35.718777,
+            "lon": 51.474318
         },
-        "search": "Array",
-        "id": 46,
-        "preview": "میدان تسلیحات"
+        "search": "میدان تسلیحات,Arms Square",
+        "preview": "میدان تسلیحات",
+        "id": 46
     },
     {
         "type": "square",
@@ -744,12 +744,12 @@
             }
         ],
         "location": {
-            "lat": "35.706413",
-            "lon": "51.403604"
+            "lat": 35.706413,
+            "lon": 51.403604
         },
-        "search": "Array",
-        "id": 47,
-        "preview": "میدان فلسطین"
+        "search": "میدان فلسطین,Palestine Square",
+        "preview": "میدان فلسطین",
+        "id": 47
     },
     {
         "type": "square",
@@ -760,12 +760,12 @@
             }
         ],
         "location": {
-            "lat": "35.711586",
-            "lon": "51.407094"
+            "lat": 35.711586,
+            "lon": 51.407094
         },
-        "search": "Array",
-        "id": 48,
-        "preview": "میدان ولیعصر"
+        "search": "میدان ولیعصر,Vali Asr Square",
+        "preview": "میدان ولیعصر",
+        "id": 48
     },
     {
         "type": "square",
@@ -776,12 +776,12 @@
             }
         ],
         "location": {
-            "lat": "35.713270",
-            "lon": "51.489827"
+            "lat": 35.71327,
+            "lon": 51.489827
         },
-        "search": "Array",
-        "id": 49,
-        "preview": "میدان امامت"
+        "search": "میدان امامت,Imam Square",
+        "preview": "میدان امامت",
+        "id": 49
     },
     {
         "type": "square",
@@ -792,12 +792,12 @@
             }
         ],
         "location": {
-            "lat": "35.706760",
-            "lon": "51.440496"
+            "lat": 35.70676,
+            "lon": 51.440496
         },
-        "search": "Array",
-        "id": 50,
-        "preview": "میدان سپاه"
+        "search": "میدان سپاه,Army field",
+        "preview": "میدان سپاه",
+        "id": 50
     },
     {
         "type": "square",
@@ -808,12 +808,12 @@
             }
         ],
         "location": {
-            "lat": "35.690596",
-            "lon": "51.431487"
+            "lat": 35.690596,
+            "lon": 51.431487
         },
-        "search": "Array",
-        "id": 51,
-        "preview": "میدان بهارستان"
+        "search": "میدان بهارستان,Parliament Square",
+        "preview": "میدان بهارستان",
+        "id": 51
     },
     {
         "type": "square",
@@ -824,12 +824,12 @@
             }
         ],
         "location": {
-            "lat": "35.737049",
-            "lon": "51.415396"
+            "lat": 35.737049,
+            "lon": 51.415396
         },
-        "search": "Array",
-        "id": 52,
-        "preview": "میدان آرژانتین"
+        "search": "میدان آرژانتین,Argentina Square",
+        "preview": "میدان آرژانتین",
+        "id": 52
     },
     {
         "type": "square",
@@ -840,12 +840,12 @@
             }
         ],
         "location": {
-            "lat": "35.659248",
-            "lon": "51.397957"
+            "lat": 35.659248,
+            "lon": 51.397957
         },
-        "search": "Array",
-        "id": 53,
-        "preview": "میدان راه آهن"
+        "search": "میدان راه آهن,Railway Square",
+        "preview": "میدان راه آهن",
+        "id": 53
     },
     {
         "type": "square",
@@ -856,12 +856,12 @@
             }
         ],
         "location": {
-            "lat": "35.690786",
-            "lon": "51.392531"
+            "lat": 35.690786,
+            "lon": 51.392531
         },
-        "search": "Array",
-        "id": 54,
-        "preview": "میدان پاستور"
+        "search": "میدان پاستور,Pasteur",
+        "preview": "میدان پاستور",
+        "id": 54
     },
     {
         "type": "square",
@@ -872,12 +872,12 @@
             }
         ],
         "location": {
-            "lat": "35.758306",
-            "lon": "51.513609"
+            "lat": 35.758306,
+            "lon": 51.513609
         },
-        "search": "Array",
-        "id": 55,
-        "preview": "میدان استقلال"
+        "search": "میدان استقلال,Independence Square",
+        "preview": "میدان استقلال",
+        "id": 55
     },
     {
         "type": "square",
@@ -888,12 +888,12 @@
             }
         ],
         "location": {
-            "lat": "35.736757",
-            "lon": "51.487873"
+            "lat": 35.736757,
+            "lon": 51.487873
         },
-        "search": "Array",
-        "id": 56,
-        "preview": "میدان رسالت"
+        "search": "میدان رسالت,Resalat Square",
+        "preview": "میدان رسالت",
+        "id": 56
     },
     {
         "type": "square",
@@ -904,12 +904,12 @@
             }
         ],
         "location": {
-            "lat": "35.720381",
-            "lon": "51.420867"
+            "lat": 35.720381,
+            "lon": 51.420867
         },
-        "search": "Array",
-        "id": 57,
-        "preview": "میدان شعاع"
+        "search": "میدان شعاع,The radius",
+        "preview": "میدان شعاع",
+        "id": 57
     },
     {
         "type": "square",
@@ -920,12 +920,12 @@
             }
         ],
         "location": {
-            "lat": "35.754131",
-            "lon": "51.368253"
+            "lat": 35.754131,
+            "lon": 51.368253
         },
-        "search": "Array",
-        "id": 58,
-        "preview": "میدان صنعت"
+        "search": "میدان صنعت,Industry Square",
+        "preview": "میدان صنعت",
+        "id": 58
     },
     {
         "type": "square",
@@ -936,12 +936,12 @@
             }
         ],
         "location": {
-            "lat": "35.678436",
-            "lon": "51.418832"
+            "lat": 35.678436,
+            "lon": 51.418832
         },
-        "search": "Array",
-        "id": 59,
-        "preview": "میدان پانزده خرداد"
+        "search": "میدان پانزده خرداد,Fifteen Square June",
+        "preview": "میدان پانزده خرداد",
+        "id": 59
     },
     {
         "type": "square",
@@ -952,12 +952,12 @@
             }
         ],
         "location": {
-            "lat": "35.759854",
-            "lon": "51.335142"
+            "lat": 35.759854,
+            "lon": 51.335142
         },
-        "search": "Array",
-        "id": 60,
-        "preview": "میدان پونک"
+        "search": "میدان پونک,Poonak Square",
+        "preview": "میدان پونک",
+        "id": 60
     },
     {
         "type": "square",
@@ -968,12 +968,12 @@
             }
         ],
         "location": {
-            "lat": "35.688145",
-            "lon": "51.392863"
+            "lat": 35.688145,
+            "lon": 51.392863
         },
-        "search": "Array",
-        "id": 61,
-        "preview": "میدان حر"
+        "search": "میدان حر,Hor",
+        "preview": "میدان حر",
+        "id": 61
     },
     {
         "type": "square",
@@ -984,12 +984,12 @@
             }
         ],
         "location": {
-            "lat": "35.729827",
-            "lon": "51.493668"
+            "lat": 35.729827,
+            "lon": 51.493668
         },
-        "search": "Array",
-        "id": 62,
-        "preview": "میدان نبوت"
+        "search": "میدان نبوت,The prophecy",
+        "preview": "میدان نبوت",
+        "id": 62
     },
     {
         "type": "square",
@@ -1000,12 +1000,12 @@
             }
         ],
         "location": {
-            "lat": "35.699539",
-            "lon": "51.337375"
+            "lat": 35.699539,
+            "lon": 51.337375
         },
-        "search": "Array",
-        "id": 63,
-        "preview": "میدان مفتح"
+        "search": "میدان مفتح,Mofateh field",
+        "preview": "میدان مفتح",
+        "id": 63
     },
     {
         "type": "square",
@@ -1016,12 +1016,12 @@
             }
         ],
         "location": {
-            "lat": "35.649369",
-            "lon": "51.398102"
+            "lat": 35.649369,
+            "lon": 51.398102
         },
-        "search": "Array",
-        "id": 64,
-        "preview": "میدان بهمن"
+        "search": "میدان بهمن,Feb field",
+        "preview": "میدان بهمن",
+        "id": 64
     },
     {
         "type": "square",
@@ -1032,12 +1032,12 @@
             }
         ],
         "location": {
-            "lat": "35.685755",
-            "lon": "51.421637"
+            "lat": 35.685755,
+            "lon": 51.421637
         },
-        "search": "Array",
-        "id": 65,
-        "preview": "میدان امام خمینی"
+        "search": "میدان امام خمینی,Imam Khomeini Square",
+        "preview": "میدان امام خمینی",
+        "id": 65
     },
     {
         "type": "square",
@@ -1048,12 +1048,12 @@
             }
         ],
         "location": {
-            "lat": "35.733809",
-            "lon": "51.405975"
+            "lat": 35.733809,
+            "lon": 51.405975
         },
-        "search": "Array",
-        "id": 66,
-        "preview": "میدان فرهنگ"
+        "search": "میدان فرهنگ,Field of culture",
+        "preview": "میدان فرهنگ",
+        "id": 66
     },
     {
         "type": "square",
@@ -1064,12 +1064,12 @@
             }
         ],
         "location": {
-            "lat": "35.669637",
-            "lon": "51.436326"
+            "lat": 35.669637,
+            "lon": 51.436326
         },
-        "search": "Array",
-        "id": 67,
-        "preview": "میدان قیام"
+        "search": "میدان قیام,Square uprising",
+        "preview": "میدان قیام",
+        "id": 67
     },
     {
         "type": "square",
@@ -1080,12 +1080,12 @@
             }
         ],
         "location": {
-            "lat": "35.764090",
-            "lon": "51.405153"
+            "lat": 35.76409,
+            "lon": 51.405153
         },
-        "search": "Array",
-        "id": 68,
-        "preview": "میدان عطار نیشابوری"
+        "search": "میدان عطار نیشابوری,Attar field",
+        "preview": "میدان عطار نیشابوری",
+        "id": 68
     },
     {
         "type": "square",
@@ -1096,12 +1096,12 @@
             }
         ],
         "location": {
-            "lat": "35.765713",
-            "lon": "51.395294"
+            "lat": 35.765713,
+            "lon": 51.395294
         },
-        "search": "Array",
-        "id": 69,
-        "preview": "میدان شیخ بهایی"
+        "search": "میدان شیخ بهایی,Sheikh Baha'i field",
+        "preview": "میدان شیخ بهایی",
+        "id": 69
     },
     {
         "type": "square",
@@ -1112,12 +1112,12 @@
             }
         ],
         "location": {
-            "lat": "35.791294",
-            "lon": "51.456614"
+            "lat": 35.791294,
+            "lon": 51.456614
         },
-        "search": "Array",
-        "id": 70,
-        "preview": "میدان پیروز"
+        "search": "میدان پیروز,Victory Square",
+        "preview": "میدان پیروز",
+        "id": 70
     },
     {
         "type": "square",
@@ -1128,12 +1128,12 @@
             }
         ],
         "location": {
-            "lat": "35.632888",
-            "lon": "51.410164"
+            "lat": 35.632888,
+            "lon": 51.410164
         },
-        "search": "Array",
-        "id": 71,
-        "preview": "میدان بهشت"
+        "search": "میدان بهشت,Paradise Square",
+        "preview": "میدان بهشت",
+        "id": 71
     },
     {
         "type": "square",
@@ -1144,12 +1144,12 @@
             }
         ],
         "location": {
-            "lat": "35.699597",
-            "lon": "51.337553"
+            "lat": 35.699597,
+            "lon": 51.337553
         },
-        "search": "Array",
-        "id": 72,
-        "preview": "میدان آزادی"
+        "search": "میدان آزادی,Azadi Square",
+        "preview": "میدان آزادی",
+        "id": 72
     },
     {
         "type": "square",
@@ -1160,12 +1160,12 @@
             }
         ],
         "location": {
-            "lat": "35.723490",
-            "lon": "51.402309"
+            "lat": 35.72349,
+            "lon": 51.402309
         },
-        "search": "Array",
-        "id": 73,
-        "preview": "میدان سلماس"
+        "search": "میدان سلماس,Salmas Sq",
+        "preview": "میدان سلماس",
+        "id": 73
     },
     {
         "type": "square",
@@ -1176,12 +1176,12 @@
             }
         ],
         "location": {
-            "lat": "35.795364",
-            "lon": "51.398068"
+            "lat": 35.795364,
+            "lon": 51.398068
         },
-        "search": "Array",
-        "id": 74,
-        "preview": "میدان دانشجو"
+        "search": "میدان دانشجو,Student field",
+        "preview": "میدان دانشجو",
+        "id": 74
     },
     {
         "type": "square",
@@ -1192,12 +1192,12 @@
             }
         ],
         "location": {
-            "lat": "35.685605",
-            "lon": "51.467022"
+            "lat": 35.685605,
+            "lon": 51.467022
         },
-        "search": "Array",
-        "id": 75,
-        "preview": "میدان بروجردی"
+        "search": "میدان بروجردی,Boroujerdi field",
+        "preview": "میدان بروجردی",
+        "id": 75
     },
     {
         "type": "square",
@@ -1208,12 +1208,12 @@
             }
         ],
         "location": {
-            "lat": "35.713690",
-            "lon": "51.499105"
+            "lat": 35.71369,
+            "lon": 51.499105
         },
-        "search": "Array",
-        "id": 76,
-        "preview": "میدان اطلاعات"
+        "search": "میدان اطلاعات,Square Information",
+        "preview": "میدان اطلاعات",
+        "id": 76
     },
     {
         "type": "square",
@@ -1224,12 +1224,12 @@
             }
         ],
         "location": {
-            "lat": "35.685721",
-            "lon": "51.462496"
+            "lat": 35.685721,
+            "lon": 51.462496
         },
-        "search": "Array",
-        "id": 77,
-        "preview": "میدان باغچه بیدی"
+        "search": "میدان باغچه بیدی,Garden Square Bidi",
+        "preview": "میدان باغچه بیدی",
+        "id": 77
     },
     {
         "type": "square",
@@ -1240,12 +1240,12 @@
             }
         ],
         "location": {
-            "lat": "35.686041",
-            "lon": "51.410064"
+            "lat": 35.686041,
+            "lon": 51.410064
         },
-        "search": "Array",
-        "id": 78,
-        "preview": "میدان حسن آباد"
+        "search": "میدان حسن آباد,Hasan Abad Square",
+        "preview": "میدان حسن آباد",
+        "id": 78
     },
     {
         "type": "square",
@@ -1256,12 +1256,12 @@
             }
         ],
         "location": {
-            "lat": "35.672836",
-            "lon": "51.407496"
+            "lat": 35.672836,
+            "lon": 51.407496
         },
-        "search": "Array",
-        "id": 79,
-        "preview": "میدان وحدت"
+        "search": "میدان وحدت,Unity Square",
+        "preview": "میدان وحدت",
+        "id": 79
     },
     {
         "type": "square",
@@ -1272,12 +1272,12 @@
             }
         ],
         "location": {
-            "lat": "35.731351",
-            "lon": "51.485660"
+            "lat": 35.731351,
+            "lon": 51.48566
         },
-        "search": "Array",
-        "id": 80,
-        "preview": "میدان هلال احمر"
+        "search": "میدان هلال احمر,The Red Crescent",
+        "preview": "میدان هلال احمر",
+        "id": 80
     },
     {
         "type": "square",
@@ -1288,12 +1288,12 @@
             }
         ],
         "location": {
-            "lat": "35.791497",
-            "lon": "51.477655"
+            "lat": 35.791497,
+            "lon": 51.477655
         },
-        "search": "Array",
-        "id": 81,
-        "preview": "میدان نوبنیاد"
+        "search": "میدان نوبنیاد,The new field",
+        "preview": "میدان نوبنیاد",
+        "id": 81
     },
     {
         "type": "square",
@@ -1304,12 +1304,12 @@
             }
         ],
         "location": {
-            "lat": "35.670782",
-            "lon": "51.464581"
+            "lat": 35.670782,
+            "lon": 51.464581
         },
-        "search": "Array",
-        "id": 82,
-        "preview": "میدان شهید محلاتی"
+        "search": "میدان شهید محلاتی,The martyr neighborhoods",
+        "preview": "میدان شهید محلاتی",
+        "id": 82
     },
     {
         "type": "square",
@@ -1320,12 +1320,12 @@
             }
         ],
         "location": {
-            "lat": "35.810826",
-            "lon": "51.470319"
+            "lat": 35.810826,
+            "lon": 51.470319
         },
-        "search": "Array",
-        "id": 83,
-        "preview": "میدان نیاوران"
+        "search": "میدان نیاوران,Niyavaran field",
+        "preview": "میدان نیاوران",
+        "id": 83
     },
     {
         "type": "square",
@@ -1336,12 +1336,12 @@
             }
         ],
         "location": {
-            "lat": "35.639554",
-            "lon": "51.412161"
+            "lat": 35.639554,
+            "lon": 51.412161
         },
-        "search": "Array",
-        "id": 84,
-        "preview": "میدان کلانتری (اسد ابادی)"
+        "search": "میدان کلانتری (اسد ابادی),Station Square (Asadabad)",
+        "preview": "میدان کلانتری (اسد ابادی)",
+        "id": 84
     },
     {
         "type": "square",
@@ -1352,12 +1352,12 @@
             }
         ],
         "location": {
-            "lat": "35.781863",
-            "lon": "51.374814"
+            "lat": 35.781863,
+            "lon": 51.374814
         },
-        "search": "Array",
-        "id": 85,
-        "preview": "میدان حسن تهرانی (کاج)"
+        "search": "میدان حسن تهرانی (کاج),Square Hassan Tehrani (pine)",
+        "preview": "میدان حسن تهرانی (کاج)",
+        "id": 85
     },
     {
         "type": "square",
@@ -1368,12 +1368,12 @@
             }
         ],
         "location": {
-            "lat": "35.764578",
-            "lon": "51.425854"
+            "lat": 35.764578,
+            "lon": 51.425854
         },
-        "search": "Array",
-        "id": 86,
-        "preview": "میدان نیلوفر"
+        "search": "میدان نیلوفر,Niloufar",
+        "preview": "میدان نیلوفر",
+        "id": 86
     },
     {
         "type": "square",
@@ -1384,12 +1384,12 @@
             }
         ],
         "location": {
-            "lat": "35.717127",
-            "lon": "51.426758"
+            "lat": 35.717127,
+            "lon": 51.426758
         },
-        "search": "Array",
-        "id": 87,
-        "preview": "میدان هفت تیر"
+        "search": "میدان هفت تیر,Hafte-Tir Square",
+        "preview": "میدان هفت تیر",
+        "id": 87
     },
     {
         "type": "square",
@@ -1400,11 +1400,11 @@
             }
         ],
         "location": {
-            "lat": "35.720363",
-            "lon": "51.420873"
+            "lat": 35.720363,
+            "lon": 51.420873
         },
-        "search": "Array",
-        "id": 88,
-        "preview": "میدان شعاع"
+        "search": "میدان شعاع,The radius",
+        "preview": "میدان شعاع",
+        "id": 88
     }
 ]
