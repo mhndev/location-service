@@ -80,6 +80,8 @@ foreach($locations as $location){
     try{
         $response = $client->index($params);
     }catch (\Exception $e){
+
+        echo json_encode($params);
         die($e->getMessage());
     }
 
