@@ -1,6 +1,6 @@
 [
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.789283",
@@ -17,7 +17,7 @@
         "preview": "ازگل"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.726219",
@@ -34,7 +34,7 @@
         "preview": "برق آلستوم"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.783103",
@@ -51,7 +51,7 @@
         "preview": "اختیاریه"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.742005",
@@ -68,7 +68,7 @@
         "preview": "تهرانپارس"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.745425",
@@ -85,7 +85,7 @@
         "preview": "باغ فیض"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.736094",
@@ -102,7 +102,7 @@
         "preview": "آرژانتین"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.721544",
@@ -119,7 +119,7 @@
         "preview": "ارامنه"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.719995",
@@ -136,7 +136,7 @@
         "preview": "تسلیحات"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.696349",
@@ -153,7 +153,7 @@
         "preview": "استاد معین"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.676259",
@@ -170,7 +170,7 @@
         "preview": "بریانک"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.693271",
@@ -187,7 +187,7 @@
         "preview": "آذربایجان"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.679670",
@@ -204,7 +204,7 @@
         "preview": "آبشار"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.716416",
@@ -221,7 +221,7 @@
         "preview": "آشتیانی"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.650988",
@@ -238,7 +238,7 @@
         "preview": "ابوذر"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.654617",
@@ -255,7 +255,7 @@
         "preview": "باغ آذری"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.667400",
@@ -272,7 +272,7 @@
         "preview": "آذری"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.670126",
@@ -289,7 +289,7 @@
         "preview": "17 شهریور"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.628826",
@@ -306,7 +306,7 @@
         "preview": "اسفندیاری و بستان"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.620694",
@@ -323,7 +323,7 @@
         "preview": "13 آبان"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.699864",
@@ -340,7 +340,7 @@
         "preview": "باشگاه نفت"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.733392",
@@ -357,7 +357,7 @@
         "preview": "آزاد شهر"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.805833",
@@ -374,7 +374,7 @@
         "preview": "حصار بوعلی"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.718812",
@@ -391,7 +391,7 @@
         "preview": "تهران ویلا"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.736326",
@@ -408,7 +408,7 @@
         "preview": "حکیمیه"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.721662",
@@ -425,7 +425,7 @@
         "preview": "بلوار فردوس"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.736094",
@@ -442,7 +442,7 @@
         "preview": "ساعی"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.711475",
@@ -459,7 +459,7 @@
         "preview": "امجدیه"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.727045",
@@ -476,7 +476,7 @@
         "preview": "تهرانپارس"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.679447",
@@ -493,7 +493,7 @@
         "preview": "امامزاده عبدالله"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.675888",
@@ -510,7 +510,7 @@
         "preview": "جی"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.665311",
@@ -527,7 +527,7 @@
         "preview": "آگاهی"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.681289",
@@ -544,7 +544,7 @@
         "preview": "ارگ پامنار"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.709738",
@@ -561,7 +561,7 @@
         "preview": "امامت"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.658374",
@@ -578,7 +578,7 @@
         "preview": "آهنگ"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.649300",
@@ -595,7 +595,7 @@
         "preview": "اتابک"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.626895",
@@ -612,7 +612,7 @@
         "preview": "تختی"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.659645",
@@ -629,7 +629,7 @@
         "preview": "ابوذر"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.657711",
@@ -646,7 +646,7 @@
         "preview": "بهداشت"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.620391",
@@ -663,7 +663,7 @@
         "preview": "اسماعیل آباد"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.603165",
@@ -680,7 +680,7 @@
         "preview": "ابن بابویه"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.691880",
@@ -697,7 +697,7 @@
         "preview": "تهرانسر"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.731026",
@@ -714,7 +714,7 @@
         "preview": "پیکان شهر"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.813514",
@@ -731,7 +731,7 @@
         "preview": "امامزاده قاسم"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.723771",
@@ -748,7 +748,7 @@
         "preview": "ستارخان"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.774645",
@@ -765,7 +765,7 @@
         "preview": "دروس"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.771077",
@@ -782,7 +782,7 @@
         "preview": "حسین آباد"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.761607",
@@ -799,7 +799,7 @@
         "preview": "پونک"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.720613",
@@ -816,7 +816,7 @@
         "preview": "امیرآباد"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.711475",
@@ -833,7 +833,7 @@
         "preview": "خاقانی"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.729557",
@@ -850,7 +850,7 @@
         "preview": "دردشت"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.694750",
@@ -867,7 +867,7 @@
         "preview": "دکتر هوشیار"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.675888",
@@ -884,7 +884,7 @@
         "preview": "شبیری"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.690277",
@@ -901,7 +901,7 @@
         "preview": "اسکندری"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.678822",
@@ -918,7 +918,7 @@
         "preview": "امامزاده یحیی"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.695880",
@@ -935,7 +935,7 @@
         "preview": "پیروزی"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.677730",
@@ -952,7 +952,7 @@
         "preview": "آهنگران"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.639385",
@@ -969,7 +969,7 @@
         "preview": "اسلام آباد"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.653864",
@@ -986,7 +986,7 @@
         "preview": "جوادیه"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.665230",
@@ -1003,7 +1003,7 @@
         "preview": "امامزاده حسن"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.664278",
@@ -1020,7 +1020,7 @@
         "preview": "تولید دارو"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.646872",
@@ -1037,7 +1037,7 @@
         "preview": "بوستان ولایت"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.590964",
@@ -1054,7 +1054,7 @@
         "preview": "استخر"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.721571",
@@ -1071,7 +1071,7 @@
         "preview": "چیتگر"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.763763",
@@ -1088,7 +1088,7 @@
         "preview": "دهکده المپیک"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.810285",
@@ -1105,7 +1105,7 @@
         "preview": "اوین"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.787761",
@@ -1122,7 +1122,7 @@
         "preview": "سعادت آباد"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.779185",
@@ -1139,7 +1139,7 @@
         "preview": "امانیه"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.748100",
@@ -1156,7 +1156,7 @@
         "preview": "شمس آباد"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.746421",
@@ -1173,7 +1173,7 @@
         "preview": "جنت آباد"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.708980",
@@ -1190,7 +1190,7 @@
         "preview": "ایرانشهر"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.721911",
@@ -1207,7 +1207,7 @@
         "preview": "باغ صبا"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.716934",
@@ -1224,7 +1224,7 @@
         "preview": "زرکش"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.672030",
@@ -1241,7 +1241,7 @@
         "preview": "سرآسیاب مهرآباد"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.686441",
@@ -1258,7 +1258,7 @@
         "preview": "سلسبیل"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.678721",
@@ -1275,7 +1275,7 @@
         "preview": "امیریه"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.688090",
@@ -1292,7 +1292,7 @@
         "preview": "ایران"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.650988",
@@ -1309,7 +1309,7 @@
         "preview": "ابوذر"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.637415",
@@ -1326,7 +1326,7 @@
         "preview": "والفجر"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.641043",
@@ -1343,7 +1343,7 @@
         "preview": "خزانه"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.664040",
@@ -1360,7 +1360,7 @@
         "preview": "باغ خزانه"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.626510",
@@ -1377,7 +1377,7 @@
         "preview": "بهمنیار"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.594434",
@@ -1394,7 +1394,7 @@
         "preview": "اقدسیه"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.708915",
@@ -1411,7 +1411,7 @@
         "preview": "شهرک آزادی"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.751920",
@@ -1428,7 +1428,7 @@
         "preview": "زیبا دشت"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.796190",
@@ -1445,7 +1445,7 @@
         "preview": "باغ فردوس"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.759926",
@@ -1462,7 +1462,7 @@
         "preview": "شهرک غرب"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.763653",
@@ -1479,7 +1479,7 @@
         "preview": "مجیدآباد"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.784407",
@@ -1496,7 +1496,7 @@
         "preview": "حصارک"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.718914",
@@ -1513,7 +1513,7 @@
         "preview": "بهجت آباد"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.721911",
@@ -1530,7 +1530,7 @@
         "preview": "سهروردی"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.727642",
@@ -1547,7 +1547,7 @@
         "preview": "فدک"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.670982",
@@ -1564,7 +1564,7 @@
         "preview": "شمشیری"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.672260",
@@ -1581,7 +1581,7 @@
         "preview": "سلیمانی"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.662689",
@@ -1598,7 +1598,7 @@
         "preview": "انبارنفت"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.673551",
@@ -1615,7 +1615,7 @@
         "preview": "بازار"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.701896",
@@ -1632,7 +1632,7 @@
         "preview": "حافظیه"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.637936",
@@ -1649,7 +1649,7 @@
         "preview": "بروجردی"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.651020",
@@ -1666,7 +1666,7 @@
         "preview": "افسریه"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.637840",
@@ -1683,7 +1683,7 @@
         "preview": "شهرک بعثت"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.664088",
@@ -1700,7 +1700,7 @@
         "preview": "بلور سازی"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.663055",
@@ -1717,7 +1717,7 @@
         "preview": "فردوس"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.620177",
@@ -1734,7 +1734,7 @@
         "preview": "خانی آباد"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.580185",
@@ -1751,7 +1751,7 @@
         "preview": "باروت کوبی"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.698820",
@@ -1768,7 +1768,7 @@
         "preview": "شهرک استقلال"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.760318",
@@ -1785,7 +1785,7 @@
         "preview": "شهرک دژبان"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.792987",
@@ -1802,7 +1802,7 @@
         "preview": "تجریش"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.764632",
@@ -1819,7 +1819,7 @@
         "preview": "جردن"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.761148",
@@ -1836,7 +1836,7 @@
         "preview": "شمیران نو"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.726836",
@@ -1853,7 +1853,7 @@
         "preview": "سازمان برنامه"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.714341",
@@ -1870,7 +1870,7 @@
         "preview": "پارک لاله"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.711245",
@@ -1887,7 +1887,7 @@
         "preview": "بهار"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.733377",
@@ -1904,7 +1904,7 @@
         "preview": "کرمان"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.678317",
@@ -1921,7 +1921,7 @@
         "preview": "فتح"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.672260",
@@ -1938,7 +1938,7 @@
         "preview": "تیموری"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.697940",
@@ -1955,7 +1955,7 @@
         "preview": "جمالزاده"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.695156",
@@ -1972,7 +1972,7 @@
         "preview": "بهارستان"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.695171",
@@ -1989,7 +1989,7 @@
         "preview": "دهقان"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.688499",
@@ -2006,7 +2006,7 @@
         "preview": "پرستار"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.637954",
@@ -2023,7 +2023,7 @@
         "preview": "بروجردی"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.639191",
@@ -2040,7 +2040,7 @@
         "preview": "علی آباد"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.650847",
@@ -2057,7 +2057,7 @@
         "preview": "جلیلی"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.668036",
@@ -2074,7 +2074,7 @@
         "preview": "خلیج فارس"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.627550",
@@ -2091,7 +2091,7 @@
         "preview": "دولتخواه"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.615739",
@@ -2108,7 +2108,7 @@
         "preview": "تقی آباد"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.708915",
@@ -2125,7 +2125,7 @@
         "preview": "شهرک پاسداران"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.750280",
@@ -2142,7 +2142,7 @@
         "preview": "شریف"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.819278",
@@ -2159,7 +2159,7 @@
         "preview": "جماران"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.718812",
@@ -2176,7 +2176,7 @@
         "preview": "شهرآرا"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.742272",
@@ -2193,7 +2193,7 @@
         "preview": "علم و صنعت"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.762542",
@@ -2210,7 +2210,7 @@
         "preview": "شاهین"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.707661",
@@ -2227,7 +2227,7 @@
         "preview": "جمالزاده"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.726769",
@@ -2244,7 +2244,7 @@
         "preview": "حشمتیه"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.725908",
@@ -2261,7 +2261,7 @@
         "preview": "لشکر"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.678317",
@@ -2278,7 +2278,7 @@
         "preview": "صنعتی"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.691077",
@@ -2295,7 +2295,7 @@
         "preview": "کارون"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.697269",
@@ -2312,7 +2312,7 @@
         "preview": "حشمت الدوله"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.664677",
@@ -2329,7 +2329,7 @@
         "preview": "تختی"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.693684",
@@ -2346,7 +2346,7 @@
         "preview": "زاهد گیلانی"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.695351",
@@ -2363,7 +2363,7 @@
         "preview": "پیروزی"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.642317",
@@ -2380,7 +2380,7 @@
         "preview": "نازی آباد"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.647278",
@@ -2397,7 +2397,7 @@
         "preview": "زمزم"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.658159",
@@ -2414,7 +2414,7 @@
         "preview": "شاد آباد"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.627550",
@@ -2431,7 +2431,7 @@
         "preview": "شریعتی"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.597662",
@@ -2448,7 +2448,7 @@
         "preview": "جوانمرد قصاب"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.732101",
@@ -2465,7 +2465,7 @@
         "preview": "شهرک غزالی"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.799031",
@@ -2482,7 +2482,7 @@
         "preview": "چیذر"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.724025",
@@ -2499,7 +2499,7 @@
         "preview": "صادقیه"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.747503",
@@ -2516,7 +2516,7 @@
         "preview": "سیدخندان"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.760215",
@@ -2533,7 +2533,7 @@
         "preview": "قنات کوثر"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.759462",
@@ -2550,7 +2550,7 @@
         "preview": "شهران"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.706002",
@@ -2567,7 +2567,7 @@
         "preview": "دانشگاه تهران"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.704237",
@@ -2584,7 +2584,7 @@
         "preview": "خواجه نصیر"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.736646",
@@ -2601,7 +2601,7 @@
         "preview": "مجیدیه جنوبی"
     },
     {
-        "area": "منطقه 9",
+        "area": 9,
         "type": "center",
         "location": {
             "lat": "35.689496",
@@ -2618,7 +2618,7 @@
         "preview": "فرودگاه"
     },
     {
-        "area": "منطقه 10",
+        "area": 10,
         "type": "center",
         "location": {
             "lat": "35.686123",
@@ -2635,7 +2635,7 @@
         "preview": "هاشمی"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.696793",
@@ -2652,7 +2652,7 @@
         "preview": "جمهوری"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.697404",
@@ -2669,7 +2669,7 @@
         "preview": "دروازه شمیران"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.709842",
@@ -2686,7 +2686,7 @@
         "preview": "زینبیه"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.672517",
@@ -2703,7 +2703,7 @@
         "preview": "تاکسیرانی"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.657480",
@@ -2720,7 +2720,7 @@
         "preview": "شوش"
     },
     {
-        "area": "منطقه 16",
+        "area": 16,
         "type": "center",
         "location": {
             "lat": "35.626217",
@@ -2737,7 +2737,7 @@
         "preview": "یاخچی آباد"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.641584",
@@ -2754,7 +2754,7 @@
         "preview": "زهتابی"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.657549",
@@ -2771,7 +2771,7 @@
         "preview": "شمس آباد"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.636176",
@@ -2788,7 +2788,7 @@
         "preview": "شکوفه"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.622085",
@@ -2805,7 +2805,7 @@
         "preview": "حمزه آباد"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.684752",
@@ -2822,7 +2822,7 @@
         "preview": "شهرک دریا"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.750042",
@@ -2839,7 +2839,7 @@
         "preview": "سرو آزاد"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.811439",
@@ -2856,7 +2856,7 @@
         "preview": "دارآباد"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.708738",
@@ -2873,7 +2873,7 @@
         "preview": "طرشت"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.778378",
@@ -2890,7 +2890,7 @@
         "preview": "لویزان - شیان"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.749236",
@@ -2907,7 +2907,7 @@
         "preview": "شهرزيبا"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.718197",
@@ -2924,7 +2924,7 @@
         "preview": "شریعتی"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.704307",
@@ -2941,7 +2941,7 @@
         "preview": "حقوقی"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.728410",
@@ -2958,7 +2958,7 @@
         "preview": "مدائن"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.679159",
@@ -2975,7 +2975,7 @@
         "preview": "خرمشهر"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.676192",
@@ -2992,7 +2992,7 @@
         "preview": "سنگلج"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.722627",
@@ -3009,7 +3009,7 @@
         "preview": "سرخه حصار"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.684547",
@@ -3026,7 +3026,7 @@
         "preview": "جابری"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.611596",
@@ -3043,7 +3043,7 @@
         "preview": "شهرک رضویه"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.664492",
@@ -3060,7 +3060,7 @@
         "preview": "شهرک امام خمینی"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.610280",
@@ -3077,7 +3077,7 @@
         "preview": "شهرک رسالت"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.603924",
@@ -3094,7 +3094,7 @@
         "preview": "دولت آباد"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.725966",
@@ -3111,7 +3111,7 @@
         "preview": "شهرک شهرداری"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.738629",
@@ -3128,7 +3128,7 @@
         "preview": "ورد آور"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.816804",
@@ -3145,7 +3145,7 @@
         "preview": "دربند"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.790746",
@@ -3162,7 +3162,7 @@
         "preview": "فرحزاد"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.774109",
@@ -3179,7 +3179,7 @@
         "preview": "قلهک"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.749439",
@@ -3196,7 +3196,7 @@
         "preview": "مهران"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.707451",
@@ -3213,7 +3213,7 @@
         "preview": "شهرک آپادانا"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.747919",
@@ -3230,7 +3230,7 @@
         "preview": "شیراز"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.736379",
@@ -3247,7 +3247,7 @@
         "preview": "دبستان"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.718305",
@@ -3264,7 +3264,7 @@
         "preview": "نارمک"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.660154",
@@ -3281,7 +3281,7 @@
         "preview": "راه آهن"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.665158",
@@ -3298,7 +3298,7 @@
         "preview": "شهید هرندی"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.710578",
@@ -3315,7 +3315,7 @@
         "preview": "شورا"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.684883",
@@ -3332,7 +3332,7 @@
         "preview": "جوادیه"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.659935",
@@ -3349,7 +3349,7 @@
         "preview": "طیب"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.654251",
@@ -3366,7 +3366,7 @@
         "preview": "گلچین"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.635742",
@@ -3383,7 +3383,7 @@
         "preview": "شهید رجایی"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.617848",
@@ -3400,7 +3400,7 @@
         "preview": "شهید کاظمی"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.590256",
@@ -3417,7 +3417,7 @@
         "preview": "دیلمان"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.729807",
@@ -3434,7 +3434,7 @@
         "preview": "شهرک غزالی"
     },
     {
-        "area": "منطقه 22",
+        "area": 22,
         "type": "center",
         "location": {
             "lat": "35.727871",
@@ -3451,7 +3451,7 @@
         "preview": "کوهک"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.807141",
@@ -3468,7 +3468,7 @@
         "preview": "درکه"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.716195",
@@ -3485,7 +3485,7 @@
         "preview": "شادمهر"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.762129",
@@ -3502,7 +3502,7 @@
         "preview": "میرداماد"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.737389",
@@ -3519,7 +3519,7 @@
         "preview": "نارمک"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.708957",
@@ -3536,7 +3536,7 @@
         "preview": "شهرک اکباتان"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.750361",
@@ -3553,7 +3553,7 @@
         "preview": "عباس آباد"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.736379",
@@ -3570,7 +3570,7 @@
         "preview": "مجیدیه"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.715168",
@@ -3587,7 +3587,7 @@
         "preview": "وحیدیه"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.692900",
@@ -3604,7 +3604,7 @@
         "preview": "شیخ هادی"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.694128",
@@ -3621,7 +3621,7 @@
         "preview": "فردوسی"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.701496",
@@ -3638,7 +3638,7 @@
         "preview": "شهید اسدی"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.687711",
@@ -3655,7 +3655,7 @@
         "preview": "چهارصد دستگاه"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.637377",
@@ -3672,7 +3672,7 @@
         "preview": "کیانشهر"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.656624",
@@ -3689,7 +3689,7 @@
         "preview": "مقدم"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.647662",
@@ -3706,7 +3706,7 @@
         "preview": "صاحب الزمان"
     },
     {
-        "area": "منطقه 19",
+        "area": 19,
         "type": "center",
         "location": {
             "lat": "35.631485",
@@ -3723,7 +3723,7 @@
         "preview": "نعمت آباد"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.614400",
@@ -3740,7 +3740,7 @@
         "preview": "سرتخت"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.711337",
@@ -3757,7 +3757,7 @@
         "preview": "شهرک فرهنگیان"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.807141",
@@ -3774,7 +3774,7 @@
         "preview": "دزاشیب - جوزستان"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.716195",
@@ -3791,7 +3791,7 @@
         "preview": "همایونشهر"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.765207",
@@ -3808,7 +3808,7 @@
         "preview": "ونک"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.771077",
@@ -3825,7 +3825,7 @@
         "preview": "هنگام"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.747647",
@@ -3842,7 +3842,7 @@
         "preview": "شهرک اندیشه"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.720470",
@@ -3859,7 +3859,7 @@
         "preview": "فاطمی"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.728292",
@@ -3876,7 +3876,7 @@
         "preview": "عباس آباد"
     },
     {
-        "area": "منطقه 8",
+        "area": 8,
         "type": "center",
         "location": {
             "lat": "35.729229",
@@ -3893,7 +3893,7 @@
         "preview": "هفت حوض"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.663937",
@@ -3910,7 +3910,7 @@
         "preview": "عباسی"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.671382",
@@ -3927,7 +3927,7 @@
         "preview": "قیام"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.694346",
@@ -3944,7 +3944,7 @@
         "preview": "صفا"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.662135",
@@ -3961,7 +3961,7 @@
         "preview": "خاوران"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.630981",
@@ -3978,7 +3978,7 @@
         "preview": "مسعودیه"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.647001",
@@ -3995,7 +3995,7 @@
         "preview": "وصفنارد"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.637268",
@@ -4012,7 +4012,7 @@
         "preview": "صادقیه"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.582649",
@@ -4029,7 +4029,7 @@
         "preview": "شهادت"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.737206",
@@ -4046,7 +4046,7 @@
         "preview": "وردآورد"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.796191",
@@ -4063,7 +4063,7 @@
         "preview": "زعفرانیه"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.739857",
@@ -4080,7 +4080,7 @@
         "preview": "مرزداران"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.750846",
@@ -4097,7 +4097,7 @@
         "preview": "عباس آباد"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.755337",
@@ -4114,7 +4114,7 @@
         "preview": "کوهسار"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.725880",
@@ -4131,7 +4131,7 @@
         "preview": "شهرک پرواز"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.721826",
@@ -4148,7 +4148,7 @@
         "preview": "سنائی"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.728292",
@@ -4165,7 +4165,7 @@
         "preview": "اندیشه"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.672467",
@@ -4182,7 +4182,7 @@
         "preview": "فروزش"
     },
     {
-        "area": "منطقه 12",
+        "area": 12,
         "type": "center",
         "location": {
             "lat": "35.662630",
@@ -4199,7 +4199,7 @@
         "preview": "کوثر"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.706282",
@@ -4216,7 +4216,7 @@
         "preview": "قاسم آباد"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.679262",
@@ -4233,7 +4233,7 @@
         "preview": "دژکام"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.626104",
@@ -4250,7 +4250,7 @@
         "preview": "مشیریه"
     },
     {
-        "area": "منطقه 17",
+        "area": 17,
         "type": "center",
         "location": {
             "lat": "35.657858",
@@ -4267,7 +4267,7 @@
         "preview": "یافت آباد"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.648511",
@@ -4284,7 +4284,7 @@
         "preview": "ولیعصر"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.571331",
@@ -4301,7 +4301,7 @@
         "preview": "شهید بهشتی"
     },
     {
-        "area": "منطقه 21",
+        "area": 21,
         "type": "center",
         "location": {
             "lat": "35.729961",
@@ -4318,7 +4318,7 @@
         "preview": "ویلا شهر"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.801385",
@@ -4335,7 +4335,7 @@
         "preview": "سوهانک"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.706691",
@@ -4352,7 +4352,7 @@
         "preview": "تیموری"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.768678",
@@ -4369,7 +4369,7 @@
         "preview": "اسلام آباد"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.751094",
@@ -4386,7 +4386,7 @@
         "preview": "کاظم آباد"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.782761",
@@ -4403,7 +4403,7 @@
         "preview": "شهرک کوهسار"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.729035",
@@ -4420,7 +4420,7 @@
         "preview": "قزل قلعه"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.726769",
@@ -4437,7 +4437,7 @@
         "preview": "قصر"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.669355",
@@ -4454,7 +4454,7 @@
         "preview": "امیربهادر"
     },
     {
-        "area": "منطقه 13",
+        "area": 13,
         "type": "center",
         "location": {
             "lat": "35.699034",
@@ -4471,7 +4471,7 @@
         "preview": "نیروی هوایی"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.666901",
@@ -4488,7 +4488,7 @@
         "preview": "دولاب"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.647426",
@@ -4505,7 +4505,7 @@
         "preview": "مطهری"
     },
     {
-        "area": "منطقه 18",
+        "area": 18,
         "type": "center",
         "location": {
             "lat": "35.657858",
@@ -4522,7 +4522,7 @@
         "preview": "یافت آباد"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.583283",
@@ -4539,7 +4539,7 @@
         "preview": "عباس آباد"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.810296",
@@ -4556,7 +4556,7 @@
         "preview": "شهرک نفت"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.704150",
@@ -4573,7 +4573,7 @@
         "preview": "زنجان"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.762700",
@@ -4590,7 +4590,7 @@
         "preview": "قبا"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.743550",
@@ -4607,7 +4607,7 @@
         "preview": "گلشن"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.792487",
@@ -4624,7 +4624,7 @@
         "preview": "شهرک نفت"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.709826",
@@ -4641,7 +4641,7 @@
         "preview": "کشاورز غربی"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.714967",
@@ -4658,7 +4658,7 @@
         "preview": "کاج"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.697196",
@@ -4675,7 +4675,7 @@
         "preview": "فلسطین"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.674104",
@@ -4692,7 +4692,7 @@
         "preview": "شاهین"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.654363",
@@ -4709,7 +4709,7 @@
         "preview": "مظاهری"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.596112",
@@ -4726,7 +4726,7 @@
         "preview": "علایین"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.803902",
@@ -4743,7 +4743,7 @@
         "preview": "شهرک محلاتی"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.731909",
@@ -4760,7 +4760,7 @@
         "preview": "شهرک آزمایش"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.761167",
@@ -4777,7 +4777,7 @@
         "preview": "داوودیه"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.750582",
@@ -4794,7 +4794,7 @@
         "preview": "اوقاف"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.759169",
@@ -4811,7 +4811,7 @@
         "preview": "کن"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.746705",
@@ -4828,7 +4828,7 @@
         "preview": "گاندی"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.707273",
@@ -4845,7 +4845,7 @@
         "preview": "نظام آباد"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.701050",
@@ -4862,7 +4862,7 @@
         "preview": "انقلاب"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.684032",
@@ -4879,7 +4879,7 @@
         "preview": "شکوفه"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.651346",
@@ -4896,7 +4896,7 @@
         "preview": "مینایی"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.598163",
@@ -4913,7 +4913,7 @@
         "preview": "فیروزآبادی"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.793499",
@@ -4930,7 +4930,7 @@
         "preview": "فرمانیه"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.743164",
@@ -4947,7 +4947,7 @@
         "preview": "پردیسان"
     },
     {
-        "area": "منطقه 3",
+        "area": 3,
         "type": "center",
         "location": {
             "lat": "35.761167",
@@ -4964,7 +4964,7 @@
         "preview": "حسن آباد"
     },
     {
-        "area": "منطقه 4",
+        "area": 4,
         "type": "center",
         "location": {
             "lat": "35.768132",
@@ -4981,7 +4981,7 @@
         "preview": "قاسم آباد ده نمک"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.729503",
@@ -4998,7 +4998,7 @@
         "preview": "کوی ارم"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.724075",
@@ -5015,7 +5015,7 @@
         "preview": "میدان جهاد"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.736520",
@@ -5032,7 +5032,7 @@
         "preview": "نیلوفر"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.672600",
@@ -5049,7 +5049,7 @@
         "preview": "قلمستان"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.652014",
@@ -5066,7 +5066,7 @@
         "preview": "ولیعصر"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.609932",
@@ -5083,7 +5083,7 @@
         "preview": "حمزه آباد"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.757678",
@@ -5100,7 +5100,7 @@
         "preview": "ایوانک"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.705836",
@@ -5117,7 +5117,7 @@
         "preview": "کوی بیمه"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.707849",
@@ -5134,7 +5134,7 @@
         "preview": "میدان ولیعصر"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.736520",
@@ -5151,7 +5151,7 @@
         "preview": "شهید قندی"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.674560",
@@ -5168,7 +5168,7 @@
         "preview": "برادران جوادیان"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.680285",
@@ -5185,7 +5185,7 @@
         "preview": "شیوا"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.653900",
@@ -5202,7 +5202,7 @@
         "preview": "بی سیم"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.583283",
@@ -5219,7 +5219,7 @@
         "preview": "منصوریه منگل"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.791643",
@@ -5236,7 +5236,7 @@
         "preview": "قیطریه"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.765945",
@@ -5253,7 +5253,7 @@
         "preview": "پونک"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.731319",
@@ -5270,7 +5270,7 @@
         "preview": "ابوذر"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.704155",
@@ -5287,7 +5287,7 @@
         "preview": "نصرت"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.710034",
@@ -5304,7 +5304,7 @@
         "preview": "دهقان -گرگان"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.677912",
@@ -5321,7 +5321,7 @@
         "preview": "مخصوص"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.689388",
@@ -5338,7 +5338,7 @@
         "preview": "صد دستگاه"
     },
     {
-        "area": "منطقه 15",
+        "area": 15,
         "type": "center",
         "location": {
             "lat": "35.642965",
@@ -5355,7 +5355,7 @@
         "preview": "هاشم آباد"
     },
     {
-        "area": "منطقه 20",
+        "area": 20,
         "type": "center",
         "location": {
             "lat": "35.585051",
@@ -5372,7 +5372,7 @@
         "preview": "ولی آباد"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.810623",
@@ -5389,7 +5389,7 @@
         "preview": "کاشانک"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.789638",
@@ -5406,7 +5406,7 @@
         "preview": "پرواز شرقی"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.769207",
@@ -5423,7 +5423,7 @@
         "preview": "بهاران"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.735078",
@@ -5440,7 +5440,7 @@
         "preview": "یوسف آباد"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.713650",
@@ -5457,7 +5457,7 @@
         "preview": "خواجه نظام الملک"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.684008",
@@ -5474,7 +5474,7 @@
         "preview": "منیریه"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.685471",
@@ -5491,7 +5491,7 @@
         "preview": "فرزانه"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.791808",
@@ -5508,7 +5508,7 @@
         "preview": "شهرک نفت"
     },
     {
-        "area": "منطقه 5",
+        "area": 5,
         "type": "center",
         "location": {
             "lat": "35.774986",
@@ -5525,7 +5525,7 @@
         "preview": "المهدی"
     },
     {
-        "area": "منطقه 6",
+        "area": 6,
         "type": "center",
         "location": {
             "lat": "35.739350",
@@ -5542,7 +5542,7 @@
         "preview": "کوی نصر"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.712364",
@@ -5559,7 +5559,7 @@
         "preview": "شارق"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.688633",
@@ -5576,7 +5576,7 @@
         "preview": "میدان حر"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.676156",
@@ -5593,7 +5593,7 @@
         "preview": "قصر فیروزه"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.796876",
@@ -5610,7 +5610,7 @@
         "preview": "محمودیه"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.716195",
@@ -5627,7 +5627,7 @@
         "preview": "چوب تراش"
     },
     {
-        "area": "منطقه 7",
+        "area": 7,
         "type": "center",
         "location": {
             "lat": "35.708334",
@@ -5644,7 +5644,7 @@
         "preview": "گرگان"
     },
     {
-        "area": "منطقه 11",
+        "area": 11,
         "type": "center",
         "location": {
             "lat": "35.671077",
@@ -5661,7 +5661,7 @@
         "preview": "هلال احمر"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.674842",
@@ -5678,7 +5678,7 @@
         "preview": "مینای"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.818671",
@@ -5695,7 +5695,7 @@
         "preview": "نیاوران"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.774387",
@@ -5712,7 +5712,7 @@
         "preview": "دریا"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.681623",
@@ -5729,7 +5729,7 @@
         "preview": "نبی اکرم"
     },
     {
-        "area": "منطقه 1",
+        "area": 1,
         "type": "center",
         "location": {
             "lat": "35.796876",
@@ -5746,7 +5746,7 @@
         "preview": "ولنجک"
     },
     {
-        "area": "منطقه 2",
+        "area": 2,
         "type": "center",
         "location": {
             "lat": "35.776262",
@@ -5763,7 +5763,7 @@
         "preview": "مدیریت"
     },
     {
-        "area": "منطقه 14",
+        "area": 14,
         "type": "center",
         "location": {
             "lat": "35.682657",

@@ -30,6 +30,10 @@ foreach (glob($dir."*.json") as $filename){
 
         }
 
+        if(! empty($record['area'])){
+            $record['area'] = $int = intval(preg_replace('/[^0-9]+/', '', $record['area']), 10);;
+        }
+
         if(empty($record['id'])){
             $record['id'] = $i;
         }
