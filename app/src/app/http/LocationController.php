@@ -6,7 +6,6 @@ use mhndev\location\GoogleEstimate;
 use mhndev\location\GoogleGeocoder;
 use mhndev\location\GuzzleHttpAgent;
 use mhndev\locationService\services\ConvertFinglishToFarsi;
-use mhndev\locationService\services\ElasticSearch;
 use mhndev\locationService\services\iLocationRepository;
 use mhndev\restHal\HalApiPresenter;
 use Slim\Http\Request;
@@ -227,7 +226,7 @@ class LocationController
         if( strlen($q) < 3) {
             $data = [];
         }
-        
+
         else{
             $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
             $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
