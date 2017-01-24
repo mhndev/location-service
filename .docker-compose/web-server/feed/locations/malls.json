@@ -8,12 +8,10 @@
             }
         ],
         "location": {
-            "lat": 35.758374,
-            "lon": 51.441582
+            "lat": "35.758374",
+            "lon": "51.441582"
         },
-        "search": "Array",
-        "id": 1,
-        "preview": "مادر"
+        "search": "مادر,Mother"
     },
     {
         "type": "mall",
@@ -24,12 +22,10 @@
             }
         ],
         "location": {
-            "lat": 35.770464,
-            "lon": 51.439474
+            "lat": "35.770464",
+            "lon": "51.439474"
         },
-        "search": "Array",
-        "id": 2,
-        "preview": "قلهک"
+        "search": "قلهک,GHOLHAK"
     },
     {
         "type": "mall",
@@ -40,12 +36,10 @@
             }
         ],
         "location": {
-            "lat": 35.759759,
-            "lon": 51.444929
+            "lat": "35.759759",
+            "lon": "51.444929"
         },
-        "search": "Array",
-        "id": 3,
-        "preview": "میرداماد"
+        "search": "میرداماد,Damad"
     },
     {
         "type": "mall",
@@ -56,12 +50,10 @@
             }
         ],
         "location": {
-            "lat": 35.708063,
-            "lon": 51.406133
+            "lat": "35.708063",
+            "lon": "51.406133"
         },
-        "search": "Array",
-        "id": 4,
-        "preview": "ایران"
+        "search": "ایران,Iran"
     },
     {
         "type": "mall",
@@ -72,12 +64,10 @@
             }
         ],
         "location": {
-            "lat": 35.691525,
-            "lon": 51.478025
+            "lat": "35.691525",
+            "lon": "51.478025"
         },
-        "search": "Array",
-        "id": 5,
-        "preview": "کساء"
+        "search": "کساء,Kisa"
     },
     {
         "type": "mall",
@@ -88,12 +78,10 @@
             }
         ],
         "location": {
-            "lat": 35.782464,
-            "lon": 51.423027
+            "lat": "35.782464",
+            "lon": "51.423027"
         },
-        "search": "Array",
-        "id": 6,
-        "preview": "الهیه"
+        "search": "الهیه,Elahiyeh"
     },
     {
         "type": "mall",
@@ -104,12 +92,10 @@
             }
         ],
         "location": {
-            "lat": 35.80559,
-            "lon": 51.4306
+            "lat": "35.805590",
+            "lon": "51.430600"
         },
-        "search": "Array",
-        "id": 7,
-        "preview": "قائم"
+        "search": "قائم,Upright"
     },
     {
         "type": "mall",
@@ -120,12 +106,10 @@
             }
         ],
         "location": {
-            "lat": 35.676128,
-            "lon": 51.417946
+            "lat": "35.676128",
+            "lon": "51.417946"
         },
-        "search": "Array",
-        "id": 8,
-        "preview": "رضا"
+        "search": "رضا,Reza"
     },
     {
         "type": "mall",
@@ -136,12 +120,10 @@
             }
         ],
         "location": {
-            "lat": 35.766233,
-            "lon": 51.394496
+            "lat": "35.766233",
+            "lon": "51.394496"
         },
-        "search": "Array",
-        "id": 9,
-        "preview": "سئول"
+        "search": "سئول,Seoul"
     },
     {
         "type": "mall",
@@ -152,12 +134,10 @@
             }
         ],
         "location": {
-            "lat": 35.726197,
-            "lon": 51.526331
+            "lat": "35.726197",
+            "lon": "51.526331"
         },
-        "search": "Array",
-        "id": 10,
-        "preview": "سپید"
+        "search": "سپید,White"
     },
     {
         "type": "mall",
@@ -168,12 +148,10 @@
             }
         ],
         "location": {
-            "lat": 35.753507,
-            "lon": 51.36253
+            "lat": "35.753507",
+            "lon": "51.362530"
         },
-        "search": "Array",
-        "id": 11,
-        "preview": "میلاد نور"
+        "search": "میلاد نور,BC light"
     },
     {
         "type": "mall",
@@ -184,12 +162,10 @@
             }
         ],
         "location": {
-            "lat": 35.808641,
-            "lon": 51.429173
+            "lat": "35.808641",
+            "lon": "51.429173"
         },
-        "search": "Array",
-        "id": 12,
-        "preview": "تندیس"
+        "search": "تندیس,Statue"
     },
     {
         "type": "mall",
@@ -200,12 +176,10 @@
             }
         ],
         "location": {
-            "lat": 35.760048,
-            "lon": 51.405196
+            "lat": "35.760048",
+            "lon": "51.405196"
         },
-        "search": "Array",
-        "id": 13,
-        "preview": "ونک"
+        "search": "ونک,Vanak"
     },
     {
         "type": "mall",
@@ -216,12 +190,10 @@
             }
         ],
         "location": {
-            "lat": 35.806261,
-            "lon": 51.401216
+            "lat": "35.806261",
+            "lon": "51.401216"
         },
-        "search": "Array",
-        "id": 14,
-        "preview": "توچال"
+        "search": "توچال,Resort"
     },
     {
         "type": "mall",
@@ -232,12 +204,10 @@
             }
         ],
         "location": {
-            "lat": 35.762855,
-            "lon": 51.411028
+            "lat": "35.762855",
+            "lon": "51.411028"
         },
-        "search": "Array",
-        "id": 15,
-        "preview": "پایتخت"
+        "search": "پایتخت,Capital"
     },
     {
         "type": "mall",
@@ -248,12 +218,10 @@
             }
         ],
         "location": {
-            "lat": 35.738714,
-            "lon": 51.444549
+            "lat": "35.738714",
+            "lon": "51.444549"
         },
-        "search": "Array",
-        "id": 16,
-        "preview": "اندیشه"
+        "search": "اندیشه,Thought"
     },
     {
         "type": "mall",
@@ -264,12 +232,10 @@
             }
         ],
         "location": {
-            "lat": 35.775014,
-            "lon": 51.357629
+            "lat": "35.775014",
+            "lon": "51.357629"
         },
-        "search": "Array",
-        "id": 17,
-        "preview": "پاساژگلستان"
+        "search": "پاساژگلستان,Pasazhglstan"
     },
     {
         "type": "mall",
@@ -280,12 +246,10 @@
             }
         ],
         "location": {
-            "lat": 35.747966,
-            "lon": 51.33137
+            "lat": "35.747966",
+            "lon": "51.331370"
         },
-        "search": "Array",
-        "id": 18,
-        "preview": "تیراژه"
+        "search": "تیراژه,Tiraje"
     },
     {
         "type": "mall",
@@ -296,12 +260,10 @@
             }
         ],
         "location": {
-            "lat": 35.694535,
-            "lon": 51.42075
+            "lat": "35.694535",
+            "lon": "51.420750"
         },
-        "search": "Array",
-        "id": 19,
-        "preview": "پلاسکو"
+        "search": "پلاسکو,Plasco"
     },
     {
         "type": "mall",
@@ -312,12 +274,10 @@
             }
         ],
         "location": {
-            "lat": 35.699649,
-            "lon": 51.404023
+            "lat": "35.699649",
+            "lon": "51.404023"
         },
-        "search": "Array",
-        "id": 20,
-        "preview": "علاءالدین"
+        "search": "علاءالدین,Aladdin"
     },
     {
         "type": "mall",
@@ -328,12 +288,10 @@
             }
         ],
         "location": {
-            "lat": 35.687707,
-            "lon": 51.420179
+            "lat": "35.687707",
+            "lon": "51.420179"
         },
-        "search": "Array",
-        "id": 21,
-        "preview": "فروسی"
+        "search": "فروسی,Sheds"
     },
     {
         "type": "mall",
@@ -344,12 +302,10 @@
             }
         ],
         "location": {
-            "lat": 35.8113,
-            "lon": 51.5345528
+            "lat": "35.81130",
+            "lon": "51.5345528"
         },
-        "search": "Array",
-        "id": 22,
-        "preview": "پالادیوم"
+        "search": "پالادیوم,Palladium"
     },
     {
         "type": "mall",
@@ -360,12 +316,10 @@
             }
         ],
         "location": {
-            "lat": 35.730278,
-            "lon": 51.378675
+            "lat": "35.730278",
+            "lon": "51.378675"
         },
-        "search": "Array",
-        "id": 23,
-        "preview": "نصر"
+        "search": "نصر,Nasr"
     },
     {
         "type": "mall",
@@ -376,12 +330,10 @@
             }
         ],
         "location": {
-            "lat": 35.760666,
-            "lon": 51.334621
+            "lat": "35.760666",
+            "lon": "51.334621"
         },
-        "search": "Array",
-        "id": 24,
-        "preview": "بوستان"
+        "search": "بوستان,Garden"
     },
     {
         "type": "mall",
@@ -392,12 +344,10 @@
             }
         ],
         "location": {
-            "lat": 35.757962,
-            "lon": 51.408619
+            "lat": "35.757962",
+            "lon": "51.408619"
         },
-        "search": "Array",
-        "id": 25,
-        "preview": "آسمان"
+        "search": "آسمان,the sky"
     },
     {
         "type": "mall",
@@ -408,12 +358,10 @@
             }
         ],
         "location": {
-            "lat": 35.811624,
-            "lon": 51.463885
+            "lat": "35.811624",
+            "lon": "51.463885"
         },
-        "search": "Array",
-        "id": 26,
-        "preview": "نارون"
+        "search": "نارون,Witch"
     },
     {
         "type": "mall",
@@ -424,12 +372,10 @@
             }
         ],
         "location": {
-            "lat": 35.737927,
-            "lon": 51.31257
+            "lat": "35.737927",
+            "lon": "51.312570"
         },
-        "search": "Array",
-        "id": 27,
-        "preview": "کوروش"
+        "search": "کوروش,Cyrus"
     },
     {
         "type": "mall",
@@ -440,12 +386,10 @@
             }
         ],
         "location": {
-            "lat": 35.758374,
-            "lon": 51.441582
+            "lat": "35.758374",
+            "lon": "51.441582"
         },
-        "search": "Array",
-        "id": 28,
-        "preview": "مادر"
+        "search": "مادر,Mother"
     },
     {
         "type": "mall",
@@ -456,12 +400,10 @@
             }
         ],
         "location": {
-            "lat": 35.770464,
-            "lon": 51.439474
+            "lat": "35.770464",
+            "lon": "51.439474"
         },
-        "search": "Array",
-        "id": 29,
-        "preview": "قلهک"
+        "search": "قلهک,GHOLHAK"
     },
     {
         "type": "mall",
@@ -472,12 +414,10 @@
             }
         ],
         "location": {
-            "lat": 35.759759,
-            "lon": 51.444929
+            "lat": "35.759759",
+            "lon": "51.444929"
         },
-        "search": "Array",
-        "id": 30,
-        "preview": "میرداماد"
+        "search": "میرداماد,Damad"
     },
     {
         "type": "mall",
@@ -488,12 +428,10 @@
             }
         ],
         "location": {
-            "lat": 35.708063,
-            "lon": 51.406133
+            "lat": "35.708063",
+            "lon": "51.406133"
         },
-        "search": "Array",
-        "id": 31,
-        "preview": "ایران"
+        "search": "ایران,Iran"
     },
     {
         "type": "mall",
@@ -504,12 +442,10 @@
             }
         ],
         "location": {
-            "lat": 35.691525,
-            "lon": 51.478025
+            "lat": "35.691525",
+            "lon": "51.478025"
         },
-        "search": "Array",
-        "id": 32,
-        "preview": "کساء"
+        "search": "کساء,Kisa"
     },
     {
         "type": "mall",
@@ -520,12 +456,10 @@
             }
         ],
         "location": {
-            "lat": 35.782464,
-            "lon": 51.423027
+            "lat": "35.782464",
+            "lon": "51.423027"
         },
-        "search": "Array",
-        "id": 33,
-        "preview": "الهیه"
+        "search": "الهیه,Elahiyeh"
     },
     {
         "type": "mall",
@@ -536,12 +470,10 @@
             }
         ],
         "location": {
-            "lat": 35.80559,
-            "lon": 51.4306
+            "lat": "35.805590",
+            "lon": "51.430600"
         },
-        "search": "Array",
-        "id": 34,
-        "preview": "قائم"
+        "search": "قائم,Upright"
     },
     {
         "type": "mall",
@@ -552,12 +484,10 @@
             }
         ],
         "location": {
-            "lat": 35.676128,
-            "lon": 51.417946
+            "lat": "35.676128",
+            "lon": "51.417946"
         },
-        "search": "Array",
-        "id": 35,
-        "preview": "رضا"
+        "search": "رضا,Reza"
     },
     {
         "type": "mall",
@@ -568,12 +498,10 @@
             }
         ],
         "location": {
-            "lat": 35.766233,
-            "lon": 51.394496
+            "lat": "35.766233",
+            "lon": "51.394496"
         },
-        "search": "Array",
-        "id": 36,
-        "preview": "سئول"
+        "search": "سئول,Seoul"
     },
     {
         "type": "mall",
@@ -584,12 +512,10 @@
             }
         ],
         "location": {
-            "lat": 35.726197,
-            "lon": 51.526331
+            "lat": "35.726197",
+            "lon": "51.526331"
         },
-        "search": "Array",
-        "id": 37,
-        "preview": "سپید"
+        "search": "سپید,White"
     },
     {
         "type": "mall",
@@ -600,12 +526,10 @@
             }
         ],
         "location": {
-            "lat": 35.753507,
-            "lon": 51.36253
+            "lat": "35.753507",
+            "lon": "51.362530"
         },
-        "search": "Array",
-        "id": 38,
-        "preview": "میلاد نور"
+        "search": "میلاد نور,BC light"
     },
     {
         "type": "mall",
@@ -616,12 +540,10 @@
             }
         ],
         "location": {
-            "lat": 35.808641,
-            "lon": 51.429173
+            "lat": "35.808641",
+            "lon": "51.429173"
         },
-        "search": "Array",
-        "id": 39,
-        "preview": "تندیس"
+        "search": "تندیس,Statue"
     },
     {
         "type": "mall",
@@ -632,12 +554,10 @@
             }
         ],
         "location": {
-            "lat": 35.760048,
-            "lon": 51.405196
+            "lat": "35.760048",
+            "lon": "51.405196"
         },
-        "search": "Array",
-        "id": 40,
-        "preview": "ونک"
+        "search": "ونک,Vanak"
     },
     {
         "type": "mall",
@@ -648,12 +568,10 @@
             }
         ],
         "location": {
-            "lat": 35.806261,
-            "lon": 51.401216
+            "lat": "35.806261",
+            "lon": "51.401216"
         },
-        "search": "Array",
-        "id": 41,
-        "preview": "توچال"
+        "search": "توچال,Resort"
     },
     {
         "type": "mall",
@@ -664,12 +582,10 @@
             }
         ],
         "location": {
-            "lat": 35.762855,
-            "lon": 51.411028
+            "lat": "35.762855",
+            "lon": "51.411028"
         },
-        "search": "Array",
-        "id": 42,
-        "preview": "پایتخت"
+        "search": "پایتخت,Capital"
     },
     {
         "type": "mall",
@@ -680,12 +596,10 @@
             }
         ],
         "location": {
-            "lat": 35.738714,
-            "lon": 51.444549
+            "lat": "35.738714",
+            "lon": "51.444549"
         },
-        "search": "Array",
-        "id": 43,
-        "preview": "اندیشه"
+        "search": "اندیشه,Thought"
     },
     {
         "type": "mall",
@@ -696,12 +610,10 @@
             }
         ],
         "location": {
-            "lat": 35.775014,
-            "lon": 51.357629
+            "lat": "35.775014",
+            "lon": "51.357629"
         },
-        "search": "Array",
-        "id": 44,
-        "preview": "پاساژگلستان"
+        "search": "پاساژگلستان,Pasazhglstan"
     },
     {
         "type": "mall",
@@ -712,12 +624,10 @@
             }
         ],
         "location": {
-            "lat": 35.747966,
-            "lon": 51.33137
+            "lat": "35.747966",
+            "lon": "51.331370"
         },
-        "search": "Array",
-        "id": 45,
-        "preview": "تیراژه"
+        "search": "تیراژه,Tiraje"
     },
     {
         "type": "mall",
@@ -728,12 +638,10 @@
             }
         ],
         "location": {
-            "lat": 35.694535,
-            "lon": 51.42075
+            "lat": "35.694535",
+            "lon": "51.420750"
         },
-        "search": "Array",
-        "id": 46,
-        "preview": "پلاسکو"
+        "search": "پلاسکو,Plasco"
     },
     {
         "type": "mall",
@@ -744,12 +652,10 @@
             }
         ],
         "location": {
-            "lat": 35.699649,
-            "lon": 51.404023
+            "lat": "35.699649",
+            "lon": "51.404023"
         },
-        "search": "Array",
-        "id": 47,
-        "preview": "علاءالدین"
+        "search": "علاءالدین,Aladdin"
     },
     {
         "type": "mall",
@@ -760,12 +666,10 @@
             }
         ],
         "location": {
-            "lat": 35.687707,
-            "lon": 51.420179
+            "lat": "35.687707",
+            "lon": "51.420179"
         },
-        "search": "Array",
-        "id": 48,
-        "preview": "فروسی"
+        "search": "فروسی,Sheds"
     },
     {
         "type": "mall",
@@ -776,12 +680,10 @@
             }
         ],
         "location": {
-            "lat": 35.8113,
-            "lon": 51.5345528
+            "lat": "35.81130",
+            "lon": "51.5345528"
         },
-        "search": "Array",
-        "id": 49,
-        "preview": "پالادیوم"
+        "search": "پالادیوم,Palladium"
     },
     {
         "type": "mall",
@@ -792,12 +694,10 @@
             }
         ],
         "location": {
-            "lat": 35.730278,
-            "lon": 51.378675
+            "lat": "35.730278",
+            "lon": "51.378675"
         },
-        "search": "Array",
-        "id": 50,
-        "preview": "نصر"
+        "search": "نصر,Nasr"
     },
     {
         "type": "mall",
@@ -808,12 +708,10 @@
             }
         ],
         "location": {
-            "lat": 35.760666,
-            "lon": 51.334621
+            "lat": "35.760666",
+            "lon": "51.334621"
         },
-        "search": "Array",
-        "id": 51,
-        "preview": "بوستان"
+        "search": "بوستان,Garden"
     },
     {
         "type": "mall",
@@ -824,12 +722,10 @@
             }
         ],
         "location": {
-            "lat": 35.757962,
-            "lon": 51.408619
+            "lat": "35.757962",
+            "lon": "51.408619"
         },
-        "search": "Array",
-        "id": 52,
-        "preview": "آسمان"
+        "search": "آسمان,the sky"
     },
     {
         "type": "mall",
@@ -840,12 +736,10 @@
             }
         ],
         "location": {
-            "lat": 35.811624,
-            "lon": 51.463885
+            "lat": "35.811624",
+            "lon": "51.463885"
         },
-        "search": "Array",
-        "id": 53,
-        "preview": "نارون"
+        "search": "نارون,Witch"
     },
     {
         "type": "mall",
@@ -856,11 +750,9 @@
             }
         ],
         "location": {
-            "lat": 35.737927,
-            "lon": 51.31257
+            "lat": "35.737927",
+            "lon": "51.312570"
         },
-        "search": "Array",
-        "id": 54,
-        "preview": "کوروش"
+        "search": "کوروش,Cyrus"
     }
 ]

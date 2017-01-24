@@ -2,9 +2,12 @@
 
 namespace mhndev\locationService\http;
 
+use GuzzleHttp\Exception\ConnectException;
+use GuzzleHttp\RequestOptions;
 use mhndev\location\GoogleEstimate;
 use mhndev\location\GoogleGeocoder;
 use mhndev\location\GuzzleHttpAgent;
+use mhndev\locationService\exceptions\ServerConnectOutsideException;
 use mhndev\locationService\services\ConvertFinglishToFarsi;
 use mhndev\locationService\services\iLocationRepository;
 use mhndev\restHal\HalApiPresenter;
@@ -43,7 +46,14 @@ class LocationController
      */
     public function geocodeGoogle(Request $request, Response $response)
     {
-        $googleClient = (new GoogleGeocoder())->setHttpAgent(new GuzzleHttpAgent());
+        $googleClient = (new GoogleGeocoder())->setHttpAgent(
+            new GuzzleHttpAgent(
+                [
+                    RequestOptions::CONNECT_TIMEOUT => 1,
+                    RequestOptions::TIMEOUT => 1
+                ]
+            )
+        );
 
         $result = $googleClient
             ->setLocale('fa-IR')
@@ -144,9 +154,14 @@ class LocationController
     public function reverseGoogle(Request $request, Response $response)
     {
         $googleClient = new GoogleGeocoder();
-
-
-        $googleClient->setHttpAgent(new GuzzleHttpAgent());
+        $googleClient->setHttpAgent(
+            new GuzzleHttpAgent(
+                [
+                    RequestOptions::CONNECT_TIMEOUT => 1,
+                    RequestOptions::TIMEOUT => 1,
+                ]
+            )
+        );
 
         $result = $googleClient
             ->setLocale('fa-IR')
@@ -200,7 +215,10 @@ class LocationController
         $estimate_client = new GoogleEstimate();
 
         $result = $estimate_client
-            ->setHttpAgent(new GuzzleHttpAgent())
+            ->setHttpAgent(new GuzzleHttpAgent([
+                RequestOptions::CONNECT_TIMEOUT => 1,
+                RequestOptions::TIMEOUT => 1,
+            ]))
             ->estimate($request->getQueryParam('from'), $request->getQueryParam('to'), 'optimistic');
 
         $response = (new HalApiPresenter('resource'))
@@ -264,6 +282,7 @@ class LocationController
      * @param Request $request
      * @param Response $response
      * @return Response
+     * @throws ServerConnectOutsideException
      */
     function reverse(Request $request, Response $response)
     {
@@ -289,7 +308,14 @@ class LocationController
         $res = !empty($data[0]['_source']) ? $data[0]['_source'] : [];
 
         if(empty($res)){
-            return $this->reverseGoogle($request, $response);
+
+            try{
+                return $this->reverseGoogle($request, $response);
+            }
+            catch(ConnectException $e){
+                throw new ServerConnectOutsideException('location server is trying connect google server but no success.');
+            }
+
         }
 
 

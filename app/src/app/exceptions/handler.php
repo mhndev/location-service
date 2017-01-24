@@ -26,7 +26,16 @@ class handler
                 ->setStatusCode(403)
                 ->setData(['message' => 'no access', 'code' => 12])
                 ->makeResponse($request, $response));
-        } else {
+        }
+
+        if($e instanceof ServerConnectOutsideException){
+            return ((new HalApiPresenter('error'))
+                ->setStatusCode(500)
+                ->setData(['message' => 'server connection problem, try later', 'code' => 13])
+                ->makeResponse($request, $response));
+        }
+
+        else {
             $error = json_encode([
                 'code' => $e->getCode(),
                 'message' => $e->getMessage(),
