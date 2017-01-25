@@ -2,6 +2,7 @@
 namespace mhndev\locationService\exceptions;
 
 use mhndev\restHal\HalApiPresenter;
+use Monolog\Logger;
 use Slim\Collection;
 
 /**
@@ -21,48 +22,56 @@ class handler
      */
     public function render(\Exception $e , $request, $response ,$container)
     {
-        if ($e instanceof AccessDeniedException) {
-            return ((new HalApiPresenter('error'))
-                ->setStatusCode(403)
-                ->setData(['message' => 'no access', 'code' => 12])
-                ->makeResponse($request, $response));
+
+        /** @var Collection $settings */
+        $settings = $container->settings;
+
+        $mode = $settings->get('mode');
+        $logger = $container->logger;
+
+        /** @var Logger $logger */
+        $logger->addError($e);
+
+
+        if($mode == 'production'){
+            if ($e instanceof AccessDeniedException) {
+                return ((new HalApiPresenter('error'))
+                    ->setStatusCode(403)
+                    ->setData(['message' => 'no access', 'code' => 12])
+                    ->makeResponse($request, $response));
+            }
+
+            if($e instanceof ServerConnectOutsideException){
+                return ((new HalApiPresenter('error'))
+                    ->setStatusCode(500)
+                    ->setData(['message' => 'server connection problem, try later', 'code' => 13])
+                    ->makeResponse($request, $response));
+            }
         }
 
-        if($e instanceof ServerConnectOutsideException){
-            return ((new HalApiPresenter('error'))
-                ->setStatusCode(500)
-                ->setData(['message' => 'server connection problem, try later', 'code' => 13])
-                ->makeResponse($request, $response));
+        elseif ($mode == 'develop'){
+            throw $e;
         }
 
-        else {
-            $error = json_encode([
+
+        elseif ($mode == 'debug'){
+            $error = [
                 'code' => $e->getCode(),
                 'message' => $e->getMessage(),
                 'file'=>$e->getFile(),
-            ]);
-
-            /** @var \Monolog\Logger $logger */
-            $logger = $container->logger;
-
-            $logger->addError($error);
-
-            /** @var Collection $settings */
-            $settings = $container->settings;
-
-            if($settings->get('mode') == 'debug'){
-                $error = ['message' => $e->getMessage(), 'code' => $e->getCode()];
-            }
-            else{
-                $error = ['message'=>'error'];
-                ///dev/stderr
-                ///dev/stdout
-            }
+            ];
 
             return ((new HalApiPresenter('error'))
                 ->setStatusCode(500)
                 ->setData($error)
                 ->makeResponse($request, $response));
+        }
+
+        else{
+            throw new InvalidApplicationRunMode(
+                sprintf('Application Run Mode can be one of %s, %s given.',
+                    implode(['debug', 'develop', 'production']),$mode)
+            );
 
         }
 

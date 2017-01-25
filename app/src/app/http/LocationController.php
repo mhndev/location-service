@@ -49,8 +49,8 @@ class LocationController
         $googleClient = (new GoogleGeocoder())->setHttpAgent(
             new GuzzleHttpAgent(
                 [
-                    RequestOptions::CONNECT_TIMEOUT => 1,
-                    RequestOptions::TIMEOUT => 1
+                    RequestOptions::CONNECT_TIMEOUT => 5,
+                    RequestOptions::TIMEOUT => 5
                 ]
             )
         );
@@ -157,8 +157,8 @@ class LocationController
         $googleClient->setHttpAgent(
             new GuzzleHttpAgent(
                 [
-                    RequestOptions::CONNECT_TIMEOUT => 1,
-                    RequestOptions::TIMEOUT => 1,
+                    RequestOptions::CONNECT_TIMEOUT => 5,
+                    RequestOptions::TIMEOUT => 5,
                 ]
             )
         );
@@ -216,10 +216,15 @@ class LocationController
 
         $result = $estimate_client
             ->setHttpAgent(new GuzzleHttpAgent([
-                RequestOptions::CONNECT_TIMEOUT => 1,
-                RequestOptions::TIMEOUT => 1,
+                RequestOptions::CONNECT_TIMEOUT => 5,
+                RequestOptions::TIMEOUT => 5,
             ]))
-            ->estimate($request->getQueryParam('from'), $request->getQueryParam('to'), 'optimistic');
+            ->estimate(
+                $request->getQueryParam('from'),
+                $request->getQueryParam('to'),
+                'optimistic'
+            );
+
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
