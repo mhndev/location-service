@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $dir = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/';
-$file = $dir.'locations/malls.json';
+$file = $dir.'locations/intersections.json';
 
 
 
@@ -13,23 +13,16 @@ $data = json_decode(file_get_contents($file), true);
 
 $result = [];
 
-
+$id = 1;
 foreach ($data as $record){
 
-    $preview = $record['preview'];
-
-    $search = explode(',',$record['search']);
-
-    $finglish = 'Markaz kharid '.$search[0];
-
-    $record['search'] = implode(',',array_merge($search, [$preview, $finglish]));
-
-
+    $record['id'] = $id;
     $result[] = $record;
 
+    $id ++;
 }
 
 
 $text = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
-$file = fopen( $dir.'locations/malls2.json', 'w');
+$file = fopen( $dir.'locations/intersections.json', 'w');
 fwrite($file, $text);
