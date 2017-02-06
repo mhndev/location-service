@@ -4,14 +4,16 @@
         "names": [
             {
                 "name": "مادر",
-                "slug": "Mother"
+                "slug": "Madar"
             }
         ],
         "location": {
             "lat": "35.758374",
             "lon": "51.441582"
         },
-        "search": "مادر,Mother"
+        "search": "Madar , مادر,مرکز خرید مادر,Markaz kharid Madar ",
+        "id": 1,
+        "preview": "مرکز خرید مادر"
     },
     {
         "type": "mall",
@@ -25,21 +27,25 @@
             "lat": "35.770464",
             "lon": "51.439474"
         },
-        "search": "قلهک,GHOLHAK"
+        "search": "GHOLHAK , قلهک,مرکز خرید قلهک,Markaz kharid GHOLHAK ",
+        "id": 2,
+        "preview": "مرکز خرید قلهک"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "میرداماد",
-                "slug": "Damad"
+                "slug": "MirDamad"
             }
         ],
         "location": {
             "lat": "35.759759",
             "lon": "51.444929"
         },
-        "search": "میرداماد,Damad"
+        "search": "MirDamad , میرداماد,مرکز خرید میرداماد,Markaz kharid MirDamad ",
+        "id": 3,
+        "preview": "مرکز خرید میرداماد"
     },
     {
         "type": "mall",
@@ -53,21 +59,25 @@
             "lat": "35.708063",
             "lon": "51.406133"
         },
-        "search": "ایران,Iran"
+        "search": "Iran , ایران,مرکز خرید ایران,Markaz kharid Iran ",
+        "id": 4,
+        "preview": "مرکز خرید ایران"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "کساء",
-                "slug": "Kisa"
+                "slug": "Kasa"
             }
         ],
         "location": {
             "lat": "35.691525",
             "lon": "51.478025"
         },
-        "search": "کساء,Kisa"
+        "search": "Kasa , کساء,مرکز خرید کساء,Markaz kharid Kasa ",
+        "id": 5,
+        "preview": "مرکز خرید کساء"
     },
     {
         "type": "mall",
@@ -81,21 +91,25 @@
             "lat": "35.782464",
             "lon": "51.423027"
         },
-        "search": "الهیه,Elahiyeh"
+        "search": "Elahiyeh ,الهیه,مرکز خرید الهیه,Markaz kharid Elahiyeh ",
+        "id": 6,
+        "preview": "مرکز خرید الهیه"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "قائم",
-                "slug": "Upright"
+                "slug": "Qaem"
             }
         ],
         "location": {
             "lat": "35.805590",
             "lon": "51.430600"
         },
-        "search": "قائم,Upright"
+        "search": "Qaem , قائم,مرکز خرید قائم,Markaz kharid Qaem ",
+        "id": 7,
+        "preview": "مرکز خرید قائم"
     },
     {
         "type": "mall",
@@ -109,7 +123,9 @@
             "lat": "35.676128",
             "lon": "51.417946"
         },
-        "search": "رضا,Reza"
+        "search": "Reza , رضا,مرکز خرید رضا,Markaz kharid Reza ",
+        "id": 8,
+        "preview": "مرکز خرید رضا"
     },
     {
         "type": "mall",
@@ -123,49 +139,57 @@
             "lat": "35.766233",
             "lon": "51.394496"
         },
-        "search": "سئول,Seoul"
+        "search": "Seoul , سئول,مرکز خرید سئول,Markaz kharid Seoul ",
+        "id": 9,
+        "preview": "مرکز خرید سئول"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "سپید",
-                "slug": "White"
+                "slug": "Sepid"
             }
         ],
         "location": {
             "lat": "35.726197",
             "lon": "51.526331"
         },
-        "search": "سپید,White"
+        "search": "Sepid , سپید,مرکز خرید سپید,Markaz kharid Sepid ",
+        "id": 10,
+        "preview": "مرکز خرید سپید"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "میلاد نور",
-                "slug": "BC light"
+                "slug": "Milad Noor"
             }
         ],
         "location": {
             "lat": "35.753507",
             "lon": "51.362530"
         },
-        "search": "میلاد نور,BC light"
+        "search": "Milad Noor , میلاد نور,مرکز خرید میلاد نور,Markaz kharid Milad Noor ",
+        "id": 11,
+        "preview": "مرکز خرید میلاد نور"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "تندیس",
-                "slug": "Statue"
+                "slug": "Tandis"
             }
         ],
         "location": {
             "lat": "35.808641",
             "lon": "51.429173"
         },
-        "search": "تندیس,Statue"
+        "search": "Tandis , تندیس,مرکز خرید تندیس,Markaz kharid Tandis ",
+        "id": 12,
+        "preview": "مرکز خرید تندیس"
     },
     {
         "type": "mall",
@@ -179,63 +203,73 @@
             "lat": "35.760048",
             "lon": "51.405196"
         },
-        "search": "ونک,Vanak"
+        "search": "Vanak , ونک,مرکز خرید ونک,Markaz kharid Vanak ",
+        "id": 13,
+        "preview": "مرکز خرید ونک"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "توچال",
-                "slug": "Resort"
+                "slug": "Tochal"
             }
         ],
         "location": {
             "lat": "35.806261",
             "lon": "51.401216"
         },
-        "search": "توچال,Resort"
+        "search": "Tochal , توچال,مرکز خرید توچال,Markaz kharid Tochal ",
+        "id": 14,
+        "preview": "مرکز خرید توچال"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "پایتخت",
-                "slug": "Capital"
+                "slug": "Paitakht"
             }
         ],
         "location": {
             "lat": "35.762855",
             "lon": "51.411028"
         },
-        "search": "پایتخت,Capital"
+        "search": "Paitakht , پایتخت,مرکز خرید پایتخت,Markaz kharid Paitakht ",
+        "id": 15,
+        "preview": "مرکز خرید پایتخت"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "اندیشه",
-                "slug": "Thought"
+                "slug": "Andisheh"
             }
         ],
         "location": {
             "lat": "35.738714",
             "lon": "51.444549"
         },
-        "search": "اندیشه,Thought"
+        "search": "Array,مرکز خرید اندیشه,Markaz kharid Array",
+        "id": 16,
+        "preview": "مرکز خرید اندیشه"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "پاساژگلستان",
-                "slug": "Pasazhglstan"
+                "slug": "Pasazh golestan"
             }
         ],
         "location": {
             "lat": "35.775014",
             "lon": "51.357629"
         },
-        "search": "پاساژگلستان,Pasazhglstan"
+        "search": "Pasazh golestan , پاساژگلستان,مرکز خرید پاساژگلستان,Markaz kharid Pasazh golestan ",
+        "id": 17,
+        "preview": "مرکز خرید پاساژگلستان"
     },
     {
         "type": "mall",
@@ -249,7 +283,9 @@
             "lat": "35.747966",
             "lon": "51.331370"
         },
-        "search": "تیراژه,Tiraje"
+        "search": "Tiraje ,تیراژه ,مرکز خرید تیراژه,Markaz kharid Tiraje ",
+        "id": 18,
+        "preview": "مرکز خرید تیراژه"
     },
     {
         "type": "mall",
@@ -263,49 +299,57 @@
             "lat": "35.694535",
             "lon": "51.420750"
         },
-        "search": "پلاسکو,Plasco"
+        "search": "Plasco , پلاسکو,مرکز خرید پلاسکو,Markaz kharid Plasco ",
+        "id": 19,
+        "preview": "مرکز خرید پلاسکو"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "علاءالدین",
-                "slug": "Aladdin"
+                "slug": "Alaeddin"
             }
         ],
         "location": {
             "lat": "35.699649",
             "lon": "51.404023"
         },
-        "search": "علاءالدین,Aladdin"
+        "search": "Alaeddin , علاءالدین,مرکز خرید علاءالدین,Markaz kharid Alaeddin ",
+        "id": 20,
+        "preview": "مرکز خرید علاءالدین"
     },
     {
         "type": "mall",
         "names": [
             {
-                "name": "فروسی",
-                "slug": "Sheds"
+                "name": "فردوسی",
+                "slug": "Ferdowsi"
             }
         ],
         "location": {
             "lat": "35.687707",
             "lon": "51.420179"
         },
-        "search": "فروسی,Sheds"
+        "search": "Ferdowsi , فردوسی,مرکز خرید فردوسی,Markaz kharid Ferdowsi ",
+        "id": 21,
+        "preview": "مرکز خرید فردوسی"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "پالادیوم",
-                "slug": "Palladium"
+                "slug": "Paladiuom"
             }
         ],
         "location": {
             "lat": "35.81130",
             "lon": "51.5345528"
         },
-        "search": "پالادیوم,Palladium"
+        "search": "Paladiuom , پالادیوم,مرکز خرید پالادیوم,Markaz kharid Paladiuom ",
+        "id": 22,
+        "preview": "مرکز خرید پالادیوم"
     },
     {
         "type": "mall",
@@ -319,77 +363,89 @@
             "lat": "35.730278",
             "lon": "51.378675"
         },
-        "search": "نصر,Nasr"
+        "search": "Nasr , نصر,مرکز خرید نصر,Markaz kharid Nasr ",
+        "id": 23,
+        "preview": "مرکز خرید نصر"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "بوستان",
-                "slug": "Garden"
+                "slug": "Boostan"
             }
         ],
         "location": {
             "lat": "35.760666",
             "lon": "51.334621"
         },
-        "search": "بوستان,Garden"
+        "search": "Boostan , بوستان,مرکز خرید بوستان,Markaz kharid Boostan ",
+        "id": 24,
+        "preview": "مرکز خرید بوستان"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "آسمان",
-                "slug": "the sky"
+                "slug": "Aseman"
             }
         ],
         "location": {
             "lat": "35.757962",
             "lon": "51.408619"
         },
-        "search": "آسمان,the sky"
+        "search": "Aseman , آسمان,مرکز خرید آسمان,Markaz kharid Aseman ",
+        "id": 25,
+        "preview": "مرکز خرید آسمان"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "نارون",
-                "slug": "Witch"
+                "slug": "Naroon"
             }
         ],
         "location": {
             "lat": "35.811624",
             "lon": "51.463885"
         },
-        "search": "نارون,Witch"
+        "search": "Naroon , نارون,مرکز خرید نارون,Markaz kharid Naroon ",
+        "id": 26,
+        "preview": "مرکز خرید نارون"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "کوروش",
-                "slug": "Cyrus"
+                "slug": "Kourosh"
             }
         ],
         "location": {
             "lat": "35.737927",
             "lon": "51.312570"
         },
-        "search": "کوروش,Cyrus"
+        "search": "Kourosh , کوروش,مرکز خرید کوروش,Markaz kharid Kourosh",
+        "id": 27,
+        "preview": "مرکز خرید کوروش"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "مادر",
-                "slug": "Mother"
+                "slug": "Madar"
             }
         ],
         "location": {
             "lat": "35.758374",
             "lon": "51.441582"
         },
-        "search": "مادر,Mother"
+        "search": "Madar , مادر,مرکز خرید مادر,Markaz kharid Madar",
+        "id": 28,
+        "preview": "مرکز خرید مادر"
     },
     {
         "type": "mall",
@@ -403,21 +459,25 @@
             "lat": "35.770464",
             "lon": "51.439474"
         },
-        "search": "قلهک,GHOLHAK"
+        "search": "GHOLHAK , قلهک,مرکز خرید قلهک,Markaz kharid GHOLHAK",
+        "id": 29,
+        "preview": "مرکز خرید قلهک"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "میرداماد",
-                "slug": "Damad"
+                "slug": "MirDamad"
             }
         ],
         "location": {
             "lat": "35.759759",
             "lon": "51.444929"
         },
-        "search": "میرداماد,Damad"
+        "search": "MirDamad ,میرداماد ,مرکز خرید میرداماد,Markaz kharid MirDamad",
+        "id": 30,
+        "preview": "مرکز خرید میرداماد"
     },
     {
         "type": "mall",
@@ -431,21 +491,25 @@
             "lat": "35.708063",
             "lon": "51.406133"
         },
-        "search": "ایران,Iran"
+        "search": "Iran , ایران,مرکز خرید ایران,Markaz kharid Iran",
+        "id": 31,
+        "preview": "مرکز خرید ایران"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "کساء",
-                "slug": "Kisa"
+                "slug": "Kasa"
             }
         ],
         "location": {
             "lat": "35.691525",
             "lon": "51.478025"
         },
-        "search": "کساء,Kisa"
+        "search": "Kasa , کساء,مرکز خرید کساء,Markaz kharid Kasa",
+        "id": 32,
+        "preview": "مرکز خرید کساء"
     },
     {
         "type": "mall",
@@ -459,21 +523,25 @@
             "lat": "35.782464",
             "lon": "51.423027"
         },
-        "search": "الهیه,Elahiyeh"
+        "search": "Elahiyeh , الهیه,مرکز خرید الهیه,Markaz kharid Elahiyeh",
+        "id": 33,
+        "preview": "مرکز خرید الهیه"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "قائم",
-                "slug": "Upright"
+                "slug": "Qaem"
             }
         ],
         "location": {
             "lat": "35.805590",
             "lon": "51.430600"
         },
-        "search": "قائم,Upright"
+        "search": "Qaem , قائم,مرکز خرید قائم,Markaz kharid Qaem",
+        "id": 34,
+        "preview": "مرکز خرید قائم"
     },
     {
         "type": "mall",
@@ -487,7 +555,9 @@
             "lat": "35.676128",
             "lon": "51.417946"
         },
-        "search": "رضا,Reza"
+        "search": "Reza , رضا,مرکز خرید رضا,Markaz kharid Reza",
+        "id": 35,
+        "preview": "مرکز خرید رضا"
     },
     {
         "type": "mall",
@@ -501,49 +571,57 @@
             "lat": "35.766233",
             "lon": "51.394496"
         },
-        "search": "سئول,Seoul"
+        "search": "Seoul , سئول,مرکز خرید سئول,Markaz kharid Seoul",
+        "id": 36,
+        "preview": "مرکز خرید سئول"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "سپید",
-                "slug": "White"
+                "slug": "Sepid"
             }
         ],
         "location": {
             "lat": "35.726197",
             "lon": "51.526331"
         },
-        "search": "سپید,White"
+        "search": "Sepid , سپید,مرکز خرید سپید,Markaz kharid Sepid",
+        "id": 37,
+        "preview": "مرکز خرید سپید"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "میلاد نور",
-                "slug": "BC light"
+                "slug": "Milad Noor"
             }
         ],
         "location": {
             "lat": "35.753507",
             "lon": "51.362530"
         },
-        "search": "میلاد نور,BC light"
+        "search": "Milad Noor,مرکز خرید میلاد نور,Markaz kharid Milad Noor",
+        "id": 38,
+        "preview": "مرکز خرید میلاد نور"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "تندیس",
-                "slug": "Statue"
+                "slug": "Tandis"
             }
         ],
         "location": {
             "lat": "35.808641",
             "lon": "51.429173"
         },
-        "search": "تندیس,Statue"
+        "search": "Tandis,مرکز خرید تندیس,Markaz kharid Tandis",
+        "id": 39,
+        "preview": "مرکز خرید تندیس"
     },
     {
         "type": "mall",
@@ -557,63 +635,73 @@
             "lat": "35.760048",
             "lon": "51.405196"
         },
-        "search": "ونک,Vanak"
+        "search": "Vanak,مرکز خرید ونک,Markaz kharid Vanak",
+        "id": 40,
+        "preview": "مرکز خرید ونک"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "توچال",
-                "slug": "Resort"
+                "slug": "Tochal"
             }
         ],
         "location": {
             "lat": "35.806261",
             "lon": "51.401216"
         },
-        "search": "توچال,Resort"
+        "search": "Tochal,مرکز خرید توچال,Markaz kharid Tochal",
+        "id": 41,
+        "preview": "مرکز خرید توچال"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "پایتخت",
-                "slug": "Capital"
+                "slug": "Paytakht"
             }
         ],
         "location": {
             "lat": "35.762855",
             "lon": "51.411028"
         },
-        "search": "پایتخت,Capital"
+        "search": "Paytakht,مرکز خرید پایتخت,Markaz kharid Paytakht",
+        "id": 42,
+        "preview": "مرکز خرید پایتخت"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "اندیشه",
-                "slug": "Thought"
+                "slug": "Andisheh"
             }
         ],
         "location": {
             "lat": "35.738714",
             "lon": "51.444549"
         },
-        "search": "اندیشه,Thought"
+        "search": "Andisheh,مرکز خرید اندیشه,Markaz kharid Andisheh",
+        "id": 43,
+        "preview": "مرکز خرید اندیشه"
     },
     {
         "type": "mall",
         "names": [
             {
-                "name": "پاساژگلستان",
-                "slug": "Pasazhglstan"
+                "name": "گلستان",
+                "slug": "golestan"
             }
         ],
         "location": {
             "lat": "35.775014",
             "lon": "51.357629"
         },
-        "search": "پاساژگلستان,Pasazhglstan"
+        "search": "golestan,مرکز خرید گلستان,Markaz kharid golestan",
+        "id": 44,
+        "preview": "مرکز خرید گلستان"
     },
     {
         "type": "mall",
@@ -627,7 +715,9 @@
             "lat": "35.747966",
             "lon": "51.331370"
         },
-        "search": "تیراژه,Tiraje"
+        "search": "Tiraje,مرکز خرید تیراژه,Markaz kharid Tiraje",
+        "id": 45,
+        "preview": "مرکز خرید تیراژه"
     },
     {
         "type": "mall",
@@ -641,7 +731,9 @@
             "lat": "35.694535",
             "lon": "51.420750"
         },
-        "search": "پلاسکو,Plasco"
+        "search": "Plasco,مرکز خرید پلاسکو,Markaz kharid Plasco",
+        "id": 46,
+        "preview": "مرکز خرید پلاسکو"
     },
     {
         "type": "mall",
@@ -655,21 +747,25 @@
             "lat": "35.699649",
             "lon": "51.404023"
         },
-        "search": "علاءالدین,Aladdin"
+        "search": "Aladdin,مرکز خرید علاءالدین,Markaz kharid Aladdin",
+        "id": 47,
+        "preview": "مرکز خرید علاءالدین"
     },
     {
         "type": "mall",
         "names": [
             {
-                "name": "فروسی",
-                "slug": "Sheds"
+                "name": "فردوسی",
+                "slug": "Ferdowsi"
             }
         ],
         "location": {
             "lat": "35.687707",
             "lon": "51.420179"
         },
-        "search": "فروسی,Sheds"
+        "search": "Ferdowsi,مرکز خرید فردوسی,Markaz kharid Ferdowsi",
+        "id": 48,
+        "preview": "مرکز خرید فردوسی"
     },
     {
         "type": "mall",
@@ -683,7 +779,9 @@
             "lat": "35.81130",
             "lon": "51.5345528"
         },
-        "search": "پالادیوم,Palladium"
+        "search": "Palladium,مرکز خرید پالادیوم,Markaz kharid Palladium",
+        "id": 49,
+        "preview": "مرکز خرید پالادیوم"
     },
     {
         "type": "mall",
@@ -697,62 +795,72 @@
             "lat": "35.730278",
             "lon": "51.378675"
         },
-        "search": "نصر,Nasr"
+        "search": "Nasr,مرکز خرید نصر,Markaz kharid Nasr",
+        "id": 50,
+        "preview": "مرکز خرید نصر"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "بوستان",
-                "slug": "Garden"
+                "slug": "Boostan"
             }
         ],
         "location": {
             "lat": "35.760666",
             "lon": "51.334621"
         },
-        "search": "بوستان,Garden"
+        "search": "Boostan,مرکز خرید بوستان,Markaz kharid Boostan",
+        "id": 51,
+        "preview": "مرکز خرید بوستان"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "آسمان",
-                "slug": "the sky"
+                "slug": "Aseman"
             }
         ],
         "location": {
             "lat": "35.757962",
             "lon": "51.408619"
         },
-        "search": "آسمان,the sky"
+        "search": "Aseman,مرکز خرید آسمان,Markaz kharid Aseman",
+        "id": 52,
+        "preview": "مرکز خرید آسمان"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "نارون",
-                "slug": "Witch"
+                "slug": "Naroon"
             }
         ],
         "location": {
             "lat": "35.811624",
             "lon": "51.463885"
         },
-        "search": "نارون,Witch"
+        "search": "Naroon,مرکز خرید نارون,Markaz kharid Naroon",
+        "id": 53,
+        "preview": "مرکز خرید نارون"
     },
     {
         "type": "mall",
         "names": [
             {
                 "name": "کوروش",
-                "slug": "Cyrus"
+                "slug": "koorosh"
             }
         ],
         "location": {
             "lat": "35.737927",
             "lon": "51.312570"
         },
-        "search": "کوروش,Cyrus"
+        "search": "Koorosh,مرکز خرید کوروش,Markaz kharid koorosh",
+        "id": 54,
+        "preview": "مرکز خرید کوروش"
     }
 ]
