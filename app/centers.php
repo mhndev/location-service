@@ -18,6 +18,11 @@ foreach (glob($dirData."*.json") as $filename){
 
     foreach ($data as $record){
         if(!in_array($record, $result)){
+
+
+            $record['location']['lat'] = floatval($record['location']['lat']);
+            $record['location']['lon'] = floatval($record['location']['lon']);
+
             $result[] = $record;
         }
     }

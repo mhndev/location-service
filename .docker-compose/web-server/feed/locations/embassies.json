@@ -8,8 +8,8 @@
             }
         ],
         "location": {
-            "lat": "35.771199",
-            "lon": "51.416506"
+            "lat": 35.771199,
+            "lon": 51.416506
         },
         "search": "Sefarat-e Younan,سفارت یونان,Embassy of Greece",
         "id": 1,
@@ -24,8 +24,8 @@
             }
         ],
         "location": {
-            "lat": "35.693143",
-            "lon": "51.420422"
+            "lat": 35.693143,
+            "lon": 51.420422
         },
         "search": "Sefarat-e Alman,سفارت آلمان,Embassy of Germany",
         "id": 2,
@@ -40,8 +40,8 @@
             }
         ],
         "location": {
-            "lat": "35.696957",
-            "lon": "51.409005"
+            "lat": 35.696957,
+            "lon": 51.409005
         },
         "search": "Sefarat-e Italia,سفارت ایتالیا,Italian embassy",
         "id": 3,
@@ -56,8 +56,8 @@
             }
         ],
         "location": {
-            "lat": "35.697024",
-            "lon": "51.410276"
+            "lat": 35.697024,
+            "lon": 51.410276
         },
         "search": "Sefarat-e Faranseh,سفارت فرانسه,Embassy of France",
         "id": 4,
@@ -72,8 +72,8 @@
             }
         ],
         "location": {
-            "lat": "35.801460",
-            "lon": "51.475666"
+            "lat": 35.80146,
+            "lon": 51.475666
         },
         "search": "Sefarat-e Arabestan Soudi,س.0فارت عربستان صعودی,سفارت عربستان صعودی,Embassy of Saudi Arabia",
         "id": 5,
@@ -88,8 +88,8 @@
             }
         ],
         "location": {
-            "lat": "35.769083",
-            "lon": "51.464285"
+            "lat": 35.769083,
+            "lon": 51.464285
         },
         "search": "Sefarat-e Gorjestan,سفارت گرجستان,Embassy of Georgia",
         "id": 6,
@@ -104,8 +104,8 @@
             }
         ],
         "location": {
-            "lat": "35.796326",
-            "lon": "51.467153"
+            "lat": 35.796326,
+            "lon": 51.467153
         },
         "search": "Sefarat-e Holand,سفارت هلند,Embassy of Netherlands",
         "id": 7,
@@ -120,8 +120,8 @@
             }
         ],
         "location": {
-            "lat": "35.798749",
-            "lon": "51.476743"
+            "lat": 35.798749,
+            "lon": 51.476743
         },
         "search": "سفارت جمهوری خلق چین,Sefarat-e Jomhouri-e Khalgh Chin,Embassy of the People's Republic of China",
         "id": 8,
@@ -136,8 +136,8 @@
             }
         ],
         "location": {
-            "lat": "35.771052",
-            "lon": "51.464915"
+            "lat": 35.771052,
+            "lon": 51.464915
         },
         "search": "Sefarat-e Swis,سفارت سوئیس,Embassy of Switzerland",
         "id": 9,
@@ -152,8 +152,8 @@
             }
         ],
         "location": {
-            "lat": "35.755831",
-            "lon": "51.355778"
+            "lat": 35.755831,
+            "lon": 51.355778
         },
         "search": "سفارت اردن,Sefarat-e Ordon,Embassy of Jordan",
         "id": 10,
@@ -168,8 +168,8 @@
             }
         ],
         "location": {
-            "lat": "35.799948",
-            "lon": "51.467520"
+            "lat": 35.799948,
+            "lon": 51.46752
         },
         "search": "سفارت نروژ,Sefarat-e Norvezh,Embassy of Norway",
         "id": 11,
@@ -184,8 +184,8 @@
             }
         ],
         "location": {
-            "lat": "35.800911",
-            "lon": "51.475395"
+            "lat": 35.800911,
+            "lon": 51.475395
         },
         "search": "سفارت سوئد,Sefarat-e Soed,Embassy of Sweden",
         "id": 12,
@@ -200,8 +200,8 @@
             }
         ],
         "location": {
-            "lat": "35.804774",
-            "lon": "51.452333"
+            "lat": 35.804774,
+            "lon": 51.452333
         },
         "search": "سفارت ترکمنستان,Sefarat-e Torkamanestan,Embassy of Turkmenistan",
         "id": 13,
@@ -216,8 +216,8 @@
             }
         ],
         "location": {
-            "lat": "35.808404",
-            "lon": "51.419191"
+            "lat": 35.808404,
+            "lon": 51.419191
         },
         "search": "Sefarat-e Jomhouri-e Eslovak,سفارت جمهوری اسلواک,Embassy of the Slovak Republic",
         "id": 14,
@@ -232,8 +232,8 @@
             }
         ],
         "location": {
-            "lat": "35.764711",
-            "lon": "51.412994"
+            "lat": 35.764711,
+            "lon": 51.412994
         },
         "search": "Sefarat-e Lobnan,سفارت لبنان,Embassy of Lebanon",
         "id": 15,
@@ -248,8 +248,8 @@
             }
         ],
         "location": {
-            "lat": "35.777649",
-            "lon": "51.451421"
+            "lat": 35.777649,
+            "lon": 51.451421
         },
         "search": "سفارت قزاقستان,Sefarat-e Ghazaghestan,Embassy of Kazakhstan",
         "id": 16,
@@ -264,8 +264,8 @@
             }
         ],
         "location": {
-            "lat": "35.795273",
-            "lon": "51.412498"
+            "lat": 35.795273,
+            "lon": 51.412498
         },
         "search": "سفارت مالزی,Sefarat-e of Malezy,Embassy of Malaysia",
         "id": 17,
@@ -280,8 +280,8 @@
             }
         ],
         "location": {
-            "lat": "35.795507",
-            "lon": "51.407035"
+            "lat": 35.795507,
+            "lon": 51.407035
         },
         "search": "سفارت زیمباوه,Sefarat-e Zimbave,Zimbabwe embassy",
         "id": 18,
@@ -296,8 +296,8 @@
             }
         ],
         "location": {
-            "lat": "35.806695",
-            "lon": "51.418996"
+            "lat": 35.806695,
+            "lon": 51.418996
         },
         "search": "سفارت جمهوری غنا,Sefarat-e Jomhouri-e Ghana,Embassy of the Republic of Ghana",
         "id": 19,
@@ -312,8 +312,8 @@
             }
         ],
         "location": {
-            "lat": "35.806265",
-            "lon": "51.421332"
+            "lat": 35.806265,
+            "lon": 51.421332
         },
         "search": "Sefarat-e Berezil,سفارت برزیل,Brazilian Embassy",
         "id": 20,
@@ -328,8 +328,8 @@
             }
         ],
         "location": {
-            "lat": "35.806525",
-            "lon": "51.422601"
+            "lat": 35.806525,
+            "lon": 51.422601
         },
         "search": "سفارت جمهوری افریقای جنوبی,Sefarat-e Jomhourie Afrighay-e Jonoobi,Embassy of the Republic of South Africa",
         "id": 21,
@@ -344,8 +344,8 @@
             }
         ],
         "location": {
-            "lat": "35.806967",
-            "lon": "51.413836"
+            "lat": 35.806967,
+            "lon": 51.413836
         },
         "search": "Sefarat-e Vietnam,سفارت ویتنام,Embassy of Vietnam",
         "id": 22,
@@ -360,8 +360,8 @@
             }
         ],
         "location": {
-            "lat": "35.811117",
-            "lon": "51.421216"
+            "lat": 35.811117,
+            "lon": 51.421216
         },
         "search": "Sefarat-e Belaroos,سفارت  بلاروس,Embassy of Belarus",
         "id": 23,
@@ -376,8 +376,8 @@
             }
         ],
         "location": {
-            "lat": "35.812647",
-            "lon": "51.428460"
+            "lat": 35.812647,
+            "lon": 51.42846
         },
         "search": "Sefarat-e Otrish,سفارت اتریش,Austria Embassey",
         "id": 24,
@@ -392,8 +392,8 @@
             }
         ],
         "location": {
-            "lat": "35.804601",
-            "lon": "51.404416"
+            "lat": 35.804601,
+            "lon": 51.404416
         },
         "search": "Sefarat-e Jomhouri-e Serbestan,سفارت جمهوری صربستان,Embassy of the Republic of Serbia",
         "id": 25,
@@ -408,8 +408,8 @@
             }
         ],
         "location": {
-            "lat": "35.806956",
-            "lon": "51.399696"
+            "lat": 35.806956,
+            "lon": 51.399696
         },
         "search": "Sefarat-e Aljazayer,سفارت الجزایر,Embassy of Algeria",
         "id": 26,
@@ -424,8 +424,8 @@
             }
         ],
         "location": {
-            "lat": "35.808233",
-            "lon": "51.400384"
+            "lat": 35.808233,
+            "lon": 51.400384
         },
         "search": "Sefarat-e Sahel-e Aaj,سفارت ساحل عاج ,Ivory Coast Embassy",
         "id": 27,
@@ -440,8 +440,8 @@
             }
         ],
         "location": {
-            "lat": "35.809917",
-            "lon": "51.399754"
+            "lat": 35.809917,
+            "lon": 51.399754
         },
         "search": "Sefarat-e Okrain,سفارت اوکراین ,Embassy of Ukraine",
         "id": 28,
@@ -456,8 +456,8 @@
             }
         ],
         "location": {
-            "lat": "35.795063",
-            "lon": "51.427041"
+            "lat": 35.795063,
+            "lon": 51.427041
         },
         "search": "Sefarat-e Mali,سفارت مالی,Financial Embassy",
         "id": 29,
@@ -472,8 +472,8 @@
             }
         ],
         "location": {
-            "lat": "35.794551",
-            "lon": "51.417780"
+            "lat": 35.794551,
+            "lon": 51.41778
         },
         "search": "Sefarat-e Philipin,سفارت فیلیپین,Embassy of the Philippines",
         "id": 30,
@@ -488,8 +488,8 @@
             }
         ],
         "location": {
-            "lat": "35.799245",
-            "lon": "51.460548"
+            "lat": 35.799245,
+            "lon": 51.460548
         },
         "search": "سفارت جمهوری لیبی,Sefarat-e Jomhourie Libi,Libya Embassy",
         "id": 31,
@@ -504,8 +504,8 @@
             }
         ],
         "location": {
-            "lat": "35.799935",
-            "lon": "51.467503"
+            "lat": 35.799935,
+            "lon": 51.467503
         },
         "search": "Sefarat-e Jomhourie Chek,سفارت جمهوری چک,Embassy of the Czech Republic",
         "id": 32,
@@ -520,8 +520,8 @@
             }
         ],
         "location": {
-            "lat": "35.796290",
-            "lon": "51.467208"
+            "lat": 35.79629,
+            "lon": 51.467208
         },
         "search": "Sefarat-e Holand,سفارت هلند,Embassy of Netherlands",
         "id": 33,
@@ -536,8 +536,8 @@
             }
         ],
         "location": {
-            "lat": "35.797420",
-            "lon": "51.478100"
+            "lat": 35.79742,
+            "lon": 51.4781
         },
         "search": "Sefarat-e Gherghizestan,سفارت قرقیزستان,Embassy of Kyrgyzstan",
         "id": 34,
@@ -552,8 +552,8 @@
             }
         ],
         "location": {
-            "lat": "35.805820",
-            "lon": "51.478825"
+            "lat": 35.80582,
+            "lon": 51.478825
         },
         "search": "Sefarat-e Siera Leon,سفارت سیرالئون,Embassy of Sierra Leone",
         "id": 35,
@@ -568,8 +568,8 @@
             }
         ],
         "location": {
-            "lat": "35.800966",
-            "lon": "51.476246"
+            "lat": 35.800966,
+            "lon": 51.476246
         },
         "search": "Sefarat-e Ozbakestan,سفارت ازبکستان,Embassy of Uzbekistan",
         "id": 36,
@@ -584,8 +584,8 @@
             }
         ],
         "location": {
-            "lat": "35.792807",
-            "lon": "51.454251"
+            "lat": 35.792807,
+            "lon": 51.454251
         },
         "search": "Sefarat-e Jomhouri-e Demokrat-e Kore,سفارت جمهوری دموکراتیک خلق کره,Embassy of the Democratic People's Republic of Korea",
         "id": 37,
@@ -600,8 +600,8 @@
             }
         ],
         "location": {
-            "lat": "35.788285",
-            "lon": "51.438756"
+            "lat": 35.788285,
+            "lon": 51.438756
         },
         "search": "Sefarat-e Somali,سفارت سومالی,Somali Embassy",
         "id": 38,
@@ -616,8 +616,8 @@
             }
         ],
         "location": {
-            "lat": "35.788334",
-            "lon": "51.438523"
+            "lat": 35.788334,
+            "lon": 51.438523
         },
         "search": "Sefarat-e Fanland,سفارت فنلاند,Embassy of Finland",
         "id": 39,
@@ -632,8 +632,8 @@
             }
         ],
         "location": {
-            "lat": "35.802239",
-            "lon": "51.442536"
+            "lat": 35.802239,
+            "lon": 51.442536
         },
         "search": "سفارت قبرس,Sefarat-e Qebres,Embassy of Cyprus",
         "id": 40,
@@ -648,8 +648,8 @@
             }
         ],
         "location": {
-            "lat": "35.798880",
-            "lon": "51.476766"
+            "lat": 35.79888,
+            "lon": 51.476766
         },
         "search": "سفارت جمهوری خلق چین,Sefarat-e Jomhouri-e Khalgh Chin,Embassy of the People's Republic of China",
         "id": 41,
@@ -664,8 +664,8 @@
             }
         ],
         "location": {
-            "lat": "35.762115",
-            "lon": "51.402373"
+            "lat": 35.762115,
+            "lon": 51.402373
         },
         "search": "Sefarat-e Bangladesh,سفارت بنگلادش,Bangladesh Embassy",
         "id": 42,
@@ -680,8 +680,8 @@
             }
         ],
         "location": {
-            "lat": "35.764021",
-            "lon": "51.393826"
+            "lat": 35.764021,
+            "lon": 51.393826
         },
         "search": "Sefarat-e Kore Jonoobi,سفارت کره جنوبی,South Korean Embassy",
         "id": 43,
@@ -696,8 +696,8 @@
             }
         ],
         "location": {
-            "lat": "35.731024",
-            "lon": "51.417233"
+            "lat": 35.731024,
+            "lon": 51.417233
         },
         "search": "سفارت کبرای ژاپن,Sefarat-e Zhapon,Embassy of Japan",
         "id": 44,
@@ -712,8 +712,8 @@
             }
         ],
         "location": {
-            "lat": "35.783796",
-            "lon": "51.439492"
+            "lat": 35.783796,
+            "lon": 51.439492
         },
         "search": "سفارت گرجستان,Sefarat-e Gorjestan,Embassy of Georgia",
         "id": 45,
@@ -728,8 +728,8 @@
             }
         ],
         "location": {
-            "lat": "35.767939",
-            "lon": "51.448672"
+            "lat": 35.767939,
+            "lon": 51.448672
         },
         "search": "سفارت آرژانتین,Sefarat-e Arzhantin,Embassy of Argentina",
         "id": 46,
@@ -744,8 +744,8 @@
             }
         ],
         "location": {
-            "lat": "35.785455",
-            "lon": "51.452361"
+            "lat": 35.785455,
+            "lon": 51.452361
         },
         "search": "سفارت سری لانکا,Sefarat-e Seri Lanka,Embassy of Sri Lanka",
         "id": 47,
@@ -760,8 +760,8 @@
             }
         ],
         "location": {
-            "lat": "35.764461",
-            "lon": "51.383213"
+            "lat": 35.764461,
+            "lon": 51.383213
         },
         "search": "سفارت امارات متحده عربی,Sefarat-e Emarat-e Motahedeye Arabi,Embassy of the United Arabic Emirates",
         "id": 48,
@@ -776,8 +776,8 @@
             }
         ],
         "location": {
-            "lat": "35.768487",
-            "lon": "51.416216"
+            "lat": 35.768487,
+            "lon": 51.416216
         },
         "search": "سفارت کویت,Sefarat-e Koweit,Kuwait Embassy",
         "id": 49,
@@ -792,8 +792,8 @@
             }
         ],
         "location": {
-            "lat": "35.768492",
-            "lon": "51.416199"
+            "lat": 35.768492,
+            "lon": 51.416199
         },
         "search": "سفارت نیجریه,Sefarat-e Nigerie,Embassy of Nigeria",
         "id": 50,
@@ -808,8 +808,8 @@
             }
         ],
         "location": {
-            "lat": "35.773354",
-            "lon": "51.424721"
+            "lat": 35.773354,
+            "lon": 51.424721
         },
         "search": "سفارت سودان,Sefarat-e Soodan,Sudanese Embassy",
         "id": 51,
@@ -824,8 +824,8 @@
             }
         ],
         "location": {
-            "lat": "35.778936",
-            "lon": "51.423095"
+            "lat": 35.778936,
+            "lon": 51.423095
         },
         "search": "سفارت قطر,Sefarat-e Qatar,Qatar Embassy",
         "id": 52,
@@ -840,8 +840,8 @@
             }
         ],
         "location": {
-            "lat": "35.778936",
-            "lon": "51.423095"
+            "lat": 35.778936,
+            "lon": 51.423095
         },
         "search": "سفارت سلطنه عمان,Sefarat-e Saltaneh Oman,Sltnh Embassy of Oman",
         "id": 53,
@@ -856,8 +856,8 @@
             }
         ],
         "location": {
-            "lat": "35.778936",
-            "lon": "51.423095"
+            "lat": 35.778936,
+            "lon": 51.423095
         },
         "search": "Sefarat-e Italia,سفارت ایتالیا,Italian embassy",
         "id": 54,
@@ -872,8 +872,8 @@
             }
         ],
         "location": {
-            "lat": "35.779704",
-            "lon": "51.416917"
+            "lat": 35.779704,
+            "lon": 51.416917
         },
         "search": "سفارت جمهوری اکوادور,Sefarat-e Jomhouri-e Ekvador,Embassy of the Republic of Ecuador",
         "id": 55,
@@ -888,8 +888,8 @@
             }
         ],
         "location": {
-            "lat": "35.765401",
-            "lon": "51.419736"
+            "lat": 35.765401,
+            "lon": 51.419736
         },
         "search": "سفارت لهستان,Sefarat-e Lahestan,Embassy of Poland",
         "id": 56,
@@ -904,8 +904,8 @@
             }
         ],
         "location": {
-            "lat": "35.717434",
-            "lon": "51.439807"
+            "lat": 35.717434,
+            "lon": 51.439807
         },
         "search": "سفارت گینه,Sefarat-e Gineh,Guinea Embassy",
         "id": 57,
@@ -920,8 +920,8 @@
             }
         ],
         "location": {
-            "lat": "35.724731",
-            "lon": "51.420745"
+            "lat": 35.724731,
+            "lon": 51.420745
         },
         "search": "سفارت کانادا,Sefarat-e Canada,Canadian embassy",
         "id": 58,
@@ -936,8 +936,8 @@
             }
         ],
         "location": {
-            "lat": "35.754544",
-            "lon": "51.414989"
+            "lat": 35.754544,
+            "lon": 51.414989
         },
         "search": "سفارت البحرین,Sefarat-e Albahrein,Embassy al",
         "id": 59,
@@ -952,8 +952,8 @@
             }
         ],
         "location": {
-            "lat": "35.780067",
-            "lon": "51.425141"
+            "lat": 35.780067,
+            "lon": 51.425141
         },
         "search": "سفارت اسپانیا,Sefarat-e Espania,Embassy of Spain",
         "id": 60,
@@ -968,8 +968,8 @@
             }
         ],
         "location": {
-            "lat": "35.717407",
-            "lon": "51.439838"
+            "lat": 35.717407,
+            "lon": 51.439838
         },
         "search": "سفارت موریتانی,Sefarat-e Mooritani,Embassy of Mauritania",
         "id": 61,
@@ -984,8 +984,8 @@
             }
         ],
         "location": {
-            "lat": "35.717425",
-            "lon": "51.439824"
+            "lat": 35.717425,
+            "lon": 51.439824
         },
         "search": "سفارت اتحادیه کومور,Sefarat-e Etehadieh Komor,Embassy of the Union of the Comoros",
         "id": 62,
@@ -1000,8 +1000,8 @@
             }
         ],
         "location": {
-            "lat": "35.731408",
-            "lon": "51.423102"
+            "lat": 35.731408,
+            "lon": 51.423102
         },
         "search": "Array,سفارت افغانستان,Embassy of Afghanistan",
         "id": 63,
@@ -1016,8 +1016,8 @@
             }
         ],
         "location": {
-            "lat": "35.727996",
-            "lon": "51.425499"
+            "lat": 35.727996,
+            "lon": 51.425499
         },
         "search": "Array,سفارت هندوستان,The Indian embassy",
         "id": 64,
@@ -1032,8 +1032,8 @@
             }
         ],
         "location": {
-            "lat": "35.713441",
-            "lon": "51.415720"
+            "lat": 35.713441,
+            "lon": 51.41572
         },
         "search": "سفارت جمهوری لبنان,Sefarat-e Lobnan ,سفارت جمهوری لبنان ,Embassy of the Republic of Lebanon",
         "id": 65,
@@ -1048,8 +1048,8 @@
             }
         ],
         "location": {
-            "lat": "35.710240",
-            "lon": "51.406511"
+            "lat": 35.71024,
+            "lon": 51.406511
         },
         "search": "سفارت جمهوری عراق,Sefarat-e Jomhouri-e Aragh,Embassy of the Republic of Iraq",
         "id": 66,
@@ -1064,8 +1064,8 @@
             }
         ],
         "location": {
-            "lat": "35.704502",
-            "lon": "51.403387"
+            "lat": 35.704502,
+            "lon": 51.403387
         },
         "search": "سفارت دولت فلسطین,Sefarat-e Dowlat-e Felestin,Embassy of the State of Palestine",
         "id": 67,
@@ -1080,8 +1080,8 @@
             }
         ],
         "location": {
-            "lat": "35.726191",
-            "lon": "51.418393"
+            "lat": 35.726191,
+            "lon": 51.418393
         },
         "search": "Sefarat-e Andonezi,سفارت اندونزی,Indonesian Embassy",
         "id": 68,
@@ -1096,8 +1096,8 @@
             }
         ],
         "location": {
-            "lat": "35.737585",
-            "lon": "51.413658"
+            "lat": 35.737585,
+            "lon": 51.413658
         },
         "search": "سفارت استرالیا,Sefarat-e Ostoralia,Australian Embassy",
         "id": 69,
@@ -1112,8 +1112,8 @@
             }
         ],
         "location": {
-            "lat": "35.713258",
-            "lon": "51.384942"
+            "lat": 35.713258,
+            "lon": 51.384942
         },
         "search": "سفارت پاکستان,Sefarat-e Pakestan,Embassy of Pakistan",
         "id": 70,
@@ -1128,8 +1128,8 @@
             }
         ],
         "location": {
-            "lat": "35.745848",
-            "lon": "51.409067"
+            "lat": 35.745848,
+            "lon": 51.409067
         },
         "search": "Sefarat-e Jomhouri-e Bolgharestan,سفارت جمهوری بلغارستان,Embassy of the Republic of Bulgaria",
         "id": 71,
@@ -1144,8 +1144,8 @@
             }
         ],
         "location": {
-            "lat": "35.751281",
-            "lon": "51.379199"
+            "lat": 35.751281,
+            "lon": 51.379199
         },
         "search": "Sefarat-e Bosni Herzegovin,سفارت بوسنی هرزگوین,Embassy of Bosnia and Herzegovina",
         "id": 72,
@@ -1160,8 +1160,8 @@
             }
         ],
         "location": {
-            "lat": "35.698636",
-            "lon": "51.414146"
+            "lat": 35.698636,
+            "lon": 51.414146
         },
         "search": "سفارت روسیه,Sefarat-e Roosieh,Russian Embassy",
         "id": 73,
@@ -1176,8 +1176,8 @@
             }
         ],
         "location": {
-            "lat": "35.695845",
-            "lon": "51.418557"
+            "lat": 35.695845,
+            "lon": 51.418557
         },
         "search": "Sefarat-e Engelestan,سفارت انگلستان,British Embassy",
         "id": 74,
@@ -1192,8 +1192,8 @@
             }
         ],
         "location": {
-            "lat": "35.697651",
-            "lon": "51.437380"
+            "lat": 35.697651,
+            "lon": 51.43738
         },
         "search": "سفارت رومانی,Sefarat-e Romani,Embassy of Romania",
         "id": 75,
@@ -1208,8 +1208,8 @@
             }
         ],
         "location": {
-            "lat": "35.695955",
-            "lon": "51.435992"
+            "lat": 35.695955,
+            "lon": 51.435992
         },
         "search": "سفارت تایلند,Sefarat-e Tailand,Embassy of Thailand",
         "id": 76,
@@ -1224,8 +1224,8 @@
             }
         ],
         "location": {
-            "lat": "35.693915",
-            "lon": "51.420332"
+            "lat": 35.693915,
+            "lon": 51.420332
         },
         "search": "سفارت ترکیه,Sefarat-e Torkieh,Turkish Embassy",
         "id": 77,
@@ -1240,8 +1240,8 @@
             }
         ],
         "location": {
-            "lat": "35.693264",
-            "lon": "51.420737"
+            "lat": 35.693264,
+            "lon": 51.420737
         },
         "search": "سفارت آلمان,Sefarat-e Almani,Embassy of Germany",
         "id": 78,
@@ -1256,8 +1256,8 @@
             }
         ],
         "location": {
-            "lat": "35.696894",
-            "lon": "51.406850"
+            "lat": 35.696894,
+            "lon": 51.40685
         },
         "search": "سفارت واتیکان,Sefarat-e Vatikan,Vatican embassy",
         "id": 79,
@@ -1272,8 +1272,8 @@
             }
         ],
         "location": {
-            "lat": "35.696893",
-            "lon": "51.409065"
+            "lat": 35.696893,
+            "lon": 51.409065
         },
         "search": "سفارت ایتالیا,Sefarat-e Italia,Italian embassy",
         "id": 80,
