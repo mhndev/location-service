@@ -4,8 +4,8 @@
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.789283,
-            "lon": 51.513439
+            "lat": "35.789283",
+            "lon": "51.513439"
         },
         "names": [
             {
@@ -13,15 +13,16 @@
                 "slug": "Ozgol"
             }
         ],
-        "search": "ازگل,Ozgol"
+        "search": "ازگل,Ozgol",
+        "preview": "ازگل"
     },
     {
         "id": 2,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.726219,
-            "lon": 51.358177
+            "lat": "35.726219",
+            "lon": "51.358177"
         },
         "names": [
             {
@@ -29,15 +30,16 @@
                 "slug": "Bargh Alstom "
             }
         ],
-        "search": "برق آلستوم, Bargh Alstom"
+        "search": "برق آلستوم, Bargh Alstom",
+        "preview": "برق آلستوم"
     },
     {
         "id": 3,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.783103,
-            "lon": 51.463906
+            "lat": "35.783103",
+            "lon": "51.463906"
         },
         "names": [
             {
@@ -45,15 +47,16 @@
                 "slug": "Ekhtyarieh"
             }
         ],
-        "search": "اختیاریه,Ekhtyarieh"
+        "search": "اختیاریه,Ekhtyarieh",
+        "preview": "اختیاریه"
     },
     {
         "id": 4,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.742005,
-            "lon": 51.545782
+            "lat": "35.742005",
+            "lon": "51.545782"
         },
         "names": [
             {
@@ -61,15 +64,16 @@
                 "slug": "Tehran Pars"
             }
         ],
-        "search": "تهرانپارس,Tehran Pars"
+        "search": "تهرانپارس,Tehran Pars",
+        "preview": "تهرانپارس"
     },
     {
         "id": 5,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.745425,
-            "lon": 51.322617
+            "lat": "35.745425",
+            "lon": "51.322617"
         },
         "names": [
             {
@@ -77,15 +81,16 @@
                 "slug": "Bagh-e Feiz"
             }
         ],
-        "search": "باغ فیض,Bagh-e Feiz"
+        "search": "باغ فیض,Bagh-e Feiz",
+        "preview": "باغ فیض"
     },
     {
         "id": 6,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.736094,
-            "lon": 51.41629
+            "lat": "35.736094",
+            "lon": "51.416290"
         },
         "names": [
             {
@@ -93,15 +98,16 @@
                 "slug": "Arzhantin"
             }
         ],
-        "search": "آرژانتین,Arzhantin"
+        "search": "آرژانتین,Arzhantin",
+        "preview": "آرژانتین"
     },
     {
         "id": 7,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.721544,
-            "lon": 51.457699
+            "lat": "35.721544",
+            "lon": "51.457699"
         },
         "names": [
             {
@@ -109,15 +115,16 @@
                 "slug": "Aramaneh"
             }
         ],
-        "search": "ارامنه,Aramaneh"
+        "search": "ارامنه,Aramaneh",
+        "preview": "ارامنه"
     },
     {
         "id": 8,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.719995,
-            "lon": 51.472583
+            "lat": "35.719995",
+            "lon": "51.472583"
         },
         "names": [
             {
@@ -125,15 +132,16 @@
                 "slug": "Taslihat"
             }
         ],
-        "search": "تسلیحات,Taslihat"
+        "search": "تسلیحات,Taslihat",
+        "preview": "تسلیحات"
     },
     {
         "id": 9,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.696349,
-            "lon": 51.340544
+            "lat": "35.696349",
+            "lon": "51.340544"
         },
         "names": [
             {
@@ -141,15 +149,16 @@
                 "slug": "Ostad Moeen"
             }
         ],
-        "search": "استاد معین,Ostad Moeen"
+        "search": "استاد معین,Ostad Moeen",
+        "preview": "استاد معین"
     },
     {
         "id": 10,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.676259,
-            "lon": 51.377323
+            "lat": "35.676259",
+            "lon": "51.377323"
         },
         "names": [
             {
@@ -157,15 +166,16 @@
                 "slug": "Beryanak"
             }
         ],
-        "search": "بریانک,Beryanak"
+        "search": "بریانک,Beryanak",
+        "preview": "بریانک"
     },
     {
         "id": 11,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.693271,
-            "lon": 51.392714
+            "lat": "35.693271",
+            "lon": "51.392714"
         },
         "names": [
             {
@@ -173,15 +183,16 @@
                 "slug": "Azarbayejan"
             }
         ],
-        "search": "آذربایجان,Azarbayejan"
+        "search": "آذربایجان,Azarbayejan",
+        "preview": "آذربایجان"
     },
     {
         "id": 12,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.67967,
-            "lon": 51.443961
+            "lat": "35.679670",
+            "lon": "51.443961"
         },
         "names": [
             {
@@ -189,15 +200,16 @@
                 "slug": "Abshar"
             }
         ],
-        "search": "آبشارAbshar"
+        "search": "آبشارAbshar",
+        "preview": "آبشار"
     },
     {
         "id": 13,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.716416,
-            "lon": 51.504562
+            "lat": "35.716416",
+            "lon": "51.504562"
         },
         "names": [
             {
@@ -205,15 +217,16 @@
                 "slug": "Ashtiani"
             }
         ],
-        "search": "آشتیانی,Ashtiani"
+        "search": "آشتیانی,Ashtiani",
+        "preview": "آشتیانی"
     },
     {
         "id": 14,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.650988,
-            "lon": 51.478144
+            "lat": "35.650988",
+            "lon": "51.478144"
         },
         "names": [
             {
@@ -221,15 +234,16 @@
                 "slug": "Abuzar"
             }
         ],
-        "search": "ابوذر,Abuzar"
+        "search": "ابوذر,Abuzar",
+        "preview": "ابوذر"
     },
     {
         "id": 15,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.654617,
-            "lon": 51.422889
+            "lat": "35.654617",
+            "lon": "51.422889"
         },
         "names": [
             {
@@ -237,15 +251,16 @@
                 "slug": "Bagh-e Azari"
             }
         ],
-        "search": "باغ آذری,Bagh-e Azari"
+        "search": "باغ آذری,Bagh-e Azari",
+        "preview": "باغ آذری"
     },
     {
         "id": 16,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.6674,
-            "lon": 51.350364
+            "lat": "35.667400",
+            "lon": "51.350364"
         },
         "names": [
             {
@@ -253,15 +268,16 @@
                 "slug": "Azari"
             }
         ],
-        "search": "آذری,Azari"
+        "search": "آذری,Azari",
+        "preview": "آذری"
     },
     {
         "id": 17,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.670126,
-            "lon": 51.293903
+            "lat": "35.670126",
+            "lon": "51.293903"
         },
         "names": [
             {
@@ -269,15 +285,16 @@
                 "slug": "17 Shahrivar"
             }
         ],
-        "search": "17 شهریور,17 Shahrivar"
+        "search": "17 شهریور,17 Shahrivar",
+        "preview": "17 شهریور"
     },
     {
         "id": 18,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.628826,
-            "lon": 51.385153
+            "lat": "35.628826",
+            "lon": "51.385153"
         },
         "names": [
             {
@@ -285,15 +302,16 @@
                 "slug": "Esfandiari va Bostan"
             }
         ],
-        "search": "اسفندیاری و بستان,Esfandiari va Bostan"
+        "search": "اسفندیاری و بستان,Esfandiari va Bostan",
+        "preview": "اسفندیاری و بستان"
     },
     {
         "id": 19,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.620694,
-            "lon": 51.45243
+            "lat": "35.620694",
+            "lon": "51.452430"
         },
         "names": [
             {
@@ -301,15 +319,16 @@
                 "slug": "13Aban"
             }
         ],
-        "search": "13 آبان,13Aban"
+        "search": "13 آبان,13Aban",
+        "preview": "13 آبان"
     },
     {
         "id": 20,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.699864,
-            "lon": 51.256566
+            "lat": "35.699864",
+            "lon": "51.256566"
         },
         "names": [
             {
@@ -317,15 +336,16 @@
                 "slug": " Bashgah-e Naft"
             }
         ],
-        "search": "باشگاه نفت,Bashgah-e Naft"
+        "search": "باشگاه نفت,Bashgah-e Naft",
+        "preview": "باشگاه نفت"
     },
     {
         "id": 21,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.733392,
-            "lon": 51.187371
+            "lat": "35.733392",
+            "lon": "51.187371"
         },
         "names": [
             {
@@ -333,15 +353,16 @@
                 "slug": "Free Shahr"
             }
         ],
-        "search": "آزاد شهر,Free Shahr"
+        "search": "آزاد شهر,Free Shahr",
+        "preview": "آزاد شهر"
     },
     {
         "id": 22,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.805833,
-            "lon": 51.468066
+            "lat": "35.805833",
+            "lon": "51.468066"
         },
         "names": [
             {
@@ -349,15 +370,16 @@
                 "slug": "Hesar-e BooAli"
             }
         ],
-        "search": "حصار بوعلی,Hesar-e BooAli"
+        "search": "حصار بوعلی,Hesar-e BooAli",
+        "preview": "حصار بوعلی"
     },
     {
         "id": 23,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.718812,
-            "lon": 51.374419
+            "lat": "35.718812",
+            "lon": "51.374419"
         },
         "names": [
             {
@@ -365,15 +387,16 @@
                 "slug": "Tehran Vila"
             }
         ],
-        "search": "تهران ویلا,Tehran Vila"
+        "search": "تهران ویلا,Tehran Vila",
+        "preview": "تهران ویلا"
     },
     {
         "id": 24,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.736326,
-            "lon": 51.580324
+            "lat": "35.736326",
+            "lon": "51.580324"
         },
         "names": [
             {
@@ -381,15 +404,16 @@
                 "slug": "Hakimiyeh"
             }
         ],
-        "search": "حکیمیه,Hakimiyeh"
+        "search": "حکیمیه,Hakimiyeh",
+        "preview": "حکیمیه"
     },
     {
         "id": 25,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.721662,
-            "lon": 51.321173
+            "lat": "35.721662",
+            "lon": "51.321173"
         },
         "names": [
             {
@@ -397,15 +421,16 @@
                 "slug": "Bolvar Ferdows"
             }
         ],
-        "search": "بلوار فردوس,Bolvar Ferdows"
+        "search": "بلوار فردوس,Bolvar Ferdows",
+        "preview": "بلوار فردوس"
     },
     {
         "id": 26,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.736094,
-            "lon": 51.41629
+            "lat": "35.736094",
+            "lon": "51.416290"
         },
         "names": [
             {
@@ -413,15 +438,16 @@
                 "slug": "Saee"
             }
         ],
-        "search": "ساعی,Saee"
+        "search": "ساعی,Saee",
+        "preview": "ساعی"
     },
     {
         "id": 27,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.711475,
-            "lon": 51.430136
+            "lat": "35.711475",
+            "lon": "51.430136"
         },
         "names": [
             {
@@ -429,15 +455,16 @@
                 "slug": "Amjadiyeh"
             }
         ],
-        "search": "امجدیه,Amjadiyeh"
+        "search": "امجدیه,Amjadiyeh",
+        "preview": "امجدیه"
     },
     {
         "id": 28,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.727045,
-            "lon": 51.520922
+            "lat": "35.727045",
+            "lon": "51.520922"
         },
         "names": [
             {
@@ -445,15 +472,16 @@
                 "slug": "Tehran Pars"
             }
         ],
-        "search": "تهرانپارس,Tehran Pars"
+        "search": "تهرانپارس,Tehran Pars",
+        "preview": "تهرانپارس"
     },
     {
         "id": 29,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.679447,
-            "lon": 51.348517
+            "lat": "35.679447",
+            "lon": "51.348517"
         },
         "names": [
             {
@@ -461,15 +489,16 @@
                 "slug": "Emamzadeh Abdollah"
             }
         ],
-        "search": "امامزاده عبدالله,Emamzadeh Abdollah"
+        "search": "امامزاده عبدالله,Emamzadeh Abdollah",
+        "preview": "امامزاده عبدالله"
     },
     {
         "id": 30,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.675888,
-            "lon": 51.3569
+            "lat": "35.675888",
+            "lon": "51.356900"
         },
         "names": [
             {
@@ -477,15 +506,16 @@
                 "slug": "Jey"
             }
         ],
-        "search": "جی,Jey"
+        "search": "جی,Jey",
+        "preview": "جی"
     },
     {
         "id": 31,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.665311,
-            "lon": 51.401195
+            "lat": "35.665311",
+            "lon": "51.401195"
         },
         "names": [
             {
@@ -493,15 +523,16 @@
                 "slug": "Agahi"
             }
         ],
-        "search": "آگاهی,Agahi"
+        "search": "آگاهی,Agahi",
+        "preview": "آگاهی"
     },
     {
         "id": 32,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.681289,
-            "lon": 51.422564
+            "lat": "35.681289",
+            "lon": "51.422564"
         },
         "names": [
             {
@@ -509,15 +540,16 @@
                 "slug": "Arg-e Pamenar"
             }
         ],
-        "search": "ارگ پامنار,Arg-e Pamenar"
+        "search": "ارگ پامنار,Arg-e Pamenar",
+        "preview": "ارگ پامنار"
     },
     {
         "id": 33,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.709738,
-            "lon": 51.488424
+            "lat": "35.709738",
+            "lon": "51.488424"
         },
         "names": [
             {
@@ -525,15 +557,16 @@
                 "slug": "Emamat"
             }
         ],
-        "search": "امامت,Emamat"
+        "search": "امامت,Emamat",
+        "preview": "امامت"
     },
     {
         "id": 34,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.658374,
-            "lon": 51.475482
+            "lat": "35.658374",
+            "lon": "51.475482"
         },
         "names": [
             {
@@ -541,15 +574,16 @@
                 "slug": "Ahang"
             }
         ],
-        "search": "آهنگ,Ahang"
+        "search": "آهنگ,Ahang",
+        "preview": "آهنگ"
     },
     {
         "id": 35,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.6493,
-            "lon": 51.462296
+            "lat": "35.649300",
+            "lon": "51.462296"
         },
         "names": [
             {
@@ -557,15 +591,16 @@
                 "slug": "Atabak"
             }
         ],
-        "search": "اتابک,Atabak"
+        "search": "اتابک,Atabak",
+        "preview": "اتابک"
     },
     {
         "id": 36,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.626895,
-            "lon": 51.414063
+            "lat": "35.626895",
+            "lon": "51.414063"
         },
         "names": [
             {
@@ -573,15 +608,16 @@
                 "slug": "Takhti"
             }
         ],
-        "search": "تختی,Takhti"
+        "search": "تختی,Takhti",
+        "preview": "تختی"
     },
     {
         "id": 37,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.659645,
-            "lon": 51.362969
+            "lat": "35.659645",
+            "lon": "51.362969"
         },
         "names": [
             {
@@ -589,15 +625,16 @@
                 "slug": "Abuzar"
             }
         ],
-        "search": "ابوذر,Abuzar"
+        "search": "ابوذر,Abuzar",
+        "preview": "ابوذر"
     },
     {
         "id": 38,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.657711,
-            "lon": 51.338402
+            "lat": "35.657711",
+            "lon": "51.338402"
         },
         "names": [
             {
@@ -605,15 +642,16 @@
                 "slug": "Behdasht"
             }
         ],
-        "search": "بهداشت,Behdasht"
+        "search": "بهداشت,Behdasht",
+        "preview": "بهداشت"
     },
     {
         "id": 39,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.620391,
-            "lon": 51.335686
+            "lat": "35.620391",
+            "lon": "51.335686"
         },
         "names": [
             {
@@ -621,15 +659,16 @@
                 "slug": "Esmaeil Abad"
             }
         ],
-        "search": "اسماعیل آباد,Esmaeil Abad"
+        "search": "اسماعیل آباد,Esmaeil Abad",
+        "preview": "اسماعیل آباد"
     },
     {
         "id": 40,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.603165,
-            "lon": 51.441316
+            "lat": "35.603165",
+            "lon": "51.441316"
         },
         "names": [
             {
@@ -637,15 +676,16 @@
                 "slug": "Ebne Babooyeh"
             }
         ],
-        "search": "ابن بابویه,Ebne Babooyeh"
+        "search": "ابن بابویه,Ebne Babooyeh",
+        "preview": "ابن بابویه"
     },
     {
         "id": 41,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.69188,
-            "lon": 51.245311
+            "lat": "35.691880",
+            "lon": "51.245311"
         },
         "names": [
             {
@@ -653,15 +693,16 @@
                 "slug": "Tehransar"
             }
         ],
-        "search": "تهرانسر,Tehransar"
+        "search": "تهرانسر,Tehransar",
+        "preview": "تهرانسر"
     },
     {
         "id": 42,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.731026,
-            "lon": 51.183672
+            "lat": "35.731026",
+            "lon": "51.183672"
         },
         "names": [
             {
@@ -669,15 +710,16 @@
                 "slug": "Peykan Shahr"
             }
         ],
-        "search": "پیکان شهر,Peykan Shahr"
+        "search": "پیکان شهر,Peykan Shahr",
+        "preview": "پیکان شهر"
     },
     {
         "id": 43,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.813514,
-            "lon": 51.439596
+            "lat": "35.813514",
+            "lon": "51.439596"
         },
         "names": [
             {
@@ -685,15 +727,16 @@
                 "slug": " Emamzadeh Ghasem"
             }
         ],
-        "search": "امامزاده قاسم,Emamzadeh Ghasem "
+        "search": "امامزاده قاسم,Emamzadeh Ghasem ",
+        "preview": "امامزاده قاسم"
     },
     {
         "id": 44,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.723771,
-            "lon": 51.352251
+            "lat": "35.723771",
+            "lon": "51.352251"
         },
         "names": [
             {
@@ -701,15 +744,16 @@
                 "slug": "Sattarkhan"
             }
         ],
-        "search": "ستارخان,Sattarkhan"
+        "search": "ستارخان,Sattarkhan",
+        "preview": "ستارخان"
     },
     {
         "id": 45,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.774645,
-            "lon": 51.456819
+            "lat": "35.774645",
+            "lon": "51.456819"
         },
         "names": [
             {
@@ -717,15 +761,16 @@
                 "slug": "Daroos"
             }
         ],
-        "search": "دروس,Daroos"
+        "search": "دروس,Daroos",
+        "preview": "دروس"
     },
     {
         "id": 46,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.771077,
-            "lon": 51.512662
+            "lat": "35.771077",
+            "lon": "51.512662"
         },
         "names": [
             {
@@ -733,15 +778,16 @@
                 "slug": "Hosein Abad"
             }
         ],
-        "search": "حسین آباد,Hosein Abad"
+        "search": "حسین آباد,Hosein Abad",
+        "preview": "حسین آباد"
     },
     {
         "id": 47,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.761607,
-            "lon": 51.326731
+            "lat": "35.761607",
+            "lon": "51.326731"
         },
         "names": [
             {
@@ -749,15 +795,16 @@
                 "slug": "Poonak"
             }
         ],
-        "search": "پونک,Poonak"
+        "search": "پونک,Poonak",
+        "preview": "پونک"
     },
     {
         "id": 48,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.720613,
-            "lon": 51.394849
+            "lat": "35.720613",
+            "lon": "51.394849"
         },
         "names": [
             {
@@ -765,15 +812,16 @@
                 "slug": "Amir abad"
             }
         ],
-        "search": "امیرآباد,Amir abad"
+        "search": "امیرآباد,Amir abad",
+        "preview": "امیرآباد"
     },
     {
         "id": 49,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.711475,
-            "lon": 51.430136
+            "lat": "35.711475",
+            "lon": "51.430136"
         },
         "names": [
             {
@@ -781,15 +829,16 @@
                 "slug": "Khaghani"
             }
         ],
-        "search": "خاقانی,Khaghani"
+        "search": "خاقانی,Khaghani",
+        "preview": "خاقانی"
     },
     {
         "id": 50,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.729557,
-            "lon": 51.506741
+            "lat": "35.729557",
+            "lon": "51.506741"
         },
         "names": [
             {
@@ -797,15 +846,16 @@
                 "slug": "Dardasht"
             }
         ],
-        "search": "دردشت,Dardasht"
+        "search": "دردشت,Dardasht",
+        "preview": "دردشت"
     },
     {
         "id": 51,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.69475,
-            "lon": 51.351148
+            "lat": "35.694750",
+            "lon": "51.351148"
         },
         "names": [
             {
@@ -813,15 +863,16 @@
                 "slug": "Doctor Hoshyar"
             }
         ],
-        "search": "دکتر هوشیار,Doctor Hoshyar"
+        "search": "دکتر هوشیار,Doctor Hoshyar",
+        "preview": "دکتر هوشیار"
     },
     {
         "id": 52,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.675888,
-            "lon": 51.3569
+            "lat": "35.675888",
+            "lon": "51.356900"
         },
         "names": [
             {
@@ -829,15 +880,16 @@
                 "slug": "Shobeiri"
             }
         ],
-        "search": "شبیری,Shobeiri"
+        "search": "شبیری,Shobeiri",
+        "preview": "شبیری"
     },
     {
         "id": 53,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.690277,
-            "lon": 51.381625
+            "lat": "35.690277",
+            "lon": "51.381625"
         },
         "names": [
             {
@@ -845,15 +897,16 @@
                 "slug": "Eskandari"
             }
         ],
-        "search": "اسکندری,Eskandari"
+        "search": "اسکندری,Eskandari",
+        "preview": "اسکندری"
     },
     {
         "id": 54,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.678822,
-            "lon": 51.434242
+            "lat": "35.678822",
+            "lon": "51.434242"
         },
         "names": [
             {
@@ -861,15 +914,16 @@
                 "slug": "Emamzadeh Yahya"
             }
         ],
-        "search": "امامزاده یحیی,Emamzadeh Yahya"
+        "search": "امامزاده یحیی,Emamzadeh Yahya",
+        "preview": "امامزاده یحیی"
     },
     {
         "id": 55,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.69588,
-            "lon": 51.486173
+            "lat": "35.695880",
+            "lon": "51.486173"
         },
         "names": [
             {
@@ -877,15 +931,16 @@
                 "slug": "Piroozi"
             }
         ],
-        "search": "پیروزی,Piroozi"
+        "search": "پیروزی,Piroozi",
+        "preview": "پیروزی"
     },
     {
         "id": 56,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.67773,
-            "lon": 51.459783
+            "lat": "35.677730",
+            "lon": "51.459783"
         },
         "names": [
             {
@@ -893,15 +948,16 @@
                 "slug": "Ahangaran"
             }
         ],
-        "search": "آهنگران,Ahangaran"
+        "search": "آهنگران,Ahangaran",
+        "preview": "آهنگران"
     },
     {
         "id": 57,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.639385,
-            "lon": 51.497724
+            "lat": "35.639385",
+            "lon": "51.497724"
         },
         "names": [
             {
@@ -909,15 +965,16 @@
                 "slug": "Eslam Abad"
             }
         ],
-        "search": "اسلام آباد,Eslam Abad"
+        "search": "اسلام آباد,Eslam Abad",
+        "preview": "اسلام آباد"
     },
     {
         "id": 58,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.653864,
-            "lon": 51.39498
+            "lat": "35.653864",
+            "lon": "51.394980"
         },
         "names": [
             {
@@ -925,15 +982,16 @@
                 "slug": "Javadieh"
             }
         ],
-        "search": "جوادیه,Javadieh"
+        "search": "جوادیه,Javadieh",
+        "preview": "جوادیه"
     },
     {
         "id": 59,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.66523,
-            "lon": 51.358796
+            "lat": "35.665230",
+            "lon": "51.358796"
         },
         "names": [
             {
@@ -941,15 +999,16 @@
                 "slug": "Emamzadeh Hassan"
             }
         ],
-        "search": "امامزاده حسن,Emamzadeh Hassan"
+        "search": "امامزاده حسن,Emamzadeh Hassan",
+        "preview": "امامزاده حسن"
     },
     {
         "id": 60,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.664278,
-            "lon": 51.337458
+            "lat": "35.664278",
+            "lon": "51.337458"
         },
         "names": [
             {
@@ -957,15 +1016,16 @@
                 "slug": "Tolid Daroo"
             }
         ],
-        "search": "تولید دارو,Tolid Daroo"
+        "search": "تولید دارو,Tolid Daroo",
+        "preview": "تولید دارو"
     },
     {
         "id": 61,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.646872,
-            "lon": 51.381175
+            "lat": "35.646872",
+            "lon": "51.381175"
         },
         "names": [
             {
@@ -973,15 +1033,16 @@
                 "slug": "Boostan-e Velayat"
             }
         ],
-        "search": "بوستان ولایت,Boostan-e Velayat"
+        "search": "بوستان ولایت,Boostan-e Velayat",
+        "preview": "بوستان ولایت"
     },
     {
         "id": 62,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.590964,
-            "lon": 51.445993
+            "lat": "35.590964",
+            "lon": "51.445993"
         },
         "names": [
             {
@@ -989,15 +1050,16 @@
                 "slug": "Estakhr"
             }
         ],
-        "search": "استخر,Estakhr"
+        "search": "استخر,Estakhr",
+        "preview": "استخر"
     },
     {
         "id": 63,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.721571,
-            "lon": 51.178974
+            "lat": "35.721571",
+            "lon": "51.178974"
         },
         "names": [
             {
@@ -1005,15 +1067,16 @@
                 "slug": "Cheetgar"
             }
         ],
-        "search": "چیتگر,Cheetgar"
+        "search": "چیتگر,Cheetgar",
+        "preview": "چیتگر"
     },
     {
         "id": 64,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.763763,
-            "lon": 51.253712
+            "lat": "35.763763",
+            "lon": "51.253712"
         },
         "names": [
             {
@@ -1021,15 +1084,16 @@
                 "slug": "Dehkadeh Olampik"
             }
         ],
-        "search": "دهکده المپیک,Dehkadeh Olampik"
+        "search": "دهکده المپیک,Dehkadeh Olampik",
+        "preview": "دهکده المپیک"
     },
     {
         "id": 65,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.810285,
-            "lon": 51.414696
+            "lat": "35.810285",
+            "lon": "51.414696"
         },
         "names": [
             {
@@ -1037,15 +1101,16 @@
                 "slug": "Evin"
             }
         ],
-        "search": "اوین,Evin"
+        "search": "اوین,Evin",
+        "preview": "اوین"
     },
     {
         "id": 66,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.787761,
-            "lon": 51.37669
+            "lat": "35.787761",
+            "lon": "51.376690"
         },
         "names": [
             {
@@ -1053,15 +1118,16 @@
                 "slug": "Saadat Abad "
             }
         ],
-        "search": "سعادت آباد,Saadat Abad "
+        "search": "سعادت آباد,Saadat Abad ",
+        "preview": "سعادت آباد"
     },
     {
         "id": 67,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.779185,
-            "lon": 51.418075
+            "lat": "35.779185",
+            "lon": "51.418075"
         },
         "names": [
             {
@@ -1069,15 +1135,16 @@
                 "slug": "Amanieh"
             }
         ],
-        "search": "امانیه,Amanieh"
+        "search": "امانیه,Amanieh",
+        "preview": "امانیه"
     },
     {
         "id": 68,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.7481,
-            "lon": 51.47
+            "lat": "35.748100",
+            "lon": "51.47َ8081"
         },
         "names": [
             {
@@ -1085,15 +1152,16 @@
                 "slug": "Shamsabad"
             }
         ],
-        "search": "شمس آباد,Shamsabad"
+        "search": "شمس آباد,Shamsabad",
+        "preview": "شمس آباد"
     },
     {
         "id": 69,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.746421,
-            "lon": 51.30727
+            "lat": "35.746421",
+            "lon": "51.307270"
         },
         "names": [
             {
@@ -1101,15 +1169,16 @@
                 "slug": "Jannat Abad"
             }
         ],
-        "search": "جنت آباد,Jannat Abad"
+        "search": "جنت آباد,Jannat Abad",
+        "preview": "جنت آباد"
     },
     {
         "id": 70,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.70898,
-            "lon": 51.421854
+            "lat": "35.708980",
+            "lon": "51.421854"
         },
         "names": [
             {
@@ -1117,15 +1186,16 @@
                 "slug": "Iranshahr"
             }
         ],
-        "search": "ایرانشهر,Iranshahr"
+        "search": "ایرانشهر,Iranshahr",
+        "preview": "ایرانشهر"
     },
     {
         "id": 71,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.721911,
-            "lon": 51.436561
+            "lat": "35.721911",
+            "lon": "51.436561"
         },
         "names": [
             {
@@ -1133,15 +1203,16 @@
                 "slug": "Bagh-e Saba"
             }
         ],
-        "search": "باغ صبا,Bagh-e Saba"
+        "search": "باغ صبا,Bagh-e Saba",
+        "preview": "باغ صبا"
     },
     {
         "id": 72,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.716934,
-            "lon": 51.480436
+            "lat": "35.716934",
+            "lon": "51.480436"
         },
         "names": [
             {
@@ -1149,15 +1220,16 @@
                 "slug": "Zarkesh"
             }
         ],
-        "search": "زرکش,Zarkesh"
+        "search": "زرکش,Zarkesh",
+        "preview": "زرکش"
     },
     {
         "id": 73,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.67203,
-            "lon": 51.328841
+            "lat": "35.672030",
+            "lon": "51.328841"
         },
         "names": [
             {
@@ -1165,15 +1237,16 @@
                 "slug": "Sarasiab Mehrabad "
             }
         ],
-        "search": "سرآسیاب مهرآباد , Sarasiab Mehrabad "
+        "search": "سرآسیاب مهرآباد , Sarasiab Mehrabad ",
+        "preview": "سرآسیاب مهرآباد"
     },
     {
         "id": 74,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.686441,
-            "lon": 51.373657
+            "lat": "35.686441",
+            "lon": "51.373657"
         },
         "names": [
             {
@@ -1181,15 +1254,16 @@
                 "slug": "Salsabil"
             }
         ],
-        "search": "سلسبیل,Salsabil"
+        "search": "سلسبیل,Salsabil",
+        "preview": "سلسبیل"
     },
     {
         "id": 75,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.678721,
-            "lon": 51.401156
+            "lat": "35.678721",
+            "lon": "51.401156"
         },
         "names": [
             {
@@ -1197,15 +1271,16 @@
                 "slug": "Amiriyeh"
             }
         ],
-        "search": "امیریه,Amiriyeh"
+        "search": "امیریه,Amiriyeh",
+        "preview": "امیریه"
     },
     {
         "id": 76,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.68809,
-            "lon": 51.439387
+            "lat": "35.688090",
+            "lon": "51.439387"
         },
         "names": [
             {
@@ -1213,15 +1288,16 @@
                 "slug": "Iran"
             }
         ],
-        "search": "ایران,Iran"
+        "search": "ایران,Iran",
+        "preview": "ایران"
     },
     {
         "id": 77,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.650988,
-            "lon": 51.478144
+            "lat": "35.650988",
+            "lon": "51.478144"
         },
         "names": [
             {
@@ -1229,15 +1305,16 @@
                 "slug": "Abuzar"
             }
         ],
-        "search": "ابوذر,Abuzar"
+        "search": "ابوذر,Abuzar",
+        "preview": "ابوذر"
     },
     {
         "id": 78,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.637415,
-            "lon": 51.489892
+            "lat": "35.637415",
+            "lon": "51.489892"
         },
         "names": [
             {
@@ -1245,15 +1322,16 @@
                 "slug": "Valfajr"
             }
         ],
-        "search": "والفجر,Valfajr"
+        "search": "والفجر,Valfajr",
+        "preview": "والفجر"
     },
     {
         "id": 79,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.641043,
-            "lon": 51.421337
+            "lat": "35.641043",
+            "lon": "51.421337"
         },
         "names": [
             {
@@ -1261,15 +1339,16 @@
                 "slug": "Khazaneh"
             }
         ],
-        "search": "خزانه,Khazaneh"
+        "search": "خزانه,Khazaneh",
+        "preview": "خزانه"
     },
     {
         "id": 80,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.66404,
-            "lon": 51.370634
+            "lat": "35.664040",
+            "lon": "51.370634"
         },
         "names": [
             {
@@ -1277,15 +1356,16 @@
                 "slug": "Khazaneh Bagh-e"
             }
         ],
-        "search": "باغ خزانه,Khazaneh Bagh-e"
+        "search": "باغ خزانه,Khazaneh Bagh-e",
+        "preview": "باغ خزانه"
     },
     {
         "id": 81,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.62651,
-            "lon": 51.398703
+            "lat": "35.626510",
+            "lon": "51.398703"
         },
         "names": [
             {
@@ -1293,15 +1373,16 @@
                 "slug": "Bahmanyar"
             }
         ],
-        "search": "بهمنیار,Bahmanyar"
+        "search": "بهمنیار,Bahmanyar",
+        "preview": "بهمنیار"
     },
     {
         "id": 82,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.594434,
-            "lon": 51.443848
+            "lat": "35.594434",
+            "lon": "51.443848"
         },
         "names": [
             {
@@ -1309,15 +1390,16 @@
                 "slug": "Aghdasieh"
             }
         ],
-        "search": "اقدسیه,Aghdasieh"
+        "search": "اقدسیه,Aghdasieh",
+        "preview": "اقدسیه"
     },
     {
         "id": 83,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.708915,
-            "lon": 51.273398
+            "lat": "35.708915",
+            "lon": "51.273398"
         },
         "names": [
             {
@@ -1325,15 +1407,16 @@
                 "slug": "Shahrak Azadi"
             }
         ],
-        "search": "شهرک آزادی,Shahrak Azadi"
+        "search": "شهرک آزادی,Shahrak Azadi",
+        "preview": "شهرک آزادی"
     },
     {
         "id": 84,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.75192,
-            "lon": 51.260222
+            "lat": "35.751920",
+            "lon": "51.260222"
         },
         "names": [
             {
@@ -1341,15 +1424,16 @@
                 "slug": "Ziba Dasht"
             }
         ],
-        "search": "زیبا دشت,Ziba Dasht"
+        "search": "زیبا دشت,Ziba Dasht",
+        "preview": "زیبا دشت"
     },
     {
         "id": 85,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.79619,
-            "lon": 51.42321
+            "lat": "35.796190",
+            "lon": "51.423210"
         },
         "names": [
             {
@@ -1357,15 +1441,16 @@
                 "slug": "Bagh-e Ferdows "
             }
         ],
-        "search": "باغ فردوس, Bagh-e Ferdows "
+        "search": "باغ فردوس, Bagh-e Ferdows ",
+        "preview": "باغ فردوس"
     },
     {
         "id": 86,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.759926,
-            "lon": 51.374435
+            "lat": "35.759926",
+            "lon": "51.374435"
         },
         "names": [
             {
@@ -1373,15 +1458,16 @@
                 "slug": "Shahrake Gharb"
             }
         ],
-        "search": "شهرک غرب,Shahrake Gharb"
+        "search": "شهرک غرب,Shahrake Gharb",
+        "preview": "شهرک غرب"
     },
     {
         "id": 87,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.763653,
-            "lon": 51.543928
+            "lat": "35.763653",
+            "lon": "51.543928"
         },
         "names": [
             {
@@ -1389,15 +1475,16 @@
                 "slug": "Majid Abad"
             }
         ],
-        "search": "مجیدآباد,Majid Abad"
+        "search": "مجیدآباد,Majid Abad",
+        "preview": "مجیدآباد"
     },
     {
         "id": 88,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.784407,
-            "lon": 51.310581
+            "lat": "35.784407",
+            "lon": "51.310581"
         },
         "names": [
             {
@@ -1405,15 +1492,16 @@
                 "slug": "HESARAK"
             }
         ],
-        "search": "حصارک,HESARAK"
+        "search": "حصارک,HESARAK",
+        "preview": "حصارک"
     },
     {
         "id": 89,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.718914,
-            "lon": 51.412177
+            "lat": "35.718914",
+            "lon": "51.412177"
         },
         "names": [
             {
@@ -1421,15 +1509,16 @@
                 "slug": "Behjatabad"
             }
         ],
-        "search": "بهجت آباد,Behjatabad"
+        "search": "بهجت آباد,Behjatabad",
+        "preview": "بهجت آباد"
     },
     {
         "id": 90,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.721911,
-            "lon": 51.436561
+            "lat": "35.721911",
+            "lon": "51.436561"
         },
         "names": [
             {
@@ -1437,15 +1526,16 @@
                 "slug": "Sohrevardi"
             }
         ],
-        "search": "سهروردی,Sohrevardi"
+        "search": "سهروردی,Sohrevardi",
+        "preview": "سهروردی"
     },
     {
         "id": 91,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.727642,
-            "lon": 51.481429
+            "lat": "35.727642",
+            "lon": "51.481429"
         },
         "names": [
             {
@@ -1453,15 +1543,16 @@
                 "slug": "FADAK"
             }
         ],
-        "search": "فدک,FADAK"
+        "search": "فدک,FADAK",
+        "preview": "فدک"
     },
     {
         "id": 92,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.670982,
-            "lon": 51.34245
+            "lat": "35.670982",
+            "lon": "51.342450"
         },
         "names": [
             {
@@ -1469,15 +1560,16 @@
                 "slug": "Shamshiri"
             }
         ],
-        "search": "شمشیری,Shamshiri"
+        "search": "شمشیری,Shamshiri",
+        "preview": "شمشیری"
     },
     {
         "id": 93,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.67226,
-            "lon": 51.364133
+            "lat": "35.672260",
+            "lon": "51.364133"
         },
         "names": [
             {
@@ -1485,15 +1577,16 @@
                 "slug": "Soleimani"
             }
         ],
-        "search": "سلیمانی,Soleimani"
+        "search": "سلیمانی,Soleimani",
+        "preview": "سلیمانی"
     },
     {
         "id": 94,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.662689,
-            "lon": 51.392365
+            "lat": "35.662689",
+            "lon": "51.392365"
         },
         "names": [
             {
@@ -1501,15 +1594,16 @@
                 "slug": "Anbar Naft"
             }
         ],
-        "search": "انبارنفت,Anbar Naft"
+        "search": "انبارنفت,Anbar Naft",
+        "preview": "انبارنفت"
     },
     {
         "id": 95,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.673551,
-            "lon": 51.42039
+            "lat": "35.673551",
+            "lon": "51.420390"
         },
         "names": [
             {
@@ -1517,15 +1611,16 @@
                 "slug": "Bazar"
             }
         ],
-        "search": "بازار,Bazar"
+        "search": "بازار,Bazar",
+        "preview": "بازار"
     },
     {
         "id": 96,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.701896,
-            "lon": 51.495231
+            "lat": "35.701896",
+            "lon": "51.495231"
         },
         "names": [
             {
@@ -1533,15 +1628,16 @@
                 "slug": "Hafeziyeh"
             }
         ],
-        "search": "حافظیه,Hafeziyeh"
+        "search": "حافظیه,Hafeziyeh",
+        "preview": "حافظیه"
     },
     {
         "id": 97,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.637936,
-            "lon": 51.46786
+            "lat": "35.637936",
+            "lon": "51.467860"
         },
         "names": [
             {
@@ -1549,15 +1645,16 @@
                 "slug": "Boroujerdi"
             }
         ],
-        "search": "بروجردی,Boroujerdi"
+        "search": "بروجردی,Boroujerdi",
+        "preview": "بروجردی"
     },
     {
         "id": 98,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.65102,
-            "lon": 51.492493
+            "lat": "35.651020",
+            "lon": "51.492493"
         },
         "names": [
             {
@@ -1565,15 +1662,16 @@
                 "slug": "Afsarieh"
             }
         ],
-        "search": "افسریه,Afsarieh"
+        "search": "افسریه,Afsarieh",
+        "preview": "افسریه"
     },
     {
         "id": 99,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.63784,
-            "lon": 51.42967
+            "lat": "35.637840",
+            "lon": "51.429670"
         },
         "names": [
             {
@@ -1581,15 +1679,16 @@
                 "slug": "Shahrak-e Besat"
             }
         ],
-        "search": "شهرک بعثت,Shahrak-e Besat"
+        "search": "شهرک بعثت,Shahrak-e Besat",
+        "preview": "شهرک بعثت"
     },
     {
         "id": 100,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.664088,
-            "lon": 51.378236
+            "lat": "35.664088",
+            "lon": "51.378236"
         },
         "names": [
             {
@@ -1597,15 +1696,16 @@
                 "slug": "Boloorsazi"
             }
         ],
-        "search": "بلور سازی,Boloorsazi"
+        "search": "بلور سازی,Boloorsazi",
+        "preview": "بلور سازی"
     },
     {
         "id": 101,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.663055,
-            "lon": 51.325435
+            "lat": "35.663055",
+            "lon": "51.325435"
         },
         "names": [
             {
@@ -1613,15 +1713,16 @@
                 "slug": "Ferdows"
             }
         ],
-        "search": "فردوس,Ferdows"
+        "search": "فردوس,Ferdows",
+        "preview": "فردوس"
     },
     {
         "id": 102,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.620177,
-            "lon": 51.394343
+            "lat": "35.620177",
+            "lon": "51.394343"
         },
         "names": [
             {
@@ -1629,15 +1730,16 @@
                 "slug": "Khani Abad"
             }
         ],
-        "search": "خانی آباد,Khani Abad"
+        "search": "خانی آباد,Khani Abad",
+        "preview": "خانی آباد"
     },
     {
         "id": 103,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.580185,
-            "lon": 51.463813
+            "lat": "35.580185",
+            "lon": "51.463813"
         },
         "names": [
             {
@@ -1645,15 +1747,16 @@
                 "slug": "Baroot Koobi"
             }
         ],
-        "search": "باروت کوبی,Baroot Koobi"
+        "search": "باروت کوبی,Baroot Koobi",
+        "preview": "باروت کوبی"
     },
     {
         "id": 104,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.69882,
-            "lon": 51.238802
+            "lat": "35.698820",
+            "lon": "51.238802"
         },
         "names": [
             {
@@ -1661,15 +1764,16 @@
                 "slug": "Shahrak-e Baba"
             }
         ],
-        "search": "شهرک استقلال,Shahrak-e Baba"
+        "search": "شهرک استقلال,Shahrak-e Baba",
+        "preview": "شهرک استقلال"
     },
     {
         "id": 105,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.760318,
-            "lon": 51.231176
+            "lat": "35.760318",
+            "lon": "51.231176"
         },
         "names": [
             {
@@ -1677,15 +1781,16 @@
                 "slug": "Shahrak-e Dezhban"
             }
         ],
-        "search": "شهرک دژبان , shahrak-e Dezhban"
+        "search": "شهرک دژبان , shahrak-e Dezhban",
+        "preview": "شهرک دژبان"
     },
     {
         "id": 106,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.792987,
-            "lon": 51.431338
+            "lat": "35.792987",
+            "lon": "51.431338"
         },
         "names": [
             {
@@ -1693,15 +1798,16 @@
                 "slug": "Tajrish"
             }
         ],
-        "search": "تجریش,Tajrish"
+        "search": "تجریش,Tajrish",
+        "preview": "تجریش"
     },
     {
         "id": 107,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.764632,
-            "lon": 51.419889
+            "lat": "35.764632",
+            "lon": "51.419889"
         },
         "names": [
             {
@@ -1709,15 +1815,16 @@
                 "slug": "Jordan"
             }
         ],
-        "search": "جردن,Jordan"
+        "search": "جردن,Jordan",
+        "preview": "جردن"
     },
     {
         "id": 108,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.761148,
-            "lon": 51.497849
+            "lat": "35.761148",
+            "lon": "51.497849"
         },
         "names": [
             {
@@ -1725,15 +1832,16 @@
                 "slug": "Shemiran no"
             }
         ],
-        "search": "شمیران نو,Shemiran no"
+        "search": "شمیران نو,Shemiran no",
+        "preview": "شمیران نو"
     },
     {
         "id": 109,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.726836,
-            "lon": 51.300715
+            "lat": "35.726836",
+            "lon": "51.300715"
         },
         "names": [
             {
@@ -1741,15 +1849,16 @@
                 "slug": "Sazman-e Barnameh "
             }
         ],
-        "search": "سازمان برنامه,Sazman-e Barnameh "
+        "search": "سازمان برنامه,Sazman-e Barnameh ",
+        "preview": "سازمان برنامه"
     },
     {
         "id": 110,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.714341,
-            "lon": 51.399329
+            "lat": "35.714341",
+            "lon": "51.399329"
         },
         "names": [
             {
@@ -1757,15 +1866,16 @@
                 "slug": "park Laleh"
             }
         ],
-        "search": "پارک لاله , park Laleh"
+        "search": "پارک لاله , park Laleh",
+        "preview": "پارک لاله"
     },
     {
         "id": 111,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.711245,
-            "lon": 51.434026
+            "lat": "35.711245",
+            "lon": "51.434026"
         },
         "names": [
             {
@@ -1773,15 +1883,16 @@
                 "slug": "Bahar"
             }
         ],
-        "search": "بهار,Bahar"
+        "search": "بهار,Bahar",
+        "preview": "بهار"
     },
     {
         "id": 112,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.733377,
-            "lon": 51.471998
+            "lat": "35.733377",
+            "lon": "51.471998"
         },
         "names": [
             {
@@ -1789,15 +1900,16 @@
                 "slug": "Kerman"
             }
         ],
-        "search": "کرمان,Kerman"
+        "search": "کرمان,Kerman",
+        "preview": "کرمان"
     },
     {
         "id": 113,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.678317,
-            "lon": 51.299859
+            "lat": "35.678317",
+            "lon": "51.299859"
         },
         "names": [
             {
@@ -1805,15 +1917,16 @@
                 "slug": "Fath"
             }
         ],
-        "search": "فتح,Fath"
+        "search": "فتح,Fath",
+        "preview": "فتح"
     },
     {
         "id": 114,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.67226,
-            "lon": 51.364133
+            "lat": "35.672260",
+            "lon": "51.364133"
         },
         "names": [
             {
@@ -1821,15 +1934,16 @@
                 "slug": "Teymoori"
             }
         ],
-        "search": "تیموری,Teymoori"
+        "search": "تیموری,Teymoori",
+        "preview": "تیموری"
     },
     {
         "id": 115,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.69794,
-            "lon": 51.382148
+            "lat": "35.697940",
+            "lon": "51.382148"
         },
         "names": [
             {
@@ -1837,15 +1951,16 @@
                 "slug": "Jamalzadeh"
             }
         ],
-        "search": "جمالزاده,Jamalzadeh"
+        "search": "جمالزاده,Jamalzadeh",
+        "preview": "جمالزاده"
     },
     {
         "id": 116,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.695156,
-            "lon": 51.43023
+            "lat": "35.695156",
+            "lon": "51.430230"
         },
         "names": [
             {
@@ -1853,15 +1968,16 @@
                 "slug": "BAHARESTAN"
             }
         ],
-        "search": "بهارستان,BAHARESTAN"
+        "search": "بهارستان,BAHARESTAN",
+        "preview": "بهارستان"
     },
     {
         "id": 117,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.695171,
-            "lon": 51.47693
+            "lat": "35.695171",
+            "lon": "51.476930"
         },
         "names": [
             {
@@ -1869,15 +1985,16 @@
                 "slug": "Dehghan"
             }
         ],
-        "search": "دهقان,Dehghan"
+        "search": "دهقان,Dehghan",
+        "preview": "دهقان"
     },
     {
         "id": 118,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.688499,
-            "lon": 51.486369
+            "lat": "35.688499",
+            "lon": "51.486369"
         },
         "names": [
             {
@@ -1885,15 +2002,16 @@
                 "slug": "Parastar"
             }
         ],
-        "search": "پرستار,Parastar"
+        "search": "پرستار,Parastar",
+        "preview": "پرستار"
     },
     {
         "id": 119,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.637954,
-            "lon": 51.467849
+            "lat": "35.637954",
+            "lon": "51.467849"
         },
         "names": [
             {
@@ -1901,15 +2019,16 @@
                 "slug": "Boroujerdi"
             }
         ],
-        "search": "بروجردی,Boroujerdi"
+        "search": "بروجردی,Boroujerdi",
+        "preview": "بروجردی"
     },
     {
         "id": 120,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.639191,
-            "lon": 51.414612
+            "lat": "35.639191",
+            "lon": "51.414612"
         },
         "names": [
             {
@@ -1917,15 +2036,16 @@
                 "slug": "Ali Abad"
             }
         ],
-        "search": "علی آباد,Ali Abad"
+        "search": "علی آباد,Ali Abad",
+        "preview": "علی آباد"
     },
     {
         "id": 121,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.650847,
-            "lon": 51.36231
+            "lat": "35.650847",
+            "lon": "51.362310"
         },
         "names": [
             {
@@ -1933,15 +2053,16 @@
                 "slug": "Jalili"
             }
         ],
-        "search": "جلیلی,Jalili"
+        "search": "جلیلی,Jalili",
+        "preview": "جلیلی"
     },
     {
         "id": 122,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.668036,
-            "lon": 51.264552
+            "lat": "35.668036",
+            "lon": "51.264552"
         },
         "names": [
             {
@@ -1949,15 +2070,16 @@
                 "slug": "Khalije Fars"
             }
         ],
-        "search": "خلیج فارس,Khalije Fars"
+        "search": "خلیج فارس,Khalije Fars",
+        "preview": "خلیج فارس"
     },
     {
         "id": 123,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.62755,
-            "lon": 51.341989
+            "lat": "35.627550",
+            "lon": "51.341989"
         },
         "names": [
             {
@@ -1965,15 +2087,16 @@
                 "slug": "Dolatkhah"
             }
         ],
-        "search": "دولتخواه,Dolatkhah"
+        "search": "دولتخواه,Dolatkhah",
+        "preview": "دولتخواه"
     },
     {
         "id": 124,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.615739,
-            "lon": 51.426608
+            "lat": "35.615739",
+            "lon": "51.426608"
         },
         "names": [
             {
@@ -1981,15 +2104,16 @@
                 "slug": "Taghi Abad"
             }
         ],
-        "search": "تقی آباد,Taghi Abad"
+        "search": "تقی آباد,Taghi Abad",
+        "preview": "تقی آباد"
     },
     {
         "id": 125,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.708915,
-            "lon": 51.273398
+            "lat": "35.708915",
+            "lon": "51.273398"
         },
         "names": [
             {
@@ -1997,15 +2121,16 @@
                 "slug": "Shahrak-e Pasdaran"
             }
         ],
-        "search": "شهرک پاسداران,Shahrak-e Pasdaran"
+        "search": "شهرک پاسداران,Shahrak-e Pasdaran",
+        "preview": "شهرک پاسداران"
     },
     {
         "id": 126,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.75028,
-            "lon": 51.131331
+            "lat": "35.750280",
+            "lon": "51.131331"
         },
         "names": [
             {
@@ -2013,15 +2138,16 @@
                 "slug": "Sharif"
             }
         ],
-        "search": "شریف,Sharif"
+        "search": "شریف,Sharif",
+        "preview": "شریف"
     },
     {
         "id": 127,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.819278,
-            "lon": 51.460705
+            "lat": "35.819278",
+            "lon": "51.460705"
         },
         "names": [
             {
@@ -2029,15 +2155,16 @@
                 "slug": "Jamaran"
             }
         ],
-        "search": "جماران,Jamaran"
+        "search": "جماران,Jamaran",
+        "preview": "جماران"
     },
     {
         "id": 128,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.718812,
-            "lon": 51.374419
+            "lat": "35.718812",
+            "lon": "51.374419"
         },
         "names": [
             {
@@ -2045,15 +2172,16 @@
                 "slug": "Shahrara"
             }
         ],
-        "search": "شهرآرا,Shahrara"
+        "search": "شهرآرا,Shahrara",
+        "preview": "شهرآرا"
     },
     {
         "id": 129,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.742272,
-            "lon": 51.508602
+            "lat": "35.742272",
+            "lon": "51.508602"
         },
         "names": [
             {
@@ -2061,15 +2189,16 @@
                 "slug": "Elmo Sanat"
             }
         ],
-        "search": "علم و صنعت,Elmo Sanat"
+        "search": "علم و صنعت,Elmo Sanat",
+        "preview": "علم و صنعت"
     },
     {
         "id": 130,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.762542,
-            "lon": 51.314257
+            "lat": "35.762542",
+            "lon": "51.314257"
         },
         "names": [
             {
@@ -2077,15 +2206,16 @@
                 "slug": "Shahin"
             }
         ],
-        "search": "شاهین,Shahin"
+        "search": "شاهین,Shahin",
+        "preview": "شاهین"
     },
     {
         "id": 131,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.707661,
-            "lon": 51.384924
+            "lat": "35.707661",
+            "lon": "51.384924"
         },
         "names": [
             {
@@ -2093,15 +2223,16 @@
                 "slug": "Jamalzadeh"
             }
         ],
-        "search": "جمالزاده,Jamalzadeh"
+        "search": "جمالزاده,Jamalzadeh",
+        "preview": "جمالزاده"
     },
     {
         "id": 132,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.726769,
-            "lon": 51.449325
+            "lat": "35.726769",
+            "lon": "51.449325"
         },
         "names": [
             {
@@ -2109,15 +2240,16 @@
                 "slug": "Heshmatieh"
             }
         ],
-        "search": "حشمتیه,Heshmatieh"
+        "search": "حشمتیه,Heshmatieh",
+        "preview": "حشمتیه"
     },
     {
         "id": 133,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.725908,
-            "lon": 51.463728
+            "lat": "35.725908",
+            "lon": "51.463728"
         },
         "names": [
             {
@@ -2125,15 +2257,16 @@
                 "slug": "Lashkar"
             }
         ],
-        "search": "لشکر,Lashkar"
+        "search": "لشکر,Lashkar",
+        "preview": "لشکر"
     },
     {
         "id": 134,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.678317,
-            "lon": 51.299859
+            "lat": "35.678317",
+            "lon": "51.299859"
         },
         "names": [
             {
@@ -2141,15 +2274,16 @@
                 "slug": "Sanati"
             }
         ],
-        "search": "صنعتی,Sanati"
+        "search": "صنعتی,Sanati",
+        "preview": "صنعتی"
     },
     {
         "id": 135,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.691077,
-            "lon": 51.367401
+            "lat": "35.691077",
+            "lon": "51.367401"
         },
         "names": [
             {
@@ -2157,15 +2291,16 @@
                 "slug": "Karoon"
             }
         ],
-        "search": "کارون,Karoon"
+        "search": "کارون,Karoon",
+        "preview": "کارون"
     },
     {
         "id": 136,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.697269,
-            "lon": 51.388975
+            "lat": "35.697269",
+            "lon": "51.388975"
         },
         "names": [
             {
@@ -2173,15 +2308,16 @@
                 "slug": "Heshmat-od-Dowleh"
             }
         ],
-        "search": "حشمت الدوله,Heshmat-od-Dowleh"
+        "search": "حشمت الدوله,Heshmat-od-Dowleh",
+        "preview": "حشمت الدوله"
     },
     {
         "id": 137,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.664677,
-            "lon": 51.410621
+            "lat": "35.664677",
+            "lon": "51.410621"
         },
         "names": [
             {
@@ -2189,15 +2325,16 @@
                 "slug": "Takhti"
             }
         ],
-        "search": "تختی,Takhti"
+        "search": "تختی,Takhti",
+        "preview": "تختی"
     },
     {
         "id": 138,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.693684,
-            "lon": 51.46074
+            "lat": "35.693684",
+            "lon": "51.460740"
         },
         "names": [
             {
@@ -2205,15 +2342,16 @@
                 "slug": "Zahed Gilani"
             }
         ],
-        "search": "زاهد گیلانی,Zahed Gilani"
+        "search": "زاهد گیلانی,Zahed Gilani",
+        "preview": "زاهد گیلانی"
     },
     {
         "id": 139,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.695351,
-            "lon": 51.486367
+            "lat": "35.695351",
+            "lon": "51.486367"
         },
         "names": [
             {
@@ -2221,15 +2359,16 @@
                 "slug": "Piroozi"
             }
         ],
-        "search": "پیروزی,Piroozi"
+        "search": "پیروزی,Piroozi",
+        "preview": "پیروزی"
     },
     {
         "id": 140,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.642317,
-            "lon": 51.402169
+            "lat": "35.642317",
+            "lon": "51.402169"
         },
         "names": [
             {
@@ -2237,15 +2376,16 @@
                 "slug": "Nazi Abad"
             }
         ],
-        "search": "نازی آباد,Nazi Abad"
+        "search": "نازی آباد,Nazi Abad",
+        "preview": "نازی آباد"
     },
     {
         "id": 141,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.647278,
-            "lon": 51.367663
+            "lat": "35.647278",
+            "lon": "51.367663"
         },
         "names": [
             {
@@ -2253,15 +2393,16 @@
                 "slug": "Zamzam"
             }
         ],
-        "search": "زمزم,Zamzam"
+        "search": "زمزم,Zamzam",
+        "preview": "زمزم"
     },
     {
         "id": 142,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.658159,
-            "lon": 51.300889
+            "lat": "35.658159",
+            "lon": "51.300889"
         },
         "names": [
             {
@@ -2269,15 +2410,16 @@
                 "slug": "Shad Abad"
             }
         ],
-        "search": "شاد آباد,Shad Abad"
+        "search": "شاد آباد,Shad Abad",
+        "preview": "شاد آباد"
     },
     {
         "id": 143,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.62755,
-            "lon": 51.341989
+            "lat": "35.627550",
+            "lon": "51.341989"
         },
         "names": [
             {
@@ -2285,15 +2427,16 @@
                 "slug": "Shariati"
             }
         ],
-        "search": "شریعتی,Shariati"
+        "search": "شریعتی,Shariati",
+        "preview": "شریعتی"
     },
     {
         "id": 144,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.597662,
-            "lon": 51.423797
+            "lat": "35.597662",
+            "lon": "51.423797"
         },
         "names": [
             {
@@ -2301,15 +2444,16 @@
                 "slug": "Javanmard-e Ghasab"
             }
         ],
-        "search": "جوانمرد قصاب,Javanmard-e Ghasab"
+        "search": "جوانمرد قصاب,Javanmard-e Ghasab",
+        "preview": "جوانمرد قصاب"
     },
     {
         "id": 145,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.732101,
-            "lon": 51.162706
+            "lat": "35.732101",
+            "lon": "51.162706"
         },
         "names": [
             {
@@ -2317,15 +2461,16 @@
                 "slug": "Shahrak-e  Ghazali"
             }
         ],
-        "search": "شهرک غزالی,Shahrak-e  Ghazali"
+        "search": "شهرک غزالی,Shahrak-e  Ghazali",
+        "preview": "شهرک غزالی"
     },
     {
         "id": 146,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.799031,
-            "lon": 51.455188
+            "lat": "35.799031",
+            "lon": "51.455188"
         },
         "names": [
             {
@@ -2333,15 +2478,16 @@
                 "slug": "Chizar"
             }
         ],
-        "search": "چیذر,Chizar"
+        "search": "چیذر,Chizar",
+        "preview": "چیذر"
     },
     {
         "id": 147,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.724025,
-            "lon": 51.343661
+            "lat": "35.724025",
+            "lon": "51.343661"
         },
         "names": [
             {
@@ -2349,15 +2495,16 @@
                 "slug": "Sadeghiyeh"
             }
         ],
-        "search": "صادقیه,Sadeghiyeh"
+        "search": "صادقیه,Sadeghiyeh",
+        "preview": "صادقیه"
     },
     {
         "id": 148,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.747503,
-            "lon": 51.44317
+            "lat": "35.747503",
+            "lon": "51.443170"
         },
         "names": [
             {
@@ -2365,15 +2512,16 @@
                 "slug": "Seyed Khandan"
             }
         ],
-        "search": "سیدخندان,Seyed Khandan"
+        "search": "سیدخندان,Seyed Khandan",
+        "preview": "سیدخندان"
     },
     {
         "id": 149,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.760215,
-            "lon": 51.530498
+            "lat": "35.760215",
+            "lon": "51.530498"
         },
         "names": [
             {
@@ -2381,15 +2529,16 @@
                 "slug": "Ghanat  Kosar"
             }
         ],
-        "search": "قنات کوثر,Ghanat  Kosar"
+        "search": "قنات کوثر,Ghanat  Kosar",
+        "preview": "قنات کوثر"
     },
     {
         "id": 150,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.759462,
-            "lon": 51.291325
+            "lat": "35.759462",
+            "lon": "51.291325"
         },
         "names": [
             {
@@ -2397,15 +2546,16 @@
                 "slug": "Shahran"
             }
         ],
-        "search": "شهران,Shahran"
+        "search": "شهران,Shahran",
+        "preview": "شهران"
     },
     {
         "id": 151,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.706002,
-            "lon": 51.398823
+            "lat": "35.706002",
+            "lon": "51.398823"
         },
         "names": [
             {
@@ -2413,15 +2563,16 @@
                 "slug": "Daneshgah-e  Tehran"
             }
         ],
-        "search": "دانشگاه تهران,Daneshgah-e  Tehran"
+        "search": "دانشگاه تهران,Daneshgah-e  Tehran",
+        "preview": "دانشگاه تهران"
     },
     {
         "id": 152,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.704237,
-            "lon": 51.437083
+            "lat": "35.704237",
+            "lon": "51.437083"
         },
         "names": [
             {
@@ -2429,15 +2580,16 @@
                 "slug": "Khajeh Nasir"
             }
         ],
-        "search": "خواجه نصیر, Khajeh Nasir"
+        "search": "خواجه نصیر, Khajeh Nasir",
+        "preview": "خواجه نصیر"
     },
     {
         "id": 153,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.736646,
-            "lon": 51.46609
+            "lat": "35.736646",
+            "lon": "51.466090"
         },
         "names": [
             {
@@ -2445,15 +2597,16 @@
                 "slug": "Majidieh Jonoobi"
             }
         ],
-        "search": "مجیدیه جنوبی,Majidieh Jonoobi"
+        "search": "مجیدیه جنوبی,Majidieh Jonoobi",
+        "preview": "مجیدیه جنوبی"
     },
     {
         "id": 154,
         "area": 9,
         "type": "center",
         "location": {
-            "lat": 35.689496,
-            "lon": 51.314313
+            "lat": "35.689496",
+            "lon": "51.314313"
         },
         "names": [
             {
@@ -2461,15 +2614,16 @@
                 "slug": "Foroodgah"
             }
         ],
-        "search": "فرودگاه,Foroodgah"
+        "search": "فرودگاه,Foroodgah",
+        "preview": "فرودگاه"
     },
     {
         "id": 155,
         "area": 10,
         "type": "center",
         "location": {
-            "lat": 35.686123,
-            "lon": 51.35951
+            "lat": "35.686123",
+            "lon": "51.359510"
         },
         "names": [
             {
@@ -2477,15 +2631,16 @@
                 "slug": "Hashemi"
             }
         ],
-        "search": "هاشمی,Hashemi"
+        "search": "هاشمی,Hashemi",
+        "preview": "هاشمی"
     },
     {
         "id": 156,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.696793,
-            "lon": 51.378442
+            "lat": "35.696793",
+            "lon": "51.378442"
         },
         "names": [
             {
@@ -2493,15 +2648,16 @@
                 "slug": "Jomhouri"
             }
         ],
-        "search": "جمهوری,Jomhouri"
+        "search": "جمهوری,Jomhouri",
+        "preview": "جمهوری"
     },
     {
         "id": 157,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.697404,
-            "lon": 51.441826
+            "lat": "35.697404",
+            "lon": "51.441826"
         },
         "names": [
             {
@@ -2509,15 +2665,16 @@
                 "slug": "Darvazeh shemiran"
             }
         ],
-        "search": "دروازه شمیران,Darvazeh shemiran"
+        "search": "دروازه شمیران,Darvazeh shemiran",
+        "preview": "دروازه شمیران"
     },
     {
         "id": 158,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.709842,
-            "lon": 51.509695
+            "lat": "35.709842",
+            "lon": "51.509695"
         },
         "names": [
             {
@@ -2525,15 +2682,16 @@
                 "slug": "Zeinabieh"
             }
         ],
-        "search": "زینبیه,Zeinabieh"
+        "search": "زینبیه,Zeinabieh",
+        "preview": "زینبیه"
     },
     {
         "id": 159,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.672517,
-            "lon": 51.487642
+            "lat": "35.672517",
+            "lon": "51.487642"
         },
         "names": [
             {
@@ -2541,15 +2699,16 @@
                 "slug": "Taxirani"
             }
         ],
-        "search": "تاکسیرانی,Taxirani"
+        "search": "تاکسیرانی,Taxirani",
+        "preview": "تاکسیرانی"
     },
     {
         "id": 160,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.65748,
-            "lon": 51.44005
+            "lat": "35.657480",
+            "lon": "51.440050"
         },
         "names": [
             {
@@ -2557,15 +2716,16 @@
                 "slug": "Shoosh"
             }
         ],
-        "search": "شوش,Shoosh"
+        "search": "شوش,Shoosh",
+        "preview": "شوش"
     },
     {
         "id": 161,
         "area": 16,
         "type": "center",
         "location": {
-            "lat": 35.626217,
-            "lon": 51.406461
+            "lat": "35.626217",
+            "lon": "51.406461"
         },
         "names": [
             {
@@ -2573,15 +2733,16 @@
                 "slug": "Yakhchy Abad"
             }
         ],
-        "search": "یاخچی آباد,Yakhchy Abad"
+        "search": "یاخچی آباد,Yakhchy Abad",
+        "preview": "یاخچی آباد"
     },
     {
         "id": 162,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.641584,
-            "lon": 51.360369
+            "lat": "35.641584",
+            "lon": "51.360369"
         },
         "names": [
             {
@@ -2589,15 +2750,16 @@
                 "slug": "Zehtabi"
             }
         ],
-        "search": "زهتابی,Zehtabi"
+        "search": "زهتابی,Zehtabi",
+        "preview": "زهتابی"
     },
     {
         "id": 163,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.657549,
-            "lon": 51.307118
+            "lat": "35.657549",
+            "lon": "51.307118"
         },
         "names": [
             {
@@ -2605,15 +2767,16 @@
                 "slug": "Shamsabad"
             }
         ],
-        "search": "شمس آباد,Shamsabad"
+        "search": "شمس آباد,Shamsabad",
+        "preview": "شمس آباد"
     },
     {
         "id": 164,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.636176,
-            "lon": 51.364513
+            "lat": "35.636176",
+            "lon": "51.364513"
         },
         "names": [
             {
@@ -2621,15 +2784,16 @@
                 "slug": "Shokoofeh"
             }
         ],
-        "search": "شکوفه,Shokoofeh"
+        "search": "شکوفه,Shokoofeh",
+        "preview": "شکوفه"
     },
     {
         "id": 165,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.622085,
-            "lon": 51.451842
+            "lat": "35.622085",
+            "lon": "51.451842"
         },
         "names": [
             {
@@ -2637,15 +2801,16 @@
                 "slug": "Hamzeh abad"
             }
         ],
-        "search": "حمزه آباد,Hamzeh abad"
+        "search": "حمزه آباد,Hamzeh abad",
+        "preview": "حمزه آباد"
     },
     {
         "id": 166,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.684752,
-            "lon": 51.239012
+            "lat": "35.684752",
+            "lon": "51.239012"
         },
         "names": [
             {
@@ -2653,15 +2818,16 @@
                 "slug": "Shahrak-e  Darya"
             }
         ],
-        "search": "شهرک دریا,Shahrak-e Darya"
+        "search": "شهرک دریا,Shahrak-e Darya",
+        "preview": "شهرک دریا"
     },
     {
         "id": 167,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.750042,
-            "lon": 51.176104
+            "lat": "35.750042",
+            "lon": "51.176104"
         },
         "names": [
             {
@@ -2669,15 +2835,16 @@
                 "slug": "Sarv Azad"
             }
         ],
-        "search": "سرو آزاد,Sarv Azad"
+        "search": "سرو آزاد,Sarv Azad",
+        "preview": "سرو آزاد"
     },
     {
         "id": 168,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.811439,
-            "lon": 51.49121
+            "lat": "35.811439",
+            "lon": "51.491210"
         },
         "names": [
             {
@@ -2685,15 +2852,16 @@
                 "slug": "Dar abad"
             }
         ],
-        "search": "دارآباد,Dar abad"
+        "search": "دارآباد,Dar abad",
+        "preview": "دارآباد"
     },
     {
         "id": 169,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.708738,
-            "lon": 51.34218
+            "lat": "35.708738",
+            "lon": "51.342180"
         },
         "names": [
             {
@@ -2701,15 +2869,16 @@
                 "slug": "Tarasht"
             }
         ],
-        "search": "طرشت,Tarasht"
+        "search": "طرشت,Tarasht",
+        "preview": "طرشت"
     },
     {
         "id": 170,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.778378,
-            "lon": 51.500081
+            "lat": "35.778378",
+            "lon": "51.500081"
         },
         "names": [
             {
@@ -2717,15 +2886,16 @@
                 "slug": "Lavizan - Shian"
             }
         ],
-        "search": "لویزان - شیان,Lavizan - Shian"
+        "search": "لویزان - شیان,Lavizan - Shian",
+        "preview": "لویزان - شیان"
     },
     {
         "id": 171,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.749236,
-            "lon": 51.291885
+            "lat": "35.749236",
+            "lon": "51.291885"
         },
         "names": [
             {
@@ -2733,15 +2903,16 @@
                 "slug": "Shahr-e ziba"
             }
         ],
-        "search": "شهرزيبا,Shahr-e ziba"
+        "search": "شهرزيبا,Shahr-e ziba",
+        "preview": "شهرزيبا"
     },
     {
         "id": 172,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.718197,
-            "lon": 51.383648
+            "lat": "35.718197",
+            "lon": "51.383648"
         },
         "names": [
             {
@@ -2749,15 +2920,16 @@
                 "slug": "Shariati"
             }
         ],
-        "search": "شریعتی,Shariati"
+        "search": "شریعتی,Shariati",
+        "preview": "شریعتی"
     },
     {
         "id": 173,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.704307,
-            "lon": 51.436597
+            "lat": "35.704307",
+            "lon": "51.436597"
         },
         "names": [
             {
@@ -2765,15 +2937,16 @@
                 "slug": "Hoghooghi"
             }
         ],
-        "search": "حقوقی,Hoghooghi"
+        "search": "حقوقی,Hoghooghi",
+        "preview": "حقوقی"
     },
     {
         "id": 174,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.72841,
-            "lon": 51.496561
+            "lat": "35.728410",
+            "lon": "51.496561"
         },
         "names": [
             {
@@ -2781,15 +2954,16 @@
                 "slug": "MADAEN"
             }
         ],
-        "search": "مدائن,MADAEN"
+        "search": "مدائن,MADAEN",
+        "preview": "مدائن"
     },
     {
         "id": 175,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.679159,
-            "lon": 51.384344
+            "lat": "35.679159",
+            "lon": "51.384344"
         },
         "names": [
             {
@@ -2797,15 +2971,16 @@
                 "slug": "Khorramshahr"
             }
         ],
-        "search": "خرمشهر,Khorramshahr"
+        "search": "خرمشهر,Khorramshahr",
+        "preview": "خرمشهر"
     },
     {
         "id": 176,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.676192,
-            "lon": 51.412824
+            "lat": "35.676192",
+            "lon": "51.412824"
         },
         "names": [
             {
@@ -2813,15 +2988,16 @@
                 "slug": "Sanglaj"
             }
         ],
-        "search": "سنگلج,Sanglaj"
+        "search": "سنگلج,Sanglaj",
+        "preview": "سنگلج"
     },
     {
         "id": 177,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.722627,
-            "lon": 51.545191
+            "lat": "35.722627",
+            "lon": "51.545191"
         },
         "names": [
             {
@@ -2829,15 +3005,16 @@
                 "slug": "Sorkhehesar"
             }
         ],
-        "search": "سرخه حصار,Sorkhehesar"
+        "search": "سرخه حصار,Sorkhehesar",
+        "preview": "سرخه حصار"
     },
     {
         "id": 178,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.684547,
-            "lon": 51.45368
+            "lat": "35.684547",
+            "lon": "51.453680"
         },
         "names": [
             {
@@ -2845,15 +3022,16 @@
                 "slug": "Jaberi"
             }
         ],
-        "search": "جابری,Jaberi"
+        "search": "جابری,Jaberi",
+        "preview": "جابری"
     },
     {
         "id": 179,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.611596,
-            "lon": 51.494689
+            "lat": "35.611596",
+            "lon": "51.494689"
         },
         "names": [
             {
@@ -2861,15 +3039,16 @@
                 "slug": "Shahrak-e  Razavieh"
             }
         ],
-        "search": "شهرک رضویه,Shahrak-e  Razavieh"
+        "search": "شهرک رضویه,Shahrak-e  Razavieh",
+        "preview": "شهرک رضویه"
     },
     {
         "id": 180,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.664492,
-            "lon": 51.313906
+            "lat": "35.664492",
+            "lon": "51.313906"
         },
         "names": [
             {
@@ -2877,15 +3056,16 @@
                 "slug": "Shahrak-e  Emam Khomeini"
             }
         ],
-        "search": "شهرک امام خمینی,Shahrak-e  Emam Khomeini"
+        "search": "شهرک امام خمینی,Shahrak-e  Emam Khomeini",
+        "preview": "شهرک امام خمینی"
     },
     {
         "id": 181,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.61028,
-            "lon": 51.376364
+            "lat": "35.610280",
+            "lon": "51.376364"
         },
         "names": [
             {
@@ -2893,15 +3073,16 @@
                 "slug": "Shahrak-e Resalat"
             }
         ],
-        "search": "شهرک رسالت,Shahrak-e Resalat"
+        "search": "شهرک رسالت,Shahrak-e Resalat",
+        "preview": "شهرک رسالت"
     },
     {
         "id": 182,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.603924,
-            "lon": 51.432772
+            "lat": "35.603924",
+            "lon": "51.432772"
         },
         "names": [
             {
@@ -2909,15 +3090,16 @@
                 "slug": "Dolat abad"
             }
         ],
-        "search": "دولت آباد,Dolat abad"
+        "search": "دولت آباد,Dolat abad",
+        "preview": "دولت آباد"
     },
     {
         "id": 183,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.725966,
-            "lon": 51.182212
+            "lat": "35.725966",
+            "lon": "51.182212"
         },
         "names": [
             {
@@ -2925,15 +3107,16 @@
                 "slug": "Shahrak-e  Shahrdari"
             }
         ],
-        "search": "شهرک شهرداری,Shahrak-e  Shahrdari"
+        "search": "شهرک شهرداری,Shahrak-e  Shahrdari",
+        "preview": "شهرک شهرداری"
     },
     {
         "id": 184,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.738629,
-            "lon": 51.132904
+            "lat": "35.738629",
+            "lon": "51.132904"
         },
         "names": [
             {
@@ -2941,15 +3124,16 @@
                 "slug": "Verd Avar"
             }
         ],
-        "search": "ورد آور,Verd Avar"
+        "search": "ورد آور,Verd Avar",
+        "preview": "ورد آور"
     },
     {
         "id": 185,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.816804,
-            "lon": 51.427393
+            "lat": "35.816804",
+            "lon": "51.427393"
         },
         "names": [
             {
@@ -2957,15 +3141,16 @@
                 "slug": "Darband"
             }
         ],
-        "search": "دربند,Darband"
+        "search": "دربند,Darband",
+        "preview": "دربند"
     },
     {
         "id": 186,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.790746,
-            "lon": 51.343505
+            "lat": "35.790746",
+            "lon": "51.343505"
         },
         "names": [
             {
@@ -2973,15 +3158,16 @@
                 "slug": "Farahzad"
             }
         ],
-        "search": "فرحزاد,Farahzad"
+        "search": "فرحزاد,Farahzad",
+        "preview": "فرحزاد"
     },
     {
         "id": 187,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.774109,
-            "lon": 51.445663
+            "lat": "35.774109",
+            "lon": "51.445663"
         },
         "names": [
             {
@@ -2989,15 +3175,16 @@
                 "slug": "GHOLHAK"
             }
         ],
-        "search": "قلهک,GHOLHAK"
+        "search": "قلهک,GHOLHAK",
+        "preview": "قلهک"
     },
     {
         "id": 188,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.749439,
-            "lon": 51.456973
+            "lat": "35.749439",
+            "lon": "51.456973"
         },
         "names": [
             {
@@ -3005,15 +3192,16 @@
                 "slug": "Mehran"
             }
         ],
-        "search": "مهران,Mehran"
+        "search": "مهران,Mehran",
+        "preview": "مهران"
     },
     {
         "id": 189,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.707451,
-            "lon": 51.328323
+            "lat": "35.707451",
+            "lon": "51.328323"
         },
         "names": [
             {
@@ -3021,15 +3209,16 @@
                 "slug": "Shahrak-e Apadana"
             }
         ],
-        "search": "شهرک آپادانا , Shahrak-e Apadana"
+        "search": "شهرک آپادانا , Shahrak-e Apadana",
+        "preview": "شهرک آپادانا"
     },
     {
         "id": 190,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.747919,
-            "lon": 51.404164
+            "lat": "35.747919",
+            "lon": "51.404164"
         },
         "names": [
             {
@@ -3037,15 +3226,16 @@
                 "slug": "Shiraz"
             }
         ],
-        "search": "شیراز,Shiraz"
+        "search": "شیراز,Shiraz",
+        "preview": "شیراز"
     },
     {
         "id": 191,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.736379,
-            "lon": 51.454378
+            "lat": "35.736379",
+            "lon": "51.454378"
         },
         "names": [
             {
@@ -3053,15 +3243,16 @@
                 "slug": "Dabestan"
             }
         ],
-        "search": "دبستان,Dabestan"
+        "search": "دبستان,Dabestan",
+        "preview": "دبستان"
     },
     {
         "id": 192,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.718305,
-            "lon": 51.489289
+            "lat": "35.718305",
+            "lon": "51.489289"
         },
         "names": [
             {
@@ -3069,15 +3260,16 @@
                 "slug": "NARMAK"
             }
         ],
-        "search": "نارمک,NARMAK"
+        "search": "نارمک,NARMAK",
+        "preview": "نارمک"
     },
     {
         "id": 193,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.660154,
-            "lon": 51.400516
+            "lat": "35.660154",
+            "lon": "51.400516"
         },
         "names": [
             {
@@ -3085,15 +3277,16 @@
                 "slug": "Rahahan"
             }
         ],
-        "search": "راه آهن, Rahahan"
+        "search": "راه آهن, Rahahan",
+        "preview": "راه آهن"
     },
     {
         "id": 194,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.665158,
-            "lon": 51.422667
+            "lat": "35.665158",
+            "lon": "51.422667"
         },
         "names": [
             {
@@ -3101,15 +3294,16 @@
                 "slug": "Shahid harandi"
             }
         ],
-        "search": "شهید هرندی,Shahid harandi"
+        "search": "شهید هرندی,Shahid harandi",
+        "preview": "شهید هرندی"
     },
     {
         "id": 195,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.710578,
-            "lon": 51.495936
+            "lat": "35.710578",
+            "lon": "51.495936"
         },
         "names": [
             {
@@ -3117,15 +3311,16 @@
                 "slug": "Shoraa"
             }
         ],
-        "search": "شورا,Shoraa"
+        "search": "شورا,Shoraa",
+        "preview": "شورا"
     },
     {
         "id": 196,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.684883,
-            "lon": 51.464888
+            "lat": "35.684883",
+            "lon": "51.464888"
         },
         "names": [
             {
@@ -3133,15 +3328,16 @@
                 "slug": "Javadieh"
             }
         ],
-        "search": "جوادیه,Javadieh"
+        "search": "جوادیه,Javadieh",
+        "preview": "جوادیه"
     },
     {
         "id": 197,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.659935,
-            "lon": 51.450486
+            "lat": "35.659935",
+            "lon": "51.450486"
         },
         "names": [
             {
@@ -3149,15 +3345,16 @@
                 "slug": "Tayeb"
             }
         ],
-        "search": "طیب,Tayeb"
+        "search": "طیب,Tayeb",
+        "preview": "طیب"
     },
     {
         "id": 198,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.654251,
-            "lon": 51.366873
+            "lat": "35.654251",
+            "lon": "51.366873"
         },
         "names": [
             {
@@ -3165,15 +3362,16 @@
                 "slug": "Golchin"
             }
         ],
-        "search": "گلچین,Golchin"
+        "search": "گلچین,Golchin",
+        "preview": "گلچین"
     },
     {
         "id": 199,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.635742,
-            "lon": 51.329234
+            "lat": "35.635742",
+            "lon": "51.329234"
         },
         "names": [
             {
@@ -3181,15 +3379,16 @@
                 "slug": "Shahid  Rajaei"
             }
         ],
-        "search": "شهید رجایی,Shahid  Rajaei"
+        "search": "شهید رجایی,Shahid  Rajaei",
+        "preview": "شهید رجایی"
     },
     {
         "id": 200,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.617848,
-            "lon": 51.354756
+            "lat": "35.617848",
+            "lon": "51.354756"
         },
         "names": [
             {
@@ -3197,15 +3396,16 @@
                 "slug": " Shahid Kazemi"
             }
         ],
-        "search": "شهید کاظمی , Shahid Kazemi "
+        "search": "شهید کاظمی , Shahid Kazemi ",
+        "preview": "شهید کاظمی"
     },
     {
         "id": 201,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.590256,
-            "lon": 51.432434
+            "lat": "35.590256",
+            "lon": "51.432434"
         },
         "names": [
             {
@@ -3213,15 +3413,16 @@
                 "slug": "Deylaman"
             }
         ],
-        "search": "دیلمان,Deylaman"
+        "search": "دیلمان,Deylaman",
+        "preview": "دیلمان"
     },
     {
         "id": 202,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.729807,
-            "lon": 51.170146
+            "lat": "35.729807",
+            "lon": "51.170146"
         },
         "names": [
             {
@@ -3229,15 +3430,16 @@
                 "slug": "Shahrak-e  Ghazali"
             }
         ],
-        "search": "شهرک غزالی,Shahrak-e  Ghazali"
+        "search": "شهرک غزالی,Shahrak-e  Ghazali",
+        "preview": "شهرک غزالی"
     },
     {
         "id": 203,
         "area": 22,
         "type": "center",
         "location": {
-            "lat": 35.727871,
-            "lon": 51.234615
+            "lat": "35.727871",
+            "lon": "51.234615"
         },
         "names": [
             {
@@ -3245,15 +3447,16 @@
                 "slug": "Koohak"
             }
         ],
-        "search": "کوهک,Koohak"
+        "search": "کوهک,Koohak",
+        "preview": "کوهک"
     },
     {
         "id": 204,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.807141,
-            "lon": 51.383953
+            "lat": "35.807141",
+            "lon": "51.383953"
         },
         "names": [
             {
@@ -3261,15 +3464,16 @@
                 "slug": "Darake"
             }
         ],
-        "search": "درکه,Darake"
+        "search": "درکه,Darake",
+        "preview": "درکه"
     },
     {
         "id": 205,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.716195,
-            "lon": 51.355844
+            "lat": "35.716195",
+            "lon": "51.355844"
         },
         "names": [
             {
@@ -3277,15 +3481,16 @@
                 "slug": "Shadmehr"
             }
         ],
-        "search": "شادمهر,Shadmehr"
+        "search": "شادمهر,Shadmehr",
+        "preview": "شادمهر"
     },
     {
         "id": 206,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.762129,
-            "lon": 51.417358
+            "lat": "35.762129",
+            "lon": "51.417358"
         },
         "names": [
             {
@@ -3293,15 +3498,16 @@
                 "slug": "MirDamad"
             }
         ],
-        "search": "میرداماد,MirDamad"
+        "search": "میرداماد,MirDamad",
+        "preview": "میرداماد"
     },
     {
         "id": 207,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.737389,
-            "lon": 51.504602
+            "lat": "35.737389",
+            "lon": "51.504602"
         },
         "names": [
             {
@@ -3309,15 +3515,16 @@
                 "slug": "NARMAK"
             }
         ],
-        "search": "نارمک,NARMAK"
+        "search": "نارمک,NARMAK",
+        "preview": "نارمک"
     },
     {
         "id": 208,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.708957,
-            "lon": 51.304075
+            "lat": "35.708957",
+            "lon": "51.304075"
         },
         "names": [
             {
@@ -3325,15 +3532,16 @@
                 "slug": "Shahrak-e Ekbatan"
             }
         ],
-        "search": "شهرک اکباتان, Shahrak-e Ekbatan"
+        "search": "شهرک اکباتان, Shahrak-e Ekbatan",
+        "preview": "شهرک اکباتان"
     },
     {
         "id": 209,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.750361,
-            "lon": 51.428023
+            "lat": "35.750361",
+            "lon": "51.428023"
         },
         "names": [
             {
@@ -3341,15 +3549,16 @@
                 "slug": "Abbas Abad"
             }
         ],
-        "search": "عباس آباد, Abbas Abad"
+        "search": "عباس آباد, Abbas Abad",
+        "preview": "عباس آباد"
     },
     {
         "id": 210,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.736379,
-            "lon": 51.454378
+            "lat": "35.736379",
+            "lon": "51.454378"
         },
         "names": [
             {
@@ -3357,15 +3566,16 @@
                 "slug": "Majidieh"
             }
         ],
-        "search": "مجیدیه,Majidieh"
+        "search": "مجیدیه,Majidieh",
+        "preview": "مجیدیه"
     },
     {
         "id": 211,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.715168,
-            "lon": 51.471139
+            "lat": "35.715168",
+            "lon": "51.471139"
         },
         "names": [
             {
@@ -3373,15 +3583,16 @@
                 "slug": "Vahidieh"
             }
         ],
-        "search": "وحیدیه,Vahidieh"
+        "search": "وحیدیه,Vahidieh",
+        "preview": "وحیدیه"
     },
     {
         "id": 212,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.6929,
-            "lon": 51.406339
+            "lat": "35.692900",
+            "lon": "51.406339"
         },
         "names": [
             {
@@ -3389,15 +3600,16 @@
                 "slug": "Sheikh Hadi"
             }
         ],
-        "search": "شیخ هادی,Sheikh Hadi"
+        "search": "شیخ هادی,Sheikh Hadi",
+        "preview": "شیخ هادی"
     },
     {
         "id": 213,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.694128,
-            "lon": 51.419868
+            "lat": "35.694128",
+            "lon": "51.419868"
         },
         "names": [
             {
@@ -3405,15 +3617,16 @@
                 "slug": "Ferdowsi"
             }
         ],
-        "search": "فردوسی,Ferdowsi"
+        "search": "فردوسی,Ferdowsi",
+        "preview": "فردوسی"
     },
     {
         "id": 214,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.701496,
-            "lon": 51.453257
+            "lat": "35.701496",
+            "lon": "51.453257"
         },
         "names": [
             {
@@ -3421,15 +3634,16 @@
                 "slug": "Shahid  Asadi"
             }
         ],
-        "search": "شهید اسدی,Shahid  Asadi"
+        "search": "شهید اسدی,Shahid  Asadi",
+        "preview": "شهید اسدی"
     },
     {
         "id": 215,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.687711,
-            "lon": 51.456174
+            "lat": "35.687711",
+            "lon": "51.456174"
         },
         "names": [
             {
@@ -3437,15 +3651,16 @@
                 "slug": "Chaharsad Dastgah"
             }
         ],
-        "search": "چهارصد دستگاه,Chaharsad Dastgah"
+        "search": "چهارصد دستگاه,Chaharsad Dastgah",
+        "preview": "چهارصد دستگاه"
     },
     {
         "id": 216,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.637377,
-            "lon": 51.450271
+            "lat": "35.637377",
+            "lon": "51.450271"
         },
         "names": [
             {
@@ -3453,15 +3668,16 @@
                 "slug": "Kianshahr"
             }
         ],
-        "search": "کیانشهر,Kianshahr"
+        "search": "کیانشهر,Kianshahr",
+        "preview": "کیانشهر"
     },
     {
         "id": 217,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.656624,
-            "lon": 51.375103
+            "lat": "35.656624",
+            "lon": "51.375103"
         },
         "names": [
             {
@@ -3469,15 +3685,16 @@
                 "slug": "Moghadam"
             }
         ],
-        "search": "مقدم,Moghadam"
+        "search": "مقدم,Moghadam",
+        "preview": "مقدم"
     },
     {
         "id": 218,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.647662,
-            "lon": 51.322743
+            "lat": "35.647662",
+            "lon": "51.322743"
         },
         "names": [
             {
@@ -3485,15 +3702,16 @@
                 "slug": "Saheb-al Zaman"
             }
         ],
-        "search": "صاحب الزمان,Sqaheb-al Zaman"
+        "search": "صاحب الزمان,Sqaheb-al Zaman",
+        "preview": "صاحب الزمان"
     },
     {
         "id": 219,
         "area": 19,
         "type": "center",
         "location": {
-            "lat": 35.631485,
-            "lon": 51.353359
+            "lat": "35.631485",
+            "lon": "51.353359"
         },
         "names": [
             {
@@ -3501,15 +3719,16 @@
                 "slug": "Nemat abad"
             }
         ],
-        "search": "نعمت آباد,Nemat abad"
+        "search": "نعمت آباد,Nemat abad",
+        "preview": "نعمت آباد"
     },
     {
         "id": 220,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.6144,
-            "lon": 51.447845
+            "lat": "35.614400",
+            "lon": "51.447845"
         },
         "names": [
             {
@@ -3517,15 +3736,16 @@
                 "slug": "Sartakht"
             }
         ],
-        "search": "سرتخت,Sartakht"
+        "search": "سرتخت,Sartakht",
+        "preview": "سرتخت"
     },
     {
         "id": 221,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.711337,
-            "lon": 51.281849
+            "lat": "35.711337",
+            "lon": "51.281849"
         },
         "names": [
             {
@@ -3533,15 +3753,16 @@
                 "slug": "Shahrak-e Farhangian"
             }
         ],
-        "search": "شهرک فرهنگیان,Shahrak-e Farhangian"
+        "search": "شهرک فرهنگیان,Shahrak-e Farhangian",
+        "preview": "شهرک فرهنگیان"
     },
     {
         "id": 222,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.807141,
-            "lon": 51.383953
+            "lat": "35.807141",
+            "lon": "51.383953"
         },
         "names": [
             {
@@ -3549,15 +3770,16 @@
                 "slug": "Dezashib - Jowzestan"
             }
         ],
-        "search": "دزاشیب - جوزستان,Dezashib - Jowzestan"
+        "search": "دزاشیب - جوزستان,Dezashib - Jowzestan",
+        "preview": "دزاشیب - جوزستان"
     },
     {
         "id": 223,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.716195,
-            "lon": 51.355844
+            "lat": "35.716195",
+            "lon": "51.355844"
         },
         "names": [
             {
@@ -3565,15 +3787,16 @@
                 "slug": "Homayoonshahr"
             }
         ],
-        "search": "همایونشهر,Homayoonshahr"
+        "search": "همایونشهر,Homayoonshahr",
+        "preview": "همایونشهر"
     },
     {
         "id": 224,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.765207,
-            "lon": 51.392248
+            "lat": "35.765207",
+            "lon": "51.392248"
         },
         "names": [
             {
@@ -3581,15 +3804,16 @@
                 "slug": "Vanak"
             }
         ],
-        "search": "ونک,Vanak"
+        "search": "ونک,Vanak",
+        "preview": "ونک"
     },
     {
         "id": 225,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.771077,
-            "lon": 51.512662
+            "lat": "35.771077",
+            "lon": "51.512662"
         },
         "names": [
             {
@@ -3597,15 +3821,16 @@
                 "slug": "Hengam"
             }
         ],
-        "search": "هنگام,Hengam"
+        "search": "هنگام,Hengam",
+        "preview": "هنگام"
     },
     {
         "id": 226,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.747647,
-            "lon": 51.277744
+            "lat": "35.747647",
+            "lon": "51.277744"
         },
         "names": [
             {
@@ -3613,15 +3838,16 @@
                 "slug": "Shahrak-e Andisheh"
             }
         ],
-        "search": "شهرک اندیشه,Shahrak-e Andisheh"
+        "search": "شهرک اندیشه,Shahrak-e Andisheh",
+        "preview": "شهرک اندیشه"
     },
     {
         "id": 227,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.72047,
-            "lon": 51.394384
+            "lat": "35.720470",
+            "lon": "51.394384"
         },
         "names": [
             {
@@ -3629,15 +3855,16 @@
                 "slug": "Fatemi"
             }
         ],
-        "search": "فاطمی,Fatemi"
+        "search": "فاطمی,Fatemi",
+        "preview": "فاطمی"
     },
     {
         "id": 228,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.728292,
-            "lon": 51.437436
+            "lat": "35.728292",
+            "lon": "51.437436"
         },
         "names": [
             {
@@ -3645,15 +3872,16 @@
                 "slug": "Abbas Abad"
             }
         ],
-        "search": "عباس آباد,Abbas Abad"
+        "search": "عباس آباد,Abbas Abad",
+        "preview": "عباس آباد"
     },
     {
         "id": 229,
         "area": 8,
         "type": "center",
         "location": {
-            "lat": 35.729229,
-            "lon": 51.490152
+            "lat": "35.729229",
+            "lon": "51.490152"
         },
         "names": [
             {
@@ -3661,15 +3889,16 @@
                 "slug": "Haft Howz"
             }
         ],
-        "search": "هفت حوض,Haft Howz"
+        "search": "هفت حوض,Haft Howz",
+        "preview": "هفت حوض"
     },
     {
         "id": 230,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.663937,
-            "lon": 51.384934
+            "lat": "35.663937",
+            "lon": "51.384934"
         },
         "names": [
             {
@@ -3677,15 +3906,16 @@
                 "slug": "Abbasi"
             }
         ],
-        "search": "عباسی,Abbasi"
+        "search": "عباسی,Abbasi",
+        "preview": "عباسی"
     },
     {
         "id": 231,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.671382,
-            "lon": 51.442003
+            "lat": "35.671382",
+            "lon": "51.442003"
         },
         "names": [
             {
@@ -3693,15 +3923,16 @@
                 "slug": "Qiam"
             }
         ],
-        "search": "قیام,Qiam"
+        "search": "قیام,Qiam",
+        "preview": "قیام"
     },
     {
         "id": 232,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.694346,
-            "lon": 51.450696
+            "lat": "35.694346",
+            "lon": "51.450696"
         },
         "names": [
             {
@@ -3709,15 +3940,16 @@
                 "slug": "Safa"
             }
         ],
-        "search": "صفا,Safa"
+        "search": "صفا,Safa",
+        "preview": "صفا"
     },
     {
         "id": 233,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.662135,
-            "lon": 51.474035
+            "lat": "35.662135",
+            "lon": "51.474035"
         },
         "names": [
             {
@@ -3725,15 +3957,16 @@
                 "slug": "KHAVARAN"
             }
         ],
-        "search": "خاوران,KHAVARAN"
+        "search": "خاوران,KHAVARAN",
+        "preview": "خاوران"
     },
     {
         "id": 234,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.630981,
-            "lon": 51.499005
+            "lat": "35.630981",
+            "lon": "51.499005"
         },
         "names": [
             {
@@ -3741,15 +3974,16 @@
                 "slug": "Masoudieh"
             }
         ],
-        "search": "مسعودیه,Masoudieh"
+        "search": "مسعودیه,Masoudieh",
+        "preview": "مسعودیه"
     },
     {
         "id": 235,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.647001,
-            "lon": 51.353612
+            "lat": "35.647001",
+            "lon": "51.353612"
         },
         "names": [
             {
@@ -3757,15 +3991,16 @@
                 "slug": "Vasfnard"
             }
         ],
-        "search": "وصفنارد,Vasfnard"
+        "search": "وصفنارد,Vasfnard",
+        "preview": "وصفنارد"
     },
     {
         "id": 236,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.637268,
-            "lon": 51.3508
+            "lat": "35.637268",
+            "lon": "51.350800"
         },
         "names": [
             {
@@ -3773,15 +4008,16 @@
                 "slug": "Sadeghiyeh"
             }
         ],
-        "search": "صادقیه,Sadeghiyeh"
+        "search": "صادقیه,Sadeghiyeh",
+        "preview": "صادقیه"
     },
     {
         "id": 237,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.582649,
-            "lon": 51.421355
+            "lat": "35.582649",
+            "lon": "51.421355"
         },
         "names": [
             {
@@ -3789,15 +4025,16 @@
                 "slug": "Shahadat"
             }
         ],
-        "search": "شهادت,Shahadat"
+        "search": "شهادت,Shahadat",
+        "preview": "شهادت"
     },
     {
         "id": 238,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.737206,
-            "lon": 51.136926
+            "lat": "35.737206",
+            "lon": "51.136926"
         },
         "names": [
             {
@@ -3805,15 +4042,16 @@
                 "slug": "Vardavard"
             }
         ],
-        "search": "وردآورد,Vardavard"
+        "search": "وردآورد,Vardavard",
+        "preview": "وردآورد"
     },
     {
         "id": 239,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.796191,
-            "lon": 51.422945
+            "lat": "35.796191",
+            "lon": "51.422945"
         },
         "names": [
             {
@@ -3821,15 +4059,16 @@
                 "slug": "Zaferanieh"
             }
         ],
-        "search": "زعفرانیه,Zaferanieh"
+        "search": "زعفرانیه,Zaferanieh",
+        "preview": "زعفرانیه"
     },
     {
         "id": 240,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.739857,
-            "lon": 51.356425
+            "lat": "35.739857",
+            "lon": "51.356425"
         },
         "names": [
             {
@@ -3837,15 +4076,16 @@
                 "slug": "Marzdaran"
             }
         ],
-        "search": "مرزداران,Marzdaran"
+        "search": "مرزداران,Marzdaran",
+        "preview": "مرزداران"
     },
     {
         "id": 241,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.750846,
-            "lon": 51.426156
+            "lat": "35.750846",
+            "lon": "51.426156"
         },
         "names": [
             {
@@ -3853,15 +4093,16 @@
                 "slug": "Abbas Abad"
             }
         ],
-        "search": "عباس آباد,Abbas Abad"
+        "search": "عباس آباد,Abbas Abad",
+        "preview": "عباس آباد"
     },
     {
         "id": 242,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.755337,
-            "lon": 51.562563
+            "lat": "35.755337",
+            "lon": "51.562563"
         },
         "names": [
             {
@@ -3869,15 +4110,16 @@
                 "slug": "Koohsar"
             }
         ],
-        "search": "کوهسار,Koohsar"
+        "search": "کوهسار,Koohsar",
+        "preview": "کوهسار"
     },
     {
         "id": 243,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.72588,
-            "lon": 51.307921
+            "lat": "35.725880",
+            "lon": "51.307921"
         },
         "names": [
             {
@@ -3885,15 +4127,16 @@
                 "slug": "Shahrak-e  Parvaz"
             }
         ],
-        "search": "شهرک پرواز,Shahrak-e  Parvaz"
+        "search": "شهرک پرواز,Shahrak-e  Parvaz",
+        "preview": "شهرک پرواز"
     },
     {
         "id": 244,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.721826,
-            "lon": 51.420064
+            "lat": "35.721826",
+            "lon": "51.420064"
         },
         "names": [
             {
@@ -3901,15 +4144,16 @@
                 "slug": "Sanaei"
             }
         ],
-        "search": "سنائی,Sanaei"
+        "search": "سنائی,Sanaei",
+        "preview": "سنائی"
     },
     {
         "id": 245,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.728292,
-            "lon": 51.437436
+            "lat": "35.728292",
+            "lon": "51.437436"
         },
         "names": [
             {
@@ -3917,15 +4161,16 @@
                 "slug": "Andisheh"
             }
         ],
-        "search": "اندیشه,Andisheh"
+        "search": "اندیشه,Andisheh",
+        "preview": "اندیشه"
     },
     {
         "id": 246,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.672467,
-            "lon": 51.403766
+            "lat": "35.672467",
+            "lon": "51.403766"
         },
         "names": [
             {
@@ -3933,15 +4178,16 @@
                 "slug": "Foroozesh"
             }
         ],
-        "search": "فروزش,Foroozesh"
+        "search": "فروزش,Foroozesh",
+        "preview": "فروزش"
     },
     {
         "id": 247,
         "area": 12,
         "type": "center",
         "location": {
-            "lat": 35.66263,
-            "lon": 51.438729
+            "lat": "35.662630",
+            "lon": "51.438729"
         },
         "names": [
             {
@@ -3949,15 +4195,16 @@
                 "slug": "Kosar"
             }
         ],
-        "search": "کوثر,Kosar"
+        "search": "کوثر,Kosar",
+        "preview": "کوثر"
     },
     {
         "id": 248,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.706282,
-            "lon": 51.470109
+            "lat": "35.706282",
+            "lon": "51.470109"
         },
         "names": [
             {
@@ -3965,15 +4212,16 @@
                 "slug": "GHASEMABAD"
             }
         ],
-        "search": "قاسم آباد,GHASEMABAD"
+        "search": "قاسم آباد,GHASEMABAD",
+        "preview": "قاسم آباد"
     },
     {
         "id": 249,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.679262,
-            "lon": 51.451356
+            "lat": "35.679262",
+            "lon": "51.451356"
         },
         "names": [
             {
@@ -3981,15 +4229,16 @@
                 "slug": "Dezhkaam"
             }
         ],
-        "search": "دژکام,Dezhkaam"
+        "search": "دژکام,Dezhkaam",
+        "preview": "دژکام"
     },
     {
         "id": 250,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.626104,
-            "lon": 51.483426
+            "lat": "35.626104",
+            "lon": "51.483426"
         },
         "names": [
             {
@@ -3997,15 +4246,16 @@
                 "slug": "Moshiriyeh"
             }
         ],
-        "search": "مشیریه,Moshiriyeh"
+        "search": "مشیریه,Moshiriyeh",
+        "preview": "مشیریه"
     },
     {
         "id": 251,
         "area": 17,
         "type": "center",
         "location": {
-            "lat": 35.657858,
-            "lon": 51.350025
+            "lat": "35.657858",
+            "lon": "51.350025"
         },
         "names": [
             {
@@ -4013,15 +4263,16 @@
                 "slug": "Yaftabad"
             }
         ],
-        "search": "یافت آباد,Yaftabad"
+        "search": "یافت آباد,Yaftabad",
+        "preview": "یافت آباد"
     },
     {
         "id": 252,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.648511,
-            "lon": 51.341769
+            "lat": "35.648511",
+            "lon": "51.341769"
         },
         "names": [
             {
@@ -4029,15 +4280,16 @@
                 "slug": "Valieasr"
             }
         ],
-        "search": "ولیعصر,Valieasr"
+        "search": "ولیعصر,Valieasr",
+        "preview": "ولیعصر"
     },
     {
         "id": 253,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.571331,
-            "lon": 51.46853
+            "lat": "35.571331",
+            "lon": "51.468530"
         },
         "names": [
             {
@@ -4045,15 +4297,16 @@
                 "slug": "Shahid Beheshti"
             }
         ],
-        "search": "شهید بهشتی,Shahid Beheshti"
+        "search": "شهید بهشتی,Shahid Beheshti",
+        "preview": "شهید بهشتی"
     },
     {
         "id": 254,
         "area": 21,
         "type": "center",
         "location": {
-            "lat": 35.729961,
-            "lon": 51.177903
+            "lat": "35.729961",
+            "lon": "51.177903"
         },
         "names": [
             {
@@ -4061,15 +4314,16 @@
                 "slug": "Villa Shahr"
             }
         ],
-        "search": "ویلا شهر,Villa Shahr"
+        "search": "ویلا شهر,Villa Shahr",
+        "preview": "ویلا شهر"
     },
     {
         "id": 255,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.801385,
-            "lon": 51.531877
+            "lat": "35.801385",
+            "lon": "51.531877"
         },
         "names": [
             {
@@ -4077,15 +4331,16 @@
                 "slug": "Sohanak"
             }
         ],
-        "search": "سوهانک,Sohanak"
+        "search": "سوهانک,Sohanak",
+        "preview": "سوهانک"
     },
     {
         "id": 256,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.706691,
-            "lon": 51.351634
+            "lat": "35.706691",
+            "lon": "51.351634"
         },
         "names": [
             {
@@ -4093,15 +4348,16 @@
                 "slug": "Teymoori"
             }
         ],
-        "search": "تیموری,Teymoori"
+        "search": "تیموری,Teymoori",
+        "preview": "تیموری"
     },
     {
         "id": 257,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.768678,
-            "lon": 51.38961
+            "lat": "35.768678",
+            "lon": "51.389610"
         },
         "names": [
             {
@@ -4109,15 +4365,16 @@
                 "slug": "Eslam Abad"
             }
         ],
-        "search": "اسلام آباد,Eslam Abad"
+        "search": "اسلام آباد,Eslam Abad",
+        "preview": "اسلام آباد"
     },
     {
         "id": 258,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.751094,
-            "lon": 51.468941
+            "lat": "35.751094",
+            "lon": "51.468941"
         },
         "names": [
             {
@@ -4125,15 +4382,16 @@
                 "slug": "Kazem Abad"
             }
         ],
-        "search": "کاظم آباد,Kazem Abad"
+        "search": "کاظم آباد,Kazem Abad",
+        "preview": "کاظم آباد"
     },
     {
         "id": 259,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.782761,
-            "lon": 51.332749
+            "lat": "35.782761",
+            "lon": "51.332749"
         },
         "names": [
             {
@@ -4141,15 +4399,16 @@
                 "slug": "Shahrak-e kooohsar"
             }
         ],
-        "search": "شهرک کوهسار  , Shahrak-e kooohsar"
+        "search": "شهرک کوهسار  , Shahrak-e kooohsar",
+        "preview": "شهرک کوهسار"
     },
     {
         "id": 260,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.729035,
-            "lon": 51.394581
+            "lat": "35.729035",
+            "lon": "51.394581"
         },
         "names": [
             {
@@ -4157,15 +4416,16 @@
                 "slug": "Ghezel Ghale"
             }
         ],
-        "search": "قزل قلعه,Ghezel Ghale"
+        "search": "قزل قلعه,Ghezel Ghale",
+        "preview": "قزل قلعه"
     },
     {
         "id": 261,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.726769,
-            "lon": 51.449325
+            "lat": "35.726769",
+            "lon": "51.449325"
         },
         "names": [
             {
@@ -4173,15 +4433,16 @@
                 "slug": "Ghasr"
             }
         ],
-        "search": "قصر,Ghasr"
+        "search": "قصر,Ghasr",
+        "preview": "قصر"
     },
     {
         "id": 262,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.669355,
-            "lon": 51.40175
+            "lat": "35.669355",
+            "lon": "51.401750"
         },
         "names": [
             {
@@ -4189,15 +4450,16 @@
                 "slug": "Amir bahador"
             }
         ],
-        "search": "امیربهادر,Amir bahador"
+        "search": "امیربهادر,Amir bahador",
+        "preview": "امیربهادر"
     },
     {
         "id": 263,
         "area": 13,
         "type": "center",
         "location": {
-            "lat": 35.699034,
-            "lon": 51.469668
+            "lat": "35.699034",
+            "lon": "51.469668"
         },
         "names": [
             {
@@ -4205,15 +4467,16 @@
                 "slug": "Nirooy-e Havaei"
             }
         ],
-        "search": "نیروی هوایی,Nirooy-e Havaei"
+        "search": "نیروی هوایی,Nirooy-e Havaei",
+        "preview": "نیروی هوایی"
     },
     {
         "id": 264,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.666901,
-            "lon": 51.460744
+            "lat": "35.666901",
+            "lon": "51.460744"
         },
         "names": [
             {
@@ -4221,15 +4484,16 @@
                 "slug": "Dolab"
             }
         ],
-        "search": "دولاب,Dolab"
+        "search": "دولاب,Dolab",
+        "preview": "دولاب"
     },
     {
         "id": 265,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.647426,
-            "lon": 51.444154
+            "lat": "35.647426",
+            "lon": "51.444154"
         },
         "names": [
             {
@@ -4237,15 +4501,16 @@
                 "slug": "Motahari"
             }
         ],
-        "search": "مطهری,Motahari"
+        "search": "مطهری,Motahari",
+        "preview": "مطهری"
     },
     {
         "id": 266,
         "area": 18,
         "type": "center",
         "location": {
-            "lat": 35.657858,
-            "lon": 51.350025
+            "lat": "35.657858",
+            "lon": "51.350025"
         },
         "names": [
             {
@@ -4253,15 +4518,16 @@
                 "slug": "Yaftabad"
             }
         ],
-        "search": "یافت آباد,Yaftabad"
+        "search": "یافت آباد,Yaftabad",
+        "preview": "یافت آباد"
     },
     {
         "id": 267,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.583283,
-            "lon": 51.455266
+            "lat": "35.583283",
+            "lon": "51.455266"
         },
         "names": [
             {
@@ -4269,15 +4535,16 @@
                 "slug": "Abbas Abad"
             }
         ],
-        "search": "عباس آباد,Abbas Abad"
+        "search": "عباس آباد,Abbas Abad",
+        "preview": "عباس آباد"
     },
     {
         "id": 268,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.810296,
-            "lon": 51.505991
+            "lat": "35.810296",
+            "lon": "51.505991"
         },
         "names": [
             {
@@ -4285,15 +4552,16 @@
                 "slug": "Shahrak-e Naft"
             }
         ],
-        "search": "شهرک نفتShahrak-e Naft"
+        "search": "شهرک نفتShahrak-e Naft",
+        "preview": "شهرک نفت"
     },
     {
         "id": 269,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.70415,
-            "lon": 51.357106
+            "lat": "35.704150",
+            "lon": "51.357106"
         },
         "names": [
             {
@@ -4301,15 +4569,16 @@
                 "slug": "Zanjan"
             }
         ],
-        "search": "زنجان,Zanjan"
+        "search": "زنجان,Zanjan",
+        "preview": "زنجان"
     },
     {
         "id": 270,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.7627,
-            "lon": 51.44914
+            "lat": "35.762700",
+            "lon": "51.449140"
         },
         "names": [
             {
@@ -4317,15 +4586,16 @@
                 "slug": "Ghaba"
             }
         ],
-        "search": "قبا,Ghaba"
+        "search": "قبا,Ghaba",
+        "preview": "قبا"
     },
     {
         "id": 271,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.74355,
-            "lon": 51.562947
+            "lat": "35.743550",
+            "lon": "51.562947"
         },
         "names": [
             {
@@ -4333,15 +4603,16 @@
                 "slug": "Golshan"
             }
         ],
-        "search": "گلشن,Golshan"
+        "search": "گلشن,Golshan",
+        "preview": "گلشن"
     },
     {
         "id": 272,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.792487,
-            "lon": 51.336862
+            "lat": "35.792487",
+            "lon": "51.336862"
         },
         "names": [
             {
@@ -4349,15 +4620,16 @@
                 "slug": "Shahrak-e Naft"
             }
         ],
-        "search": "شهرک نفت,Shahrak-e Naft"
+        "search": "شهرک نفت,Shahrak-e Naft",
+        "preview": "شهرک نفت"
     },
     {
         "id": 273,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.709826,
-            "lon": 51.384758
+            "lat": "35.709826",
+            "lon": "51.384758"
         },
         "names": [
             {
@@ -4365,15 +4637,16 @@
                 "slug": "Keshavarz-e Gharbi"
             }
         ],
-        "search": "کشاورز غربی,Keshavarz-e Gharbi"
+        "search": "کشاورز غربی,Keshavarz-e Gharbi",
+        "preview": "کشاورز غربی"
     },
     {
         "id": 274,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.714967,
-            "lon": 51.442007
+            "lat": "35.714967",
+            "lon": "51.442007"
         },
         "names": [
             {
@@ -4381,15 +4654,16 @@
                 "slug": "Kaaj"
             }
         ],
-        "search": "کاج,Kaaj"
+        "search": "کاج,Kaaj",
+        "preview": "کاج"
     },
     {
         "id": 275,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.697196,
-            "lon": 51.402177
+            "lat": "35.697196",
+            "lon": "51.402177"
         },
         "names": [
             {
@@ -4397,15 +4671,16 @@
                 "slug": "Felestin"
             }
         ],
-        "search": "فلسطین,Felestin"
+        "search": "فلسطین,Felestin",
+        "preview": "فلسطین"
     },
     {
         "id": 276,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.674104,
-            "lon": 51.458642
+            "lat": "35.674104",
+            "lon": "51.458642"
         },
         "names": [
             {
@@ -4413,15 +4688,16 @@
                 "slug": "Shahin"
             }
         ],
-        "search": "شاهین,Shahin"
+        "search": "شاهین,Shahin",
+        "preview": "شاهین"
     },
     {
         "id": 277,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.654363,
-            "lon": 51.435951
+            "lat": "35.654363",
+            "lon": "51.435951"
         },
         "names": [
             {
@@ -4429,15 +4705,16 @@
                 "slug": "Mazaheri"
             }
         ],
-        "search": "مظاهری,Mazaheri"
+        "search": "مظاهری,Mazaheri",
+        "preview": "مظاهری"
     },
     {
         "id": 278,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.596112,
-            "lon": 51.433724
+            "lat": "35.596112",
+            "lon": "51.433724"
         },
         "names": [
             {
@@ -4445,15 +4722,16 @@
                 "slug": "Alaeen"
             }
         ],
-        "search": "علایین,Alaeen"
+        "search": "علایین,Alaeen",
+        "preview": "علایین"
     },
     {
         "id": 279,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.803902,
-            "lon": 51.517019
+            "lat": "35.803902",
+            "lon": "51.517019"
         },
         "names": [
             {
@@ -4461,15 +4739,16 @@
                 "slug": "Shahrak-e Mahalati"
             }
         ],
-        "search": "شهرک محلاتی,Shahrak-e Mahalati"
+        "search": "شهرک محلاتی,Shahrak-e Mahalati",
+        "preview": "شهرک محلاتی"
     },
     {
         "id": 280,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.731909,
-            "lon": 51.360945
+            "lat": "35.731909",
+            "lon": "51.360945"
         },
         "names": [
             {
@@ -4477,15 +4756,16 @@
                 "slug": "Shahrak-e  Azmayesh"
             }
         ],
-        "search": "شهرک آزمایش,Shahrak-e  Azmayesh"
+        "search": "شهرک آزمایش,Shahrak-e  Azmayesh",
+        "preview": "شهرک آزمایش"
     },
     {
         "id": 281,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.761167,
-            "lon": 51.434618
+            "lat": "35.761167",
+            "lon": "51.434618"
         },
         "names": [
             {
@@ -4493,15 +4773,16 @@
                 "slug": "DAVOODIYEH"
             }
         ],
-        "search": "داوودیه,DAVOODIYEH"
+        "search": "داوودیه,DAVOODIYEH",
+        "preview": "داوودیه"
     },
     {
         "id": 282,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.750582,
-            "lon": 51.51464
+            "lat": "35.750582",
+            "lon": "51.514640"
         },
         "names": [
             {
@@ -4509,15 +4790,16 @@
                 "slug": "Oghaf"
             }
         ],
-        "search": "اوقاف , Oghaf"
+        "search": "اوقاف , Oghaf",
+        "preview": "اوقاف"
     },
     {
         "id": 283,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.759169,
-            "lon": 51.278094
+            "lat": "35.759169",
+            "lon": "51.278094"
         },
         "names": [
             {
@@ -4525,15 +4807,16 @@
                 "slug": "kan"
             }
         ],
-        "search": "کن,kan"
+        "search": "کن,kan",
+        "preview": "کن"
     },
     {
         "id": 284,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.746705,
-            "lon": 51.416589
+            "lat": "35.746705",
+            "lon": "51.416589"
         },
         "names": [
             {
@@ -4541,15 +4824,16 @@
                 "slug": "Gandi"
             }
         ],
-        "search": "گاندی,Gandi"
+        "search": "گاندی,Gandi",
+        "preview": "گاندی"
     },
     {
         "id": 285,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.707273,
-            "lon": 51.454876
+            "lat": "35.707273",
+            "lon": "51.454876"
         },
         "names": [
             {
@@ -4557,15 +4841,16 @@
                 "slug": "Nezam abad"
             }
         ],
-        "search": "نظام آباد,Nezam abad"
+        "search": "نظام آباد,Nezam abad",
+        "preview": "نظام آباد"
     },
     {
         "id": 286,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.70105,
-            "lon": 51.392712
+            "lat": "35.701050",
+            "lon": "51.392712"
         },
         "names": [
             {
@@ -4573,15 +4858,16 @@
                 "slug": "Enghelab"
             }
         ],
-        "search": "انقلاب,Enghelab"
+        "search": "انقلاب,Enghelab",
+        "preview": "انقلاب"
     },
     {
         "id": 287,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.684032,
-            "lon": 51.448774
+            "lat": "35.684032",
+            "lon": "51.448774"
         },
         "names": [
             {
@@ -4589,15 +4875,16 @@
                 "slug": "Shokoofeh"
             }
         ],
-        "search": "شکوفه,Shokoofeh"
+        "search": "شکوفه,Shokoofeh",
+        "preview": "شکوفه"
     },
     {
         "id": 288,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.651346,
-            "lon": 51.456879
+            "lat": "35.651346",
+            "lon": "51.456879"
         },
         "names": [
             {
@@ -4605,15 +4892,16 @@
                 "slug": "Minaei"
             }
         ],
-        "search": "مینایی,Minaei"
+        "search": "مینایی,Minaei",
+        "preview": "مینایی"
     },
     {
         "id": 289,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.598163,
-            "lon": 51.424859
+            "lat": "35.598163",
+            "lon": "51.424859"
         },
         "names": [
             {
@@ -4621,15 +4909,16 @@
                 "slug": "Firoozabadi"
             }
         ],
-        "search": "فیروزآبادی,Firoozabadi"
+        "search": "فیروزآبادی,Firoozabadi",
+        "preview": "فیروزآبادی"
     },
     {
         "id": 290,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.793499,
-            "lon": 51.42957
+            "lat": "35.793499",
+            "lon": "51.429570"
         },
         "names": [
             {
@@ -4637,15 +4926,16 @@
                 "slug": "Farmaniyeh"
             }
         ],
-        "search": "فرمانیه,Farmaniyeh"
+        "search": "فرمانیه,Farmaniyeh",
+        "preview": "فرمانیه"
     },
     {
         "id": 291,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.743164,
-            "lon": 51.360111
+            "lat": "35.743164",
+            "lon": "51.360111"
         },
         "names": [
             {
@@ -4653,15 +4943,16 @@
                 "slug": "Pardisan"
             }
         ],
-        "search": "پردیسان,Pardisan"
+        "search": "پردیسان,Pardisan",
+        "preview": "پردیسان"
     },
     {
         "id": 292,
         "area": 3,
         "type": "center",
         "location": {
-            "lat": 35.761167,
-            "lon": 51.434618
+            "lat": "35.761167",
+            "lon": "51.434618"
         },
         "names": [
             {
@@ -4669,15 +4960,16 @@
                 "slug": "Hasan Abad"
             }
         ],
-        "search": "حسن آباد,Hasan Abad"
+        "search": "حسن آباد,Hasan Abad",
+        "preview": "حسن آباد"
     },
     {
         "id": 293,
         "area": 4,
         "type": "center",
         "location": {
-            "lat": 35.768132,
-            "lon": 51.52617
+            "lat": "35.768132",
+            "lon": "51.526170"
         },
         "names": [
             {
@@ -4685,15 +4977,16 @@
                 "slug": "GHASEMABAD Deh Namak"
             }
         ],
-        "search": "قاسم آباد ده نمک,GHASEMABAD Deh Namak"
+        "search": "قاسم آباد ده نمک,GHASEMABAD Deh Namak",
+        "preview": "قاسم آباد ده نمک"
     },
     {
         "id": 294,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.729503,
-            "lon": 51.286881
+            "lat": "35.729503",
+            "lon": "51.286881"
         },
         "names": [
             {
@@ -4701,15 +4994,16 @@
                 "slug": "Kooye Eram"
             }
         ],
-        "search": "کوی ارم,Kooye Eram"
+        "search": "کوی ارم,Kooye Eram",
+        "preview": "کوی ارم"
     },
     {
         "id": 295,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.724075,
-            "lon": 51.405724
+            "lat": "35.724075",
+            "lon": "51.405724"
         },
         "names": [
             {
@@ -4717,15 +5011,16 @@
                 "slug": "Meydan-e Jahad"
             }
         ],
-        "search": "میدان جهاد,Meydan-e Jahad"
+        "search": "میدان جهاد,Meydan-e Jahad",
+        "preview": "میدان جهاد"
     },
     {
         "id": 296,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.73652,
-            "lon": 51.435977
+            "lat": "35.736520",
+            "lon": "51.435977"
         },
         "names": [
             {
@@ -4733,15 +5028,16 @@
                 "slug": "Niloofar"
             }
         ],
-        "search": "نیلوفر,Niloofar"
+        "search": "نیلوفر,Niloofar",
+        "preview": "نیلوفر"
     },
     {
         "id": 297,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.6726,
-            "lon": 51.396562
+            "lat": "35.672600",
+            "lon": "51.396562"
         },
         "names": [
             {
@@ -4749,15 +5045,16 @@
                 "slug": "Ghalamestan"
             }
         ],
-        "search": "قلمستان,Ghalamestan"
+        "search": "قلمستان,Ghalamestan",
+        "preview": "قلمستان"
     },
     {
         "id": 298,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.652014,
-            "lon": 51.451691
+            "lat": "35.652014",
+            "lon": "51.451691"
         },
         "names": [
             {
@@ -4765,15 +5062,16 @@
                 "slug": "Valieasr"
             }
         ],
-        "search": "ولیعصر,Valieasr"
+        "search": "ولیعصر,Valieasr",
+        "preview": "ولیعصر"
     },
     {
         "id": 299,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.609932,
-            "lon": 51.436735
+            "lat": "35.609932",
+            "lon": "51.436735"
         },
         "names": [
             {
@@ -4781,15 +5079,16 @@
                 "slug": "Hamzeh abad"
             }
         ],
-        "search": "حمزه آباد,Hamzeh abad"
+        "search": "حمزه آباد,Hamzeh abad",
+        "preview": "حمزه آباد"
     },
     {
         "id": 300,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.757678,
-            "lon": 51.354779
+            "lat": "35.757678",
+            "lon": "51.354779"
         },
         "names": [
             {
@@ -4797,15 +5096,16 @@
                 "slug": "Eyvanak"
             }
         ],
-        "search": "ایوانک,Eyvanak"
+        "search": "ایوانک,Eyvanak",
+        "preview": "ایوانک"
     },
     {
         "id": 301,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.705836,
-            "lon": 51.318611
+            "lat": "35.705836",
+            "lon": "51.318611"
         },
         "names": [
             {
@@ -4813,15 +5113,16 @@
                 "slug": "Kooye Bimeh"
             }
         ],
-        "search": "کوی بیمه,Kooye Bimeh"
+        "search": "کوی بیمه,Kooye Bimeh",
+        "preview": "کوی بیمه"
     },
     {
         "id": 302,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.707849,
-            "lon": 51.412695
+            "lat": "35.707849",
+            "lon": "51.412695"
         },
         "names": [
             {
@@ -4829,15 +5130,16 @@
                 "slug": "Meydan-e Valieasr"
             }
         ],
-        "search": "میدان ولیعصر,Meydan-e Valieasr"
+        "search": "میدان ولیعصر,Meydan-e Valieasr",
+        "preview": "میدان ولیعصر"
     },
     {
         "id": 303,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.73652,
-            "lon": 51.435977
+            "lat": "35.736520",
+            "lon": "51.435977"
         },
         "names": [
             {
@@ -4845,15 +5147,16 @@
                 "slug": "Shahid  Ghandi"
             }
         ],
-        "search": "شهید قندی,Shahid  Ghandi"
+        "search": "شهید قندی,Shahid  Ghandi",
+        "preview": "شهید قندی"
     },
     {
         "id": 304,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.67456,
-            "lon": 51.396682
+            "lat": "35.674560",
+            "lon": "51.396682"
         },
         "names": [
             {
@@ -4861,15 +5164,16 @@
                 "slug": "Baradaran-e Javadian"
             }
         ],
-        "search": "برادران جوادیان,Baradaran-e Javadian"
+        "search": "برادران جوادیان,Baradaran-e Javadian",
+        "preview": "برادران جوادیان"
     },
     {
         "id": 305,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.680285,
-            "lon": 51.468847
+            "lat": "35.680285",
+            "lon": "51.468847"
         },
         "names": [
             {
@@ -4877,15 +5181,16 @@
                 "slug": "Shiva"
             }
         ],
-        "search": "شیوا,Shiva"
+        "search": "شیوا,Shiva",
+        "preview": "شیوا"
     },
     {
         "id": 306,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.6539,
-            "lon": 51.44646
+            "lat": "35.653900",
+            "lon": "51.446460"
         },
         "names": [
             {
@@ -4893,15 +5198,16 @@
                 "slug": "Bisim"
             }
         ],
-        "search": "بی سیم,Bisim"
+        "search": "بی سیم,Bisim",
+        "preview": "بی سیم"
     },
     {
         "id": 307,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.583283,
-            "lon": 51.455266
+            "lat": "35.583283",
+            "lon": "51.455266"
         },
         "names": [
             {
@@ -4909,15 +5215,16 @@
                 "slug": "Mansoorieh Mangal"
             }
         ],
-        "search": "منصوریه منگل,Mansoorieh Mangal"
+        "search": "منصوریه منگل,Mansoorieh Mangal",
+        "preview": "منصوریه منگل"
     },
     {
         "id": 308,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.791643,
-            "lon": 51.444079
+            "lat": "35.791643",
+            "lon": "51.444079"
         },
         "names": [
             {
@@ -4925,15 +5232,16 @@
                 "slug": "Gheitariyeh"
             }
         ],
-        "search": "قیطریه,Gheitariyeh"
+        "search": "قیطریه,Gheitariyeh",
+        "preview": "قیطریه"
     },
     {
         "id": 309,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.765945,
-            "lon": 51.339239
+            "lat": "35.765945",
+            "lon": "51.339239"
         },
         "names": [
             {
@@ -4941,15 +5249,16 @@
                 "slug": "Poonak"
             }
         ],
-        "search": "پونک,Poonak"
+        "search": "پونک,Poonak",
+        "preview": "پونک"
     },
     {
         "id": 310,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.731319,
-            "lon": 51.330766
+            "lat": "35.731319",
+            "lon": "51.330766"
         },
         "names": [
             {
@@ -4957,15 +5266,16 @@
                 "slug": "Abuzar"
             }
         ],
-        "search": "ابوذر,Abuzar"
+        "search": "ابوذر,Abuzar",
+        "preview": "ابوذر"
     },
     {
         "id": 311,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.704155,
-            "lon": 51.38462
+            "lat": "35.704155",
+            "lon": "51.384620"
         },
         "names": [
             {
@@ -4973,15 +5283,16 @@
                 "slug": "Nosrat"
             }
         ],
-        "search": "نصرت,Nosrat"
+        "search": "نصرت,Nosrat",
+        "preview": "نصرت"
     },
     {
         "id": 312,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.710034,
-            "lon": 51.449674
+            "lat": "35.710034",
+            "lon": "51.449674"
         },
         "names": [
             {
@@ -4989,15 +5300,16 @@
                 "slug": "Dehghan -Gorgan"
             }
         ],
-        "search": "دهقان -گرگان,Dehghan -Gorgan"
+        "search": "دهقان -گرگان,Dehghan -Gorgan",
+        "preview": "دهقان -گرگان"
     },
     {
         "id": 313,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.677912,
-            "lon": 51.389052
+            "lat": "35.677912",
+            "lon": "51.389052"
         },
         "names": [
             {
@@ -5005,15 +5317,16 @@
                 "slug": "Makhsoos"
             }
         ],
-        "search": "مخصوص,Makhsoos"
+        "search": "مخصوص,Makhsoos",
+        "preview": "مخصوص"
     },
     {
         "id": 314,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.689388,
-            "lon": 51.47216
+            "lat": "35.689388",
+            "lon": "51.472160"
         },
         "names": [
             {
@@ -5021,15 +5334,16 @@
                 "slug": "Hundred"
             }
         ],
-        "search": "صد دستگاه,Hundred"
+        "search": "صد دستگاه,Hundred",
+        "preview": "صد دستگاه"
     },
     {
         "id": 315,
         "area": 15,
         "type": "center",
         "location": {
-            "lat": 35.642965,
-            "lon": 51.472158
+            "lat": "35.642965",
+            "lon": "51.472158"
         },
         "names": [
             {
@@ -5037,15 +5351,16 @@
                 "slug": "Hashem Abad"
             }
         ],
-        "search": "هاشم آباد,Hashem Abad"
+        "search": "هاشم آباد,Hashem Abad",
+        "preview": "هاشم آباد"
     },
     {
         "id": 316,
         "area": 20,
         "type": "center",
         "location": {
-            "lat": 35.585051,
-            "lon": 51.440684
+            "lat": "35.585051",
+            "lon": "51.440684"
         },
         "names": [
             {
@@ -5053,15 +5368,16 @@
                 "slug": "Vali abad"
             }
         ],
-        "search": "ولی آباد,Vali abad"
+        "search": "ولی آباد,Vali abad",
+        "preview": "ولی آباد"
     },
     {
         "id": 317,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.810623,
-            "lon": 51.478897
+            "lat": "35.810623",
+            "lon": "51.478897"
         },
         "names": [
             {
@@ -5069,15 +5385,16 @@
                 "slug": "Kashank"
             }
         ],
-        "search": "کاشانک,Kashank"
+        "search": "کاشانک,Kashank",
+        "preview": "کاشانک"
     },
     {
         "id": 318,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.789638,
-            "lon": 51.352442
+            "lat": "35.789638",
+            "lon": "51.352442"
         },
         "names": [
             {
@@ -5085,15 +5402,16 @@
                 "slug": "Parvaz-e Sharghi"
             }
         ],
-        "search": "پرواز شرقی,Parvaz-e Sharghi"
+        "search": "پرواز شرقی,Parvaz-e Sharghi",
+        "preview": "پرواز شرقی"
     },
     {
         "id": 319,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.769207,
-            "lon": 51.272774
+            "lat": "35.769207",
+            "lon": "51.272774"
         },
         "names": [
             {
@@ -5101,15 +5419,16 @@
                 "slug": "BAHARAN"
             }
         ],
-        "search": "بهاران,BAHARAN"
+        "search": "بهاران,BAHARAN",
+        "preview": "بهاران"
     },
     {
         "id": 320,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.735078,
-            "lon": 51.40474
+            "lat": "35.735078",
+            "lon": "51.404740"
         },
         "names": [
             {
@@ -5117,15 +5436,16 @@
                 "slug": "Yousef Abad"
             }
         ],
-        "search": "یوسف آباد,Yousef Abad"
+        "search": "یوسف آباد,Yousef Abad",
+        "preview": "یوسف آباد"
     },
     {
         "id": 321,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.71365,
-            "lon": 51.447129
+            "lat": "35.713650",
+            "lon": "51.447129"
         },
         "names": [
             {
@@ -5133,15 +5453,16 @@
                 "slug": "Khajeh Nezam-ol Molk"
             }
         ],
-        "search": "خواجه نظام الملک,Khajeh Nezam-ol Molk"
+        "search": "خواجه نظام الملک,Khajeh Nezam-ol Molk",
+        "preview": "خواجه نظام الملک"
     },
     {
         "id": 322,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.684008,
-            "lon": 51.399868
+            "lat": "35.684008",
+            "lon": "51.399868"
         },
         "names": [
             {
@@ -5149,15 +5470,16 @@
                 "slug": "Monirieh"
             }
         ],
-        "search": "منیریه,Monirieh"
+        "search": "منیریه,Monirieh",
+        "preview": "منیریه"
     },
     {
         "id": 323,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.685471,
-            "lon": 51.475331
+            "lat": "35.685471",
+            "lon": "51.475331"
         },
         "names": [
             {
@@ -5165,15 +5487,16 @@
                 "slug": "Farzaneh"
             }
         ],
-        "search": "فرزانه,Farzaneh"
+        "search": "فرزانه,Farzaneh",
+        "preview": "فرزانه"
     },
     {
         "id": 324,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.791808,
-            "lon": 51.3378
+            "lat": "35.791808",
+            "lon": "51.337800"
         },
         "names": [
             {
@@ -5181,15 +5504,16 @@
                 "slug": "Shahrak-e Naft"
             }
         ],
-        "search": "شهرک نفت,Shahrak-e Naft"
+        "search": "شهرک نفت,Shahrak-e Naft",
+        "preview": "شهرک نفت"
     },
     {
         "id": 325,
         "area": 5,
         "type": "center",
         "location": {
-            "lat": 35.774986,
-            "lon": 51.327317
+            "lat": "35.774986",
+            "lon": "51.327317"
         },
         "names": [
             {
@@ -5197,15 +5521,16 @@
                 "slug": "AlMahdi"
             }
         ],
-        "search": "المهدی,AlMahdi"
+        "search": "المهدی,AlMahdi",
+        "preview": "المهدی"
     },
     {
         "id": 326,
         "area": 6,
         "type": "center",
         "location": {
-            "lat": 35.73935,
-            "lon": 51.377689
+            "lat": "35.739350",
+            "lon": "51.377689"
         },
         "names": [
             {
@@ -5213,15 +5538,16 @@
                 "slug": "Kooye Nasr"
             }
         ],
-        "search": "کوی نصر,Kooye Nasr"
+        "search": "کوی نصر,Kooye Nasr",
+        "preview": "کوی نصر"
     },
     {
         "id": 327,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.712364,
-            "lon": 51.462953
+            "lat": "35.712364",
+            "lon": "51.462953"
         },
         "names": [
             {
@@ -5229,15 +5555,16 @@
                 "slug": "Sharegh"
             }
         ],
-        "search": "شارق,Sharegh"
+        "search": "شارق,Sharegh",
+        "preview": "شارق"
     },
     {
         "id": 328,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.688633,
-            "lon": 51.388938
+            "lat": "35.688633",
+            "lon": "51.388938"
         },
         "names": [
             {
@@ -5245,15 +5572,16 @@
                 "slug": "Meydan-e Hor"
             }
         ],
-        "search": "میدان حر,Meydan-e Hor"
+        "search": "میدان حر,Meydan-e Hor",
+        "preview": "میدان حر"
     },
     {
         "id": 329,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.676156,
-            "lon": 51.504482
+            "lat": "35.676156",
+            "lon": "51.504482"
         },
         "names": [
             {
@@ -5261,15 +5589,16 @@
                 "slug": "ghasr-e Firoozeh"
             }
         ],
-        "search": "قصر فیروزه,ghasr-e Firoozeh"
+        "search": "قصر فیروزه,ghasr-e Firoozeh",
+        "preview": "قصر فیروزه"
     },
     {
         "id": 330,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.796876,
-            "lon": 51.412767
+            "lat": "35.796876",
+            "lon": "51.412767"
         },
         "names": [
             {
@@ -5277,15 +5606,16 @@
                 "slug": "Mahmoudieh"
             }
         ],
-        "search": "محمودیه,Mahmoudieh"
+        "search": "محمودیه,Mahmoudieh",
+        "preview": "محمودیه"
     },
     {
         "id": 331,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.716195,
-            "lon": 51.355844
+            "lat": "35.716195",
+            "lon": "51.355844"
         },
         "names": [
             {
@@ -5293,15 +5623,16 @@
                 "slug": "Choob Tarash"
             }
         ],
-        "search": "چوب تراش,Choob Tarash"
+        "search": "چوب تراش,Choob Tarash",
+        "preview": "چوب تراش"
     },
     {
         "id": 332,
         "area": 7,
         "type": "center",
         "location": {
-            "lat": 35.708334,
-            "lon": 51.449384
+            "lat": "35.708334",
+            "lon": "51.449384"
         },
         "names": [
             {
@@ -5309,15 +5640,16 @@
                 "slug": "Gorgan"
             }
         ],
-        "search": "گرگان,Gorgan"
+        "search": "گرگان,Gorgan",
+        "preview": "گرگان"
     },
     {
         "id": 333,
         "area": 11,
         "type": "center",
         "location": {
-            "lat": 35.671077,
-            "lon": 51.389317
+            "lat": "35.671077",
+            "lon": "51.389317"
         },
         "names": [
             {
@@ -5325,15 +5657,16 @@
                 "slug": "Helal Ahmar"
             }
         ],
-        "search": "هلال احمر,Helal Ahmar"
+        "search": "هلال احمر,Helal Ahmar",
+        "preview": "هلال احمر"
     },
     {
         "id": 334,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.674842,
-            "lon": 51.451588
+            "lat": "35.674842",
+            "lon": "51.451588"
         },
         "names": [
             {
@@ -5341,15 +5674,16 @@
                 "slug": "Minaei"
             }
         ],
-        "search": "مینای,Minaei"
+        "search": "مینای,Minaei",
+        "preview": "مینای"
     },
     {
         "id": 335,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.818671,
-            "lon": 51.468318
+            "lat": "35.818671",
+            "lon": "51.468318"
         },
         "names": [
             {
@@ -5357,15 +5691,16 @@
                 "slug": "Niyavaran"
             }
         ],
-        "search": "نیاوران,Niyavaran"
+        "search": "نیاوران,Niyavaran",
+        "preview": "نیاوران"
     },
     {
         "id": 336,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.774387,
-            "lon": 51.370442
+            "lat": "35.774387",
+            "lon": "51.370442"
         },
         "names": [
             {
@@ -5373,15 +5708,16 @@
                 "slug": "Darya"
             }
         ],
-        "search": "دریا,Darya"
+        "search": "دریا,Darya",
+        "preview": "دریا"
     },
     {
         "id": 337,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.681623,
-            "lon": 51.477121
+            "lat": "35.681623",
+            "lon": "51.477121"
         },
         "names": [
             {
@@ -5389,15 +5725,16 @@
                 "slug": "Nabi Akram"
             }
         ],
-        "search": "نبی اکرم,Nabi Akram"
+        "search": "نبی اکرم,Nabi Akram",
+        "preview": "نبی اکرم"
     },
     {
         "id": 338,
         "area": 1,
         "type": "center",
         "location": {
-            "lat": 35.796876,
-            "lon": 51.412767
+            "lat": "35.796876",
+            "lon": "51.412767"
         },
         "names": [
             {
@@ -5405,15 +5742,16 @@
                 "slug": "Velenjak"
             }
         ],
-        "search": "ولنجک,Velenjak"
+        "search": "ولنجک,Velenjak",
+        "preview": "ولنجک"
     },
     {
         "id": 339,
         "area": 2,
         "type": "center",
         "location": {
-            "lat": 35.776262,
-            "lon": 51.382311
+            "lat": "35.776262",
+            "lon": "51.382311"
         },
         "names": [
             {
@@ -5421,15 +5759,16 @@
                 "slug": "Modiriat"
             }
         ],
-        "search": "مدیریت,Modiriat"
+        "search": "مدیریت,Modiriat",
+        "preview": "مدیریت"
     },
     {
         "id": 340,
         "area": 14,
         "type": "center",
         "location": {
-            "lat": 35.682657,
-            "lon": 51.458488
+            "lat": "35.682657",
+            "lon": "51.458488"
         },
         "names": [
             {
@@ -5437,6 +5776,7 @@
                 "slug": "Niknam"
             }
         ],
-        "search": "نیکنام,Niknam"
+        "search": "نیکنام,Niknam",
+        "preview": "نیکنام"
     }
 ]

@@ -7,6 +7,26 @@ error_reporting(E_ALL);
 $dirData = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/data/';
 $dirLocations = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/locations/';
 
+$data = json_decode(file_get_contents($dirLocations.'center.json'), true);
+
+$result = [];
+
+
+foreach ($data as $record){
+
+    $record['preview'] = $record['names'][0]['name'];
+    $result[] = $record;
+
+}
+
+$text = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
+$file = fopen( $dirLocations.'center.json', 'w');
+fwrite($file, $text);
+
+
+
+
+/*
 
 foreach (glob($dirData."*.json") as $filename){
 
@@ -32,3 +52,4 @@ foreach (glob($dirData."*.json") as $filename){
     fwrite($file, $text);
 
 }
+*/
