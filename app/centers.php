@@ -14,7 +14,9 @@ $result = [];
 
 foreach ($data as $record){
 
-    $record['preview'] = $record['names'][0]['name'];
+    $record['location']['lat'] = floatval($record['location']['lat']);
+    $record['location']['lon'] = floatval($record['location']['lon']);
+    //$record['preview'] = $record['names'][0]['name'];
     $result[] = $record;
 
 }
