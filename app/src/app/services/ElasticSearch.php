@@ -65,27 +65,27 @@ class ElasticSearch implements iLocationRepository
      */
     public function geoSearch($lat, $long, $distance = 100 , $size = 10, $from = 0, $fields = [])
     {
-        $fields = $fields == [] ? ['id', 'name', 'slug', 'location'] : $fields;
+        $fields = $fields == [] ? ['id', 'preview', 'names', 'name', 'slug', 'location'] : $fields;
 
         $params = [
             'index' => $this->index,
-            'type' => 'place',
+            'type' => $this->type,
             'body' => [
                 'size' => (int)$size,
                 'from' => (int)$from,
                 '_source' => $fields,
 
                 'query' => [
-                    "filtered" => [
-                        'query' =>[
-                            'match_all' => []
+                    "bool" => [
+                        "must" =>[
+                            "match_all" => []
                         ],
                         'filter' => [
                             "geo_distance" => [
-                                'distance' => $distance,
-                                'location' => [
-                                    'lat' => (float)$lat,
-                                    'lon' => (float)$long
+                                "distance" => $distance."km",
+                                "location" => [
+                                    "lat" => (float)$lat,
+                                    "lon" => (float)$long
                                 ]
                             ]
                         ]

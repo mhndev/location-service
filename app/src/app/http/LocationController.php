@@ -179,7 +179,7 @@ class LocationController
                 ],
 
                 'slug' => $result[0]['toString'],
-                'name' => $converter->Convert($result[0]['toString'])
+                'preview' => $converter->Convert($result[0]['toString'])
             ];
 
         }else{
@@ -189,7 +189,7 @@ class LocationController
                     'lon' => $result[0]['longitude'],
                 ],
 
-                'name' => $result[0]['toString'],
+                'preview' => $result[0]['toString'],
             ];
         }
 
@@ -282,7 +282,6 @@ class LocationController
         return $response;
     }
 
-
     /**
      * @param Request $request
      * @param Response $response
@@ -298,17 +297,15 @@ class LocationController
         $from = $perPage * ($page - 1);
 
         $elasticResponse = $this->repository->geoSearch(
-            'digipeyk',
             $request->getQueryParam('lat'),
             $request->getQueryParam('lon'),
-            100,
+            0.5,
             3,
             $from
         );
 
         $total = $elasticResponse['hits']['total'];
         $data = $elasticResponse['hits']['hits'];
-
 
         $res = !empty($data[0]['_source']) ? $data[0]['_source'] : [];
 
@@ -330,6 +327,7 @@ class LocationController
             'count' => $perPage,
             'name'  => 'locations'
         ];
+
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)

@@ -7,22 +7,31 @@ error_reporting(E_ALL);
 $dirData = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/data/';
 $dirLocations = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/locations/';
 
-$data = json_decode(file_get_contents($dirLocations.'center.json'), true);
+$data = json_decode(file_get_contents($dirLocations.'hospital.json'), true);
 
 $result = [];
 
 
 foreach ($data as $record){
 
-    $record['location']['lat'] = floatval($record['location']['lat']);
-    $record['location']['lon'] = floatval($record['location']['lon']);
-    //$record['preview'] = $record['names'][0]['name'];
+
+    if(
+        false == mb_strpos($record['names'][0]['name'], 'بیمارستان') &&
+        false == mb_strpos($record['names'][0]['name'], 'روانپزشکی')
+    ){
+        $record['preview'] = 'بیمارستان'. ' '. $record['names'][0]['name'];
+    }
+
+    else{
+        $record['preview'] = $record['names'][0]['name'];
+    }
+
     $result[] = $record;
 
 }
 
 $text = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
-$file = fopen( $dirLocations.'center.json', 'w');
+$file = fopen( $dirLocations.'hospital.json', 'w');
 fwrite($file, $text);
 
 
