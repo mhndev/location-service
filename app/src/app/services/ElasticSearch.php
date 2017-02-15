@@ -124,7 +124,7 @@ class ElasticSearch implements iLocationRepository
      */
     public function locationSearch($query, $size = 10, $from = 0, $fields = [])
     {
-        $fields = $fields == [] ? ['id', 'name', 'slug', 'location', 'preview'] : $fields;
+        $fields = $fields == [] ? ['id', 'type',  'Area',   'location', 'preview'] : $fields;
 
         $encoding = mb_detect_encoding($query);
 
