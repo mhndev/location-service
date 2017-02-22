@@ -4,9 +4,6 @@ $app->options('/{routes:.+}', function ($request, $response, $args) {
     return $response;
 });
 
-
-
-// Routes
 /*
 $app->get('/[{name}]', function ($request, $response, $args) {
     // Sample log message
@@ -30,3 +27,5 @@ $app->get('/reverse','mhndev\locationService\http\LocationController:reverse');
 $app->get('/suggest','mhndev\locationService\http\LocationController:suggest');
 
 $app->get('/estimate','mhndev\locationService\http\LocationController:estimate');
+
+$app->post('/upload/location-data','mhndev\locationService\http\UploadDataAction:__invoke');

@@ -1,27 +1,8 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-if (PHP_SAPI == 'cli-server') {
-    // To help the built-in PHP dev server, check if the request was actually for
-    // something which should probably be served as a static file
-    $url  = parse_url($_SERVER['REQUEST_URI']);
-    $file = __DIR__ . $url['path'];
-    if (is_file($file)) {
-        return false;
-    }
-}
-
-header('Access-Control-Allow-Origin: *');
-header("Access-Control-Allow-Methods: OPTIONS, GET, POST ,PUT, DELETE, PATCH");
-header('Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With');
-
 
 require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/location.php';
 
-$dotenv = new Dotenv\Dotenv(dirname(__DIR__));
-$dotenv->load();
 
 session_start();
 

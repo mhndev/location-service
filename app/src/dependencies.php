@@ -76,3 +76,8 @@ $container['corsMiddleware'] = function($c){
 $container[\mhndev\locationService\http\LocationController::class] = function ($c) {
     return new \mhndev\locationService\http\LocationController($c['locationRepository']);
 };
+
+
+$container[\mhndev\locationService\http\UploadDataAction::class] = function ($c) {
+    return new \mhndev\locationService\http\UploadDataAction();
+};

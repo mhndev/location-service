@@ -24,6 +24,8 @@
         "monolog/monolog": "^1.17",
         "mhndev/location": "dev-develop",
         "mhndev/rest-hal": "dev-develop",
+        "mhndev/media":"~0.0",
+        "mhndev/slim-file-response" :"~0.1.0",
         "poirot/oauth2" :"dev-devel",
         "mhndev/php-std": "dev-develop",
         "vlucas/phpdotenv": "^2.4",
