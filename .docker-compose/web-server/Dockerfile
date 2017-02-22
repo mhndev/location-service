@@ -22,6 +22,7 @@ RUN apt-get install -yq --force-yes --fix-missing \
         alien \
         git \
 	    php7.0-mbstring \
+	    php7.0-zip \
         pkg-config libssl-dev libsslcommon2-dev
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \

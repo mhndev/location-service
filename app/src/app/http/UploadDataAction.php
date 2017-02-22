@@ -27,6 +27,7 @@ class UploadDataAction
      * @param Request $request
      * @param Response $response
      * @param $args
+     * @return mixed|Response
      */
     public function __invoke(Request $request, Response $response, $args)
     {
@@ -35,7 +36,6 @@ class UploadDataAction
         ini_set( 'max_execution_time', '300' );
 
         $uploadedFile = UploadFile::store('data', 'location_data');
-
         $uploadedFileName = basename($uploadedFile['path']);
 
 
