@@ -81,3 +81,8 @@ $container[\mhndev\locationService\http\LocationController::class] = function ($
 $container[\mhndev\locationService\http\UploadDataAction::class] = function ($c) {
     return new \mhndev\locationService\http\UploadDataAction();
 };
+
+
+$container[\mhndev\locationService\http\LocationInputAction::class] = function ($c){
+    return new \mhndev\locationService\http\LocationInputAction($c['renderer']);
+};

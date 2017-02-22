@@ -8,9 +8,6 @@ define('EOL',(PHP_SAPI == 'cli') ? PHP_EOL : '<br />');
 
 define('ROOT', dirname(pathinfo(__FILE__)['dirname']));
 
-define('ROOT_DOCKER', dirname(ROOT) );
-
-
 define('TEMPLATE_PATH', ROOT . DIRECTORY_SEPARATOR . 'templates');
 
 

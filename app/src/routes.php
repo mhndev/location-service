@@ -29,3 +29,4 @@ $app->get('/suggest','mhndev\locationService\http\LocationController:suggest');
 $app->get('/estimate','mhndev\locationService\http\LocationController:estimate');
 
 $app->post('/upload/location-data','mhndev\locationService\http\UploadDataAction:__invoke');
+$app->get('/upload/locaation-data/a3eilm2s2y20','mhndev\locationService\http\LocationInputAction:__invoke');

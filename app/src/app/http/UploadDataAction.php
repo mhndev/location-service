@@ -89,15 +89,10 @@ class UploadDataAction
         }
 
         $location_json_path =
-            ROOT_DOCKER.
+            EXCEL_DATA_PATH.
             DIRECTORY_SEPARATOR.
-            '.docker-compose'.
-            DIRECTORY_SEPARATOR.
-            'web-server'.
-            DIRECTORY_SEPARATOR.
-            'feed'.
-            DIRECTORY_SEPARATOR.
-            'locations';
+            'json_data';
+
 
 
 /*        foreach (glob($location_json_path.DIRECTORY_SEPARATOR."*.json") as $filename){
@@ -179,7 +174,7 @@ class UploadDataAction
 
         foreach($locations as $location){
 
-            echo $i."\n";
+            //echo $i."\n";
 
             if(!empty($location['names']))
                 unset($location['names']);
