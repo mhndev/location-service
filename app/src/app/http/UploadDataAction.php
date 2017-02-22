@@ -5,6 +5,7 @@ use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
 use mhndev\locationService\services\ElasticSearch;
 use mhndev\media\UploadFile;
+use mhndev\restHal\HalApiPresenter;
 use PHPExcel_IOFactory;
 use Slim\Http\Request;
 use Slim\Http\Response;
@@ -110,6 +111,13 @@ class UploadDataAction
         fwrite($file, $text);
 
         $this->indexToElastic();
+
+
+        $response = (new HalApiPresenter('resource'))
+            ->setStatusCode(202)
+            ->makeResponse($request, $response);
+
+        return $response;
     }
 
 
