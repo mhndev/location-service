@@ -5,7 +5,7 @@ return [
     'settings' => [
 
         'mode' => env('mode'),
-        'displayErrorDetails' => true, // set to false in production
+        'displayErrorDetails' => env('show_errors'),
         'addContentLengthHeader' => false, // Allow the web server to send the content-length header
 
         // Renderer settings
@@ -15,7 +15,7 @@ return [
 
         // Monolog settings
         'logger' => [
-            'name' => 'slim-app',
+            'name' => env('LOGS_NAME'),
             'path' => env('LOGS_PATH'),
             /** @see \Monolog\Logger */
             'level' => env('LOGS_LEVEL'),
