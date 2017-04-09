@@ -72,9 +72,16 @@ $container['corsMiddleware'] = function($c){
     ]);
 };
 
+$container['polygonService'] = function ($c){
+    return new \mhndev\locationService\services\PointLocation();
+};
+
 
 $container[\mhndev\locationService\http\LocationController::class] = function ($c) {
-    return new \mhndev\locationService\http\LocationController($c['locationRepository']);
+    return new \mhndev\locationService\http\LocationController(
+        $c['locationRepository'],
+        $c['polygonService']
+    );
 };
 
 
@@ -86,3 +93,10 @@ $container[\mhndev\locationService\http\UploadDataAction::class] = function ($c)
 $container[\mhndev\locationService\http\LocationInputAction::class] = function ($c){
     return new \mhndev\locationService\http\LocationInputAction($c['renderer']);
 };
+
+
+
+$container[\mhndev\locationService\http\PointInPolygonAction::class] = function ($c){
+    return new \mhndev\locationService\http\PointInPolygonAction($c['polygonService']);
+};
+

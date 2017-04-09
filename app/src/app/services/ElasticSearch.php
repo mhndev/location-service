@@ -67,6 +67,7 @@ class ElasticSearch implements iLocationRepository
     {
         $fields = $fields == [] ? ['id', 'preview', 'names', 'name', 'slug', 'location'] : $fields;
 
+
         $params = [
             'index' => $this->index,
             'type' => $this->type,
@@ -83,6 +84,7 @@ class ElasticSearch implements iLocationRepository
                         'filter' => [
                             "geo_distance" => [
                                 "distance" => $distance."km",
+                                "distance_type"=> "plane",
                                 "location" => [
                                     "lat" => (float)$lat,
                                     "lon" => (float)$long
@@ -91,17 +93,17 @@ class ElasticSearch implements iLocationRepository
                         ]
                     ]
                 ],
-//                'sort' => [
-//                    '_geo_distance' => [
-//                        'location' => [
-//                            'lat' => (float)$lat,
-//                            'lon' => (float)$long
-//                        ],
-//                        'order' => 'asc',
-//                        'unit' => 'm',
-//                        'distance_type' => 'plane'
-//                    ]
-//                ]
+                'sort' => [
+                    '_geo_distance' => [
+                        'location' => [
+                            'lat' => (float)$lat,
+                            'lon' => (float)$long
+                        ],
+                        'order' => 'asc',
+                        'unit' => 'km',
+                        'distance_type' => 'plane'
+                    ]
+                ]
 
             ]
         ];

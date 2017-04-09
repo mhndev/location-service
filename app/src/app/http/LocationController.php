@@ -7,9 +7,11 @@ use GuzzleHttp\RequestOptions;
 use mhndev\location\GoogleEstimate;
 use mhndev\location\GoogleGeocoder;
 use mhndev\location\GuzzleHttpAgent;
+use mhndev\locationService\exceptions\InvalidPointException;
 use mhndev\locationService\exceptions\ServerConnectOutsideException;
 use mhndev\locationService\services\ConvertFinglishToFarsi;
 use mhndev\locationService\services\iLocationRepository;
+use mhndev\locationService\services\PointLocation;
 use mhndev\restHal\HalApiPresenter;
 use Slim\Http\Request;
 use Slim\Http\Response;
@@ -27,15 +29,25 @@ class LocationController
      */
     protected $repository;
 
+
+    /**
+     * @var PointLocation
+     */
+    protected $polygonService;
+
+
     //todo refactor code for address components to work well with all providers
 
     /**
      * LocationController constructor.
      * @param iLocationRepository $repository
+     * @param $polygonService
      */
-    public function __construct(iLocationRepository $repository)
+    public function __construct(iLocationRepository $repository, $polygonService)
     {
         $this->repository = $repository;
+
+        $this->polygonService = $polygonService;
     }
 
 
@@ -146,6 +158,9 @@ class LocationController
 
         return $response;
     }
+
+
+
     /**
      * @param Request $request
      * @param Response $response
@@ -255,13 +270,9 @@ class LocationController
             $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
 
 
-
-
             $from = $perPage * ($page - 1);
 
             $elasticResponse = $this->repository->locationSearch($q, $perPage, $from);
-
-
 
             $data = [
                 'data' => $elasticResponse['data'],
@@ -286,23 +297,26 @@ class LocationController
      * @param Request $request
      * @param Response $response
      * @return Response
+     * @throws InvalidPointException
      * @throws ServerConnectOutsideException
      */
     function reverse(Request $request, Response $response)
     {
+        $lat = $request->getQueryParam('lat');
+        $lon = $request->getQueryParam('lon');
+
+
+        if(! $this->polygonService->isInTehran($lat, $lon) ){
+            throw new InvalidPointException('points should be in tehran');
+        }
+
         //http://codrspace.com/dpakrk/elasticsearch-using-php-curl-/
         $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
         $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
 
         $from = $perPage * ($page - 1);
 
-        $elasticResponse = $this->repository->geoSearch(
-            $request->getQueryParam('lat'),
-            $request->getQueryParam('lon'),
-            0.5,
-            3,
-            $from
-        );
+        $elasticResponse = $this->repository->geoSearch($lat, $lon, 0.2, 1, $from);
 
         $total = $elasticResponse['hits']['total'];
         $data = $elasticResponse['hits']['hits'];
@@ -310,7 +324,6 @@ class LocationController
         $res = !empty($data[0]['_source']) ? $data[0]['_source'] : [];
 
         if(empty($res)){
-
             try{
                 return $this->reverseGoogle($request, $response);
             }

@@ -24,6 +24,9 @@ $app->get('/reverse-google','mhndev\locationService\http\LocationController:reve
 $app->get('/reverse','mhndev\locationService\http\LocationController:reverse');
 
 
+$app->get('/is-in/polygon','mhndev\locationService\http\PointInPolygonAction:__invoke');
+
+
 $app->get('/suggest','mhndev\locationService\http\LocationController:suggest');
 
 $app->get('/estimate','mhndev\locationService\http\LocationController:estimate');

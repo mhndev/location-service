@@ -95,9 +95,9 @@ class UploadDataAction
 
 
 
-/*        foreach (glob($location_json_path.DIRECTORY_SEPARATOR."*.json") as $filename){
+        foreach (glob($location_json_path.DIRECTORY_SEPARATOR."*.json") as $filename){
             unlink($filename);
-        }*/
+        }
 
         $filename = $location_json_path.DIRECTORY_SEPARATOR.explode('.',$uploadedFileName)[0].'.json';
 
@@ -125,7 +125,7 @@ class UploadDataAction
             ->setHosts($hosts)
             ->build();
 
-        $repository = new ElasticSearch($client, $index, $type);
+//        $repository = new ElasticSearch($client, $index, $type);
 
 
         try{
@@ -159,7 +159,14 @@ class UploadDataAction
             die($e->getMessage());
         }
 
-        $dir = '/docker/feed/locations/';
+
+        $dir = EXCEL_DATA_PATH.
+            DIRECTORY_SEPARATOR.
+            'json_data'.
+            DIRECTORY_SEPARATOR;
+
+
+
         $locations = [];
 
         foreach (glob($dir."*.json") as $filename){

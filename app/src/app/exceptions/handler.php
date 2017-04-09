@@ -47,6 +47,15 @@ class handler
                     ->setData(['message' => 'server connection problem, try later', 'code' => 13])
                     ->makeResponse($request, $response));
             }
+
+            if($e instanceof InvalidPointException){
+                return ((new HalApiPresenter('error'))
+                    ->setStatusCode(400)
+                    ->setData(['message' => $e->getMessage(), 'code' => 14])
+                    ->makeResponse($request, $response));
+            }
+
+
         }
 
         elseif ($mode == 'develop'){
