@@ -26,7 +26,7 @@
         "mhndev/rest-hal": "dev-develop",
         "mhndev/media":"~0.0",
         "mhndev/slim-file-response" :"~0.1.0",
-        "poirot/oauth2" :"dev-devel",
+        "poirot/oauth2" :"dev-master",
         "mhndev/php-std": "dev-develop",
         "vlucas/phpdotenv": "^2.4",
         "tuupola/cors-middleware": "^0.5.2",
@@ -42,11 +42,9 @@
             "Tests\\": "tests/"
         }
     },
-	"scripts": {
-        "start": "php -S 0.0.0.0:8080 -t public public/index.php",
-        "test": "phpunit"
-	},
-
+    "repositories": [
+        { "type": "git" ,"url": "https://github.com/mhndev/OAuth2" }
+    ],
     "minimum-stability" : "dev",
     "prefer-stable": true
 }
