@@ -218,7 +218,6 @@ class ElasticSearch implements iLocationRepository
 
 
         $this->elasticClient->index(['index' => $this->index, 'type' => $this->type, 'body' => $data]);
-
     }
 
     /**

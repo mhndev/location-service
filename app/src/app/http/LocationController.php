@@ -182,7 +182,7 @@ class LocationController
             ->setLocale('fa-IR')
             ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 2);
 
-
+        
         if(mb_detect_encoding($result[0]['toString']) == 'ASCII' ){
 
             $converter = new ConvertFinglishToFarsi();

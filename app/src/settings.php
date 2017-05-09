@@ -1,7 +1,5 @@
 <?php
 return [
-
-
     'settings' => [
 
         'mode' => env('mode'),
