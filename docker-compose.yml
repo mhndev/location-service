@@ -36,4 +36,4 @@ services:
      - ./.docker-compose/elasticsearch/config/:/usr/share/elasticsearch/config/
 
     environments:
-      - ES_HEAP_SIZE=1g
+      - ES_HEAP_SIZE:1g
