@@ -35,5 +35,5 @@ services:
      - vol-logs-elasticsearch:/usr/share/elasticsearch/data
      - ./.docker-compose/elasticsearch/config/:/usr/share/elasticsearch/config/
 
-    environments:
-      - ES_HEAP_SIZE:1g
+    environment:
+      - ES_HEAP_SIZE=1g
