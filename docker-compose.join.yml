@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+  ## --------------------------------------------
+  ## | Web Server Php7 and required Extensions
+  ## --------------------------------------------
+  location_web:
+    networks:
+      - location-network
+
+  ## --------------------------------------------
+  ## | Elastic Search
+  ## --------------------------------------------
+  location_elasticsearch:
+    networks:
+      - location-network
+
+
+networks:
+  location-network:

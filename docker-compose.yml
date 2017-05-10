@@ -11,13 +11,13 @@ services:
   ## --------------------------------------------
   ## | Web Server Php7 and required Extensions
   ## --------------------------------------------
-  web-server:
+  location_web:
     build:
       context: ./.docker-compose/web-server
       dockerfile: Dockerfile
     image: location_web-server
-    ports:
-     - "8888:80"
+    expose:
+     - "80"
     volumes:
      - ./app/:/var/www/
      - ./.docker-compose/web-server/app/.env:/docker/app/.env
@@ -27,7 +27,7 @@ services:
   ## --------------------------------------------
   ## | Elastic Search
   ## --------------------------------------------
-  elasticsearch:
+  location_elasticsearch:
     image: elasticsearch:2.4.2
     expose:
      - "9200"
