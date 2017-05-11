@@ -13,3 +13,4 @@ tmp/
 app/vendor/**
 
 composer.lock
+.env
