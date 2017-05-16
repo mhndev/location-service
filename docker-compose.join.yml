@@ -15,7 +15,8 @@ services:
   location_elasticsearch:
     networks:
       - location-network
-
+    ports:
+        - "127.0.0.1:9200:9200"
 
 networks:
   location-network:

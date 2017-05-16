@@ -275,10 +275,11 @@ class LocationController
             $elasticResponse = $this->repository->locationSearch($q, $perPage, $from);
 
             $data = [
-                'data' => $elasticResponse['data'],
+                'data'  => $elasticResponse['data'],
                 'total' => $elasticResponse['total'],
                 'count' => $perPage,
-                'name'  => 'locations'
+                'name'  => 'locations',
+                'page'  => $page
             ];
         }
 
