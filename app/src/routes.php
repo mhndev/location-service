@@ -13,6 +13,17 @@ $app->get('/[{name}]', function ($request, $response, $args) {
     return $this->renderer->render($response, 'index.phtml', $args);
 });*/
 
+$app->get('/', function(Slim\Http\Request $request, Slim\Http\Response $response){
+
+    return $response->withJson([
+        'status' => 200 ,
+        'message' => 'welcome, Location Service homepage'
+    ], 200);
+
+})->setName('Home');
+
+
+
 $app->get('/geocode','mhndev\locationService\http\LocationController:geocode');
 $app->get('/geocode-google','mhndev\locationService\http\LocationController:geocodeGoogle');
 $app->get('/geocode-quest','mhndev\locationService\http\LocationController:geocodeMapQuest');
