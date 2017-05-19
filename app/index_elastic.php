@@ -13,6 +13,8 @@ $dotenv->load();
 $index = 'digipeyk';
 $type = 'places';
 $hosts = [ 'host' => env('ELASTIC_DB_HOST'), 'port' => env('ELASTIC_DB_PORT')];
+
+
 $client = Elasticsearch\ClientBuilder::create()
     ->setHosts($hosts)
     ->build();

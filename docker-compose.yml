@@ -1,7 +1,7 @@
 version: '2'
 
 volumes:
-  vol-logs-web-server:
+#  vol-logs-web-server:
     #### - /data/logs
   vol-logs-elasticsearch:
     #### - /usr/share/elasticsearch/data
@@ -15,6 +15,15 @@ services:
     build:
       context: ./.docker-compose/web-server
       dockerfile: Dockerfile
+      args:
+        - USER_ID=${USER_ID}
+        - USER_GROUP=${USER_GROUP}
+
+    env_file:
+      - .env
+
+    container_name: location_web_container
+
     image: location_web-server
     expose:
      - "80"
@@ -22,7 +31,13 @@ services:
      - ./app/:/var/www/
      - ./.docker-compose/web-server/app/.env:/docker/app/.env
      - ./.docker-compose/web-server/feed/:/docker/feed/
-     - vol-logs-web-server:/data/logs/
+     - ./data/web-server/logs/apache2:/var/log/apache2
+     - ./.docker-compose/web-server/config/default.conf:/etc/apache2/sites-enabled/000-default.conf
+     - ./.docker-compose/web-server/config/php.ini:/usr/local/etc/php/php.ini
+
+
+#     - vol-logs-web-server:/data/logs/
+#    restart: unless-stopped
 
   ## --------------------------------------------
   ## | Elastic Search
@@ -35,5 +50,7 @@ services:
      - vol-logs-elasticsearch:/usr/share/elasticsearch/data
      - ./.docker-compose/elasticsearch/config/:/usr/share/elasticsearch/config/
 
-    environment:
-      - ES_HEAP_SIZE=1g
+    container_name: location_elastic_container
+#
+#    environment:
+#      - ES_HEAP_SIZE=1g

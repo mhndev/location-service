@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -f /docker/initialized ]; then
+if [ ! -f $HOME/docker/initialized ]; then
    bootup
 fi
 
