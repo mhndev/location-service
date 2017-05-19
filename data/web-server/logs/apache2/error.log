@@ -36,3 +36,11 @@
 [Fri May 19 13:36:27.865316 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.5 configured -- resuming normal operations
 [Fri May 19 13:36:27.865400 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Fri May 19 13:37:48.700163 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri May 19 14:10:31.940609 2017] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.10 (Debian) PHP/7.1.5 configured -- resuming normal operations
+[Fri May 19 14:10:31.941265 2017] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri May 19 14:12:43.060968 2017] [mpm_prefork:notice] [pid 45] AH00163: Apache/2.4.10 (Debian) PHP/7.1.5 configured -- resuming normal operations
+[Fri May 19 14:12:43.061266 2017] [core:notice] [pid 45] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri May 19 14:14:13.952977 2017] [mpm_prefork:notice] [pid 43] AH00163: Apache/2.4.10 (Debian) PHP/7.1.5 configured -- resuming normal operations
+[Fri May 19 14:14:13.953033 2017] [core:notice] [pid 43] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri May 19 14:16:01.203464 2017] [mpm_prefork:notice] [pid 44] AH00163: Apache/2.4.10 (Debian) PHP/7.1.5 configured -- resuming normal operations
+[Fri May 19 14:16:01.203512 2017] [core:notice] [pid 44] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
