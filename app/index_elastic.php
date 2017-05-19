@@ -10,8 +10,9 @@ $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
 
-$index = 'digipeyk';
-$type = 'places';
+$index = env('INDEX_NAME', 'digipeyk');
+$index = env('INDEX_TYPE', 'places');
+
 $hosts = [ 'host' => env('ELASTIC_DB_HOST'), 'port' => env('ELASTIC_DB_PORT')];
 
 
