@@ -22,7 +22,6 @@ services:
     env_file:
       - .env
 
-    container_name: location_web_container
 
     image: location_web-server
     expose:

@@ -15,10 +15,10 @@ if [ ! -f ${HOME}/docker/initialized ]; then
    bootup
 fi
 
-chown -R ${APACHE_RUN_USER}:${APACHE_RUN_GROUP} /var/log/apache2
+# chown -R ${APACHE_RUN_USER}:${APACHE_RUN_GROUP} /var/log/apache2
 
 # todo (what to do what not to do :) ?)
-chmod -R 777 /var/log/apache2
+# chmod -R 777 /var/log/apache2
 
 #source /etc/apache2/envvars
 #tail -F /var/log/apache2/* &
