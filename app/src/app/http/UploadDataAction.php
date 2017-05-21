@@ -3,7 +3,6 @@ namespace mhndev\locationService\http;
 
 use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
-use mhndev\locationService\services\ElasticSearch;
 use mhndev\media\UploadFile;
 use mhndev\restHal\HalApiPresenter;
 use PHPExcel_IOFactory;
@@ -44,7 +43,10 @@ class UploadDataAction
         $objPHPExcel = $objReader->load($uploadedFile['path']);
 
         $sheetData = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
+
         $count = count($sheetData);
+
+
         $result = [];
 
         for ($i = 2; $i < $count; $i++){
@@ -52,10 +54,8 @@ class UploadDataAction
                 !empty($sheetData[$i]['H']) &&
                 !empty($sheetData[$i]['I']) &&
                 !empty($sheetData[$i]['J']) &&
-                !empty($sheetData[$i]['K']) &&
                 !empty($sheetData[$i]['C'])
             ){
-
                 $result[] = [
                     'id' => $i - 1,
                     'type' => 'intersection',
@@ -94,7 +94,6 @@ class UploadDataAction
             'json_data';
 
 
-
         foreach (glob($location_json_path.DIRECTORY_SEPARATOR."*.json") as $filename){
             unlink($filename);
         }
@@ -104,6 +103,7 @@ class UploadDataAction
         $text = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
         $file = fopen( $filename, 'w');
         fwrite($file, $text);
+
 
         $this->indexToElastic();
 

@@ -18,7 +18,8 @@ RUN apt-get update && apt-get install -y \
         libssl-dev \
         rlwrap \
         socat \
-        && echo "upload_max_filesize = 8M" > /usr/local/etc/php/conf.d/upload.ini
+        && echo "upload_max_filesize = 8M" > /usr/local/etc/php/conf.d/upload.ini \
+        && docker-php-ext-install zip
 
 ## -----------------------------------------------
 ## Install Composer inside container

@@ -20,9 +20,9 @@ fi
 # todo (what to do what not to do :) ?)
 # chmod -R 777 /var/log/apache2
 
-#source /etc/apache2/envvars
-#tail -F /var/log/apache2/* &
-#rm -f /var/run/apache2/apache2.pid
+source /etc/apache2/envvars
+tail -F /var/log/apache2/* &
+rm -f /var/run/apache2/apache2.pid
 
 
 /usr/sbin/apache2 -D FOREGROUND
