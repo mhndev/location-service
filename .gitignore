@@ -12,5 +12,4 @@ nbproject
 tmp/
 app/vendor/**
 
-composer.lock
 .env
