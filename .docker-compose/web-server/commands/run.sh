@@ -11,7 +11,7 @@ groupmod -g ${USER_GROUP} ${APACHE_RUN_GROUP} > /dev/null 2>&1
 
 ## Work Dir is /var/www
 #cd /var/www/
-if [ ! -f ${HOME}/docker/initialized ]; then
+if [ ! -f /var/www/vendor ]; then
    bootup
 fi
 
