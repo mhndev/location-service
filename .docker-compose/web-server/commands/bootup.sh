@@ -24,6 +24,8 @@ fi
 ## install composer
 printf "\033[0;32m > Installing Composer Packages ...\x1b[0m \n"
 
+
+
 ls -l /var/log
 
 if [ ! -d /var/log/apache2/ ]; then
@@ -31,6 +33,7 @@ if [ ! -d /var/log/apache2/ ]; then
    mkdir /var/log/apache2
 fi
 
+chmod -R 777 /var/log/apache2
 
 chown -R www-data:www-data /var/www
 
