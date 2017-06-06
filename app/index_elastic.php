@@ -11,7 +11,7 @@ $dotenv->load();
 
 
 $index = env('INDEX_NAME', 'digipeyk');
-$index = env('INDEX_TYPE', 'places');
+$type = env('INDEX_TYPE', 'places');
 
 $hosts = [ 'host' => env('ELASTIC_DB_HOST'), 'port' => env('ELASTIC_DB_PORT')];
 
