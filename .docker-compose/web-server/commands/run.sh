@@ -28,7 +28,7 @@ chmod -R 777 /var/log/apache2
 ls -l /var/log
 
 source /etc/apache2/envvars
-tail -F /var/log/apache2/* &
+#tail -F /var/log/apache2/* &
 rm -f /var/run/apache2/apache2.pid
 
 

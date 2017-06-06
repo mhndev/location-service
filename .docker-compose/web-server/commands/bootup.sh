@@ -25,15 +25,10 @@ fi
 printf "\033[0;32m > Installing Composer Packages ...\x1b[0m \n"
 
 
-
-ls -l /var/log
-
-if [ ! -d /var/log/apache2/ ]; then
-   printf "\033[0;32m > Creating apache log directory cause it does not exist ... \x1b[0m \n"
-   mkdir /var/log/apache2
-fi
-
-chmod -R 777 /var/log/apache2
+#if [ ! -d /var/log/apache2/ ]; then
+#   printf "\033[0;32m > Creating apache log directory cause it does not exist ... \x1b[0m \n"
+#   mkdir /var/log/apache2
+#fi
 
 chown -R www-data:www-data /var/www
 
