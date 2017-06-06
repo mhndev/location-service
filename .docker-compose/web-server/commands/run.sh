@@ -2,11 +2,9 @@
 
 set -e
 
-# Using this UID / GID allows local and live file modification of web site
-
-usermod -u ${USER_ID} ${APACHE_RUN_USER} > /dev/null 2>&1
-groupmod -g ${USER_GROUP} ${APACHE_RUN_GROUP} > /dev/null 2>&1
-
+if [[ -d "/var/www/public" && !(-L "/var/www/html" || -d "/var/www/html") ]]; then
+  ln -s /var/www/public /var/www/html
+fi
 
 
 ## Work Dir is /var/www
@@ -14,6 +12,13 @@ groupmod -g ${USER_GROUP} ${APACHE_RUN_GROUP} > /dev/null 2>&1
 if [ ! -d /var/www/vendor ]; then
    bootup
 fi
+
+
+# Using this UID / GID allows local and live file modification of web site
+
+usermod -u ${USER_ID} ${APACHE_RUN_USER} > /dev/null 2>&1
+groupmod -g ${USER_GROUP} ${APACHE_RUN_GROUP} > /dev/null 2>&1
+
 
 # chown -R ${APACHE_RUN_USER}:${APACHE_RUN_GROUP} /var/log/apache2
 
