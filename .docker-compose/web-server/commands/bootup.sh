@@ -24,10 +24,13 @@ fi
 ## install composer
 printf "\033[0;32m > Installing Composer Packages ...\x1b[0m \n"
 
+ls /var/log
+
 if [ ! -d /var/log/apache2/ ]; then
    printf "\033[0;32m > Creating apache log directory cause it does not exist ... \x1b[0m \n"
    mkdir /var/log/apache2
 fi
+
 
 chown -R www-data:www-data /var/www
 
