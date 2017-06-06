@@ -23,9 +23,9 @@ groupmod -g ${USER_GROUP} ${APACHE_RUN_GROUP} > /dev/null 2>&1
 # chown -R ${APACHE_RUN_USER}:${APACHE_RUN_GROUP} /var/log/apache2
 
 # todo (what to do what not to do :) ?)
-chmod -R 777 /var/log/apache2
-
-ls -l /var/log
+#chmod -R 777 /var/log/apache2
+#
+#ls -l /var/log
 
 source /etc/apache2/envvars
 #tail -F /var/log/apache2/* &
