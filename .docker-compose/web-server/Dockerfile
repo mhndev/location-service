@@ -41,11 +41,12 @@ COPY ["./commands/*.sh", "/docker/bin/"]
 COPY ["./app/", "/docker/app/"]
 
 RUN chmod a+x /docker/bin/*.sh \
-    && ln -s /docker/bin/feed.sh /usr/local/bin/feed \
-    && ln -s /docker/bin/bootup.sh /usr/local/bin/bootup \
-    && ln -s /docker/bin/update.sh /usr/local/bin/update \
-    && ln -s /docker/bin/entrypoint.sh /usr/local/bin/entrypoint \
-    && ln -s /docker/bin/run.sh /usr/local/bin/run
+    && ln -s /docker/bin/feed.sh         /usr/local/bin/feed \
+    && ln -s /docker/bin/feed.sh         /usr/local/bin/excelToJson \
+    && ln -s /docker/bin/bootup.sh       /usr/local/bin/bootup \
+    && ln -s /docker/bin/update.sh       /usr/local/bin/update \
+    && ln -s /docker/bin/entrypoint.sh   /usr/local/bin/entrypoint \
+    && ln -s /docker/bin/run.sh          /usr/local/bin/run
 
 ## Cleanup
 RUN apt-get purge -y \

@@ -1,5 +1,4 @@
 <?php
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -7,17 +6,16 @@ error_reporting(E_ALL);
 
 require 'vendor/autoload.php';
 
-
-$path = '/home/majid/Projects/location-service/.docker-compose/web-server/feed/excel/';
+$excel_path = '/docker/feed/excel/';
 
 $objReader = PHPExcel_IOFactory::createReader('Excel2007');
 $inputFileType = 'Excel2007';
-$inputFileName = 'Mabdaa.xlsx';
+$inputFileName = 'locations.xlsx';
 
 
 $objReader = PHPExcel_IOFactory::createReader($inputFileType);
 
-$objPHPExcel = $objReader->load($path.$inputFileName);
+$objPHPExcel = $objReader->load($excel_path.$inputFileName);
 
 
 $sheetData = $objPHPExcel->getActiveSheet()->toArray(null, true, true, true);
@@ -74,8 +72,9 @@ for ($i = 2; $i < $count; $i++){
 
 }
 
-$filename = $path.'newIntersections.json';
+$json_path='/docker/feed/locations/';
 
+$filename = $json_path.'locations.json';
 
 $text = json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
 $file = fopen( $filename, 'w');

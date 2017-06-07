@@ -28,7 +28,7 @@
 <body>
 <div>Upload Excel File to complete locations</div>
 
-    <form enctype="multipart/form-data" action="<?php echo 'http://dp2.digipeyk.com/services/location'// echo getUri(); ?>/upload/location-data" method="post">
+    <form enctype="multipart/form-data" action="<?php echo 'http://'.env('APP_DOMAIN').'/services/location'// echo getUri(); ?>/upload/location-data" method="post">
         <input type="file" name="data">
 
         <input type="submit" name="submit" >
