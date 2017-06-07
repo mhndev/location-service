@@ -37,7 +37,11 @@ cd /var/www/
 su -s /bin/bash -c "composer install --ignore-platform-reqs & > /dev/null 2>&1" www-data
 
 printf "\033[0;32m > Feed Initial location data ...\x1b[0m \n"
+
 feed > /dev/null 2>&1
+
+excelToJson > /dev/null 2>&1
+
 
 printf "\033[0;32m > Sync Environment and Configuration Files ...\x1b[0m \n"
 cp /docker/app/.env /var/www/html/
