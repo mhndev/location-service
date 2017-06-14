@@ -9,7 +9,7 @@ fi
 
 ## Work Dir is /var/www
 #cd /var/www/
-if [ ! -d /var/www/vendor ]; then
+if [ ! -f /var/www/vendor/autoload.php ]; then
    bootup
 fi
 
