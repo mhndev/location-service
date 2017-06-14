@@ -6,10 +6,7 @@
 .settings/
 .*.sw*
 .*.un~
-build/
 nbproject
 
 tmp/
-app/vendor/**
-
 .env

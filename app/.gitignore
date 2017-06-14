@@ -1,3 +1,4 @@
 vendor
 vendor/app.log
 .env
+app/.composer
