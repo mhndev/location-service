@@ -1,4 +1,4 @@
-FROM php:7.1.5-apache
+FROM php:7.1.6-apache
 
 MAINTAINER Majid Abdolhosseini <majid@mhndev.com>
 
@@ -48,18 +48,37 @@ RUN chmod a+x /docker/bin/*.sh \
     && ln -s /docker/bin/entrypoint.sh   /usr/local/bin/entrypoint \
     && ln -s /docker/bin/run.sh          /usr/local/bin/run
 
-## Cleanup
-RUN apt-get purge -y \
-    && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /var/www/
-
 
 ARG USER_ID
 ARG USER_GROUP
 
 ENV USER_ID=${USER_ID}
 ENV USER_GROUP=${USER_GROUP}
+
+ENV NR_INSTALL_SILENT true
+ENV NR_INSTALL_KEY 0541fb50d3c2f32ad8f95423bcaa82bbac32e9e9
+
+
+# install new relic server monitoring
+RUN apt-get install -y \
+wget \
+git \
+&& wget -O- https://download.newrelic.com/548C16BF.gpg | apt-key add - \
+&& sh -c 'echo "deb http://apt.newrelic.com/debian/ newrelic non-free" \ > /etc/apt/sources.list.d/newrelic.list' \
+&& apt-get update \
+&& apt-get install -y newrelic-php5 \
+&& newrelic-install install
+
+COPY ["./config/newrelic.ini", "/etc/php/conf.d/newrelic.ini"]
+
+## Cleanup
+RUN apt-get purge -y \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+
+
+WORKDIR /var/www/
 
 EXPOSE 80
 
