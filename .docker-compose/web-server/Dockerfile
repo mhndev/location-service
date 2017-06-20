@@ -48,13 +48,6 @@ RUN chmod a+x /docker/bin/*.sh \
     && ln -s /docker/bin/entrypoint.sh   /usr/local/bin/entrypoint \
     && ln -s /docker/bin/run.sh          /usr/local/bin/run
 
-
-ARG USER_ID
-ARG USER_GROUP
-
-ENV USER_ID=${USER_ID}
-ENV USER_GROUP=${USER_GROUP}
-
 ENV NR_INSTALL_SILENT true
 ENV NR_INSTALL_KEY 0541fb50d3c2f32ad8f95423bcaa82bbac32e9e9
 
@@ -68,8 +61,6 @@ git \
 && apt-get update \
 && apt-get install -y newrelic-php5 \
 && newrelic-install install
-
-COPY ["./config/newrelic.ini", "/etc/php/conf.d/newrelic.ini"]
 
 ## Cleanup
 RUN apt-get purge -y \

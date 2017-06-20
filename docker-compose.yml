@@ -15,13 +15,6 @@ services:
     build:
       context: ./.docker-compose/web-server
       dockerfile: Dockerfile
-      args:
-        - USER_ID=${USER_ID}
-        - USER_GROUP=${USER_GROUP}
-
-    env_file:
-      - .env
-
 
     image: location_web-server
     expose:
@@ -32,8 +25,12 @@ services:
      - ./.docker-compose/web-server/feed/:/docker/feed/
      - ./data/web-server/logs/apache2:/var/log/apache2
      - ./.docker-compose/web-server/config/default.conf:/etc/apache2/sites-enabled/000-default.conf
+     - ./.docker-compose/web-server/config/newrelic.ini:/usr/local/etc/php/conf.d/newrelic.ini
+     - ./data/web-server/log/newrelic:/var/log/newrelic
      - ./.docker-compose/web-server/config/php.ini:/usr/local/etc/php/php.ini
 
+    env_file:
+      - .env
 
 #     - vol-logs-web-server:/data/logs/
 #    restart: unless-stopped
