@@ -6,14 +6,6 @@ if [[ -d "/var/www/public" && !(-L "/var/www/html" || -d "/var/www/html") ]]; th
   ln -s /var/www/public /var/www/html
 fi
 
-
-## Work Dir is /var/www
-#cd /var/www/
-if [ ! -f /var/www/vendor/autoload.php ]; then
-   bootup
-fi
-
-
 # Using this UID / GID allows local and live file modification of web site
 
 usermod -u ${USER_ID} ${APACHE_RUN_USER} > /dev/null 2>&1
