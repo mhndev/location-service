@@ -9,9 +9,6 @@ fi
 printf "\033[0;32m > composer install ...\n"
 (cd /var/www/ && composer install --no-dev)
 
-
-touch /docker/initialized
-
 excelToJson > /dev/null 2>&1
 
 feed > /dev/null 2>&1
