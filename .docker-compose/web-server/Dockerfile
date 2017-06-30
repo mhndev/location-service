@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
         rlwrap \
         socat \
         && echo "upload_max_filesize = 8M" > /usr/local/etc/php/conf.d/upload.ini \
-        && docker-php-ext-install zip
+        && docker-php-ext-install opcache zip
 
 ## -----------------------------------------------
 ## Install Composer inside container
