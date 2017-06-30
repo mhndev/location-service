@@ -1,12 +1,13 @@
 .buildpath
-.DS_Store
-/.idea
+.idea
 .vagrant
 .project
 .settings/
 .*.sw*
 .*.un~
 nbproject
-
 tmp/
 .env
+*.DS_Store
+**/.DS_Store
+.DS_Store
