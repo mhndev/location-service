@@ -182,6 +182,13 @@ class LocationController
             ->setLocale('fa-IR')
             ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 2);
 
+
+        if(!empty($result[0]['subLocality'])){
+            $result['Area'] = $result[0]['subLocality'];
+        }else{
+            $result['Area'] = $result[0]['locality'];
+        }
+
         
         if(mb_detect_encoding($result[0]['toString']) == 'ASCII' ){
 
@@ -192,6 +199,7 @@ class LocationController
                     'lat' => $result[0]['latitude'],
                     'lon' => $result[0]['longitude'],
                 ],
+                'Area' => $result['Area'],
 
                 'slug' => $result[0]['toString'],
                 'preview' => $converter->Convert($result[0]['toString'])
@@ -203,7 +211,7 @@ class LocationController
                     'lat' => $result[0]['latitude'],
                     'lon' => $result[0]['longitude'],
                 ],
-
+                'Area' => $result['Area'],
                 'preview' => $result[0]['toString'],
             ];
         }
