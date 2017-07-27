@@ -6,6 +6,7 @@ use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\RequestOptions;
 use mhndev\location\GoogleEstimate;
 use mhndev\location\GoogleGeocoder;
+use mhndev\location\GoogleLocationSuggester;
 use mhndev\location\GuzzleHttpAgent;
 use mhndev\locationService\exceptions\InvalidPointException;
 use mhndev\locationService\exceptions\ServerConnectOutsideException;
@@ -182,6 +183,13 @@ class LocationController
             ->setLocale('fa-IR')
             ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 2);
 
+
+        if(!empty($result[0]['subLocality'])){
+            $result['Area'] = $result[0]['subLocality'];
+        }else{
+            $result['Area'] = $result[0]['locality'];
+        }
+
         
         if(mb_detect_encoding($result[0]['toString']) == 'ASCII' ){
 
@@ -192,6 +200,7 @@ class LocationController
                     'lat' => $result[0]['latitude'],
                     'lon' => $result[0]['longitude'],
                 ],
+                'Area' => $result['Area'],
 
                 'slug' => $result[0]['toString'],
                 'preview' => $converter->Convert($result[0]['toString'])
@@ -203,7 +212,7 @@ class LocationController
                     'lat' => $result[0]['latitude'],
                     'lon' => $result[0]['longitude'],
                 ],
-
+                'Area' => $result['Area'],
                 'preview' => $result[0]['toString'],
             ];
         }
@@ -274,6 +283,21 @@ class LocationController
 
             $elasticResponse = $this->repository->locationSearch($q, $perPage, $from);
 
+
+
+            // fall back google search for location
+
+            if($elasticResponse['total'] == 0){
+                $googleSuggester = new GoogleLocationSuggester();
+
+                $gResult = $googleSuggester->suggest($q);
+
+                $elasticResponse['page'] = $page;
+                $elasticResponse['data'] = $this->fixGoogleSuggesterResponse($gResult);
+                $elasticResponse['total'] = count($gResult);
+            }
+
+
             $data = [
                 'data'  => $elasticResponse['data'],
                 'total' => $elasticResponse['total'],
@@ -292,6 +316,31 @@ class LocationController
             ->makeResponse($request, $response);
 
         return $response;
+    }
+
+
+    /**
+     * @param array $resultArray
+     * @return array
+     */
+    private function fixGoogleSuggesterResponse(array $resultArray)
+    {
+        $res = [];
+
+        foreach ($resultArray as $place){
+            $item = [];
+
+            $item['preview'] = $place['structured_formatting']['main_text'];
+            $item['Area'] = $place['terms'][1]['value'];
+            $item['location'] = [];
+            $item['type'] = 'intersection';
+            $item['id'] = $place['id'];
+            $item['place_id'] = $place['place_id'];
+
+            $res[] = $item;
+        }
+
+        return $res;
     }
 
     /**

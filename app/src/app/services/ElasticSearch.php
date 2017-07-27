@@ -65,7 +65,7 @@ class ElasticSearch implements iLocationRepository
      */
     public function geoSearch($lat, $long, $distance = 100 , $size = 10, $from = 0, $fields = [])
     {
-        $fields = $fields == [] ? ['id', 'preview', 'names', 'name', 'slug', 'location'] : $fields;
+        $fields = $fields == [] ? ['id', 'Area', 'preview', 'names', 'name', 'slug', 'location'] : $fields;
 
 
         $params = [
