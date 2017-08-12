@@ -184,6 +184,7 @@ class LocationController
             ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 2);
 
 
+
         if(!empty($result[0]['subLocality'])){
             $result['Area'] = $result[0]['subLocality'];
         }else{
