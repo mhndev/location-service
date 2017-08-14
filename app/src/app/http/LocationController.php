@@ -73,7 +73,7 @@ class LocationController
             ->geocode($request->getQueryParam('q'), 1);
 
 
-        $data = ['latitude'=>$result[0]['latitude'], 'longitude'=>$result[0]['longitude'] ];
+        $data = ['latitude' => $result[0]['latitude'], 'longitude' => $result[0]['longitude']];
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
@@ -93,14 +93,14 @@ class LocationController
      */
     public function geocodeMapQuest(Request $request, Response $response, $args)
     {
-        $json = file_get_contents(env('mapquest_geocode_endpoint').'?key='.env('mapquest_key').'&location='.$request->getQueryParam('q'));
+        $json = file_get_contents(env('mapquest_geocode_endpoint') . '?key=' . env('mapquest_key') . '&location=' . $request->getQueryParam('q'));
         $jsonArr = json_decode($json);
 
 
         $lat = $jsonArr->results[0]->locations[0]->latLng->lat;
         $lon = $jsonArr->results[0]->locations[0]->latLng->lng;
 
-        $data = ['latitude'=>$lat, 'longitude'=>$lon ];
+        $data = ['latitude' => $lat, 'longitude' => $lon];
 
         $response = (new HalApiPresenter('resource'))
             ->setStatusCode(200)
@@ -119,7 +119,7 @@ class LocationController
      */
     public function reverseMapQuest(Request $request, Response $response, $args)
     {
-        $json = file_get_contents(env('mapquest_reverse_endpoint').'?key='.env('mapquest_key').'&location='.$request->getQueryParam('lat').','.$request->getQueryParam('lon').'&includeRoadMetadata=true&includeNearestIntersection=true');
+        $json = file_get_contents(env('mapquest_reverse_endpoint') . '?key=' . env('mapquest_key') . '&location=' . $request->getQueryParam('lat') . ',' . $request->getQueryParam('lon') . '&includeRoadMetadata=true&includeNearestIntersection=true');
         $jsonArr = json_decode($json, true);
 
         $lat = $jsonArr['results'][0]['locations'][0]['latLng']['lat'];
@@ -161,7 +161,6 @@ class LocationController
     }
 
 
-
     /**
      * @param Request $request
      * @param Response $response
@@ -184,19 +183,19 @@ class LocationController
             ->reverse($request->getQueryParam('lat'), $request->getQueryParam('lon'), 2);
 
 
-        if(!empty($result[0]['subLocality'])){
+        if (!empty($result[0]['subLocality'])) {
             $result['Area'] = $result[0]['subLocality'];
-        }else{
+        } else {
             $result['Area'] = $result[0]['locality'];
         }
 
-        
-        if(mb_detect_encoding($result[0]['toString']) == 'ASCII' ){
+
+        if (mb_detect_encoding($result[0]['toString']) == 'ASCII') {
 
             $converter = new ConvertFinglishToFarsi();
 
             $newResult = [
-                'location'=>[
+                'location' => [
                     'lat' => $result[0]['latitude'],
                     'lon' => $result[0]['longitude'],
                 ],
@@ -206,9 +205,9 @@ class LocationController
                 'preview' => $converter->Convert($result[0]['toString'])
             ];
 
-        }else{
+        } else {
             $newResult = [
-                'location'=>[
+                'location' => [
                     'lat' => $result[0]['latitude'],
                     'lon' => $result[0]['longitude'],
                 ],
@@ -216,8 +215,6 @@ class LocationController
                 'preview' => $result[0]['toString'],
             ];
         }
-
-
 
 
         $response = (new HalApiPresenter('resource'))
@@ -238,16 +235,25 @@ class LocationController
     {
         $estimate_client = new GoogleEstimate();
 
-        $result = $estimate_client
+        $agent = $estimate_client
             ->setHttpAgent(new GuzzleHttpAgent([
                 RequestOptions::CONNECT_TIMEOUT => 5,
                 RequestOptions::TIMEOUT => 5,
-            ]))
-            ->estimate(
+            ]));
+
+        if ($request->getQueryParam('shortest') && $request->getQueryParam('shortest') == 'false') {
+            $result = $agent->estimate(
                 $request->getQueryParam('from'),
                 $request->getQueryParam('to'),
                 'optimistic'
             );
+        } else {
+            $result = $agent->estimateShortest(
+                $request->getQueryParam('from'),
+                $request->getQueryParam('to'),
+                'true'
+            );
+        }
 
 
         $response = (new HalApiPresenter('resource'))
@@ -270,11 +276,9 @@ class LocationController
 
         $q = $request->getQueryParam('q');
 
-        if( strlen($q) < 3) {
+        if (strlen($q) < 3) {
             $data = [];
-        }
-
-        else{
+        } else {
             $perPage = $request->getQueryParam('perPage') ? $request->getQueryParam('perPage') : 10;
             $page = $request->getQueryParam('page') ? $request->getQueryParam('page') : 1;
 
@@ -284,10 +288,9 @@ class LocationController
             $elasticResponse = $this->repository->locationSearch($q, $perPage, $from);
 
 
-
             // fall back google search for location
 
-            if($elasticResponse['total'] == 0){
+            if ($elasticResponse['total'] == 0) {
                 $googleSuggester = new GoogleLocationSuggester();
 
                 $gResult = $googleSuggester->suggest($q);
@@ -299,15 +302,13 @@ class LocationController
 
 
             $data = [
-                'data'  => $elasticResponse['data'],
+                'data' => $elasticResponse['data'],
                 'total' => $elasticResponse['total'],
                 'count' => $perPage,
-                'name'  => 'locations',
-                'page'  => $page
+                'name' => 'locations',
+                'page' => $page
             ];
         }
-
-
 
 
         $response = (new HalApiPresenter('collection'))
@@ -327,7 +328,7 @@ class LocationController
     {
         $res = [];
 
-        foreach ($resultArray as $place){
+        foreach ($resultArray as $place) {
             $item = [];
 
             $item['preview'] = $place['structured_formatting']['main_text'];
@@ -356,7 +357,7 @@ class LocationController
         $lon = $request->getQueryParam('lon');
 
 
-        if(! $this->polygonService->isInTehran($lat, $lon) ){
+        if (!$this->polygonService->isInTehran($lat, $lon)) {
             throw new InvalidPointException('points should be in tehran');
         }
 
@@ -373,11 +374,10 @@ class LocationController
 
         $res = !empty($data[0]['_source']) ? $data[0]['_source'] : [];
 
-        if(empty($res)){
-            try{
+        if (empty($res)) {
+            try {
                 return $this->reverseGoogle($request, $response);
-            }
-            catch(ConnectException $e){
+            } catch (ConnectException $e) {
                 throw new ServerConnectOutsideException('location server is trying connect google server but no success.');
             }
 
@@ -388,7 +388,7 @@ class LocationController
             'data' => $res,
             'total' => $total,
             'count' => $perPage,
-            'name'  => 'locations'
+            'name' => 'locations'
         ];
 
 
@@ -399,7 +399,6 @@ class LocationController
 
         return $response;
     }
-
 
 
 }
