@@ -643,16 +643,16 @@
         },
         {
             "name": "mhndev/location",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mhndev/location.git",
-                "reference": "8dd009b8acb7b3d1c56e3f6381dc73455f021dda"
+                "reference": "710d2d28a5cdcbb6bc5e1110a1a320eed5a16a78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mhndev/location/zipball/8dd009b8acb7b3d1c56e3f6381dc73455f021dda",
-                "reference": "8dd009b8acb7b3d1c56e3f6381dc73455f021dda",
+                "url": "https://api.github.com/repos/mhndev/location/zipball/710d2d28a5cdcbb6bc5e1110a1a320eed5a16a78",
+                "reference": "710d2d28a5cdcbb6bc5e1110a1a320eed5a16a78",
                 "shasum": ""
             },
             "require": {
@@ -691,7 +691,7 @@
             "keywords": [
                 "location"
             ],
-            "time": "2017-08-12T07:01:15+00:00"
+            "time": "2017-08-14T06:24:33+00:00"
         },
         {
             "name": "mhndev/media",
