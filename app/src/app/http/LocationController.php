@@ -4,6 +4,8 @@ namespace mhndev\locationService\http;
 
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\RequestOptions;
+use League\Geotools\Coordinate\Coordinate;
+use League\Geotools\Polygon\Polygon;
 use mhndev\location\GoogleEstimate;
 use mhndev\location\GoogleGeocoder;
 use mhndev\location\GoogleLocationSuggester;
@@ -400,6 +402,45 @@ class LocationController
 
         return $response;
     }
+
+
+    /**
+     * @param Request $request
+     * @param Response $response
+     * @return Response
+     */
+    public function pointInPolygons(Request $request, Response $response)
+    {
+        $points = $request->getParsedBody()['points'];
+
+        $tehran = json_decode(file_get_contents(
+            ROOT.DIRECTORY_SEPARATOR.'tehran.json'), true
+        );
+
+        $result = [];
+
+        foreach ($tehran as $key => $district){
+
+            $polygon = new Polygon($district['points']);
+
+            foreach ($points as $k => $point){
+
+                if($polygon->pointInPolygon(new Coordinate($point) )){
+                    $result[$k][] = $key;
+                }
+
+            }
+        }
+
+
+        $response = (new HalApiPresenter('resource'))
+            ->setStatusCode(200)
+            ->setData(['data'=>$result])
+            ->makeResponse($request, $response);
+
+        return $response;
+    }
+
 
 
 
